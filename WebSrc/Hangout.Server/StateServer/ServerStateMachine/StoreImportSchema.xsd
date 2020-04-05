@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- To Generate this xsd from the PaymentItems Store response:
+      1. In Visual Studio open the store response XML file
+      2. Under xml select create XSD
+      3. Remove "Response', 'store', 'itemTypes', 'itemType' and 'itemOffers' nodes
+      4. This leaves the 'itemOffer' nodes.
+      5. Make sure that the currencyID is type="xs:unsignedLong"
+-->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element  name="itemOffer">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="item">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="properties" />
+                </xs:sequence>
+                <xs:attribute name="id" type="xs:unsignedShort" use="required"  />
+                <xs:attribute name="name" type="xs:string" use="required" />
+                <xs:attribute name="appName" type="xs:string" use="required" />
+                <xs:attribute name="itemTypeName" type="xs:string" use="required" />
+                <xs:attribute name="buttonName" type="xs:string" use="required" />
+                <xs:attribute name="description" type="xs:string" use="required" />
+                <xs:attribute name="smallImageUrl" type="xs:string" use="required" />
+                <xs:attribute name="mediumImageUrl" type="xs:string" use="required" />
+                <xs:attribute name="largeImageUrl" type="xs:string" use="required" />
+                <xs:attribute name="available" type="xs:short" use="required" />
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="price">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="money">
+                    <xs:complexType>
+                      <xs:attribute name="currencyId" type="xs:unsignedLong" use="required" />
+                      <xs:attribute name="currencyName" type="xs:string" use="required" />
+                      <xs:attribute name="amount" type="xs:decimal" use="required" />
+                    </xs:complexType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="tradeInItems" />
+          </xs:sequence>
+          <xs:attribute name="endDate" type="xs:string" use="required" />
+          <xs:attribute name="numAvailable" type="xs:short" use="required" />
+          <xs:attribute name="startDate" type="xs:string" use="required" />
+          <xs:attribute name="title" type="xs:string" use="required" />
+          <xs:attribute name="description" type="xs:string" use="required" />
+          <xs:attribute name="id" type="xs:unsignedShort" use="required" />
+  </xs:complexType>
+</xs:element>
+</xs:schema>

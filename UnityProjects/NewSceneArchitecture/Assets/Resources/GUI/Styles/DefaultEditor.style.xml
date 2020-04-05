@@ -1,0 +1,37 @@
+<GUI>
+	<Style name="DefaultEditorBaseStyle" defaultFor="GuiElement">
+		<StyleState name="NormalState">
+			<TextColor color="#000000" />
+		</StyleState>
+		<StyleState name="HoverState">
+			<TextColor color="#552222" />
+		</StyleState>
+		<StyleState name="DisabledState">
+			<TextColor color="#303030" />
+		</StyleState>
+		<Margin name="InternalMargins" value="2 2 2 2" />
+		<Margin name="ExternalMargins" value="2 2 2 2" />
+		<Margin name="NinePartScale" value="0 0 0 0" />
+		<Font name="DefaultFont" path="GUI/Styles/Fonts/HelveticaNeueCondensedBold" />
+		<Anchor name="DefaultTextAnchor" value="Left Bottom" />
+		<WordWrap value="false" />
+		<ClipText value="false" />
+	</Style>
+	
+	<Style name="DefaultEditorButtonStyle" parent="DefaultEditorBaseStyle" defaultFor="Button">
+		<StyleState name="NormalState">
+			<TextColor color="#000000" />
+			<Background texture="./Images/Buttons/DefaultNormal.psd" />
+		</StyleState>
+		<StyleState name="HoverState">
+			<TextColor color="#552222" />
+			<Background texture="GUI/Images/Buttons/DefaultHover.psd" />
+		</StyleState>
+		<StyleState name="DisabledState">
+			<TextColor color="#303030" />
+			<Background texture="GUI/Images/Buttons/DefaultDisabled.psd" />
+		</StyleState>
+		<Margin name="NinePartScale" value="8 8 8 8" />
+		<ClipText value="true" />
+	</Style>
+</GUI>

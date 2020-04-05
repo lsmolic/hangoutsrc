@@ -1,0 +1,446 @@
+<?xml version="1.0"?>
+<project name="WebSourceMono" basedir=".">
+	<description>Build the Hangout.Shared, Hangout.Server and Hangout.Client.Reflector libraries</description>
+
+	<!-- default build to debug build -->
+  <property name="build.config" value="debug" />
+  <property name="debug" value="true" overwrite="true"/>
+  
+	<property name="Unity.External.lib.dir" value="UnityProjects/NewSceneArchitecture/Assets/External"/>
+	<property	name="Hangout.Shared.build.dir" value="SharedSrc/bin"/>
+	<property	name="Hangout.Shared.script.dir" value="SharedSrc"/>
+  
+  <!-- need to more Hangout.Client to it's own area in the repository so it's not under 'websrc' -->
+	<property	name="Hangout.Client.build.dir"	value="ClientSrc/Hangout.Client/bin"/>
+	<property	name="Hangout.Client.script.dir" value="ClientSrc/Hangout.Client"/>
+ 
+	<property	name="Hangout.Server.build.dir"	value="WebSrc/Hangout.Server/bin"/>
+	<property	name="Hangout.Server.script.dir"	value="WebSrc/Hangout.Server"/>
+
+	<property name="MockUnityEditor.build.dir" value="UnityProjects/NewSceneArchitecture/MockUnityEditor/bin"/>
+	<property name="MockUnityEngine.build.dir" value="UnityProjects/NewSceneArchitecture/MockUnityEngine/bin"/>
+	<property name="UnitTest.UnitTestConsole.build.dir" value="SharedSrc/UnitTest/UnitTestConsole/bin"/>
+	<property name="Hangout.Client.UnityClient.build.dir" value="UnityProjects/NewSceneArchitecture/bin"/>
+	
+	<property name="Hangout.Shared.UnitTest.build.dir" value="SharedSrc/bin" />
+
+  <property name="PureMVC.project.dir" value="Vendor/PureMVC"/>
+  
+  <property name="log4net.project.dir" value="Vendor/log4net/source"/>
+  <property name="log4net.compiled.build.dir" value="Vendor/log4net/bin/${framework::get-family(framework::get-target-framework())}/${framework::get-version(framework::get-target-framework())}/${build.config}" />
+
+  
+  <!-- LOG4NET -->
+  <include buildfile="Vendor/log4net/source/log4net.build" />
+
+  <!-- BUILD -->
+	<target name="debug">
+	  <property name="build.config" value="debug" />
+	  <property name="debug" value="true"/>
+	  <call target="all"/>
+	</target>
+	
+	<target name="release">
+	  <property name="build.config" value="release" />
+	  <property name="debug" value="false"/>
+	  <call target="all"/>
+	</target>
+	
+	<target name="all">
+		<!-- Hangout.Shared -->	
+			<call target="Hangout.Shared"/>
+      <call target="Hangout.Shared.UnitTest.Framework"/>
+
+		<!-- Hangout.Client -->	
+			<call target="MockClientConsole"/>
+			<call target="ReflectorClientApp"/>
+			<call target="SocketClient"/>
+			<call target="ServerAdminTool"/>
+
+		<!-- Hangout.Server -->
+			<call target="StateServerConsole" />
+			<call target="ServerStateMachine"/>
+			<call target="SocketServer"/>
+			<call target="ReflectorServerApp"/>
+
+		<!-- Unit Tests -->
+			<call target="MockUnityEngine"/>
+			<call target="MockUnityEditor"/>
+			<call target="Hangout.Client.UnityClient"/>
+			<call target="Hangout.Shared.UnitTest.Console"/>
+
+      <call target="Server.Common"/>
+    
+
+    <!--<call target="TwoFishTestApp"/>-->
+      <!--<call target="TwoFishCommandHandler"/>
+      <call target="HangoutCommandHandler"/>
+      <call target="PaymentItemsCommandParser"/>
+      <call target="InvokeRestService"/>
+      <call target="PayPalCallback"/>-->
+	
+	</target>
+	
+<!-- CLEAN -->
+	<target name="clean">
+    
+		<!-- Hangout.Shared -->	
+			<delete dir="${Unity.External.lib.dir}" failonerror="false" />
+		
+		<!-- Hangout.Client -->	
+			<delete dir="${Hangout.Client.build.dir}" failonerror="false" />
+
+
+		<!-- Hangout.Server -->
+      <delete dir="${Hangout.Server.build.dir}" failonerror="false" />
+
+		<!-- Unit tests -->
+	  <delete dir="${Hangout.Shared.UnitTest.build.dir}" failonerror="false" />
+
+
+      
+    
+	</target>
+
+<!-- remove all log4net binaries and recompile -->
+  <target name="buildLog">
+    <delete>
+      <fileset>
+        <include name="Vendor/log4net/bin/**/*"/>
+      </fileset>
+    </delete>
+    <call target="compile-all"/>
+  </target>
+
+  <target name="PureMVC">
+    <mkdir dir="${Hangout.Client.build.dir}/${build.config}" failonerror="false" />
+    <csc target="library" output="${Hangout.Client.build.dir}/${build.config}/PureMVC.DotNET.20.dll">
+      <sources failonempty="true">
+        <include name="${PureMVC.project.dir}/PureMVC/**/*.cs" />
+        <exclude name="${PureMVC.project.dir}/PureMVC.DotNET/Properties/AssemblyInfo.cs" />
+      </sources>
+      <references>
+        <include name="System.dll"/>
+        <include name="System.Data.dll"/>
+        <include name="System.Xml.dll"/>
+      </references>
+    </csc>
+    <copy file="${Hangout.Client.build.dir}/${build.config}/PureMVC.DotNET.20.dll" todir="${Unity.External.lib.dir}" />	
+  </target>
+
+  <target name="MockUnityEngine">
+    <mkdir dir="${Hangout.Shared.UnitTest.build.dir}/${build.config}" failonerror="false" />
+    <csc target="library" output="${Hangout.Shared.UnitTest.build.dir}/${build.config}/MockUnityEngine.dll">
+      <sources failonempty="true">
+        <include name="UnityProjects/NewSceneArchitecture/MockUnityEngine/**/*.cs" />
+      </sources>
+      <references>
+        <include name="System.dll"/>
+        <include name="System.Data.dll"/>
+        <include name="System.Xml.dll"/>
+      </references>
+    </csc>
+  </target>
+
+  <target name="MockUnityEditor" depends="MockUnityEngine">
+    <mkdir dir="${Hangout.Shared.UnitTest.build.dir}/${build.config}" failonerror="false" />
+    <csc target="library" output="${Hangout.Shared.UnitTest.build.dir}/${build.config}/MockUnityEditor.dll">
+      <sources failonempty="true">
+        <include name="UnityProjects/NewSceneArchitecture/MockUnityEditor/**/*.cs" />
+      </sources>
+      <references>
+        <include name="System.dll"/>
+        <include name="System.Data.dll"/>
+        <include name="System.Xml.dll"/>
+	  <include name="${Hangout.Shared.UnitTest.build.dir}/${build.config}/MockUnityEngine.dll"/>
+      </references>
+    </csc>
+  </target>
+
+  <target name="Hangout.Client.UnityClient" depends="MockUnityEngine, MockUnityEditor, PureMVC, ReflectorClientApp, Hangout.Shared, Hangout.Shared.UnitTest.Framework">
+    <mkdir dir="${Hangout.Shared.UnitTest.build.dir}/${build.config}" failonerror="false" />
+    <csc target="library" output="${Hangout.Shared.UnitTest.build.dir}/${build.config}/Hangout.Client.UnityClient.dll" debug="${debug}">
+      <sources failonempty="true">
+        <include name="UnityProjects/NewSceneArchitecture/Assets/**/*.cs" />
+      </sources>
+      <references>
+	  <include name="${Hangout.Client.build.dir}/${build.config}/ReflectorClientApp.dll"/>
+	  <include name="${Hangout.Client.build.dir}/${build.config}/Hangout.Shared.dll"/>
+      <include name="${Hangout.Shared.UnitTest.build.dir}/${build.config}/Hangout.Shared.UnitTest.Framework.dll"/>
+      <include name="${Hangout.Client.build.dir}/${build.config}/PureMVC.DotNET.20.dll"/>
+	  <include name="${Hangout.Shared.UnitTest.build.dir}/${build.config}/MockUnityEditor.dll"/>
+	  <include name="${Hangout.Shared.UnitTest.build.dir}/${build.config}/MockUnityEngine.dll"/>
+	  <include name="${Hangout.Shared.script.dir}/Hangout.Shared/ExternalDLLs/LitJson.dll"/>
+      </references>
+    </csc>
+  </target>
+
+
+  <target name="Hangout.Shared.UnitTest.Framework">
+    <mkdir dir="${Hangout.Shared.UnitTest.build.dir}/${build.config}" failonerror="false" />
+    <csc target="library" output="${Hangout.Shared.UnitTest.build.dir}/${build.config}/Hangout.Shared.UnitTest.Framework.dll" debug="${debug}">
+      <sources failonempty="true">
+        <include name="SharedSrc/UnitTest/UnitTestFramework/**/*.cs" />
+        <exclude name="SharedSrc/UnitTest/UnitTestFramework/Properties/AssemblyInfo.cs" />
+      </sources>
+      <references>
+        <include name="System.dll"/>
+        <include name="System.Data.dll"/>
+        <include name="System.Xml.dll"/>
+      </references>
+    </csc>
+    <copy file="${Hangout.Shared.UnitTest.build.dir}/${build.config}/Hangout.Shared.UnitTest.Framework.dll" todir="${Unity.External.lib.dir}" />
+  </target>
+
+  <target name="Hangout.Shared.UnitTest.Console" depends="Hangout.Shared, Hangout.Shared.UnitTest.Framework, Hangout.Client.UnityClient, ServerStateMachine">
+    <mkdir dir="${Hangout.Shared.UnitTest.build.dir}/${build.config}" failonerror="false" />
+    <csc target="exe" output="${Hangout.Shared.UnitTest.build.dir}/${build.config}/Hangout.Shared.UnitTest.Console.exe" debug="${debug}">
+      <sources failonempty="true">
+        <include name="SharedSrc/UnitTest/UnitTestConsole/**/*.cs" />
+      </sources>
+      <references>
+		<include name="${Hangout.Client.build.dir}/${build.config}/Hangout.Shared.dll"/>
+		<include name="${Hangout.Shared.UnitTest.build.dir}/${build.config}/Hangout.Shared.UnitTest.Framework.dll"/>
+		<include name="${Hangout.Client.UnityClient.build.dir}/${build.config}/Hangout.Client.UnityClient.dll"/>
+      </references>
+    </csc>
+    <copy file="${Hangout.Client.build.dir}/${build.config}/PureMVC.DotNET.20.dll" todir="${Hangout.Shared.UnitTest.build.dir}/${build.config}" />
+	<copy file="${log4net.compiled.build.dir}/log4net.dll" todir="${Hangout.Shared.UnitTest.build.dir}/${build.config}"/>
+	<copy file="${Hangout.Client.build.dir}/${build.config}/ReflectorClientApp.dll" todir="${Hangout.Shared.UnitTest.build.dir}/${build.config}" />
+	<copy file="${Hangout.Client.build.dir}/${build.config}/Hangout.Shared.dll" todir="${Hangout.Shared.UnitTest.build.dir}/${build.config}" />
+	<copy file="${Hangout.Server.build.dir}/${build.config}/ServerStateMachine.dll" todir="${Hangout.Shared.UnitTest.build.dir}/${build.config}" />
+	<copy file="${Hangout.Server.build.dir}/${build.config}/StateServer.Common.dll" todir="${Hangout.Shared.UnitTest.build.dir}/${build.config}" />
+	<copy file="${Hangout.Server.build.dir}/${build.config}/ReflectorServerApp.dll" todir="${Hangout.Shared.UnitTest.build.dir}/${build.config}" />
+	<copy file="${Hangout.Server.build.dir}/${build.config}/SocketServer.dll" todir="${Hangout.Shared.UnitTest.build.dir}/${build.config}" />
+	<copy file="${Hangout.Server.build.dir}/${build.config}/Server.Common.dll" todir="${Hangout.Shared.UnitTest.build.dir}/${build.config}" />
+	<copy file="${Hangout.Shared.script.dir}/Hangout.Shared/ExternalDLLs/LitJson.dll" todir="${Hangout.Shared.UnitTest.build.dir}/${build.config}" />
+  </target>
+
+
+  
+	 
+ <!--Hangout.Shared--> 	
+	<target name="Hangout.Shared" depends="Hangout.Shared.UnitTest.Framework, PureMVC" >
+		<mkdir dir="${Hangout.Shared.build.dir}/${build.config}" failonerror="false" />
+		<csc target="library" output="${Hangout.Shared.build.dir}/${build.config}/Hangout.Shared.dll" failonerror="true" debug="${debug}">
+			<sources failonempty="true">
+				<include name="${Hangout.Shared.script.dir}/Hangout.Shared/**/*.cs" />
+				<exclude name="${Hangout.Shared.script.dir}/Hangout.Shared/**/AssemblyInfo.cs" />
+			</sources>
+      <references>
+	<include name="${Hangout.Shared.script.dir}/Hangout.Shared/ExternalDLLs/LitJson.dll"/>
+        <include name="${Hangout.Client.build.dir}/${build.config}/PureMVC.DotNET.20.dll"/>
+        <include name="${Hangout.Shared.UnitTest.build.dir}/${build.config}/Hangout.Shared.UnitTest.Framework.dll"/>
+        <include name="System.dll"/>
+        <include name="System.Data.dll"/>
+        <include name="System.Drawing.dll"/>
+        <include name="System.Web.dll"/>
+        <include name="System.Windows.Forms.dll"/>
+        <include name="System.Xml.dll"/>
+      </references>
+		</csc>
+
+    <mkdir dir="${Hangout.Server.build.dir}/${build.config}" failonerror="false" />
+    <copy file="${Hangout.Shared.build.dir}/${build.config}/Hangout.Shared.dll" todir="${Hangout.Server.build.dir}/${build.config}" />
+    <copy file="${Hangout.Shared.script.dir}/Hangout.Shared/ExternalDLLs/LitJson.dll" todir="${Hangout.Server.build.dir}/${build.config}" />
+
+
+    <mkdir dir="${Hangout.Client.build.dir}/${build.config}" failonerror="false" />
+    <copy file="${Hangout.Shared.build.dir}/${build.config}/Hangout.Shared.dll" todir="${Hangout.Client.build.dir}/${build.config}" />
+
+    <mkdir dir="${Unity.External.lib.dir}" failonerror="false" />
+    <copy file="${Hangout.Shared.build.dir}/${build.config}/Hangout.Shared.dll" todir="${Unity.External.lib.dir}" />
+    <copy file="${Hangout.Shared.script.dir}/Hangout.Shared/ExternalDLLs/LitJson.dll" todir="${Unity.External.lib.dir}" />
+
+  </target>
+
+<!-- Hangout.Client -->	
+	<target name="ServerAdminTool" depends="Hangout.Shared,ReflectorClientApp">
+		<mkdir dir="${Hangout.Client.build.dir}/${build.config}" failonerror="false" />
+		<csc target="exe" output="${Hangout.Client.build.dir}/${build.config}/ServerAdminTool.exe" debug="${debug}">
+			<sources failonempty="true">
+				<include name="${Hangout.Client.script.dir}/MockImplementation/**/*.cs" />
+				<exclude name="${Hangout.Client.script.dir}/MockImplementation/Properties/AssemblyInfo.cs" />
+			</sources>
+			<references>
+        <include name="${Hangout.Client.build.dir}/${build.config}/PureMVC.DotNET.20.dll"/>
+				<include name="${Hangout.Client.build.dir}/${build.config}/ReflectorClientApp.dll"/>
+				<include name="${Hangout.Client.build.dir}/${build.config}/Hangout.Shared.dll"/>
+        <include name="${Hangout.Shared.UnitTest.build.dir}/${build.config}/Hangout.Shared.UnitTest.Framework.dll"/>
+      </references>
+		</csc>
+	</target>
+
+
+	<target name="MockClientConsole" depends="Hangout.Shared,ReflectorClientApp,SocketClient">
+		<mkdir dir="${Hangout.Client.build.dir}/${build.config}" failonerror="false" />
+		<csc target="exe" output="${Hangout.Client.build.dir}/${build.config}/MockClientConsole.exe" debug="${debug}">
+			<sources failonempty="true">
+				<include name="${Hangout.Client.script.dir}/MockImplementation/**/*.cs" />
+				<exclude name="${Hangout.Client.script.dir}/MockImplementation/Properties/AssemblyInfo.cs" />
+			</sources>
+			<references>
+        <include name="${Hangout.Client.build.dir}/${build.config}/PureMVC.DotNET.20.dll"/>
+				<include name="${log4net.compiled.build.dir}/log4net.dll"/>
+				<include name="${Hangout.Client.build.dir}/${build.config}/ReflectorClientApp.dll"/>
+				<include name="${Hangout.Client.build.dir}/${build.config}/Hangout.Shared.dll"/>
+				<include name="${Hangout.Client.build.dir}/${build.config}/SocketClient.dll"/>
+        <include name="${Hangout.Shared.UnitTest.build.dir}/${build.config}/Hangout.Shared.UnitTest.Framework.dll"/>
+      </references>
+		</csc>
+	</target>
+	
+	<target name="ReflectorClientApp" depends="Hangout.Shared,SocketClient">
+		<mkdir dir="${Hangout.Client.build.dir}/${build.config}" failonerror="false" />
+		<csc target="library" output="${Hangout.Client.build.dir}/${build.config}/ReflectorClientApp.dll" debug="${debug}">
+			<sources failonempty="true">
+				<include name="${Hangout.Client.script.dir}/Reflector/ReflectorClientApp/**/*.cs" />
+				<exclude name="${Hangout.Client.script.dir}/Reflector/ReflectorClientApp/**/AssemblyInfo.cs" />
+			</sources>
+			<references>
+				<include name="${log4net.compiled.build.dir}/log4net.dll"/>
+				<include name="${Hangout.Client.build.dir}/${build.config}/Hangout.Shared.dll"/>
+				<include name="${Hangout.Client.build.dir}/${build.config}/SocketClient.dll"/>
+			</references>
+		</csc>
+    <copy file="${Hangout.Client.build.dir}/${build.config}/ReflectorClientApp.dll" todir="${Unity.External.lib.dir}" />
+	</target>
+	
+	<target name="SocketClient">
+		<mkdir dir="${Hangout.Client.build.dir}/${build.config}" failonerror="false" />
+		<csc target="library" output="${Hangout.Client.build.dir}/${build.config}/SocketClient.dll" debug="${debug}">
+			<sources failonempty="true">
+				<include name="${Hangout.Client.script.dir}/Reflector/SocketClient/**/*.cs" />
+				<exclude name="${Hangout.Client.script.dir}/Reflector/SocketClient/**/AssemblyInfo.cs" />
+			</sources>
+			<references>
+				<include name="${log4net.compiled.build.dir}/log4net.dll"/>
+        		<include name="${Hangout.Client.build.dir}/${build.config}/Hangout.Shared.dll"/>
+			</references>
+		</csc>
+    <copy file="${Hangout.Client.build.dir}/${build.config}/SocketClient.dll" todir="${Unity.External.lib.dir}" />
+	</target>
+		
+<!-- Hangout.Server -->
+
+  <target name="Server.Common" depends="Hangout.Shared">
+    <mkdir dir="${Hangout.Server.build.dir}/${build.config}" failonerror="false" />
+    <csc target="library" output="${Hangout.Server.build.dir}/${build.config}/Server.Common.dll" debug="${debug}">
+      <sources failonempty="true">
+        <include name="${Hangout.Server.script.dir}/Server.Common/**/*.cs" />
+        <exclude name="${Hangout.Server.script.dir}/Server.Common/**/AssemblyInfo.cs" />
+      </sources>
+      <references>
+        <include name="${Hangout.Shared.build.dir}/${build.config}/Hangout.Shared.dll"/>
+		<include name="${log4net.compiled.build.dir}/log4net.dll"/>
+        <include name="System.dll"/>
+        <include name="System.Configuration.dll"/>
+        <include name="System.Data.dll"/>
+        <include name="System.Web.dll"/>
+        <include name="System.Xml.dll"/>
+      </references>
+    </csc>
+    <copy file="${Hangout.Server.script.dir}/StateServer/StateServerConsole/App.config" tofile="${Hangout.Server.build.dir}/${build.config}/StateServerConsole.exe.config" />
+  </target>
+  
+	<target name="StateServerConsole" depends="Hangout.Shared,ServerStateMachine,StateServer.Common">
+		<mkdir dir="${Hangout.Server.build.dir}/${build.config}" failonerror="false" />
+		<csc target="exe" output="${Hangout.Server.build.dir}/${build.config}/StateServerConsole.exe" debug="${debug}">
+			<sources failonempty="true">
+				<include name="${Hangout.Server.script.dir}/StateServer/StateServerConsole/**/*.cs" />
+				<exclude name="${Hangout.Server.script.dir}/StateServer/StateServerConsole/**/AssemblyInfo.cs" />
+			</sources>
+			<references>
+				<include name="${Hangout.Shared.build.dir}/${build.config}/Hangout.Shared.dll"/>
+				<include name="${Hangout.Server.build.dir}/${build.config}/ServerStateMachine.dll"/>
+				<include name="${Hangout.Server.build.dir}/${build.config}/StateServer.Common.dll"/>
+				<include name="${log4net.compiled.build.dir}/log4net.dll"/>
+				<include name="System.Configuration.dll"/>
+				<include name="System.Web.dll"/>
+			</references>
+		</csc>
+    <copy file="${Hangout.Server.script.dir}/StateServer/StateServerConsole/App.config" tofile="${Hangout.Server.build.dir}/${build.config}/StateServerConsole.exe.config" />
+	<copy todir="${Hangout.Server.build.dir}/${build.config}">
+		<fileset basedir="${Hangout.Server.script.dir}/StateServer/ServerStateMachine">
+			<include name="*.xsd" />
+		</fileset>
+	</copy>
+	<copy file="${log4net.compiled.build.dir}/log4net.dll" todir="${Hangout.Server.build.dir}/${build.config}"/>
+  </target>
+	
+	<target name="ServerStateMachine" depends="Hangout.Shared.UnitTest.Framework,Hangout.Shared,Server.Common,StateServer.Common,ReflectorServerApp,SocketServer">
+		<mkdir dir="${Hangout.Server.build.dir}/${build.config}" failonerror="false" />
+		<csc target="library" output="${Hangout.Server.build.dir}/${build.config}/ServerStateMachine.dll" debug="${debug}">
+			<sources failonempty="true">
+				<include name="${Hangout.Server.script.dir}/StateServer/ServerStateMachine/**/*.cs" />
+				<exclude name="${Hangout.Server.script.dir}/StateServer/ServerStateMachine/**/AssemblyInfo.cs" />
+			</sources>
+			<references>
+	        	<include name="System.Data.dll"/>
+		        <include name="System.Configuration.dll"/>
+				<include name="${Hangout.Shared.UnitTest.build.dir}/${build.config}/Hangout.Shared.UnitTest.Framework.dll"/>
+				<include name="${Hangout.Shared.build.dir}/${build.config}/Hangout.Shared.dll"/>
+        		<include name="${Hangout.Server.build.dir}/${build.config}/Server.Common.dll"/>
+        		<include name="${Hangout.Server.build.dir}/${build.config}/StateServer.Common.dll"/>
+				<include name="${Hangout.Server.build.dir}/${build.config}/ReflectorServerApp.dll"/>
+				<include name="${Hangout.Server.build.dir}/${build.config}/SocketServer.dll"/>
+				<include name="System.Runtime.Remoting.dll"/>
+				<include name="${log4net.compiled.build.dir}/log4net.dll"/>
+			</references>
+		</csc>
+	</target>
+
+  <target name="StateServer.Common" depends="Hangout.Shared">
+    <mkdir dir="${Hangout.Server.build.dir}/${build.config}" failonerror="false" />
+    <csc target="library" output="${Hangout.Server.build.dir}/${build.config}/StateServer.Common.dll" debug="${debug}">
+      <sources failonempty="true">
+        <include name="${Hangout.Server.script.dir}/StateServer/StateServer.Common/**/*.cs" />
+        <exclude name="${Hangout.Server.script.dir}/StateServer/StateServer.Common/**/AssemblyInfo.cs" />
+      </sources>
+      <references>
+		<include name="${log4net.compiled.build.dir}/log4net.dll"/>
+		<include name="${Hangout.Shared.build.dir}/${build.config}/Hangout.Shared.dll"/>
+        <include name="System.dll"/>
+        <include name="System.Data.dll"/>
+        <include name="System.Xml.dll"/>
+      </references>
+    </csc>
+  </target>
+
+	<target name="SocketServer" depends="Hangout.Shared, StateServer.Common, Server.Common">
+		<mkdir dir="${Hangout.Server.build.dir}/${build.config}" failonerror="false" />
+		<csc target="library" output="${Hangout.Server.build.dir}/${build.config}/SocketServer.dll" debug="${debug}">
+			<sources failonempty="true">
+				<include name="${Hangout.Server.script.dir}/StateServer/Reflector/SocketServer/**/*.cs" />
+				<exclude name="${Hangout.Server.script.dir}/StateServer/Reflector/SocketServer/**/AssemblyInfo.cs" />
+			</sources>
+			<references>
+        			<include name="${Hangout.Server.build.dir}/${build.config}/Server.Common.dll"/>
+				<include name="${Hangout.Shared.build.dir}/${build.config}/Hangout.Shared.dll"/>
+				<include name="${log4net.compiled.build.dir}/log4net.dll"/>
+				<include name="${Hangout.Server.build.dir}/${build.config}/StateServer.Common.dll"/>
+			</references>
+		</csc>
+  </target>
+	
+	<target name="ReflectorServerApp" depends="Hangout.Shared,SocketServer,StateServer.Common">
+    <echo message="${log4net.compiled.build.dir}/log4net.dll" />
+		<mkdir dir="${Hangout.Server.build.dir}/${build.config}" failonerror="false" />
+		<csc target="library" output="${Hangout.Server.build.dir}/${build.config}/ReflectorServerApp.dll" debug="${debug}">
+			<sources failonempty="true">
+				<include name="${Hangout.Server.script.dir}/StateServer/Reflector/ReflectorServerApp/**/*.cs" />
+				<exclude name="${Hangout.Server.script.dir}/StateServer/Reflector/ReflectorServerApp/**/AssemblyInfo.cs" />
+			</sources>
+			<references>
+        <include name="${Hangout.Server.build.dir}/${build.config}/Server.Common.dll"/>
+        <include name="${Hangout.Server.build.dir}/${build.config}/StateServer.Common.dll"/>
+				<include name="${Hangout.Shared.build.dir}/${build.config}/Hangout.Shared.dll"/>
+				<include name="${Hangout.Server.build.dir}/${build.config}/SocketServer.dll"/>
+				<include name="${log4net.compiled.build.dir}/log4net.dll"/>
+				<include name="System.Runtime.Remoting.dll"/>
+			</references>
+		</csc>
+	</target>
+	
+		
+</project>

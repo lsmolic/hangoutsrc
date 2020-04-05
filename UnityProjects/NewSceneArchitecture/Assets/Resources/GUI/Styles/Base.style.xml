@@ -1,0 +1,39 @@
+<GUI>
+	<Style name="DefaultBaseStyle" defaultFor="GuiElement TopLevel">
+		<StyleState name="NormalState">
+			<TextColor color="#FFFFFF" />
+			<Background texture="" />
+		</StyleState>
+		<StyleState name="HoverState">
+			<TextColor color="#FFFFFF" />
+			<Background texture="" />
+		</StyleState>
+		<StyleState name="DisabledState">
+			<TextColor color="#F0F0F0" />
+			<Background texture="" />
+		</StyleState>
+		<Margin name="InternalMargins" value="0 0 0 0" />
+		<Margin name="NinePartScale" value="0 0 0 0" />
+		<ClipText value="true" />
+		<Anchor name="DefaultTextAnchor" value="Left Top" />
+	</Style>
+	
+	<Style name="DebugFrame">
+		<StyleState name="NormalState">
+			<TextColor color="#000000" />
+			<Background texture="GUI/Styles/Images/Debug/Frame" />
+		</StyleState>
+		<StyleState name="HoverState">
+			<TextColor color="#000000" />
+			<Background texture="GUI/Styles/Images/Debug/FrameHover" />
+		</StyleState>
+		<StyleState name="DisabledState">
+			<TextColor color="#303030" />
+			<Background texture="GUI/Styles/Images/Debug/FrameDisable" />
+		</StyleState>
+		<Margin name="InternalMargins" value="0 0 0 0" />
+		<Margin name="NinePartScale" value="4 4 4 4" />
+		<ClipText value="true" />
+		<Anchor name="DefaultTextAnchor" value="Left Top" />
+	</Style>
+</GUI>

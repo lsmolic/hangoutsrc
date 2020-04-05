@@ -1,0 +1,24 @@
+RewriteEngine on
+
+# If you are having problems or are using VirtualDocumentRoot, uncomment this line and set it to your vBulletin directory.
+# RewriteBase /forum/
+
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+
+RewriteRule ^.*$ - [NC,L]
+
+RewriteRule ^threads/([0-9]+)(?:/?$|(?:-[^/]+))(?:/?$|(?:/page([0-9]+)?)) showthread.php?t=$1&page=$2&%{QUERY_STRING}
+RewriteRule ^forums/([0-9]+)(?:/?$|(?:-[^/]+))(?:/?$|(?:/page([0-9]+)?)) forumdisplay.php?f=$1&page=$2&%{QUERY_STRING}
+RewriteRule ^members/([0-9]+) member.php?u=$1&%{QUERY_STRING}
+RewriteRule ^blogs/([0-9]+)(?:/?$|(?:-[^/]+))(?:/?$|(?:/page([0-9]+)?)) blog.php?u=$1&page=$2&%{QUERY_STRING}
+ReWriteRule ^entries/([0-9]+)(?:/?$|(?:-[^/]+))(?:/?$|(?:/page([0-9]+)?)) entry.php?b=$1&page=$2&%{QUERY_STRING}
+
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+
+RewriteRule ^.*$ - [NC,L]
+
+RewriteRule ^(?:(.*?)/)(.*)$ $1.php?r=$2&%{QUERY_STRING}

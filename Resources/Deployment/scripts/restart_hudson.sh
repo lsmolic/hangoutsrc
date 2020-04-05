@@ -1,0 +1,1 @@
+java -DHUDSON_HOME=. -jar hudson.war

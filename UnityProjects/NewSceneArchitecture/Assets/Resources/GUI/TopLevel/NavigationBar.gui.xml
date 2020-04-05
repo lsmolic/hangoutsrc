@@ -1,0 +1,21 @@
+<GUI>
+  <Include path="resources://GUI/Styles/Default.style" />
+  <Window name="Navbar" size="760 55" style="NavBarPanel" position="0 0" anchor="Left Bottom" parentAnchor="Left Bottom">
+		<MainFrame name="MainFrame" size="FillParent" position="0 0" anchor="Left Bottom"  parentAnchor="Left Bottom">
+      <Button name="Map" position="335 -7" size="36 30" anchor="Left Bottom" image="GUI/TopLevel/icon_earth"/>
+      <Button name="Friend" position="547 -7" size="36 30" anchor="Left Bottom" image="GUI/TopLevel/icon_friends"/>
+      <Button name="Entourage" position="587 -7" size="36 30" anchor="Left Bottom" image="GUI/TopLevel/icon_friends"/>
+      <Button name="Room" position="627 -7" size="36 30" anchor="Left Bottom" image="GUI/TopLevel/icon_home"/>
+			<Button name="Closet" position="667 -7" size="36 30" anchor="Left Bottom" image="GUI/TopLevel/icon_shopping_inventory_white"/>
+			<Button name="Shop" position="707 -7" size="36 30" anchor="Left Bottom" image="GUI/TopLevel/icon_shopping"/>
+			<Button name="Settings" position="747 -7" size="36 30" anchor="Left Bottom" image="GUI/TopLevel/icon_settings"/>
+      <Button name="EmoteMenu" position="10 -2" size="36 30" anchor="Left Bottom" image="GUI/TopLevel/icon_emoticons" />
+      <Label name="CurrentLocationLabel" style="FramedLabelStyle" position="372 -12" size="168 22"  anchor="Left Bottom" />
+
+      <Frame name="ChatBar" size="310 172" style="ChatStyleBase" position="0 0"  anchor="Left Bottom" parentAnchor="Left Bottom" >
+        <Textbox name="ChatEntryTextbox" position="51 -4" size="225 28" singleLine="true" userEditable="true"  anchor="Left Bottom" maxLength="200" />
+      </Frame>
+		</MainFrame>
+    
+	</Window>
+</GUI>

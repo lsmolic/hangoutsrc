@@ -1,0 +1,784 @@
+<GUI>
+  
+	<Include path="resources://GUI/Styles/Base.style" />
+  <!-- ==================BUTTONS============================================ -->
+  <Style name="ClearButtonStyle" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#ffffff" />
+    </StyleState>
+    <StyleState name="HoverState">
+      <TextColor color="#ffffff" />
+    </StyleState>
+    <StyleState name="DisabledState">
+      <TextColor color="#ffffff" />
+    </StyleState>
+    <StyleState name="ActiveState">
+      <TextColor color="#ffffff" />
+    </StyleState>
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="NinePartScale" value="0 0 0 0" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Center Center" />
+  </Style>
+  
+  <Style name="Clear">
+    <StyleState name="NormalState">
+      <TextColor color="#ffffff" />
+      <Background texture="EmptyTexture" />
+    </StyleState>
+    <StyleState name="HoverState">
+      <TextColor color="#ffffff" />
+      <Background texture="EmptyTexture" />
+    </StyleState>
+    <StyleState name="DisabledState">
+      <TextColor color="#ffffff" />
+      <Background texture="EmptyTexture" />
+    </StyleState>
+    <StyleState name="ActiveState">
+      <TextColor color="#ffffff" />
+      <Background texture="EmptyTexture" />
+    </StyleState>
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="NinePartScale" value="0 0 0 0" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Center Center" />    
+  </Style>
+
+  <Style name="DefaultButtonStyle" parent="DefaultBaseStyle" defaultFor="Button">
+		<StyleState name="NormalState">
+			<TextColor color="#ffffff" />
+			<Background texture="GUI/TopLevel/button_normal" />
+		</StyleState>
+		<StyleState name="HoverState">
+			<TextColor color="#ffffff" />
+			<Background texture="GUI/TopLevel/button_hover" />
+		</StyleState>
+		<StyleState name="DisabledState">
+			<TextColor color="#ffffff" />
+			<Background texture="GUI/TopLevel/button_disabled" />
+		</StyleState>
+    <StyleState name="ActiveState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/button_down" />
+    </StyleState>
+    <Font name="DefaultFont" path="Fonts/HelveticaNeueCondensedBold" />
+    <Margin name="InternalMargins" value="0 1 0 0" />
+		<Margin name="NinePartScale" value="7 7 8 8" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <ClipText value="true" />
+		<Anchor name="DefaultTextAnchor" value="Center Center" />
+	</Style>
+  
+  <Style name="SmallButtonStyle" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/button_normal" />
+    </StyleState>
+    <StyleState name="HoverState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/button_hover" />
+    </StyleState>
+    <StyleState name="DisabledState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/button_disabled" />
+    </StyleState>
+    <StyleState name="ActiveState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/button_down" />
+    </StyleState>
+    <Font name="DefaultFont" path="Fonts/Default_ASCII_11" />
+    <Margin name="InternalMargins" value="0 1 0 0" />
+    <Margin name="NinePartScale" value="7 7 8 8" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Center Center" />
+  </Style>
+
+  <Style name="EmoteButtonStyle" parent="DefaultBaseStyle" >
+    <StyleState name="NormalState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/frame_white_5px_slice" />
+    </StyleState>
+    <StyleState name="HoverState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/frame_orange_5px_slice" />
+    </StyleState>
+    <StyleState name="DisabledState">
+      <TextColor color="#9BC6D1" />
+      <Background texture="GUI/TopLevel/frame_darkBlue_5px_slice" />
+    </StyleState>
+    <StyleState name="ActiveState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/frame_darkOrange_5px_slice" />
+    </StyleState>
+    <Font name="DefaultFont" path="Fonts/HelveticaNeueCondensedBold" />
+    <Margin name="InternalMargins" value="2 2 2 2" />
+    <Margin name="NinePartScale" value="5 5 5 5" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Center Center" />
+  </Style>
+
+  <Style name="ActiveMoodButtonStyle" parent="DefaultBaseStyle" >
+    <StyleState name="NormalState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/frame_darkOrange_5px_slice" />
+    </StyleState>
+    <StyleState name="HoverState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/frame_darkOrange_5px_slice" />
+    </StyleState>
+    <StyleState name="DisabledState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/frame_darkOrange_5px_slice" />
+    </StyleState>
+    <StyleState name="ActiveState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/frame_darkOrange_5px_slice" />
+    </StyleState>
+    <Font name="DefaultFont" path="Fonts/HelveticaNeueCondensedBold" />
+    <Margin name="InternalMargins" value="2 2 2 2" />
+    <Margin name="NinePartScale" value="5 5 5 5" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Center Center" />
+  </Style>
+
+  <Style name="SecondaryButtonStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/button_magenta_normal" />
+    </StyleState>
+    <StyleState name="HoverState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/button_hover" />
+    </StyleState>
+    <StyleState name="DisabledState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/button_disabled" />
+    </StyleState>
+    <StyleState name="ActiveState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/button_down" />
+    </StyleState>
+    <Font name="DefaultFont" path="Fonts/HelveticaNeueCondensedBold" />
+    <Margin name="InternalMargins" value="0 1 0 0" />
+    <Margin name="NinePartScale" value="7 7 8 8" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Center Center" />
+  </Style>
+
+  <Style name="FacebookButtonStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/button_dark_blue_normal" />
+    </StyleState>
+    <StyleState name="HoverState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/button_hover" />
+    </StyleState>
+    <StyleState name="DisabledState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/button_disabled" />
+    </StyleState>
+    <StyleState name="ActiveState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/button_down" />
+    </StyleState>
+    <Font name="DefaultFont" path="Fonts/HelveticaNeueCondensedBold" />
+    <Margin name="InternalMargins" value="0 1 0 0" />
+    <Margin name="NinePartScale" value="7 7 8 8" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Center Center" />
+  </Style>
+
+  <Style name="TabButtonStyle" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/tab_vertical_normal" />
+    </StyleState>
+    <StyleState name="HoverState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/tab_vertical_hover" />
+    </StyleState>
+    <StyleState name="DisabledState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/tab_vertical_active" />
+    </StyleState>
+    <StyleState name="ActiveState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/tab_vertical_active" />
+    </StyleState>
+    <Font name="DefaultFont" path="Fonts/HelveticaNeueCondensedBold" />
+    <Margin name="InternalMargins" value="0 0 8 0" />
+    <Margin name="NinePartScale" value="12 12 22 5" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Center Center" />
+  </Style>
+
+  <Style name="ScrollbarThumbStyle" parent="DefaultBaseStyle" defaultFor="ScrollbarThumb">
+    <StyleState name="NormalState">
+      <Background texture="GUI/TopLevel/scrollbar_thumb_normal" />
+    </StyleState>
+    <StyleState name="HoverState">
+      <Background texture="GUI/TopLevel/scrollbar_thumb_hover" />
+    </StyleState>
+    <StyleState name="DisabledState">
+      <Background texture="GUI/TopLevel/scrollbar_thumb_disabled" />
+    </StyleState>
+    <StyleState name="ActiveState">
+      <Background texture="GUI/TopLevel/scrollbar_thumb_down" />
+    </StyleState>
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="NinePartScale" value="3 3 3 3" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+  </Style>
+  
+  <Style name="ScrollbarTrough" parent="DefaultBaseStyle" defaultFor="Scrollbar">
+    <StyleState name="NormalState">
+      <Background texture="GUI/TopLevel/frame_white_5px_slice" />
+    </StyleState>
+    <Margin name="NinePartScale" value="5 5 5 5" />
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <Physics velocityDamp="0.25" bounce="0" />
+  </Style>
+
+  <Style name="CloseButtonStyle" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/button_x_normal" />
+    </StyleState>
+    <StyleState name="HoverState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/button_x_hover" />
+    </StyleState>
+    <StyleState name="DisabledState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/button_x_disabled" />
+    </StyleState>
+    <StyleState name="ActiveState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/button_x_down" />
+    </StyleState>
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="NinePartScale" value="0 0 0 0" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Center Center" />
+  </Style>
+
+  <Style name="CoinButtonStyle" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/icon_coin_sparkle" />
+    </StyleState>
+    <StyleState name="HoverState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/icon_coin_sparkle" />
+    </StyleState>
+    <StyleState name="DisabledState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/icon_coin_sparkle" />
+    </StyleState>
+    <StyleState name="ActiveState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/icon_coin_sparkle" />
+    </StyleState>
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="NinePartScale" value="0 0 0 0" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Center Center" />
+  </Style>
+
+  <Style name="CashButtonStyle" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/icon_dollar_puffy" />
+    </StyleState>
+    <StyleState name="HoverState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/icon_dollar_puffy" />
+    </StyleState>
+    <StyleState name="DisabledState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/icon_dollar_puffy" />
+    </StyleState>
+    <StyleState name="ActiveState">
+      <TextColor color="#ffffff" />
+      <Background texture="GUI/TopLevel/icon_dollar_puffy" />
+    </StyleState>
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="NinePartScale" value="0 0 0 0" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Center Center" />
+  </Style>
+  
+  <Style name="GridButtonTopStyle" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/frame_green_7px_slice_top" />
+    </StyleState>
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="NinePartScale" value="7 0 7 7" />
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Left Center" />
+  </Style>
+  
+  <Style name="GridButtonStyle" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/frame_white_5px_slice" />
+    </StyleState>
+    <StyleState name="HoverState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/frame_white_5px_slice_with_stroke" />
+    </StyleState>
+    <StyleState name="DisabledState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/frame_white_5px_slice" />
+    </StyleState>
+    <StyleState name="ActiveState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/frame_white_5px_slice" />
+    </StyleState>
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="NinePartScale" value="5 5 5 5" />
+    <Margin name="ExternalMargins" value="2 2 2 2" />
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Center Center" />
+  </Style>
+
+  <Style name="MapButtonStyle" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/frame_white_5px_slice" />
+    </StyleState>
+    <StyleState name="HoverState">
+      <TextColor color="#FFFFFF" />
+      <Background texture="GUI/TopLevel/frame_orange_5px_slice" />
+    </StyleState>
+    <StyleState name="DisabledState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/frame_white_5px_slice" />
+    </StyleState>
+    <StyleState name="ActiveState">
+      <TextColor color="#FFFFFF" />
+      <Background texture="GUI/TopLevel/frame_darkOrange_5px_slice" />
+    </StyleState>
+    <Margin name="InternalMargins" value="0 1 0 0" />
+    <Margin name="NinePartScale" value="5 5 5 5" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Center Center" />
+    <Font name="DefaultFont" path="Fonts/HelveticaNeueCondensedBold" />
+  </Style>
+  
+  <!-- ================== LABELS ============================================ -->
+
+  <Style name="FramedLabelStyle" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/frame_white_5px_slice" />
+    </StyleState>
+    <ClipText value="true" />
+    <Font name="DefaultFont" path="Fonts/HelveticaNeueCondensedBold" />
+    <Anchor name="DefaultTextAnchor" value="Center Center" />
+    <Margin name="NinePartScale" value="5 5 5 5" />
+    <Margin name="InternalMargins" value="0 1 0 0" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+  </Style>
+  
+  <Style name="AlignLeftLabelStyle" parent="FramedLabelStyle">
+    <Anchor name="DefaultTextAnchor" value="Left Center" />
+    <Margin name="InternalMargins" value="0 0 2 0" />
+    <WordWrap value="true" />
+  </Style>
+
+  <Style name="Headline1" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#E5623F" />
+      <Background texture="GUI/TopLevel/frame_white_5px_slice" />
+    </StyleState>
+    <Margin name="NinePartScale" value="5 5 5 5" />
+    <Margin name="InternalMargins" value="2 2 4 4" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <Font name="DefaultFont" path="Fonts/Dirty Headline" />
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Left Center" />
+  </Style>
+
+  <Style name="WhiteHeadline" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#FFFFFF" />
+    </StyleState>
+    <Font name="DefaultFont" path="Fonts/Dirty Headline" />
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Left Center" />
+  </Style>
+  
+  <Style name="ClothingNameStyle" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#FFFFFF" />
+    </StyleState>
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <Font name="DefaultFont" path="Fonts/Dirty Headline" />
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Left Center" />
+  </Style>
+  
+  <Style name="WordWrapDefaultStyle" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/frame_white_5px_slice" />
+    </StyleState>
+    <Margin name="NinePartScale" value="5 5 5 5" />
+    <Margin name="InternalMargins" value="2 2 4 4" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <Font name="DefaultFont" path="Fonts/HelveticaNeueCondensedBold" />
+    <ClipText value="false" />
+    <WordWrap value="true" />
+    <Anchor name="DefaultTextAnchor" value="Left Top" />
+  </Style>
+
+  <Style name="BoldLabelStyle" parent="DefaultBaseStyle" defaultFor="Label">
+    <StyleState name="NormalState">
+      <TextColor color="#787352" />
+    </StyleState>
+    <ClipText value="true" />
+    <WordWrap value="true" />
+    <Font name="DefaultFont" path="Fonts/HelveticaNeueCondensedBold" />
+    <Margin name="InternalMargins" value="2 2 2 2" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <Anchor name="DefaultTextAnchor" value="Left Center" />
+  </Style>
+
+  <Style name="WhiteLabelStyle" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#FFFFFF" />
+    </StyleState>
+    <ClipText value="true" />
+    <WordWrap value="true" />
+    <Font name="DefaultFont" path="Fonts/HelveticaNeueCondensedBold" />
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <Anchor name="DefaultTextAnchor" value="Left Top" />
+  </Style>
+
+  <Style name="WhiteLabelStyle12" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#FFFFFF" />
+    </StyleState>
+    <ClipText value="true" />
+    <WordWrap value="true" />
+    <Font name="DefaultFont" path="Fonts/HelveticaNeueCondensedBold_12" />
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <Anchor name="DefaultTextAnchor" value="Left Top" />
+  </Style>
+
+  <Style name="NametagLabelStyle" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#EEEEEE" />
+      <Background texture="GUI/TopLevel/frame_black40a_5px_slice" />
+    </StyleState>
+    <ClipText value="true" />
+    <Font name="Helvetica12" path="Fonts/HelveticaNeueCondensedBold_12" />
+    <Anchor name="DefaultTextAnchor" value="Center Center" />
+    <Margin name="NinePartScale" value="5 5 5 5" />
+    <Margin name="InternalMargins" value="1 1 1 1" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+  </Style>
+
+  <Style name="Black40" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#EEEEEE" />
+      <Background texture="GUI/TopLevel/frame_black40a_5px_slice" />
+    </StyleState>
+    <ClipText value="true" />
+    <Font name="Helvetica12" path="Fonts/HelveticaNeueCondensedBold" />
+    <Anchor name="DefaultTextAnchor" value="Center Center" />
+    <Margin name="NinePartScale" value="5 5 5 5" />
+    <Margin name="InternalMargins" value="1 1 1 1" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+  </Style>
+
+  <Style name="LightPurple" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#EEEEEE" />
+      <Background texture="GUI/TopLevel/frame_lightPurple_5px_slice" />
+    </StyleState>
+    <ClipText value="true" />
+    <Font name="Helvetica12" path="Fonts/HelveticaNeueCondensedBold" />
+    <Anchor name="DefaultTextAnchor" value="Center Center" />
+    <Margin name="NinePartScale" value="5 5 5 5" />
+    <Margin name="InternalMargins" value="1 1 1 1" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+  </Style>
+
+  <Style name="WhiteDetailLabelStyle" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#FFFFFF" />
+    </StyleState>
+    <ClipText value="true" />
+    <Font name="DefaultFont" path="Fonts/HelveticaNeueCondensedBold_12" />
+    <Anchor name="DefaultTextAnchor" value="Left Top" />
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+  </Style>
+
+  <Style name="WhiteDetailLabelStyleRight" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#FFFFFF" />
+    </StyleState>
+    <ClipText value="true" />
+    <Font name="DefaultFont" path="Fonts/HelveticaNeueCondensedBold_12" />
+    <Anchor name="DefaultTextAnchor" value="Right Top" />
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+  </Style>
+  
+  <Style name="GreyDetailLabelStyle" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#787352" />
+    </StyleState>
+    <ClipText value="true" />
+    <Font name="DefaultFont" path="Fonts/HelveticaNeueCondensedBold_12" />
+    <Anchor name="DefaultTextAnchor" value="Left Top" />
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+  </Style>
+  
+  <Style name="PopupUpArrowStyle" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#E5623F" />
+      <Background texture="GUI/TopLevel/arrow_up_red_big" />
+    </StyleState>
+    <Margin name="NinePartScale" value="5 5 5 5" />
+    <Margin name="InternalMargins" value="2 2 2 2" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <Font name="DefaultFont" path="Fonts/Dirty Headline" />
+    <ClipText value="false" />
+    <WordWrap value="true" />
+    <Anchor name="DefaultTextAnchor" value="Left Top" />
+  </Style>
+
+  <Style name="PopupDownArrowStyle" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#E5623F" />
+      <Background texture="GUI/TopLevel/arrow_down_red_big" />
+    </StyleState>
+    <Margin name="NinePartScale" value="5 5 5 5" />
+    <Margin name="InternalMargins" value="2 2 2 2" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <Font name="DefaultFont" path="Fonts/Dirty Headline" />
+    <ClipText value="false" />
+    <WordWrap value="true" />
+    <Anchor name="DefaultTextAnchor" value="Left Top" />
+  </Style>
+
+  <!-- ================== FRAMES ============================================ -->
+
+  <Style name="DefaultWindowStyle" parent="DefaultBaseStyle" defaultFor="Window">
+		<StyleState name="NormalState">
+			<TextColor color="#787352" />
+			<Background texture="GUI/TopLevel/frame_green_7px_slice" />
+		</StyleState>
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="NinePartScale" value="7 7 7 7" />
+		<ClipText value="true" />
+		<Anchor name="DefaultTextAnchor" value="Left Center" />
+	</Style>
+
+  <Style name="MapStyle" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/map_background" />
+    </StyleState>
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="NinePartScale" value="0 0 0 0" />
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Left Center" />
+  </Style>
+
+  <Style name="GreenTableRowStyle" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/frame_green_7px_slice" />
+    </StyleState>
+    <Margin name="ExternalMargins" value="1 1 2 2" />
+    <Margin name="InternalMargins" value="3 3 3 3" />
+    <Margin name="NinePartScale" value="7 7 7 7" />
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Left Center" />
+  </Style>
+
+  <Style name="WhiteWindowStyle" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/frame_white_9px_slice" />
+    </StyleState>
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Center Center" />
+    <Margin name="NinePartScale" value="9 9 9 9" />
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+  </Style>
+
+  <Style name="WhiteBorderBlueWindowStyle" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/frame_blue_9px_slice_w_border" />
+    </StyleState>
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Center Center" />
+    <Margin name="NinePartScale" value="9 9 9 9" />
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+  </Style>
+  
+  <Style name="WhiteWindowStyleShadow" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/frame_white_9px_slice_with_shadow" />
+    </StyleState>
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Center Center" />
+    <Margin name="NinePartScale" value="15 15 15 15" />
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+  </Style>
+
+  <Style name="BlueWindowStyle" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/panel_blue" />
+    </StyleState>
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="NinePartScale" value="30 12 13 13" />
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Left Center" />
+  </Style>
+
+  <Style name="YellowWindowStyle" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/panel_yellow" />
+    </StyleState>
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="NinePartScale" value="30 12 13 13" />
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Left Center" />
+  </Style>
+
+  <Style name="TransparentWindowStyle">
+  </Style>
+
+  <Style name="TransparentButtonStyle">
+    <Anchor name="DefaultTextAnchor" value="Center Center" />
+  </Style>
+  
+  <Style name="TopBarPanel" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/top_bar" />
+    </StyleState>
+    <ClipText value="true" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <Anchor name="DefaultTextAnchor" value="Left Center" />
+  </Style>
+
+  <Style name="NavBarPanel" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/nav_bar" />
+    </StyleState>
+    <ClipText value="true" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <Anchor name="DefaultTextAnchor" value="Left Center" />
+  </Style>
+
+  <Style name="TopBarPanelBlack" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/top_bar_black" />
+    </StyleState>
+    <ClipText value="true" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <Anchor name="DefaultTextAnchor" value="Left Center" />
+  </Style>
+
+  <Style name="NavBarPanelBlack" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/nav_bar_black" />
+    </StyleState>
+    <ClipText value="true" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <Anchor name="DefaultTextAnchor" value="Left Center" />
+  </Style>
+
+
+  <Style name="RightBarPanel" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/right_side_bar" />
+    </StyleState>
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Left Center" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+  </Style>
+
+  <Style name="LeftBarPanel" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/left_side_bar" />
+    </StyleState>
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Left Center" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+  </Style>
+
+
+  <Style name="DefaultTextboxStyle" parent="DefaultBaseStyle" defaultFor="Textbox">
+		<StyleState name="NormalState">
+			<TextColor color="#787352" />
+			<Background texture="GUI/TopLevel/textbox_w_stroke_and_states_8px_slice" />
+		</StyleState>
+		<StyleState name="HoverState">
+			<TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/textbox_w_stroke_and_states_8px_slice_hover" />
+    </StyleState>
+		<StyleState name="DisabledState">
+			<TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/textbox_w_stroke_and_states_8px_slice_disabled" />
+    </StyleState>
+    <StyleState name="ActiveState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/textbox_w_stroke_and_states_8px_slice_active" />
+    </StyleState>
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <Margin name="InternalMargins" value="2 2 8 2" />
+		<Margin name="NinePartScale" value="8 8 8 8" />
+		<ClipText value="true" />
+		<Anchor name="DefaultTextAnchor" value="Left Center" />
+    <Font name="DefaultFont" path="Fonts/HelveticaNeueCondensedBold" />
+	</Style>
+
+  <Style name="WindowTitleLabel" parent="DefaultBaseStyle">
+    <Anchor name="DefaultTextAnchor" value="Center Top" />
+  </Style>
+</GUI>

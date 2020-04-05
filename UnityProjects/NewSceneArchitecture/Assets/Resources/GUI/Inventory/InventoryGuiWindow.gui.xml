@@ -1,0 +1,16 @@
+<GUI>
+  <Window name="Inventory Window" size="400 500" position ="200 0">
+    <MainFrame name="MainFrame" size="FillParent" position="FillParent">
+      <GridView name="GridView" style="" size="200 350" position="190 90" />
+      <Button name="GridButton" style="" position="0  0" size="50 50" />
+      <Button name="PreviousPageButton" style="" position="250 450" size="45 30" />
+      <Button name="FirstPageButton" style="" position="200 450" size="45 30" />
+      <Button name="NextPageButton" style="" position="305 450" size="45 30" />
+      <Button name="LastPageButton" style="" position="350 450" size="45 30" />
+      <Button name="TopsCategoryButton" style="" position="250 10" size="45 20" />
+      <Button name="ShoesCategoryButton" style="" position="305 10" size="45 20" />
+      
+    </MainFrame>
+  </Window>
+
+</GUI>

@@ -1,0 +1,43 @@
+<GUI>
+	<Style name="TextBubbleStyleBase">
+		<StyleState name="NormalState">
+			<TextColor color="#787352" />
+		</StyleState>
+		<StyleState name="HoverState">
+			<TextColor color="#787352" />
+		</StyleState>
+		<StyleState name="DisabledState">
+			<TextColor color="#787352" />
+		</StyleState>
+		<StyleState name="ActiveState">
+			<TextColor color="#787352" />
+		</StyleState>
+    <Font name="DefaultFont" path="Fonts/HelveticaNeueCondensedBold" />
+		<Anchor name="DefaultTextAnchor" value="Left Top" />
+		<Margin name="InternalMargins" value="4 4 4 4" />
+		<WordWrap value="true" />
+		<ClipText value="true" />
+	</Style>
+	
+	<Style name="TextBubbleStyleWindow" parent="TextBubbleStyleBase">
+		<StyleState name="NormalState">
+			<Background texture="GUI/TopLevel/in_world_chat_bubble" />
+			<TextColor color="#787352" />
+		</StyleState>
+		<StyleState name="HoverState">
+			<Background texture="GUI/TopLevel/in_world_chat_bubble" />
+			<TextColor color="#787352" />
+		</StyleState>
+		<StyleState name="DisabledState">
+			<Background texture="GUI/TopLevel/in_world_chat_bubble" />
+			<TextColor color="#787352" />
+		</StyleState>
+		<StyleState name="ActiveState">
+			<Background texture="GUI/TopLevel/in_world_chat_bubble" />
+			<TextColor color="#787352" />
+		</StyleState>
+		<Margin name="InternalMargins" value="6 12 4 0" />
+		<Margin name="ExternalMargins" value="2 2 2 2" />
+		<Margin name="NinePartScale" value="4 14 18 6" />
+	</Style>
+</GUI>

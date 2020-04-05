@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/CSS/Facebook/avatar_select.css" />
+
+    <script language="VBScript" src="/JS/DetectUnity.vbs"></script>
+    <script type="text/javascript" src="/JS/mixpanel.js"></script>
+    <script type="text/javascript" src="/JS/hangout_base.js"></script>
+    <script type="text/javascript" src="/JS/config.js.aspx"></script>
+    <script type="text/javascript" src="/JS/jquery.js"></script>
+    <script type="text/javascript" src="/JS/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/JS/jquery.query.js"></script>
+    <script type="text/javascript" src="/JS/unity_install.js"></script> 
+  </head>
+
+  <body>
+    <div id="mf">
+      <img id="bg" src="/Images/Facebook/FashionCity/LandingPagePolariodFrame.jpg"/>
+
+      <script language="javascript1.1" type="text/javaScript">
+
+	if (Hangout.util.isUnityInstalled())
+	{
+	        fbArgs = window.location.search;
+	        window.location = "oops.html" + fbArgs;
+	}
+	else
+	{
+	        var installerPath = GetInstallerPath();
+	        if (installerPath != "")
+	        {
+	            document.write('  <a href="#" id="getstartedbg"><img id="bgphoto" src="/Images/Facebook/FashionCity/UnityDownloadPage.jpg" border="0"/></a> \n');
+                    document.write('  <a id="getstartedtext" href="#">Get Started!</a>');
+		    document.write('<iframe name="InstallerFrame" id="InstallerFrame" height="0" width="0" frameborder="0">\n');
+		}
+		else
+		{
+		    document.write('  <a href="javascript: window.open("http://www.unity3d.com/unity-web-player-2.x"); "><img id="bgphoto" src="/Images/Facebook/FashionCity/UnityDownloadPage.jpg" border="0"/></a> \n');
+		}
+	}
+
+      </script>
+      <noscript>
+        This content requires a browser with Javascript enabled.
+      </noscript>
+    </div>
+  </body>
+</html>

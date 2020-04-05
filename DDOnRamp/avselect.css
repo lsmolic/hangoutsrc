@@ -1,0 +1,85 @@
+h1
+{
+    position:absolute; top:150px; right:50px;
+    z-index: 5;
+    color:#000000;
+    font-size:1.2em;
+    padding:0px;
+    margin:0px;
+}
+
+div#selecttitlebg
+{
+    width:100%;
+    height:85px;
+    position:absolute;
+    
+    top:20px;
+    left:0px;
+    background:#df9602;
+    opacity:0.75;
+}
+
+div#mf
+{
+    width:760px; height:686px; position:absolute;
+    top:0px; left:0px;
+    font-family: Helvetica,Arial,Sans-serif; 
+    margin: 0px;
+    padding: 0px;
+}
+
+img#bgphoto
+{
+    position:absolute;
+    z-index: 1;
+    left:33px; top:122px;
+}
+#instructions {
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	bottom: 60px;
+	z-index: 2;
+}
+
+
+div#submitframe { position: absolute; z-index: 3; left:33px; top:122px; padding: 0px; display:none; width:695px; height: 459px; background-image: url("images/AvatarSelectedBackground.jpg"); }
+div#submittext { float: left; margin:0px; font-size: 1.5em; position:absolute; bottom:10px; left:260px; }
+div#submitbutton { float: right; margin:0px; position:absolute; bottom:20px; left:310px; background: white; padding: 5px;}
+img#bg { position:absolute; z-index: 0; width:100%; height:100%; }
+
+img#c1 { position:absolute; z-index: 5; left: 56px; bottom:125px; }
+img#c2 { position:absolute; z-index: 5; left:187px; bottom:147px; }
+img#c3 { position:absolute; z-index: 5; left:338px; bottom:152px; }
+img#c4 { position:absolute; z-index: 5; left:465px; bottom:152px; }
+img#c5 { position:absolute; z-index: 5; left:600px; bottom:117px; }
+img.preload { display:none; height:1px; width:1px; position:absolute; left:0px; bottom:0px; }
+
+img { border: 0px; }
+
+img .shadow { position:absolute; z-index: 4; }
+
+.av_rollover { position:absolute; z-index: 5; }
+
+img#cs1 { position:absolute; z-index: 4; left:95px;  bottom:119px; }
+img#cs2 { position:absolute; z-index: 4; left:225px; bottom:147px; }
+img#cs3 { position:absolute; z-index: 4; left:357px; bottom:137px; }
+img#cs4 { position:absolute; z-index: 4; left:485px; bottom:144px; }
+img#cs5 { position:absolute; z-index: 4; left:610px; bottom:107px; }
+
+div.ahover { position:absolute; z-index: 3; border: 3px dotted #fcbb32; }
+
+
+a#getstartedtext
+{
+    position:absolute;
+    z-index: 5;
+    left:255px;
+    top:350px;
+    color:#000000;
+    font-size:2.0em;
+    text-decoration:none;
+    width: 240px;
+    text-align: center;
+}

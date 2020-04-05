@@ -1,0 +1,5 @@
+<Test>
+	<Tweakable type="Text" name="Text Test" value="Test String Wooooooooooooh!" />
+	<Tweakable type="Color" name="Color Test" value="#0C1DC2" />
+	<Tweakable type="FloatSlider" name="Float Test" value="76.59574" range="1 100" />
+</Test>

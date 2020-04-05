@@ -1,0 +1,104 @@
+<FeedCopy>  
+  <FeedData name="feed_level_up">
+    <DefaultUserMessage></DefaultUserMessage>
+    <UserMessagePrompt>What's on your mind?</UserMessagePrompt>
+    <Action>
+      <Name>Play Fashion City!</Name>
+      <Url>?campaign=feed_level_up&amp;inviter_id={1}</Url>
+    </Action>
+    <Attachment>
+      <Name>I'm moving up in Fashion City!</Name>
+      <Url>?campaign=feed_level_up&amp;inviter_id={1}</Url>
+      <Caption>{*actor*} just completed {0} and wants you to join in their success! Do you have what it takes?</Caption>
+      <Description></Description>
+      <ImageSrcUrl>/Images/Facebook/FashionCity/feed_orange_level_up.gif</ImageSrcUrl>
+      <ImageLinkUrl>?campaign=feed_level_up&amp;inviter_id={1}</ImageLinkUrl>
+    </Attachment>
+  </FeedData>
+  
+  <FeedData name="feed_hired_model">
+    <DefaultUserMessage></DefaultUserMessage>
+    <UserMessagePrompt>What's on your mind?</UserMessagePrompt>
+    <Action>
+      <Name>Become a model!</Name>
+      <Url>?campaign=feed_hired_model&amp;inviter_id={1}</Url>
+    </Action>
+    <Attachment>
+      <Name>I just hired you as a model in Fashion City!</Name>
+      <Url>?campaign=feed_hired_model&amp;inviter_id={1}</Url>
+      <Caption>{*actor*} just hired you to walk the runway in Fashion City. Play Fashion City with me to put on your own show!</Caption>
+      <Description></Description>
+      <ImageSrcUrl>/Images/Facebook/FashionCity/feed_orange_model.gif</ImageSrcUrl>
+      <ImageLinkUrl>?campaign=feed_hired_model&amp;inviter_id={1}</ImageLinkUrl>
+    </Attachment>
+  </FeedData>
+
+  <FeedData name="feed_hired_hair">
+    <DefaultUserMessage></DefaultUserMessage>
+    <UserMessagePrompt>What's on your mind?</UserMessagePrompt>
+    <Action>
+      <Name>Play Fashion City!</Name>
+      <Url>?campaign=feed_hired_hair&amp;inviter_id={1}</Url>
+    </Action>
+    <Attachment>
+      <Name>You were just hired as my hair stylist in Fashion City!</Name>
+      <Url>?campaign=feed_hired_hair&amp;inviter_id={1}</Url>
+      <Caption>{*actor*} hired you as a hair stylist in their own fashion show. Play Fashion City with me and build your own fashion empire!</Caption>
+      <Description></Description>
+      <ImageSrcUrl>/Images/Facebook/FashionCity/feed_orange_hair.gif</ImageSrcUrl>
+      <ImageLinkUrl>?campaign=feed_hired_hair&amp;inviter_id={1}</ImageLinkUrl>
+    </Attachment>
+  </FeedData>
+
+  <FeedData name="feed_hired_makeup">
+    <DefaultUserMessage></DefaultUserMessage>
+    <UserMessagePrompt>What's on your mind?</UserMessagePrompt>
+    <Action>
+      <Name>Play Fashion City!</Name>
+      <Url>?campaign=feed_hired_makeup&amp;inviter_id={1}</Url>
+    </Action>
+    <Attachment>
+      <Name>You were just hired as my makeup artist in Fashion City!</Name>
+      <Url>?campaign=feed_hired_makeup&amp;inviter_id={1}</Url>
+      <Caption>{*actor*} hired you as a makeup artist in their own fashion show. Come see what the buzz is about in Fashion City!</Caption>
+      <Description></Description>
+      <ImageSrcUrl>/Images/Facebook/FashionCity/feed_orange_makeup.gif</ImageSrcUrl>
+      <ImageLinkUrl>?campaign=feed_hired_makeup&amp;inviter_id={1}</ImageLinkUrl>
+    </Attachment>
+  </FeedData>
+
+  <FeedData name="feed_hired_seamstress">
+    <DefaultUserMessage></DefaultUserMessage>
+    <UserMessagePrompt>What's on your mind?</UserMessagePrompt>
+    <Action>
+      <Name>Play Fashion City!</Name>
+      <Url>?campaign=feed_hired_seamstress&amp;inviter_id={1}</Url>
+    </Action>
+    <Attachment>
+      <Name>You were just hired as my seamstress in Fashion City!</Name>
+      <Url>?campaign=feed_hired_seamstress&amp;inviter_id={1}</Url>
+      <Caption>{*actor*} hired you as a seamstress in their own fashion show. Grab your friends and check out the hottest trends in Fashion City!</Caption>
+      <Description></Description>
+      <ImageSrcUrl>/Images/Facebook/FashionCity/feed_orange_sewing.gif</ImageSrcUrl>
+      <ImageLinkUrl>?campaign=feed_hired_seamstress&amp;inviter_id={1}</ImageLinkUrl>
+    </Attachment>
+  </FeedData>
+
+  <FeedData name="feed_thanks">
+    <DefaultUserMessage></DefaultUserMessage>
+    <UserMessagePrompt>Thank your friend for being awesome in your fashion show!</UserMessagePrompt>
+    <Action>
+      <Name>Play Fashion City!</Name>
+      <Url>?campaign=feed_thanks&amp;inviter_id={1}</Url>
+    </Action>
+    <Attachment>
+      <Name>I chose you as the star of my fashion show!</Name>
+      <Url>?campaign=feed_thanks&amp;inviter_id={1}</Url>
+      <Caption>Great job in today's show! Grab your winnings and let's go shopping!</Caption>
+      <Description></Description>
+      <ImageSrcUrl>/Images/Facebook/FashionCity/hangout_fashion_city_200.jpg</ImageSrcUrl>
+      <ImageLinkUrl>?campaign=feed_thanks&amp;inviter_id={1}</ImageLinkUrl>
+    </Attachment>
+  </FeedData>
+
+</FeedCopy>

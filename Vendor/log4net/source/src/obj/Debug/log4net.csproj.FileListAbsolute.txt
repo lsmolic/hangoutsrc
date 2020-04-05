@@ -1,0 +1,6 @@
+C:\svnrepos\Architecture\Vendor\log4net\source\build\bin\net\1.0\debug\log4net.dll
+C:\svnrepos\Architecture\Vendor\log4net\source\build\bin\net\1.0\debug\log4net.pdb
+C:\svnrepos\Architecture\Vendor\log4net\source\build\bin\net\1.0\debug\log4net.xml
+C:\svnrepos\Architecture\Vendor\log4net\source\src\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\Vendor\log4net\source\src\obj\Debug\log4net.dll
+C:\svnrepos\Architecture\Vendor\log4net\source\src\obj\Debug\log4net.pdb

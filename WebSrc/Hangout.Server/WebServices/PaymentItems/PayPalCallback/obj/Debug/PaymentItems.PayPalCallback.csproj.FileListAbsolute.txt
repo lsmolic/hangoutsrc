@@ -1,0 +1,5 @@
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\bin\Debug\PayPalCallback.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\bin\Debug\PayPalCallback.pdb
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\PayPalCallback\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\PayPalCallback\obj\Debug\PayPalCallback.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\PayPalCallback\obj\Debug\PayPalCallback.pdb

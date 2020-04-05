@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hangout.Client.Gui.GuiElement">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQABAAAEEACgAAEAAAAQAwAAAAAAAgAhAgAAAAAAhA=</HashCode>
+      <FileName>Assets\Code\Systems\GUI\Elements\GuiElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hangout.Client.Gui.Button">
+    <Position X="11.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAgEAAAAAoCAAAAAAAACAEAAABBAAAAiDAAAABA=</HashCode>
+      <FileName>Assets\Code\Systems\GUI\Elements\Widgets\Buttons\Button.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hangout.Client.Gui.TabButton">
+    <Position X="11.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAgAAAAAAAAAAAAAAAQAAAAAAAAAAAAE=</HashCode>
+      <FileName>Assets\Code\Systems\GUI\Elements\Widgets\Buttons\TabButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hangout.Client.Gui.ToggleButton">
+    <Position X="11.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAhAQAAAACBAABAAAAAEAAAAADBAAAAAAAAABAA=</HashCode>
+      <FileName>Assets\Code\Systems\GUI\Elements\Widgets\Buttons\ToggleButton.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hangout.Client.Gui.GuiFrame">
+    <Position X="14.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAAAFIIgBAAAAEAAQABQAAEAAFAAQAQAAAABQ=</HashCode>
+      <FileName>Assets\Code\Systems\GUI\Elements\Widgets\Frames\GuiFrame.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hangout.Client.Gui.ScrollFrame">
+    <Position X="14" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAQACAIAgAAAgAAAAAIQgAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Systems\GUI\Elements\Widgets\Frames\ScrollFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hangout.Client.Gui.SelectableFrame">
+    <Position X="16.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAgBAABAAEAAAEAAAEAAgABAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Systems\GUI\Elements\Widgets\Frames\SelectableFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hangout.Client.Gui.Label">
+    <Position X="16.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAACAAAAAAAAAIAECAAAABA=</HashCode>
+      <FileName>Assets\Code\Systems\GUI\Elements\Widgets\Label.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hangout.Client.Gui.Widget">
+    <Position X="10.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Assets\Code\Systems\GUI\Elements\Widgets\Widget.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hangout.Client.Gui.TabView">
+    <Position X="7.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgDAEAAABAExlAAAEEAAQAAAAAEAABAAAABAAIABY=</HashCode>
+      <FileName>Assets\Code\Systems\GUI\Elements\Widgets\TabView.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hangout.Client.Gui.Textbox">
+    <Position X="9.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAABAAgAAAAAAAAACAAAAAAAAAAAACAAAABg=</HashCode>
+      <FileName>Assets\Code\Systems\GUI\Elements\Widgets\TextBox.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hangout.Client.Gui.TopLevel">
+    <Position X="0.5" Y="6.25" Width="1.5" />
+    <NestedTypes>
+      <Class Name="Hangout.Client.Gui.TopLevel.UnityWindowIdManager" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Code\Systems\GUI\Elements\TopLevels\TopLevel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+      <Delegate Name="Hangout.Client.Gui.TopLevel.GuiWindowCall1" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Code\Systems\GUI\Elements\TopLevels\TopLevel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+      <Delegate Name="Hangout.Client.Gui.TopLevel.GuiWindowCall2" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Code\Systems\GUI\Elements\TopLevels\TopLevel.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Delegate>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAIAgACAABAQgBAAIQUQAwAAACBFEABAAAAAgCAAgQ=</HashCode>
+      <FileName>Assets\Code\Systems\GUI\Elements\TopLevels\TopLevel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Hangout.Client.Gui.Window">
+    <Position X="0.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAASAAEgAACAAEEIQAAIACIAAAEEAAAAAAABA=</HashCode>
+      <FileName>Assets\Code\Systems\GUI\Elements\TopLevels\Window.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hangout.Client.Gui.HorizontalScrollbar">
+    <Position X="2.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Assets\Code\Systems\GUI\Elements\Widgets\Scrollbars\HorizontalScrollbar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hangout.Client.Gui.Scrollbar">
+    <Position X="4.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBAAgAAAgCAQAAAAAAAgAAAAAAAAAAAEIAACAAAAA=</HashCode>
+      <FileName>Assets\Code\Systems\GUI\Elements\Widgets\Scrollbars\Scrollbar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hangout.Client.Gui.VerticalScrollbar">
+    <Position X="4.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Assets\Code\Systems\GUI\Elements\Widgets\Scrollbars\VerticalScrollbar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hangout.Client.Gui.DockableEditorTab">
+    <Position X="0.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Editor\Code\Systems\GUI\Top Level\DockableEditorTab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hangout.Client.Gui.GridView" Collapsed="true">
+    <Position X="18.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAgAAkAEgCAIAACFgAAAAgABAJAAgAhCAAY=</HashCode>
+      <FileName>Assets\Code\Systems\GUI\Layout\GridView.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Hangout.Client.Gui.IGuiContainer">
+    <Position X="14.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAABAAAAEAAQAAAAAEAABAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\Code\Systems\GUI\Elements\IGuiContainer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Hangout.Client.Gui.IGuiElement">
+    <Position X="17" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABAAAEAAAgAAAAAAAQAwAAAAAAAAABAAAAAAAAgA=</HashCode>
+      <FileName>Assets\Code\Systems\GUI\Elements\IGuiElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Hangout.Client.Gui.ITextGuiElement">
+    <Position X="18.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Assets\Code\Systems\GUI\Elements\ITextGuiElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Hangout.Client.Gui.ITopLevel">
+    <Position X="15.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAABAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Assets\Code\Systems\GUI\Elements\TopLevels\ITopLevel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Hangout.Client.Gui.IGuiFrame">
+    <Position X="15.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAEIAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Code\Systems\GUI\Elements\Widgets\Frames\IGuiFrame.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Hangout.Client.Gui.IWidget">
+    <Position X="17" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAgAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Assets\Code\Systems\GUI\Elements\Widgets\IWidget.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Hangout.Client.Gui.IGuiManager">
+    <Position X="13.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAIABCAAAAAAAAAAAAAAAAAAAAAgAAEAAAA=</HashCode>
+      <FileName>Assets\Code\Systems\GUI\IGuiManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

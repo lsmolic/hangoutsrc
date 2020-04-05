@@ -1,0 +1,5 @@
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.EscrowTransactions\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\RESTService\bin\Hangout.Server.WebServices.Escrow.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\RESTService\bin\Hangout.Server.WebServices.Escrow.pdb
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.EscrowTransactions\obj\Debug\Hangout.Server.WebServices.Escrow.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.EscrowTransactions\obj\Debug\Hangout.Server.WebServices.Escrow.pdb

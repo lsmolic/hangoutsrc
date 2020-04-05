@@ -1,0 +1,79 @@
+<GUI>
+  <Include path="resources://GUI/Styles/Default.style" />
+ 
+  <Window name="ShoppingPopupWindow" size="300 175" position="455 285" style="TransparentWindowStyle">
+    <MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+      <Frame name="PopupFrame" size ="300 150" position="0 0" style="YellowWindowStyle">
+        <Frame name="TitleBarFrame" size="300 30" position="0 0" styel="Clear">
+          <Label name="TitleLabel" size="260 18" position="10 9" style="Headline1" text="Shop `til You Drop!"/>
+          <Button name="CloseButton" size="22 22" position="-8 7" style="CloseButtonStyle" anchor="Right Top" />
+        </Frame>
+        <Frame name="MovementPopupFrame" size="280 130" position="0 30">
+          <Label name="TutorialLabel" size="260 90" position="20 10" style="WordWrapDefaultStyle" text="You've earned it. Treat yourself to a new look." />
+        </Frame>
+      </Frame>
+      <Label name="ArrowLabel" size="64 64" position="232 110" style="PopupDownArrowStyle" />
+    </MainFrame>
+  </Window>
+  
+  <Window name="MovementPopupWindow" size="200 175" position="25 80" style="TransparentWindowStyle">
+    <MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+      <Frame name="PopupFrame" size ="200 150" position="0 0" style="YellowWindowStyle">
+        <Frame name="TitleBarFrame" size="200 30" position="0 0">
+          <Label name="TitleLabel" size="260 18" position="10 9" style="Headline1" text="Get Movin'!"/>
+          <Button name="CloseButton" size="22 22" position="-8 7" style="CloseButtonStyle" anchor="Right Top" />
+        </Frame>
+        <Frame name="MovementPopupFrame" size="180 130" position="0 30">
+          <Label name="TutorialLabel" size="160 90" position="20 10" style="WordWrapDefaultStyle" text="To walk, click the ground or press the arrow keys." />
+        </Frame>
+      </Frame>
+    </MainFrame>
+  </Window>
+
+
+  <Window name="DecoratePopupWindow" size="300 175" position="455 285" style="TransparentWindowStyle">
+    <MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+      <Frame name="PopupFrame" size ="300 150" position="0 0" style="YellowWindowStyle">
+        <Frame name="TitleBarFrame" size="300 30" position="0 0">
+          <Label name="TitleLabel" size="260 18" position="10 9" style="Headline1" text="Move In!"/>
+          <Button name="CloseButton" size="22 22" position="-8 7" style="CloseButtonStyle" anchor="Right Top" />
+        </Frame>
+        <Frame name="DecorateTextFrame" size="280 130" position="0 30">
+          <Label name="TutorialLabel" size="260 90" position="20 10" style="WordWrapDefaultStyle" text="Purchase a new room background in the shop." />
+        </Frame>
+      </Frame>
+      <Label name="ArrowLabel" size="64 64" position="232 110" style="PopupDownArrowStyle" />
+    </MainFrame>
+  </Window>
+
+  <Window name="MapPopupWindow" size="300 175" position="200 285" style="TransparentWindowStyle">
+    <MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+      <Frame name="PopupFrame" size ="300 150" position="0 0" style="YellowWindowStyle">
+        <Frame name="TitleBarFrame" size="300 30" position="0 0">
+          <Label name="TitleLabel" size="260 18" position="10 9" style="Headline1" text="Explore!"/>
+          <Button name="CloseButton" size="22 22" position="-8 7" style="CloseButtonStyle" anchor="Right Top" />
+        </Frame>
+        <Frame name="MapTextFrame" size="280 130" position="0 30">
+          <Label name="TutorialLabel" size="260 90" position="20 10" style="WordWrapDefaultStyle" text="Find new places to hangout." />
+        </Frame>
+      </Frame>
+      <Label name="ArrowLabel" size="64 64" position="118 110" style="PopupDownArrowStyle" />
+    </MainFrame>
+  </Window>
+
+
+  <Window name="GetCashPopupWindow" size="300 220" position="365 40" style="TransparentWindowStyle">
+    <MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+      <Frame name="PopupFrame" size ="300 150" position="0 45" style="YellowWindowStyle">
+        <Frame name="TitleBarFrame" size="300 30" position="0 0">
+          <Label name="TitleLabel" size="260 18" position="10 9" style="Headline1" text="Get Cash!"/>
+          <Button name="CloseButton" size="22 22" position="-8 7" style="CloseButtonStyle" anchor="Right Top" />
+        </Frame>
+        <Frame name="MovementPopupFrame" size="280 130" position="0 30">
+          <Label name="TutorialLabel" size="260 90" position="20 10" style="WordWrapDefaultStyle" text="Not everything in life is free." />
+        </Frame>
+      </Frame>
+      <Label name="ArrowLabel" size="64 64" position="120 5" style="PopupUpArrowStyle" />
+    </MainFrame>
+  </Window>
+</GUI>

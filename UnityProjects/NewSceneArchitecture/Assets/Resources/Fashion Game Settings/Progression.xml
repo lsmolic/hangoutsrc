@@ -1,0 +1,36 @@
+<Progression>  
+	<PlayerLevels>
+		<PlayerLevel energy="5" xp="1"     level="resources://Fashion Game Settings/Levels/1.level"/>
+    <PlayerLevel energy="10" xp="100"   level="resources://Fashion Game Settings/Levels/2.level"/>
+    <PlayerLevel energy="15" xp="300"   level="resources://Fashion Game Settings/Levels/3.level"/>
+    <PlayerLevel energy="20" xp="700"   level="resources://Fashion Game Settings/Levels/4.level"/>
+		<PlayerLevel energy="22" xp="1300"  level="resources://Fashion Game Settings/Levels/5.level"/>
+    <PlayerLevel energy="24" xp="2100"  level="resources://Fashion Game Settings/Levels/6.level"/>
+    <PlayerLevel energy="26" xp="3100"  level="resources://Fashion Game Settings/Levels/7.level"/>
+    <PlayerLevel energy="28" xp="4300"  level="resources://Fashion Game Settings/Levels/8.level"/>
+    <PlayerLevel energy="30" xp="5700"  level="resources://Fashion Game Settings/Levels/9.level"/>
+    <PlayerLevel energy="32" xp="7300"  level="resources://Fashion Game Settings/Levels/10.level"/>
+    <PlayerLevel energy="34" xp="9100"  level="resources://Fashion Game Settings/Levels/11.level"/>
+    <PlayerLevel energy="36" xp="11100"  level="resources://Fashion Game Settings/Levels/12.level"/>
+    <PlayerLevel energy="38" xp="13300" level="resources://Fashion Game Settings/Levels/13.level"/>
+    <PlayerLevel energy="40" xp="15700"  level="resources://Fashion Game Settings/Levels/14.level"/>
+    <PlayerLevel energy="42" xp="18300" level="resources://Fashion Game Settings/Levels/15.level"/>
+    <PlayerLevel energy="44" xp="21100" level="resources://Fashion Game Settings/Levels/16.level"/>
+    <PlayerLevel energy="46" xp="24100" level="resources://Fashion Game Settings/Levels/17.level"/>
+    <PlayerLevel energy="48" xp="27300" level="resources://Fashion Game Settings/Levels/18.level"/>
+    <PlayerLevel energy="50" xp="30700" level="resources://Fashion Game Settings/Levels/19.level"/>
+    <PlayerLevel energy="52" xp="34300" level="resources://Fashion Game Settings/Levels/20.level"/>
+    <PlayerLevel energy="54" xp="38100" level="resources://Fashion Game Settings/Levels/21.level"/>
+    <PlayerLevel energy="56" xp="42100" level="resources://Fashion Game Settings/Levels/22.level"/>
+    <PlayerLevel energy="58" xp="46300" level="resources://Fashion Game Settings/Levels/23.level"/>
+    <PlayerLevel energy="60" xp="50700" level="resources://Fashion Game Settings/Levels/24.level"/>
+    <PlayerLevel energy="62" xp="55300" level="resources://Fashion Game Settings/Levels/25.level"/>
+    <PlayerLevel energy="64" xp="60100" level="resources://Fashion Game Settings/Levels/26.level"/>
+    <PlayerLevel energy="66" xp="65100" level="resources://Fashion Game Settings/Levels/27.level"/>
+    <PlayerLevel energy="68" xp="70300" level="resources://Fashion Game Settings/Levels/28.level"/>
+    <PlayerLevel energy="70" xp="75700" level="resources://Fashion Game Settings/Levels/29.level"/>
+    <PlayerLevel energy="72" xp="81300" level="resources://Fashion Game Settings/Levels/30.level"/>
+    <PlayerLevel energy="74" xp="87100" level="resources://Fashion Game Settings/Levels/31.level"/>
+    <PlayerLevel energy="76" xp="93100" level="resources://Fashion Game Settings/Levels/32.level"/>
+	</PlayerLevels>               
+</Progression>

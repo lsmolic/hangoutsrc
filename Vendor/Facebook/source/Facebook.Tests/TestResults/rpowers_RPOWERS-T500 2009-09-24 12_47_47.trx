@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="c94cfc23-5e18-40a6-a639-0ca3f21ca88f" name="rpowers@RPOWERS-T500 2009-09-24 12:47:47" runUser="CLARITYINTERNAL\rpowers" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Default Run Configuration" id="4fd9a15d-ab5f-4f5e-a8a7-349b44e3d502">
+    <Deployment runDeploymentRoot="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook.Tests\TestResults\rpowers_RPOWERS-T500 2009-09-24 12_47_47">
+      <DeploymentItem filename="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook\bin\Debug\Facebook.dll" />
+    </Deployment>
+    <Hosts skipUnhostableTests="false" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="RPOWERS-T500" outcome="Error" timestamp="2009-09-24T12:48:38.1435155-05:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2009-09-24T12:47:47.7855155-05:00" queuing="2009-09-24T12:47:49.5255155-05:00" start="2009-09-24T12:47:49.6885155-05:00" finish="2009-09-24T12:48:38.1445155-05:00" />
+  <TestDefinitions>
+    <UnitTest name="postTest2" storage="c:\clarity\codeplex\facebooktoolkit\dev\source\facebook.tests\facebook.tests.synchronous\bin\debug\facebook.tests.synchronous.dll" id="9ea3faee-412f-a7a0-aeef-b4449d4132b6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="623ad012-0b9a-43cc-9dd4-b10d9c9d9108" />
+      <TestMethod codeBase="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook.Tests\Facebook.Tests.Synchronous\bin\Debug\Facebook.Tests.Synchronous.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Facebook.Tests.Synchronous.linksTest, Facebook.Tests.Synchronous" name="postTest2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9ea3faee-412f-a7a0-aeef-b4449d4132b6" executionId="4ede72ea-4d49-4507-95e7-6195ab3f4376" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4ede72ea-4d49-4507-95e7-6195ab3f4376" testId="9ea3faee-412f-a7a0-aeef-b4449d4132b6" testName="postTest2" computerName="RPOWERS-T500" duration="00:00:48.2610000" startTime="2009-09-24T12:47:49.8835155-05:00" endTime="2009-09-24T12:48:38.1445155-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

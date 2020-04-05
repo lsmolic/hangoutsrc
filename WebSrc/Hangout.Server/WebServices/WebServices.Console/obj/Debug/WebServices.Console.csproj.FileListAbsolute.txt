@@ -1,0 +1,6 @@
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.Console\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\RESTService\bin\WebServices.Console.exe.config
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\RESTService\bin\WebServices.Console.exe
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\RESTService\bin\WebServices.Console.pdb
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.Console\obj\Debug\WebServices.Console.exe
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.Console\obj\Debug\WebServices.Console.pdb

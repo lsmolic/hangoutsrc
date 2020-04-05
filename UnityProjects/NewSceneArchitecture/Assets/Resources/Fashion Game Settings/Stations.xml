@@ -1,0 +1,27 @@
+<Stations>
+
+  <Station type="Hair" time="5" label="H" asset="Hair" guiOffset="-0.1 2.15 0" >
+    <Icon path="resources://GUI/Minigames/Fashion/hairIcon" />
+    <ActivationSound path="assets://FashionMinigame/Sounds/hair_station_5sec.ogg" />
+    <WorkingAnimation path="assets://FashionMinigame/f_fmg_hairDresser_loop.lba" />
+    <IdleAnimation path="assets://Animations/f_emote_talkingCasual_loop.lba" />
+  </Station>
+
+  <Station type="Makeup" time="5" label="M" asset="Makeup" guiOffset="-0.2 2.15 0" >
+    <Icon path="resources://GUI/Minigames/Fashion/makeupIcon" />
+    <ActivationSound path="assets://FashionMinigame/Sounds/makeup_5sec.ogg" />
+    <WorkingAnimation path="assets://FashionMinigame/f_fmg_makeupApply_loop.lba" />
+    <IdleAnimation path="assets://Animations/f_emote_talkingGestures.lba" />
+  </Station>
+
+  <Station type="Holding" time="3" label="Waiting" asset="Holding" guiOffset="0 2.1 0" >
+  </Station>
+
+  <Station type="Sewing" time="1.2" asset="Sewing" guiOffset="-0.5 1.6 0">
+    <Icon path="resources://GUI/Minigames/Fashion/sewingIcon" />
+    <ActivationSound path="assets://FashionMinigame/Sounds/sewing_b_2sec.ogg" />
+    <WorkingAnimation path="assets://FashionMinigame/f_fmg_sewingMachine_loop.lba" />
+    <IdleAnimation path="assets://FashionMinigame/f_fmg_sittingIdle_loop.lba" />
+  </Station>
+
+</Stations>

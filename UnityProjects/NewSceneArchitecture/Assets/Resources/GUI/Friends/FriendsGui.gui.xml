@@ -1,0 +1,24 @@
+<GUI>
+  <Include path="resources://GUI/Styles/Default.style" />
+
+  <Window name="FriendsGui" size="300 350" position="0 0" dragBehavior="entireWindow" anchor="Center Center" style="UnityDefault">
+
+    <HeaderFrame name="HeaderFrame" size="HeaderFrame" position="HeaderFrame">
+      <Label name="WindowTitle" text="Friends" size="ExpandText" style="WindowTitleLabel" position="0 6" anchor="Center Top" />
+      <Button name="CloseButton" size="18 18" style="UnityDefault" position="-6 6" anchor="Right Top" />
+    </HeaderFrame>
+
+    <MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+      <ScrollFrame name="FriendListScrollFrame" size="270 FillParent" position="0 0" anchor="Center Top">
+        <Scrollbar scrollFrame="../../FriendListScrollFrame" name="FriendsListScrollBar" size="15 FillParent" height="350" />
+        <Frame name="FriendListingPrototype" size="FillParent 30" position="HorizontalAutoLayout">
+          <Image name="FriendImage" size="25 25" style="UnityDefault" position="HorizontalAutoLayout"/>
+          <Label name="FriendName" text="DefaultName" size="80 25" style="UnityDefault" position="HorizontalAutoLayout"/>
+          <Button name="ChatButton" size="50 25" style="UnityDefault" position="HorizontalAutoLayout" text="Chat"/>
+          <Button name="GotoButton" size="50 25" style="UnityDefault" position="HorizontalAutoLayout" text="Goto"/>
+        </Frame>
+      </ScrollFrame>
+    </MainFrame>
+  </Window>
+
+</GUI>

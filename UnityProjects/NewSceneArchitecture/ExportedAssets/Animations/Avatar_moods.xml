@@ -1,0 +1,42 @@
+<MoodAnimations>
+
+	<FaceAnimation name="Happy" initialAnimation="202032001" assetId="202232001">
+		<Animation assetId="202032005"/><?Excited Eyebrows?>
+		<Animation assetId="202032029"/><?Look Left?>
+		<Animation assetId="202032003"/><?Smile?>
+		<Animation assetId="202032030"/><?Wink?>
+		<Animation assetId="202032028"/><?Look Right?>
+		<Animation assetId="202032027"/><?Blink?>
+		<Animation assetId="202032002"/><?Grin?>
+		<Animation assetId="202032004"/><?Normal Mouth?>
+	</FaceAnimation>
+	<FaceAnimation name="Sad" initialAnimation="202032006" assetId="202232002">
+		<Animation assetId="202032008"/><?Sad Blink?>
+		<Animation assetId="202032029"/><?Look Left?>
+		<Animation assetId="202032028"/><?Look Right?>
+		<Animation assetId="202032009"/><?Close Mouth?>
+		<Animation assetId="202032011"/><?Sad Eyebrows?>
+		<Animation assetId="202032010"/><?Pouting Mouth?>
+		<Animation assetId="202032007"/><?Roll Eyes Down?>
+	</FaceAnimation>
+	<FaceAnimation name="Flirty" initialAnimation="202032012" assetId="202232003">
+		<Animation assetId="202032030"/><?Wink?>
+		<Animation assetId="202032029"/><?Look Left?>
+		<Animation assetId="202032028"/><?Look Right?>
+		<Animation assetId="202032015"/><?Left Eyebrow Raise?>
+		<Animation assetId="202032017"/><?Right Eyebrow Raise?>
+		<Animation assetId="202032027"/><?Blink?>
+		<Animation assetId="202032016"/><?Lazy Eyes?>
+		<Animation assetId="202032013"/><?Kiss?>
+	</FaceAnimation>
+	<FaceAnimation name="Angry" initialAnimation="202032018" assetId="202232004">
+		<Animation assetId="202032014"/><?Bat Eyes?>
+		<Animation assetId="202032022"/><?Rool Eyes Up?>
+		<Animation assetId="202032027"/><?Blink?>
+		<Animation assetId="202032021"/><?Squint Eyes?>
+		<Animation assetId="202032020"/><?Eyebrows Lowered?>
+		<Animation assetId="202032019"/><?Angry Mouth?>
+		<Animation assetId="202032009"/><?Close Mouth?>
+	</FaceAnimation>
+	
+</MoodAnimations>

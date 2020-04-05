@@ -1,0 +1,19 @@
+<GUI>
+  <Include path="resources://GUI/Minigames/Fashion/Fashion.style" />
+  <Include path="resources://GUI/Widgets/LoadingWidgets.lib" />
+  
+  <Window name="LoadingScreen" size="FillParent" position="FillParent" style="LoadingBase">
+    <MainFrame name="MainFrame" size="MainFrame" position="MainFrame" >
+      <Image name="Cityscape" size="744 326" position="0 0" image="GUI/Minigames/Fashion/Images/Cityscape" />
+
+      <!--<MarqueeFrame name="SkylineFrame" size="FillParent" position="FillParent" secondsToCycle="10">
+      <Image name="Cityscape" size="744 326" position="0 0" image="GUI/Minigames/Fashion/Images/Cityscape" />
+      <Image name="Cityscape" size="-744 326" position="0 0" image="GUI/Minigames/Fashion/Images/Cityscape" />
+    </MarqueeFrame>-->
+
+      <Image name="ForegroundImage" size="FillParent" position="FillParent" image="GUI/Minigames/Fashion/Images/LoadingForeground" />
+
+      <XRef path="GUI/Frame[@name='LoadingWidget']" position="-4 -44" anchor="Right Bottom" />
+    </MainFrame>
+  </Window>
+</GUI>

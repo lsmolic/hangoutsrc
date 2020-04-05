@@ -1,0 +1,10 @@
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\TwoFishTestApp\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\TwoFishTestApp\obj\Debug\Hangout.Server.WebServices.Form1.resources
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\TwoFishTestApp\obj\Debug\TwoFishTestApp.Properties.Resources.resources
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\TwoFishTestApp\obj\Debug\Hangout.Server.WebServices.SelectForm.resources
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\TwoFishTestApp\obj\Debug\PaymentItems.TwoFishTestApp.csproj.GenerateResource.Cache
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\bin\Debug\TwoFishTestApp.exe.config
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\bin\Debug\TwoFishTestApp.exe
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\bin\Debug\TwoFishTestApp.pdb
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\TwoFishTestApp\obj\Debug\TwoFishTestApp.exe
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\TwoFishTestApp\obj\Debug\TwoFishTestApp.pdb

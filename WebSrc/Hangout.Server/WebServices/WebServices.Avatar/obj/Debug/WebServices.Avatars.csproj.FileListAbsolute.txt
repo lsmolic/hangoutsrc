@@ -1,0 +1,5 @@
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.Avatar\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\RESTService\bin\Hangout.Server.WebServices.Avatars.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\RESTService\bin\Hangout.Server.WebServices.Avatars.pdb
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.Avatar\obj\Debug\Hangout.Server.WebServices.Avatars.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.Avatar\obj\Debug\Hangout.Server.WebServices.Avatars.pdb

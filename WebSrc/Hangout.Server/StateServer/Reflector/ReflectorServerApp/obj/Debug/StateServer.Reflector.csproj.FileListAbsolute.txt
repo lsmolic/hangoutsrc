@@ -1,0 +1,5 @@
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\bin\debug\ReflectorServerApp.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\bin\debug\ReflectorServerApp.pdb
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\Reflector\ReflectorServerApp\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\Reflector\ReflectorServerApp\obj\Debug\ReflectorServerApp.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\Reflector\ReflectorServerApp\obj\Debug\ReflectorServerApp.pdb

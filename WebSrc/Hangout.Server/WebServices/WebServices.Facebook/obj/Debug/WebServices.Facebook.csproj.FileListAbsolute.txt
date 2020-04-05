@@ -1,0 +1,5 @@
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.Facebook\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\RESTService\bin\Hangout.Server.WebServices.Facebook.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\RESTService\bin\Hangout.Server.WebServices.Facebook.pdb
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.Facebook\obj\Debug\Hangout.Server.WebServices.Facebook.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.Facebook\obj\Debug\Hangout.Server.WebServices.Facebook.pdb

@@ -1,0 +1,8 @@
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.Service\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.Service\obj\Debug\WebServices.Service.ProjectInstaller.resources
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.Service\obj\Debug\WebServices.Service.csproj.GenerateResource.Cache
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\RESTService\bin\WebServices.Service.exe.config
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\RESTService\bin\WebServices.Service.exe
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\RESTService\bin\WebServices.Service.pdb
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.Service\obj\Debug\WebServices.Service.exe
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.Service\obj\Debug\WebServices.Service.pdb

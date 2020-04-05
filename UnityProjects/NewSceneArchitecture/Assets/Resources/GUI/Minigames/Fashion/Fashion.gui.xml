@@ -1,0 +1,219 @@
+<GUI>
+  <Include path="resources://GUI/Minigames/Fashion/Fashion.style" />
+  
+  <ClothingButtonStyles>    
+    <Style name="ClothingButton1"  >
+      <StyleState name="NormalState">
+        <Background texture="GUI/TopLevel/frame_darkBlue_5px_slice_with_shadow" />
+      </StyleState>
+      <StyleState name="HoverState">
+        <Background texture="GUI/TopLevel/frame_darkBlue_5px_slice_with_shadow_hover" />
+      </StyleState>
+      <StyleState name="DisabledState">
+        <Background texture="GUI/TopLevel/frame_darkBlue_5px_slice_with_shadow" />
+      </StyleState>
+      <Margin name="NinePartScale" value="14 14 14 14" />
+      <Margin name="InternalMargins" value="4 4 4 4" />
+    </Style>
+    <Style name="ClothingButton2"  >
+      <StyleState name="NormalState">
+        <Background texture="GUI/TopLevel/frame_darkGreen_5px_slice_with_shadow" />
+      </StyleState>
+      <StyleState name="HoverState">
+        <Background texture="GUI/TopLevel/frame_darkGreen_5px_slice_with_shadow_hover" />
+      </StyleState>
+      <StyleState name="DisabledState">
+        <Background texture="GUI/TopLevel/frame_darkGreen_5px_slice_with_shadow" />
+      </StyleState>
+      <Margin name="NinePartScale" value="14 14 14 14" />
+      <Margin name="InternalMargins" value="4 4 4 4" />
+    </Style>
+    <Style name="ClothingButton3"  >
+      <StyleState name="NormalState">
+        <Background texture="GUI/TopLevel/frame_darkGrey_5px_slice_with_shadow" />
+      </StyleState>
+      <StyleState name="HoverState">
+        <Background texture="GUI/TopLevel/frame_darkGrey_5px_slice_with_shadow_hover" />
+      </StyleState>
+      <StyleState name="DisabledState">
+        <Background texture="GUI/TopLevel/frame_darkGrey_5px_slice_with_shadow" />
+      </StyleState>
+      <Margin name="NinePartScale" value="14 14 14 14" />
+      <Margin name="InternalMargins" value="4 4 4 4" />
+    </Style>
+    <Style name="ClothingButton4"  >
+      <StyleState name="NormalState">
+        <Background texture="GUI/TopLevel/frame_pink_5px_slice_with_shadow" />
+      </StyleState>
+      <StyleState name="HoverState">
+        <Background texture="GUI/TopLevel/frame_pink_5px_slice_with_shadow_hover" />
+      </StyleState>
+      <StyleState name="DisabledState">
+        <Background texture="GUI/TopLevel/frame_pink_5px_slice_with_shadow" />
+      </StyleState>
+      <Margin name="NinePartScale" value="14 14 14 14" />
+      <Margin name="InternalMargins" value="4 4 4 4" />
+    </Style>
+    <Style name="ClothingButton5"  >
+      <StyleState name="NormalState">
+        <Background texture="GUI/TopLevel/frame_darkRed_5px_slice_with_shadow" />
+      </StyleState>
+      <StyleState name="HoverState">
+        <Background texture="GUI/TopLevel/frame_darkRed_5px_slice_with_shadow_hover" />
+      </StyleState>
+      <StyleState name="DisabledState">
+        <Background texture="GUI/TopLevel/frame_darkRed_5px_slice_with_shadow" />
+      </StyleState>
+      <Margin name="NinePartScale" value="14 14 14 14" />
+      <Margin name="InternalMargins" value="4 4 4 4" />
+    </Style>
+    <Style name="ClothingButton6"  >
+      <StyleState name="NormalState">
+        <Background texture="GUI/TopLevel/frame_lightBlue_5px_slice_with_shadow" />
+      </StyleState>
+      <StyleState name="HoverState">
+        <Background texture="GUI/TopLevel/frame_lightBlue_5px_slice_with_shadow_hover" />
+      </StyleState>
+      <StyleState name="DisabledState">
+        <Background texture="GUI/TopLevel/frame_lightBlue_5px_slice_with_shadow" />
+      </StyleState>
+      <Margin name="NinePartScale" value="14 14 14 14" />
+      <Margin name="InternalMargins" value="4 4 4 4" />
+    </Style>
+    <Style name="ClothingButton7"  >
+      <StyleState name="NormalState">
+        <Background texture="GUI/TopLevel/frame_lightGreen_5px_slice_with_shadow" />
+      </StyleState>
+      <StyleState name="HoverState">
+        <Background texture="GUI/TopLevel/frame_lightGreen_5px_slice_with_shadow_hover" />
+      </StyleState>
+      <StyleState name="DisabledState">
+        <Background texture="GUI/TopLevel/frame_lightGreen_5px_slice_with_shadow" />
+      </StyleState>
+      <Margin name="NinePartScale" value="14 14 14 14" />
+      <Margin name="InternalMargins" value="4 4 4 4" />
+    </Style>
+    <Style name="ClothingButton8"  >
+      <StyleState name="NormalState">
+        <Background texture="GUI/TopLevel/frame_lightPurple_5px_slice_with_shadow" />
+      </StyleState>
+      <StyleState name="HoverState">
+        <Background texture="GUI/TopLevel/frame_lightPurple_5px_slice_with_shadow_hover" />
+      </StyleState>
+      <StyleState name="DisabledState">
+        <Background texture="GUI/TopLevel/frame_lightPurple_5px_slice_with_shadow" />
+      </StyleState>
+      <Margin name="NinePartScale" value="14 14 14 14" />
+      <Margin name="InternalMargins" value="4 4 4 4" />
+    </Style>
+    <Style name="ClothingButton9"  >
+      <StyleState name="NormalState">
+        <Background texture="GUI/TopLevel/frame_magenta_5px_slice_with_shadow" />
+      </StyleState>
+      <StyleState name="HoverState">
+        <Background texture="GUI/TopLevel/frame_magenta_5px_slice_with_shadow_hover" />
+      </StyleState>
+      <StyleState name="DisabledState">
+        <Background texture="GUI/TopLevel/frame_magenta_5px_slice_with_shadow" />
+      </StyleState>
+      <Margin name="NinePartScale" value="14 14 14 14" />
+      <Margin name="InternalMargins" value="4 4 4 4" />
+    </Style>
+    <Style name="ClothingButton10"  >
+      <StyleState name="NormalState">
+        <Background texture="GUI/TopLevel/frame_orange_5px_slice_with_shadow" />
+      </StyleState>
+      <StyleState name="HoverState">
+        <Background texture="GUI/TopLevel/frame_orange_5px_slice_with_shadow_hover" />
+      </StyleState>
+      <StyleState name="DisabledState">
+        <Background texture="GUI/TopLevel/frame_orange_5px_slice_with_shadow" />
+      </StyleState>
+      <Margin name="NinePartScale" value="14 14 14 14" />
+      <Margin name="InternalMargins" value="4 4 4 4" />
+    </Style>
+    <Style name="ClothingButton11"  >
+      <StyleState name="NormalState">
+        <Background texture="GUI/TopLevel/frame_tan_5px_slice_with_shadow" />
+      </StyleState>
+      <StyleState name="HoverState">
+        <Background texture="GUI/TopLevel/frame_tan_5px_slice_with_shadow_hover" />
+      </StyleState>
+      <StyleState name="DisabledState">
+        <Background texture="GUI/TopLevel/frame_tan_5px_slice_with_shadow" />
+      </StyleState>
+      <Margin name="NinePartScale" value="14 14 14 14" />
+      <Margin name="InternalMargins" value="4 4 4 4" />
+    </Style>
+    <Style name="ClothingButton12"  >
+      <StyleState name="NormalState">
+        <Background texture="GUI/TopLevel/frame_white_5px_slice_with_shadow" />
+      </StyleState>
+      <StyleState name="HoverState">
+        <Background texture="GUI/TopLevel/frame_white_5px_slice_with_shadow" />
+      </StyleState>
+      <StyleState name="DisabledState">
+        <Background texture="GUI/TopLevel/frame_white_5px_slice_with_shadow" />
+      </StyleState>
+      <Margin name="NinePartScale" value="14 14 14 14" />
+      <Margin name="InternalMargins" value="4 4 4 4" />
+    </Style>
+    <Style name="ClothingButton13"  >
+      <StyleState name="NormalState">
+        <Background texture="GUI/TopLevel/frame_yellow_5px_slice_with_shadow" />
+      </StyleState>
+      <StyleState name="HoverState">
+        <Background texture="GUI/TopLevel/frame_yellow_5px_slice_with_shadow_hover" />
+      </StyleState>
+      <StyleState name="DisabledState">
+        <Background texture="GUI/TopLevel/frame_yellow_5px_slice_with_shadow" />
+      </StyleState>
+      <Margin name="NinePartScale" value="14 14 14 14" />
+      <Margin name="InternalMargins" value="4 4 4 4" />
+    </Style>
+    <Style name="ClothingButton14"  >
+      <StyleState name="NormalState">
+        <Background texture="GUI/TopLevel/frame_red_5px_slice_with_shadow" />
+      </StyleState>
+      <StyleState name="HoverState">
+        <Background texture="GUI/TopLevel/frame_red_5px_slice_with_shadow_hover" />
+      </StyleState>
+      <StyleState name="DisabledState">
+        <Background texture="GUI/TopLevel/frame_red_5px_slice_with_shadow" />
+      </StyleState>
+      <Margin name="NinePartScale" value="14 14 14 14" />
+      <Margin name="InternalMargins" value="4 4 4 4" />
+    </Style>
+  </ClothingButtonStyles>
+  
+  <Window name="FashionScoreGui" size="740 112" position="0 46" anchor="Center Top" dragBehavior="notDraggable" style="Clear">
+    <MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+      <Frame name="WaveFrame" size="178 32" position="6 0" style="WhiteBorderBlueWindowStyle">
+        <Label name="WaveLabel" style="AlignLeftLabelStyle" text="Wave {0} of {1}" size="80 22" position="5 5"/>
+        <Button name="NextWaveButton" style="DefaultButtonStyle" text="NEXT WAVE" size="87 26" position="88 3"/>
+      </Frame>
+
+      <Frame name="EnergyFrame" size="150 54" position="-4 58" anchor="Right Top" style="WhiteBorderBlueWindowStyle">
+        <Label name="EnergyTitle" size="140 16" position="8 1" style="WhiteLabelStyle" text="ENERGY" />
+        <ProgressIndicator name="EnergyMeter" size="140 16" position="5 20" troughStyle="ProgressTrough" progressStyle="Energy" orientation="Horizontal" />
+        <Label name="EnergyLabel" size="140 14" position="10 37" style="WhiteDetailLabelStyle" text="" />
+        <Label name="EnergyTimerLabel" size="140 14" position="0 37" style="WhiteDetailLabelStyleRight" text="" />
+      </Frame>
+
+      <Frame name="LevelFrame" size="150 54" position="-4 0" anchor="Right Top" style="WhiteBorderBlueWindowStyle">
+        <Label name="LevelTitle" size="140 16" position="8 1" style="WhiteLabelStyle" text="EXPERIENCE" />
+        <ProgressIndicator name="ExperienceMeter" size="140 16" position="5 20" troughStyle="ProgressTrough" progressStyle="Progress" orientation="Horizontal" />
+        <Label name="ExperienceLabel" size="140 14" position="10 37" style="WhiteDetailLabelStyle" text=""/>
+        <Label name="LevelLabel" size="140 14" position="0 37" style="WhiteDetailLabelStyleRight" text="" />
+      </Frame>
+
+    </MainFrame>
+  </Window>
+
+  <Window name="FashionGameGui" size="740 53" position="0 -40" anchor="Center Bottom" dragBehavior="notDraggable" style="Clear">
+    <MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+      <PushButton name="ButtonPrototype" size="52 52" position="Procedural" style="ClothingButton"/>
+    </MainFrame>
+  </Window>
+  
+</GUI>

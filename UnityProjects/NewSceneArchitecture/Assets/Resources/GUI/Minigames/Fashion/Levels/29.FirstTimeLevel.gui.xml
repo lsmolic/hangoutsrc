@@ -1,0 +1,18 @@
+<GUI>
+  <Include path="resources://GUI/Minigames/Fashion/Fashion.style" />
+  <Include path="resources://GUI/Minigames/Fashion/FashionWidgets.lib" />
+
+  <Window name="Level1Window" size="300 250" position="0 0" anchor="Center Center" dragBehavior="notDraggable" style="YellowWindowStyle">
+    <MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+      <Label name="FirstlevelHeadline" position="20 8" style="Headline1" size="260 18"
+               text="Level 29"/>
+      <Label name="FirstlevelInstructions" position="20 40" style="LevelDescriptionText" size="260 130"
+               text="You rule the fashion world!"/>
+      <Button name="StartLevelButton" size="128 24" position="0 -30" anchor="Center Bottom" text="Play" style="SecondaryButtonStyle"/>
+
+      <Label name="EnergyRequirement" size="128 24" position ="0 -8" anchor="Center Bottom" text="Requires {0} Energy"  style="WhiteLabelStyle"/>
+    </MainFrame>
+  </Window>
+
+</GUI>
+

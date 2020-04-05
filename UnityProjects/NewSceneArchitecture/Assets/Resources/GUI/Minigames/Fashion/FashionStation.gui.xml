@@ -1,0 +1,17 @@
+<GUI>
+  <Include path="resources://GUI/Minigames/Fashion/Fashion.style" />
+
+  <Window name="InProgressWindow" size="88 24" position="Procedural" dragBehavior="notDraggable" style="Clear">
+    <MainFrame name="MainFrame" size="FillParent" position="FillParent">
+		<Image name="StationIcon" position="0 0" size="24 24"/>
+		<ProgressIndicator name="Progress" size="64 16" position="24 4" troughStyle="ProgressTrough" progressStyle="Progress" orientation="Horizontal" />
+    </MainFrame>
+  </Window>
+
+  <Window name="IdleStationWindow" size="24 24" position="Procedural" dragBehavior="notDraggable" style="Clear">
+    <MainFrame name="MainFrame" size="FillParent" position="FillParent">
+		<Image name="StationIcon" position="0 0" size="24 24"/>
+    </MainFrame>
+  </Window>
+  
+</GUI>

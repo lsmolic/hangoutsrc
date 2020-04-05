@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description>Web services build</description>
+  <logRotator>
+    <daysToKeep>-1</daysToKeep>
+    <numToKeep>12</numToKeep>
+  </logRotator>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.SubversionSCM">
+    <locations>
+      <hudson.scm.SubversionSCM_-ModuleLocation>
+        <remote>http://svn.hangoutops.net/HangoutSrcRepo/Branches/UnityScriptPrototype/Architecture</remote>
+      </hudson.scm.SubversionSCM_-ModuleLocation>
+    </locations>
+    <useUpdate>true</useUpdate>
+    <excludedRegions></excludedRegions>
+    <excludedUsers></excludedUsers>
+    <excludedRevprop></excludedRevprop>
+  </scm>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers class="vector">
+    <hudson.triggers.SCMTrigger>
+      <spec>* * * * *</spec>
+    </hudson.triggers.SCMTrigger>
+  </triggers>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.plugins.msbuild.MsBuildBuilder>
+      <msBuildName>Framework 3.5</msBuildName>
+      <msBuildFile>WebServices.sln</msBuildFile>
+      <cmdLineArgs>/p:Configuration=Debug /p:Platform=&quot;Any CPU&quot;</cmdLineArgs>
+    </hudson.plugins.msbuild.MsBuildBuilder>
+    <hudson.tasks.Shell>
+      <command>#!C:\cygwin\bin\bash.exe
+export PATH=$PATH:/usr/bin
+
+echo &quot;--------------------------- Stopping remoting ---------------------------------------------&quot;
+ssh deploy@web020.hangoutops.net &quot;~/stopRemoting.bat&quot; 
+
+echo &quot;--------------------------- Now Deploying via rsync --------------------------------------&quot;
+cd Architecture/WebSrc/Hangout.Server/WebServices/RESTService/bin/
+rsync -crvvz --filter &quot;- .svn/&quot; --stats --itemize-changes * deploy@web020.hangoutops.net:/cygdrive/e/wwwroot/net.hangout.services.new.dev/bin/
+echo &quot;--------------------------- Done Deploying --------------------------------------&quot;
+
+echo &quot;---------------------------Restarting remoting------------------------------------&quot;
+ssh deploy@web020.hangoutops.net &quot;~/startRemoting.bat&quot;
+</command>
+    </hudson.tasks.Shell>
+    <hudson.tasks.Shell>
+      <command>#!C:\cygwin\bin\bash.exe
+export PATH=$PATH:/usr/bin
+
+echo &quot;--------------------------- Copy Binaries to snapshot directory --------------------------------------&quot;
+cd Architecture/WebSrc/Hangout.Server/WebServices/RESTService/
+
+mkdir /cygdrive/c/snapshots/${HANGOUT_VERSION}/ || true
+mkdir /cygdrive/c/snapshots/${HANGOUT_VERSION}/webservices|| true
+
+
+rsync -crvvz --filter &quot;- .svn/&quot; --stats --itemize-changes * /cygdrive/c/snapshots/${HANGOUT_VERSION}/webservices/
+
+
+echo &quot;--------------------------- Done Copying files to snopshot directory --------------------------------------&quot;
+
+echo &quot;--------------------------- Getting Dev Config Files and copy to snapshots --------------------------------------&quot;
+
+scp deploy@web020.hangoutops.net:/cygdrive/e/wwwroot/net.hangout.services.new.dev/Web.config /cygdrive/c/snapshots/${HANGOUT_VERSION}/webservices/
+scp deploy@web020.hangoutops.net:/cygdrive/e/wwwroot/net.hangout.services.new.dev/bin/WebServices.Service.exe.config /cygdrive/c/snapshots/${HANGOUT_VERSION}/webservices/bin/
+scp deploy@web020.hangoutops.net:/cygdrive/e/wwwroot/net.hangout.services.new.dev/bin/WebServices.Console.exe.config /cygdrive/c/snapshots/${HANGOUT_VERSION}/webservices/bin/
+
+
+echo &quot;--------------------------- Getting Dev Config Files and copy to snapshots --------------------------------------&quot;
+</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers>
+    <hudson.tasks.ArtifactArchiver>
+      <artifacts>Architecture/WebSrc/Hangout.Server/WebServices/RESTService/bin/*.*</artifacts>
+      <latestOnly>false</latestOnly>
+    </hudson.tasks.ArtifactArchiver>
+    <hudson.plugins.chucknorris.CordellWalkerRecorder>
+      <factGenerator/>
+    </hudson.plugins.chucknorris.CordellWalkerRecorder>
+    <hudson.tasks.Mailer>
+      <recipients>codechange@hangout.net</recipients>
+      <dontNotifyEveryUnstableBuild>true</dontNotifyEveryUnstableBuild>
+      <sendToIndividuals>false</sendToIndividuals>
+    </hudson.tasks.Mailer>
+    <hudson.plugins.cigame.GamePublisher/>
+  </publishers>
+  <buildWrappers/>
+</project>

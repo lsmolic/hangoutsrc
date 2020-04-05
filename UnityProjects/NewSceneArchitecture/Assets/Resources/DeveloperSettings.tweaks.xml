@@ -1,0 +1,6 @@
+<Test>
+	<Tweakable type="LongInt" name="Mock Facebook AccountId" value="17500116" />
+	<Tweakable type="string" name="Mock Facebook SessionKey" value="8b9ec37a9d071248c3a01a91-17500116" />
+	<Tweakable type="string" name="Mock Facebook NickName" value="Mortoc Facebook" />
+	<Tweakable type="AvatarId" name="Mock Default AvatarId" value="2" />
+</Test>

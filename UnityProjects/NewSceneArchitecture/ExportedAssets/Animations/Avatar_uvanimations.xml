@@ -1,0 +1,800 @@
+<UvAnimations>
+
+	<!--Eye UvAnimations-->
+	<SimpleUvAnimation name="Close Eyes" assetId="202132001">
+		<FrameSequence target="Left Eye">
+			<Frame value="17"/>
+			<Frame value="9"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="17"/>
+			<Frame value="9"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Close Eyes Left" assetId="202132002">
+		<FrameSequence target="Left Eye">
+			<Frame value="18"/>
+			<Frame value="9"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="19"/>
+			<Frame value="9"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Close Eyes Right"  assetId="202132003">
+		<FrameSequence target="Left Eye">
+			<Frame value="19"/>
+			<Frame value="9"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="18"/>
+			<Frame value="9"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Close Left Eye"  assetId="202132004">
+		<FrameSequence target="Left Eye">
+			<Frame value="17"/>
+			<Frame value="9"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Close Right Eye"  assetId="202132005">
+		<FrameSequence target="Right Eye">
+			<Frame value="17"/>
+			<Frame value="9"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Roll Eyes Up"  assetId="202132006">
+		<FrameSequence target="Left Eye">
+			<Frame value="6"/>
+			<Frame value="5"/>
+			<Frame value="8"/>
+			<Frame value="12"/>
+			<Frame value="16"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="8"/>
+			<Frame value="5"/>
+			<Frame value="6"/>
+			<Frame value="11"/>
+			<Frame value="15"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Roll Eyes Down"  assetId="202132007">
+		<FrameSequence target="Left Eye">
+			<Frame value="16"/>
+			<Frame value="12"/>
+			<Frame value="8"/>
+			<Frame value="5"/>
+			<Frame value="6"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="15"/>
+			<Frame value="11"/>
+			<Frame value="6"/>
+			<Frame value="5"/>
+			<Frame value="8"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+		
+	<!--Single Eye States-->
+	<SimpleUvAnimation name="Left Eye Closed" assetId="202132008">
+		<FrameSequence target="Left Eye">
+			<Frame value="9"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye Closed" assetId="202132009">
+		<FrameSequence target="Right Eye">
+			<Frame value="9"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eye Forward" assetId="202132010">
+		<FrameSequence target="Left Eye">
+			<Frame value="0"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eye Left" assetId="202132011">
+		<FrameSequence target="Left Eye">
+			<Frame value="1"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eye LeftUp"  assetId="202132012">
+		<FrameSequence target="Left Eye">
+			<Frame value="5"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eye LeftDown" assetId="202132013">
+		<FrameSequence target="Left Eye">
+			<Frame value="6"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eye Right" assetId="202132014">
+		<FrameSequence target="Left Eye">
+			<Frame value="2"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eye RightUp" assetId="202132015">
+		<FrameSequence target="Left Eye">
+			<Frame value="7"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eye RightDown" assetId="202132016">
+		<FrameSequence target="Left Eye">
+			<Frame value="8"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eye Up" assetId="202132017">
+		<FrameSequence target="Left Eye">
+			<Frame value="3"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eye Down" assetId="202132018">
+		<FrameSequence target="Left Eye">
+			<Frame value="4"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eye Wide Forward" assetId="202132019">
+		<FrameSequence target="Left Eye">
+			<Frame value="10"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eye Wide Left" assetId="202132020">
+		<FrameSequence target="Left Eye">
+			<Frame value="11"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eye Wide LeftUp" assetId="202132021">
+		<FrameSequence target="Left Eye">
+			<Frame value="15"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eye Wide Right" assetId="202132022">
+		<FrameSequence target="Left Eye">
+			<Frame value="12"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eye Wide RightUp" assetId="202132023">
+		<FrameSequence target="Left Eye">
+			<Frame value="16"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eye Wide Up" assetId="202132024">
+		<FrameSequence target="Left Eye">
+			<Frame value="13"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eye Wide Down" assetId="202132025">
+		<FrameSequence target="Left Eye">
+			<Frame value="14"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eye Half Forward" assetId="202132026">
+		<FrameSequence target="Left Eye">
+			<Frame value="17"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eye Half Left" assetId="202132027">
+		<FrameSequence target="Left Eye">
+			<Frame value="18"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eye Half Right" assetId="202132028">
+		<FrameSequence target="Left Eye">
+			<Frame value="19"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eye Half Up" assetId="202132029">
+		<FrameSequence target="Left Eye">
+			<Frame value="21"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eye Half Down" assetId="202132030">
+		<FrameSequence target="Left Eye">
+			<Frame value="20"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eye Squint Forward" assetId="202132031">
+		<FrameSequence target="Left Eye">
+			<Frame value="22"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eye Squint Left" assetId="202132032">
+		<FrameSequence target="Left Eye">
+			<Frame value="23"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eye Squint Right" assetId="202132033">
+		<FrameSequence target="Left Eye">
+			<Frame value="24"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye Forward" assetId="202132034">
+		<FrameSequence target="Right Eye">
+			<Frame value="0"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye Left" assetId="202132035">
+		<FrameSequence target="Right Eye">
+			<Frame value="2"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye LeftUp" assetId="202132036">
+		<FrameSequence target="Right Eye">
+			<Frame value="7"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye LeftDown" assetId="202132037">
+		<FrameSequence target="Right Eye">
+			<Frame value="8"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye Right" assetId="202132038">
+		<FrameSequence target="Right Eye">
+			<Frame value="1"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye RightUp" assetId="202132039">
+		<FrameSequence target="Right Eye">
+			<Frame value="5"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye RightDown" assetId="202132040">
+		<FrameSequence target="Right Eye">
+			<Frame value="6"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye Up" assetId="202132041">
+		<FrameSequence target="Right Eye">
+			<Frame value="3"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye Down" assetId="202132042">
+		<FrameSequence target="Right Eye">
+			<Frame value="4"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye Wide Forward" assetId="202132043">
+		<FrameSequence target="Right Eye">
+			<Frame value="10"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye Wide Left" assetId="202132044">
+		<FrameSequence target="Right Eye">
+			<Frame value="12"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye Wide LeftUp" assetId="202132045">
+		<FrameSequence target="Right Eye">
+			<Frame value="16"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye Wide Right" assetId="202132046">
+		<FrameSequence target="Right Eye">
+			<Frame value="11"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye Wide RightUp" assetId="202132047">
+		<FrameSequence target="Right Eye">
+			<Frame value="15"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye Wide Up" assetId="202132048">
+		<FrameSequence target="Right Eye">
+			<Frame value="13"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye Wide Down" assetId="202132049">
+		<FrameSequence target="Right Eye">
+			<Frame value="14"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye Half Forward" assetId="202132050">
+		<FrameSequence target="Right Eye">
+			<Frame value="17"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye Half Left" assetId="202132051">
+		<FrameSequence target="Right Eye">
+			<Frame value="19"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye Half Right" assetId="202132052">
+		<FrameSequence target="Right Eye">
+			<Frame value="18"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye Half Up" assetId="202132053">
+		<FrameSequence target="Right Eye">
+			<Frame value="21"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye Half Down" assetId="202132054">
+		<FrameSequence target="Right Eye">
+			<Frame value="20"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye Squint Forward" assetId="202132055">
+		<FrameSequence target="Right Eye">
+			<Frame value="22"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye Squint Left" assetId="202132056">
+		<FrameSequence target="Right Eye">
+			<Frame value="24"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eye Squint Right" assetId="202132057">
+		<FrameSequence target="Right Eye">
+			<Frame value="23"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+
+	<!--Both Eyes States-->
+	<SimpleUvAnimation name="Eyes Closed" assetId="202132058">
+		<FrameSequence target="Left Eye">
+			<Frame value="9"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="9"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyes Forward" assetId="202132059">
+		<FrameSequence target="Left Eye">
+			<Frame value="0"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="0"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyes Left" assetId="202132060">
+		<FrameSequence target="Left Eye">
+			<Frame value="1"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="2"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyes LeftUp" assetId="202132061">
+		<FrameSequence target="Left Eye">
+			<Frame value="5"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="7"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyes LeftDown" assetId="202132062">
+		<FrameSequence target="Left Eye">
+			<Frame value="6"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="8"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyes Right" assetId="202132063">
+		<FrameSequence target="Left Eye">
+			<Frame value="2"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="1"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyes RightUp" assetId="202132064">
+		<FrameSequence target="Left Eye">
+			<Frame value="7"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="5"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyes RightDown" assetId="202132065">
+		<FrameSequence target="Left Eye">
+			<Frame value="8"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="6"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyes Up" assetId="202132066">
+		<FrameSequence target="Left Eye">
+			<Frame value="3"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="3"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyes Down" assetId="202132067">
+		<FrameSequence target="Left Eye">
+			<Frame value="4"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="4"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyes Wide Forward" assetId="202132068">
+		<FrameSequence target="Left Eye">
+			<Frame value="10"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="10"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyes Wide Left" assetId="202132069">
+		<FrameSequence target="Left Eye">
+			<Frame value="11"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="12"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyes Wide LeftUp" assetId="202132070">
+		<FrameSequence target="Left Eye">
+			<Frame value="15"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="16"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyes Wide Right" assetId="202132071">
+		<FrameSequence target="Left Eye">
+			<Frame value="12"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="11"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyes Wide RightUp" assetId="202132072">
+		<FrameSequence target="Left Eye">
+			<Frame value="16"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="15"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyes Wide Up" assetId="202132073">
+		<FrameSequence target="Left Eye">
+			<Frame value="13"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="13"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyes Wide Down" assetId="202132074">
+		<FrameSequence target="Left Eye">
+			<Frame value="14"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="14"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyes Half Forward" assetId="202132075">
+		<FrameSequence target="Left Eye">
+			<Frame value="17"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="17"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyes Half Left" assetId="202132076">
+		<FrameSequence target="Left Eye">
+			<Frame value="18"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="19"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyes Half Right" assetId="202132077">
+		<FrameSequence target="Left Eye">
+			<Frame value="19"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="18"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyes Half Up" assetId="202132078">
+		<FrameSequence target="Left Eye">
+			<Frame value="21"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="21"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyes Half Down" assetId="202132079">
+		<FrameSequence target="Left Eye">
+			<Frame value="20"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="20"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyes Squint Forward" assetId="202132080">
+		<FrameSequence target="Left Eye">
+			<Frame value="22"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="22"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyes Squint Left" assetId="202132081">
+		<FrameSequence target="Left Eye">
+			<Frame value="23"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="24"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyes Squint Right" assetId="202132082">
+		<FrameSequence target="Left Eye">
+			<Frame value="24"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="23"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	
+	<!--Single Eyebrow States-->
+	<SimpleUvAnimation name="Left Eyebrow Normal" assetId="202132083">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="0"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eyebrow Raised" assetId="202132084">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="1"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eyebrow Lowered" assetId="202132085">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="2"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eyebrow UpSqueeze" assetId="202132086">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="6"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eyebrow DownSqueeze" assetId="202132087">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="5"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eyebrow OuterRaise" assetId="202132088">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="3"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Left Eyebrow Surprise" assetId="202132089">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="8"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eyebrow Normal" assetId="202132090">
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="0"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eyebrow Raised" assetId="202132091">
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="1"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eyebrow Lowered" assetId="202132092">
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="2"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eyebrow UpSqueeze" assetId="202132093">
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="6"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eyebrow DownSqueeze" assetId="202132094">
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="5"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eyebrow OuterRaise" assetId="202132095">
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="3"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Right Eyebrow Surprise" assetId="202132096">
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="8"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	
+	<!--Both Eyebrow States-->
+	<SimpleUvAnimation name="Eyebrows Normal" assetId="202132097">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="0"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="0"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyebrows Raised" assetId="202132098">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="1"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="1"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyebrows Lowered" assetId="202132099">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="2"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="2"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyebrows MadSqueeze" assetId="202132100">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="7"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="7"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyebrows UpSqueeze" assetId="202132101">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="6"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="6"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyebrows DownSqueeze" assetId="202132102">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="5"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="5"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyebrows OuterRaise" assetId="202132103">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="3"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="3"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Eyebrows Surprise" assetId="202132104">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="8"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="8"/>
+		</FrameSequence>
+	</SimpleUvAnimation>	
+		
+	<!--Mouth States-->
+	<SimpleUvAnimation name="Mouth Normal" assetId="202132105">
+		<FrameSequence target="Mouth">
+			<Frame value="0"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Mouth Closed" assetId="202132106">
+		<FrameSequence target="Mouth">
+			<Frame value="1"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Mouth Smile" assetId="202132107">
+		<FrameSequence target="Mouth">
+			<Frame value="2"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Mouth Laugh" assetId="202132108">
+		<FrameSequence target="Mouth">
+			<Frame value="3"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Mouth Grin" assetId="202132109">
+		<FrameSequence target="Mouth">
+			<Frame value="4"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Mouth Sad" assetId="202132110">
+		<FrameSequence target="Mouth">
+			<Frame value="5"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Mouth Shocked" assetId="202132111">
+		<FrameSequence target="Mouth">
+			<Frame value="6"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Mouth Pout" assetId="202132112">
+		<FrameSequence target="Mouth">
+			<Frame value="7"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Mouth Smirk" assetId="202132113">
+		<FrameSequence target="Mouth">
+			<Frame value="8"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Mouth Snear" assetId="202132114">
+		<FrameSequence target="Mouth">
+			<Frame value="9"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Mouth Pucker" assetId="202132115">
+		<FrameSequence target="Mouth">
+			<Frame value="10"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Mouth Angry" assetId="202132116">
+		<FrameSequence target="Mouth">
+			<Frame value="11"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Mouth OffsetJaw" assetId="202132117">
+		<FrameSequence target="Mouth">
+			<Frame value="12"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Mouth UpLipUp" assetId="202132118">
+		<FrameSequence target="Mouth">
+			<Frame value="13"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Mouth LowLipDown" assetId="202132119">
+		<FrameSequence target="Mouth">
+			<Frame value="14"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Mouth LowLipUp" assetId="202132120">
+		<FrameSequence target="Mouth">
+			<Frame value="15"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+
+	<!--Mouth Visimes-->
+	<SimpleUvAnimation name="Mouth L" assetId="202132121">
+		<FrameSequence target="Mouth">
+			<Frame value="16"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Mouth Aw" assetId="202132122">
+		<FrameSequence target="Mouth">
+			<Frame value="17"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Mouth Sh" assetId="202132123">
+		<FrameSequence target="Mouth">
+			<Frame value="18"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Mouth Th" assetId="202132124">
+		<FrameSequence target="Mouth">
+			<Frame value="19"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Mouth Ah" assetId="202132125">
+		<FrameSequence target="Mouth">
+			<Frame value="20"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Mouth A" assetId="202132126">
+		<FrameSequence target="Mouth">
+			<Frame value="24"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Mouth E" assetId="202132127">
+		<FrameSequence target="Mouth">
+			<Frame value="21"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Mouth M" assetId="202132128">
+		<FrameSequence target="Mouth">
+			<Frame value="22"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	<SimpleUvAnimation name="Mouth O" assetId="202132129">
+		<FrameSequence target="Mouth">
+			<Frame value="23"/>
+		</FrameSequence>
+	</SimpleUvAnimation>
+	
+</UvAnimations>

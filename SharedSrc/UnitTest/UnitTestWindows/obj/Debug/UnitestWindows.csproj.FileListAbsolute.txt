@@ -1,0 +1,10 @@
+C:\HangoutSrcRepo\Branches\UnityScriptPrototype\Architecture\Unitest\UnitestWindows\bin\Debug\UnitestWindows.exe
+C:\HangoutSrcRepo\Branches\UnityScriptPrototype\Architecture\Unitest\UnitestWindows\bin\Debug\UnitestWindows.pdb
+C:\HangoutSrcRepo\Branches\UnityScriptPrototype\Architecture\Unitest\UnitestWindows\bin\Debug\Unitest.dll
+C:\HangoutSrcRepo\Branches\UnityScriptPrototype\Architecture\Unitest\UnitestWindows\bin\Debug\Unitest.pdb
+C:\HangoutSrcRepo\Branches\UnityScriptPrototype\Architecture\Unitest\UnitestWindows\obj\Debug\ResolveAssemblyReference.cache
+C:\HangoutSrcRepo\Branches\UnityScriptPrototype\Architecture\Unitest\UnitestWindows\obj\Debug\Hangout.Unitest.UnitestMainWindow.resources
+C:\HangoutSrcRepo\Branches\UnityScriptPrototype\Architecture\Unitest\UnitestWindows\obj\Debug\UnitestWindows.Properties.Resources.resources
+C:\HangoutSrcRepo\Branches\UnityScriptPrototype\Architecture\Unitest\UnitestWindows\obj\Debug\UnitestWindows.csproj.GenerateResource.Cache
+C:\HangoutSrcRepo\Branches\UnityScriptPrototype\Architecture\Unitest\UnitestWindows\obj\Debug\UnitestWindows.exe
+C:\HangoutSrcRepo\Branches\UnityScriptPrototype\Architecture\Unitest\UnitestWindows\obj\Debug\UnitestWindows.pdb

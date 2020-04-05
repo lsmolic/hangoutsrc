@@ -1,0 +1,37 @@
+<GUI>
+  <Include path="resources://GUI/Styles/Default.style" />
+
+  <Window name="EntourageGui" size="310 300" position="220 -45" anchor="Center Bottom" style="DefaultBaseStyle">
+
+    <MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+
+      <Frame name="EntourageListingsFrame" style="YellowWindowStyle" size="300 300" position="0 0">
+        <!-- Title Bar -->
+        <Label name="TitleBarLabel" style="Headline1" text="Entourage" size="258 19" position="10 9"/>
+        <Button name="CancelButton" style="CloseButtonStyle" position="270 7" size="22 22" text="" />
+
+        <Button name="InviteFriendsButton" size="140 32" style="FacebookButtonStyle" position="85 36" image="GUI/TopLevel/facebook_icon_16"/>
+        
+        <Label name="MemberCountLabel" text="DefaultMemberCountText" size="280 58" style="AlignLeftLabelStyle" position="10 70"/>
+
+        <!-- Background for scroll frame -->
+        <Frame name="ScrollFrameParent" style="WhiteWindowStyle" size="258 158" position="10 132">
+        </Frame>
+
+        <!-- Entourage Listings -->
+        <ScrollFrame name="EntourageListScrollFrame" size="258 152" position="12 135" >
+          <!-- Entourage Listing Prototype -->
+          <Frame name="EntourageListingPrototypeFrame" style="GreenTableRowStyle" size="250 28" position="2 2">
+             <Image name="FriendImage" size="22 22" position="3 3"/>
+             <Label name="FriendName" text="DefaultName" size="219 22" style="AlignLeftLabelStyle" position="28 3"/>
+          </Frame> 
+
+        </ScrollFrame>
+        <Scrollbar scrollFrame="../EntourageListScrollFrame" name="EntourageListScrollBar" size="15 150" position="272 136" />
+      </Frame>
+    </MainFrame>
+    
+    
+  </Window>
+
+</GUI>

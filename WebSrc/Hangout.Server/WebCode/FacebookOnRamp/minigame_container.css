@@ -1,0 +1,19 @@
+div#unity_container
+{
+    width: 760px;
+    height: 540px;
+}
+
+div#cash_store_container
+{
+    width: 760px;
+    height: 600px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 50;
+    display: none;
+}
+
+
+

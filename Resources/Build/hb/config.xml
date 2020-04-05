@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description>Client and Server build</description>
+  <logRotator>
+    <daysToKeep>-1</daysToKeep>
+    <numToKeep>12</numToKeep>
+  </logRotator>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.SubversionSCM">
+    <locations>
+      <hudson.scm.SubversionSCM_-ModuleLocation>
+        <remote>http://svn.hangoutops.net/HangoutSrcRepo/Branches/UnityScriptPrototype/Architecture</remote>
+      </hudson.scm.SubversionSCM_-ModuleLocation>
+    </locations>
+    <useUpdate>true</useUpdate>
+    <browser class="hudson.scm.browsers.ViewSVN">
+      <url>http://mediaportal.svn.sourceforge.net/viewvc/mediaportal/</url>
+    </browser>
+    <excludedRegions></excludedRegions>
+    <excludedUsers></excludedUsers>
+    <excludedRevprop></excludedRevprop>
+  </scm>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers class="vector">
+    <hudson.triggers.SCMTrigger>
+      <spec>* * * * *</spec>
+    </hudson.triggers.SCMTrigger>
+  </triggers>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.plugins.nant.NantBuilder>
+      <targets>release debug</targets>
+      <nantBuildFile></nantBuildFile>
+      <nantName>NAnt 85</nantName>
+    </hudson.plugins.nant.NantBuilder>
+    <hudson.tasks.Shell>
+      <command>#!C:\cygwin\bin\bash.exe
+export PATH=$PATH:/usr/bin
+
+echo &quot;--------------------------- Executing Unit Tests --------------------------------------&quot;
+cd Architecture/SharedSrc/bin/debug
+/cygdrive/C/Program\ Files/Mono-2.4.2.3/bin/mono.exe Hangout.Shared.UnitTest.Console.exe -assembly Hangout.Client.UnityClient.dll -assembly Hangout.Shared.dll -assembly ServerStateMachine.dll 2&gt;&amp;1
+echo &quot;--------------------------- Done Executing Unit Tests --------------------------------------&quot;</command>
+    </hudson.tasks.Shell>
+    <hudson.tasks.Shell>
+      <command>#!C:\cygwin\bin\bash.exe
+echo &quot;--------------------------- Deploying Stateserver --------------------------------------&quot;
+# svn revision is ${SVN_REVISION} 
+SVERSION=stateserver_v${SVN_REVISION}
+ssh deploy@dev025.hangoutops.net &quot;mkdir ~/stateserver/bin/${SVERSION} || true&quot;
+ssh deploy@dev025.hangoutops.net &quot;rm -r ~/stateserver/bin/currentStable&quot;
+ssh deploy@dev025.hangoutops.net &quot;ln -s -f ~/stateserver/bin/${SVERSION} ~/stateserver/bin/currentStable&quot;
+# copying server artifacts to dev server
+cd Architecture/WebSrc/Hangout.Server/bin/release
+rsync -crvvz --filter &quot;- .svn/&quot; --stats --itemize-changes * deploy@dev025.hangoutops.net:/home/deploy/stateserver/bin/${SVERSION}/
+echo &quot;--------------------------- Done Deploying Stateserver --------------------------------------&quot;</command>
+    </hudson.tasks.Shell>
+    <hudson.tasks.Shell>
+      <command>#!C:\cygwin\bin\bash.exe
+export PATH=$PATH:/usr/bin
+
+echo &quot;--------------------------- Executing Unity3d Autobuild --------------------------------------&quot;
+perl Architecture/autobuild.pl
+echo &quot;--------------------------- Done Executing Unity3d Autobuild --------------------------------------&quot;
+</command>
+    </hudson.tasks.Shell>
+    <hudson.tasks.Shell>
+      <command>echo &quot;--------------------------- Now Deploying Unity3d via rsync --------------------------------------&quot;
+
+cd Architecture/UnityProjects/NewSceneArchitecture/Assets
+
+#rsync -crvvz --stats --itemize-changes hangout.unity3d deploy@web020.hangoutops.net:/cygdrive/e/wwwroot/net.hangout.new.dev/Assets/Unity/
+
+rsync -crvvzC --stats --itemize-changes hangout.unity3d deploy@web020.hangoutops.net:/cygdrive/e/wwwroot/net.hangout.new.dev/Assets/Unity/temp.unity3d
+ssh deploy@web020.hangoutops.net &quot;mv -f /cygdrive/e/wwwroot/net.hangout.new.dev/Assets/Unity/hangout.unity3d /cygdrive/e/wwwroot/net.hangout.new.dev/Assets/Unity/old.unity3d || true&quot;
+ssh deploy@web020.hangoutops.net &quot;cp -f /cygdrive/e/wwwroot/net.hangout.new.dev/Assets/Unity/temp.unity3d /cygdrive/e/wwwroot/net.hangout.new.dev/Assets/Unity/hangout.unity3d&quot;
+
+echo &quot;--------------------------- Done Deploying --------------------------------------&quot;
+
+
+echo &quot;--------------------------- Now Deploying Assets via rsync --------------------------------------&quot;
+
+cd ../ExportedAssets
+
+rsync -crvvzC --stats --itemize-changes * deploy@web020.hangoutops.net:/cygdrive/e/wwwroot/net.hangout.new.dev/Assets/
+
+echo &quot;--------------------------- Done Deploying --------------------------------------&quot;
+</command>
+    </hudson.tasks.Shell>
+    <hudson.tasks.Shell>
+      <command>#!C:\cygwin\bin\bash.exe
+export PATH=$PATH:/usr/bin
+
+echo &quot;--------------------------- Now Copying Assets via rsync  to Snapshots --------------------------------------&quot;
+
+mkdir /cygdrive/c/snapshots/${HANGOUT_VERSION} || true
+mkdir /cygdrive/c/snapshots/${HANGOUT_VERSION}/WebSite || true
+mkdir /cygdrive/c/snapshots/${HANGOUT_VERSION}/WebSite/Assets || true
+mkdir /cygdrive/c/snapshots/${HANGOUT_VERSION}/WebSite/Assets/Unity || true
+
+cd Architecture/UnityProjects/NewSceneArchitecture/Assets
+rsync -crvvzC --stats --itemize-changes hangout.unity3d /cygdrive/c/snapshots/${HANGOUT_VERSION}/WebSite/Assets/Unity/
+
+cd ../ExportedAssets
+rsync -crvvzC --stats --itemize-changes * /cygdrive/c/snapshots/${HANGOUT_VERSION}/WebSite/Assets/
+
+
+
+echo &quot;--------------------------- Done Copying Assets via rsync  to Snapshots --------------------------------------&quot;
+
+
+echo &quot;--------------------------- Now Copying StateServer via rsync  to Snapshots --------------------------------------&quot;
+
+mkdir /cygdrive/c/snapshots/${HANGOUT_VERSION} || true
+mkdir /cygdrive/c/snapshots/${HANGOUT_VERSION}/stateserver || true
+mkdir /cygdrive/c/snapshots/${HANGOUT_VERSION}/stateserver/bin || true
+mkdir /cygdrive/c/snapshots/${HANGOUT_VERSION}/stateserver/bin/release || true
+
+cd ../../../WebSrc/Hangout.Server/bin/release
+#cd Architecture/WebSrc/Hangout.Server/bin/release
+pwd
+rsync -crvvz --filter &quot;- .svn/&quot; --stats --itemize-changes ./* /cygdrive/c/snapshots/${HANGOUT_VERSION}/stateserver/bin/release/
+
+echo &quot;--------------------------- Done Copying StateServer via rsync  to Snapshots --------------------------------------&quot;
+
+
+echo &quot;--------------------------- NOW SCP config files to snapshot --------------------------------------&quot;
+scp deploy@dev025.hangoutops.net:~/stateserver/bin/currentStable/StateServerConsole.exe.config /cygdrive/c/snapshots/${HANGOUT_VERSION}/stateserver/bin/release/
+
+echo &quot;--------------------------- Done SCP config files to snapshot --------------------------------------&quot;
+</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers>
+    <hudson.tasks.ArtifactArchiver>
+      <artifacts>Architecture/WebSrc/Hangout.Server/bin/debug/*.*, Architecture/UnityProjects/NewSceneArchitecture/Assets/hangout.html, Architecture/UnityProjects/NewSceneArchitecture/Assets/hangout.unity3d</artifacts>
+      <latestOnly>false</latestOnly>
+    </hudson.tasks.ArtifactArchiver>
+    <hudson.plugins.chucknorris.CordellWalkerRecorder>
+      <factGenerator/>
+    </hudson.plugins.chucknorris.CordellWalkerRecorder>
+    <hudson.plugins.nunit.NUnitPublisher>
+      <testResultsPattern>**/TestResult.xml</testResultsPattern>
+      <debug>false</debug>
+      <keepJUnitReports>false</keepJUnitReports>
+      <skipJUnitArchiver>false</skipJUnitArchiver>
+    </hudson.plugins.nunit.NUnitPublisher>
+    <hudson.tasks.Mailer>
+      <recipients>devteam@hangout.net</recipients>
+      <dontNotifyEveryUnstableBuild>false</dontNotifyEveryUnstableBuild>
+      <sendToIndividuals>false</sendToIndividuals>
+    </hudson.tasks.Mailer>
+    <hudson.plugins.cigame.GamePublisher/>
+  </publishers>
+  <buildWrappers/>
+</project>

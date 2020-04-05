@@ -1,0 +1,5 @@
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\RESTService\bin\Hangout.Server.WebServices.UnitTests.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\RESTService\bin\Hangout.Server.WebServices.UnitTests.pdb
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.UnitTest\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.UnitTest\obj\Debug\Hangout.Server.WebServices.UnitTests.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.UnitTest\obj\Debug\Hangout.Server.WebServices.UnitTests.pdb

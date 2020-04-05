@@ -1,0 +1,5 @@
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\bin\debug\SocketServer.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\bin\debug\SocketServer.pdb
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\Reflector\SocketServer\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\Reflector\SocketServer\obj\Debug\SocketServer.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\Reflector\SocketServer\obj\Debug\SocketServer.pdb

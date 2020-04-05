@@ -1,0 +1,60 @@
+<Level name="Level 1" path="assets://FashionMinigame/FashionFrenzyAssets.lba">
+
+  <FirstTimeLevelGui path="resources://GUI/Minigames/Fashion/Levels/1.FirstTimeLevel.gui" />
+  <ReplayLevelGui path="resources://GUI/Minigames/Fashion/Levels/ReplayLevel.gui" />
+  <LevelCompleteGui path="resources://GUI/Minigames/Fashion/FirstLevelComplete.gui" />
+  <Music path="assets://FashionMinigame/Sounds/freezerBurn60_muffled_mono22.ogg" />
+  <RunwayBackground>assets://FashionMinigame/Runway_Env_Suburb.jpg</RunwayBackground>
+  <LocationName>Hometown</LocationName>
+  <RunwayMusic>assets://FashionMinigame/Sounds/freezerBurn30_mono22.ogg</RunwayMusic>
+  <!-- <FeedOnFirstTimePlayed feedCopyName="FirstTimeUser" /> -->
+  
+  <Clothing>
+    <!--Tops-->
+    <ClothingItem id="234" />
+    <ClothingItem id="235" />
+    <ClothingItem id="236" />
+    <ClothingItem id="238" />
+    <ClothingItem id="239" />
+    <ClothingItem id="240" />
+    <ClothingItem id="241" />
+    <ClothingItem id="347" />
+    <ClothingItem id="348" />
+    <ClothingItem id="344" />
+    <ClothingItem id="343" />
+  </Clothing>
+  
+  <Camera>
+    <Position vector3="-4.8 4.7 8" />
+    <Rotation vector3="23 150 0" />
+    <FOV float="28" />
+  </Camera>
+  
+  <CloseSaveDistance value="3" />
+  <PerfectLevelBonus value="5" />
+  
+  <ModelSpawn width="1.8">
+    <Position value="6 0 1"/>
+    <Direction value="0"/>
+  </ModelSpawn>
+  
+  <ModelDrain width="2.5">
+    <Position value="-6 0 1" />
+    <Direction value="0"/>
+  </ModelDrain>
+  
+  <Waves timeBetweenWaves="0" requiredModels="1">
+    <Wave timeBetweenSpawns="0">
+      <Model type="NoobClothingOnly" />
+    </Wave>
+    <Wave timeBetweenSpawns="0">
+      <Model type="NoobClothingOnly" />
+    </Wave>
+    <Wave timeBetweenSpawns="0">
+      <Model type="NoobClothingOnly" />
+    </Wave>
+  </Waves>
+  
+  <Stations>
+  </Stations>
+</Level>

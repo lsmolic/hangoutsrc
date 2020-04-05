@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<title></title>
+
+<script type="text/javascript" src="/JS/jquery.js"></script>
+<script type="text/javascript" src="/JS/jquery.query.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function()
+{
+    var invitees = $.query.get('ids');
+    var numInvites = 0;
+
+    for (var i=0; i<invitees.length; ++i)
+    {
+        ++numInvites;
+        parent.Hangout.metrics.track("invite_sent", { "senderId" : parent.Hangout.config.fb_account_id, 
+                                                      "recipientId" : invitees[i], 
+                                                      "inviteType" : parent.Hangout.config.invite_type });
+    }
+
+    parent.Hangout.metrics.track("invite_popup_result",
+                                 {
+                                   "numInvitesSent" : numInvites, 
+                                   "senderId" : parent.Hangout.config.fb_account_id, 
+                                   "inviteType" : parent.Hangout.config.invite_type
+                                 },
+                                 function ()
+                                 {
+                                   window.location = "reward_invites.aspx?inviter=" + 
+                                                     parent.Hangout.config.fb_account_id + 
+                                                     "&invite_type=" + 
+                                                     parent.Hangout.config.invite_type + "&" + 
+                                                     window.location.search.slice(1);
+                                 });
+});
+
+
+</script>
+</head>
+
+<body>
+</body>
+</html>

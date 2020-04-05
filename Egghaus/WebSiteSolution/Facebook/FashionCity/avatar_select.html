@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml"> 
+
+<head>
+  <title></title>
+
+  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"/>
+
+  <link rel="stylesheet" type="text/css" href="/CSS/Facebook/avatar_select.css" />
+
+  <script type="text/vbscript" src="/JS/DetectUnity.vbs"></script>
+  <script type="text/javascript" src="/JS/mixpanel.js"></script>
+  <script type="text/javascript" src="/JS/hangout_base.js"></script>
+  <script type="text/javascript" src="/JS/config.js.aspx"></script>
+  <script type="text/javascript" src="/JS/jquery.js"></script>
+  <script type="text/javascript" src="/JS/jquery.dimensions.js"></script>
+  <script type="text/javascript" src="/JS/jquery.ahover.js"></script>
+  <script type="text/javascript" src="/JS/jquery.cookie.js"></script>
+  <script type="text/javascript" src="/JS/jquery.query.js"></script>
+  <script type="text/javascript" src="/JS/avatar_select.js"></script>
+
+
+</head>
+  
+
+<body>
+  <div id="FB_HiddenContainer"  style="position:absolute; top:-10000px; width:0px; height:0px;" ></div>
+  <!--<script src="http://static.ak.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php" type="text/javascript"></script>-->
+  <script src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php" type="text/javascript"></script>
+
+  <script type="text/javascript">
+    FB_RequireFeatures(["XFBML", "Connect"], 
+                       function()
+                       { FB.init(Hangout.config.fb_api_key, "xd_receiver.htm"); });
+  </script>  
+
+  <div id="mf">
+
+    <h1>Pick Your Look!</h1>
+
+    <img id="bg" src="/Images/Facebook/FashionCity/LandingPagePolariodFrame.jpg" alt=""/>
+    <img id="bgphoto" src="/Images/Facebook/FashionCity/LandingPageImageEnvironment.jpg" alt=""/>
+
+    <a id="choose1" href="#">
+      <img id="c1" class="av_rollover" src="/Images/Facebook/FashionCity/av001_s.gif" alt=""/>
+    </a>
+
+    <a id="choose2" href="#">
+      <img id="c2" class="av_rollover" src="/Images/Facebook/FashionCity/av002_s.gif" alt=""/>
+    </a>
+
+    <a id="choose3" href="#">
+      <img id="c3" class="av_rollover" src="/Images/Facebook/FashionCity/av003_s.gif" alt=""/>
+    </a>
+
+    <a id="choose4" href="#">
+      <img id="c4" class="av_rollover" src="/Images/Facebook/FashionCity/av004_s.gif" alt=""/>
+    </a>
+
+    <a id="choose5" href="#">
+      <img id="c5" class="av_rollover" src="/Images/Facebook/FashionCity/av005_s.gif" alt=""/>
+    </a>
+
+    <img class="shadow" id="cs1" src="/Images/Facebook/FashionCity/shadow.png" alt=""/>
+    <img class="shadow" id="cs2" src="/Images/Facebook/FashionCity/shadow.png" alt=""/>
+    <img class="shadow" id="cs3" src="/Images/Facebook/FashionCity/shadow.png" alt=""/>
+    <img class="shadow" id="cs4" src="/Images/Facebook/FashionCity/shadow.png" alt=""/>
+    <img class="shadow" id="cs5" src="/Images/Facebook/FashionCity/shadow.png" alt=""/>
+
+    <div id="submitframe">
+    </div>
+    <div id="submitbutton">
+      <a href="#"> <img id="fb_login_image" src="http://static.ak.fbcdn.net/images/fbconnect/login-buttons/connect_light_small_short.gif" alt="Connect"/> Save Your Look</a>
+    </div>
+
+  </div>
+
+</body></html>

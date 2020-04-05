@@ -1,0 +1,10 @@
+<GUI>
+  <Include path="resources://GUI/Minigames/Fashion/Fashion.style" />
+
+  <Window name="NametagWindow" size="88 24" position="Procedural" dragBehavior="notDraggable" style="Clear">
+    <MainFrame name="MainFrame" size="FillParent" position="FillParent">
+      <Label name="NameLabel" size="ExpandText" position="0 0" anchor="Center Center" text="{0}" style="NametagLabelStyle"/>
+    </MainFrame>
+  </Window>
+  
+  </GUI>

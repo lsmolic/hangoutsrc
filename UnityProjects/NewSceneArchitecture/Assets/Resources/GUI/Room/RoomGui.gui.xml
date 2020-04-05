@@ -1,0 +1,30 @@
+<GUI>
+  <Include path="resources://GUI/Styles/Default.style" />
+
+  <Window name="RoomAPIGui" size="300 350" position="0 0" dragBehavior="entireWindow" anchor="Center Center" style="UnityDefault">
+
+    <HeaderFrame name="HeaderFrame" size="HeaderFrame" position="HeaderFrame">
+      <Label name="WindowTitle" text="Room Gui" size="ExpandText" style="WindowTitleLabel" position="0 6" anchor="Center Top" />
+      <Button name="CloseButton" size="18 18" style="UnityDefault" position="-6 6" anchor="Right Top" />
+    </HeaderFrame>
+
+    <MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+      <ScrollFrame name="RoomListFrame" size="250 200" position="0 0" anchor="Center Top">
+        <Scrollbar scrollFrame="../../RoomListFrame" name="RoomListScrollBar" size="16 FillParent" height="220" />
+        <Frame name="RoomListingPrototype" size="FillParent 30" position="HorizontalAutoLayout">
+          <Button name="DeleteRoomButton" size="48 24" style="UnityDefault" position="HorizontalAutoLayout" text="delete"/>
+          <Button name="JoinRoomButton" size="48 24" style="UnityDefault" position="HorizontalAutoLayout" text="join"/>
+          <Label name="RoomName" text="defaultText" size="150 24" style="UnityDefault" position="HorizontalAutoLayout"/>
+        </Frame>
+      </ScrollFrame>
+      <Textbox name="NewRoomName" position="0 -100"  size="FillParent 24" anchor="Center Bottom" style="UnityDefault" singleLine="true" userEditable="true" />
+      <Button name="CreateGreenScreenRoom" position="0 -75" size="FillParent 24" text="Create Green Screen Room" style="UnityDefault" anchor="Center Bottom" />
+      <Button name="CreateMiniGameRoom" position="0 -50" size="FillParent 24" text="Create Mini Game Room" style="UnityDefault" anchor="Center Bottom" />
+
+      <Button name="PreviousRoomButton" position="0 0" size="50 24" text="Prev" style="UnityDefault" anchor="Left Bottom" />
+      <Button name="NextRoomButton" position="0 0" size="50 24" text="Next" style="UnityDefault" anchor="Right Bottom" />
+
+    </MainFrame>
+  </Window>
+
+</GUI>

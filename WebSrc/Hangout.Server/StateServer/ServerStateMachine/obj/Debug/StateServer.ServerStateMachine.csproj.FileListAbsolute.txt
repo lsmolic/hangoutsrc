@@ -1,0 +1,5 @@
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\bin\debug\ServerStateMachine.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\bin\debug\ServerStateMachine.pdb
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\ServerStateMachine\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\ServerStateMachine\obj\Debug\ServerStateMachine.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\ServerStateMachine\obj\Debug\ServerStateMachine.pdb

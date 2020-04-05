@@ -1,0 +1,120 @@
+<Level name="Level 23" path="assets://FashionMinigame/FashionFrenzyAssets.lba">
+
+  <FirstTimeLevelGui hires="Seamstress" path="resources://GUI/Minigames/Fashion/Levels/23.FirstTimeLevel.gui" />
+  <ReplayLevelGui path="resources://GUI/Minigames/Fashion/Levels/ReplayLevel.gui" />
+  <LevelCompleteGui path="resources://GUI/Minigames/Fashion/LevelComplete.gui" />
+  <Music path="assets://FashionMinigame/Sounds/feelsSoGood_muffled_mono22.ogg" />
+  <RunwayBackground>assets://FashionMinigame/Runway_Env_Paris.jpg</RunwayBackground>
+  <LocationName>Paris</LocationName>
+
+  <Clothing>
+    <!--Tops-->
+    <ClothingItem id="234" />
+    <ClothingItem id="239" />
+    <ClothingItem id="241" />
+    <ClothingItem id="347" />
+    <ClothingItem id="348" />
+
+    <!--Pants-->
+    <ClothingItem id="243" />
+    <ClothingItem id="244" />
+    <ClothingItem id="333" />
+    <ClothingItem id="335" />
+    <ClothingItem id="337" />
+
+    <!--Shoes-->
+    <ClothingItem id="327" />
+    <ClothingItem id="443" />
+    <ClothingItem id="446" />
+    <ClothingItem id="463" />
+  </Clothing>
+
+  <Camera>
+    <Position vector3="-4.8 4.7 8" />
+    <Rotation vector3="23 150 0" />
+    <FOV float="28" />
+  </Camera>
+
+  <CloseSaveDistance value="3" />
+  <PerfectLevelBonus value="50" />
+
+  <ModelSpawn width="1.8">
+    <Position value="6 0 1"/>
+    <Direction value="0"/>
+  </ModelSpawn>
+
+  <ModelDrain width="2.5">
+    <Position value="-6 0 1" />
+    <Direction value="0"/>
+  </ModelDrain>
+
+  <Waves timeBetweenWaves="2" requiredModels="6">
+    <Wave timeBetweenSpawns="3">
+      <Model type="BasicOneClothingNeedsFixing" />
+      <Model type="BasicOneClothing" />
+      <Model type="BasicOneClothingNeedsFixing" />
+      <Model type="BasicOneClothing" />
+      <Model type="BasicOneClothingNeedsFixing" />
+      <Model type="BasicOneClothing" />
+    </Wave>
+    <Wave timeBetweenSpawns="3">
+      <Model type="BasicOneClothingNeedsFixing" />
+      <Model type="Basic" />
+      <Model type="BasicOneClothingNeedsFixing" />
+      <Model type="Basic" />
+      <Model type="BasicOneClothingNeedsFixing" />
+      <Model type="Basic" />
+    </Wave>
+    <Wave timeBetweenSpawns="3">
+      <Model type="BasicWithFixing" />
+      <Model type="BasicWithFixing" />
+      <Model type="BasicWithFixing" />
+      <Model type="BasicWithFixing" />
+      <Model type="BasicWithFixing" />
+      <Model type="BasicWithFixing" />
+    </Wave>
+    <Wave timeBetweenSpawns="2.5">
+      <Model type="BasicWithFixing" />
+      <Model type="BasicWithFixing" />
+      <Model type="BasicWithFixing" />
+      <Model type="BasicWithFixing" />
+      <Model type="BasicWithFixing" />
+      <Model type="BasicWithFixing" />
+    </Wave>
+    <Wave timeBetweenSpawns="2.5">
+      <Model type="BasicWithFixing" />
+      <Model type="BasicWithFixing" />
+      <Model type="BasicWithFixing" />
+      <Model type="BasicWithFixing" />
+      <Model type="BasicWithFixing" />
+      <Model type="BasicWithFixing" />
+    </Wave>
+    <Wave timeBetweenSpawns="2.5">
+      <Model type="BasicWithFixing" />
+      <Model type="BasicWithFixing" />
+      <Model type="BasicWithFixing" />
+      <Model type="BasicWithFixing" />
+      <Model type="BasicWithFixing" />
+      <Model type="BasicWithFixing" />
+    </Wave>
+  </Waves>
+
+  <Stations>
+    <Station type="Makeup" label="M">
+      <Position value="1 0 -3"/>
+      <Direction value="90"/>
+    </Station>
+    <Station type="Hair" label="H">
+      <Position value="3 0 -2.8"/>
+      <Direction value="110"/>
+    </Station>
+    <Station type="Holding" label="Holding">
+      <Position value="-0.95 0 -3"/>
+      <Direction value="96"/>
+    </Station>
+    <Station type="Sewing" label="Sewing">
+      <Position value="1.0 0 3.75"/>
+      <Direction value="100"/>
+    </Station>
+  </Stations>
+</Level>

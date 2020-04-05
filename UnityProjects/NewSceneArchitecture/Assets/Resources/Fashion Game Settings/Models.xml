@@ -1,0 +1,148 @@
+<Models>
+
+  <Animations>
+    <ImpatientSitIdle path="assets://FashionMinigame/f_fmg_impatientSitIdle_loop.lba" />
+    <SittingIdle path="assets://FashionMinigame/f_fmg_sittingIdle_loop.lba" />
+    <MediumHurried speed=".33" path="assets://FashionMinigame/f_run_mediumHurried_loop.lba" />
+    <CatWalk speed=".81" path="assets://FashionMinigame/f_walk_fashion_loop.lba" />
+  </Animations>
+  
+  <Model name="NoobClothingOnly">
+    <Speed value="1.3" />
+    <ClothingNeeds min="1" max="1" needFixinChance="0"/>
+    <StationNeeds min="0" max="0" />
+  </Model>
+  
+  <Model name="NoobStationOnly">
+    <Speed value="1.3" />
+    <ClothingNeeds min="0" max="0" needFixinChance="0"/>
+    <StationNeeds min="1" max="1" />
+  </Model>
+  
+  <Model name="NoobStationAndClothing">
+    <Speed value="1.3" />
+    <ClothingNeeds min="1" max="1" needFixinChance="0"/>
+    <StationNeeds min="1" max="1" />
+  </Model>
+  
+  <Model name="AmateurNeedsStation">
+    <Speed value="1.4" />
+    <ClothingNeeds min="1" max="2" needFixinChance="0"/>
+    <StationNeeds min="1" max="1" />
+  </Model>
+
+  <Model name="AmateurStationOnly">
+    <Speed value="1.4" />
+    <ClothingNeeds min="0" max="0" needFixinChance="0"/>
+    <StationNeeds min="1" max="1" />
+  </Model>
+
+  <Model name="AmateurTwoClothing">
+    <Speed value="1.4" />
+    <ClothingNeeds min="2" max="2" needFixinChance="0"/>
+    <StationNeeds min="0" max="0" />
+  </Model>
+
+  <Model name="AmateurThreeClothing">
+    <Speed value="1.4" />
+    <ClothingNeeds min="3" max="3" needFixinChance="0"/>
+    <StationNeeds min="0" max="0" />
+  </Model>
+  
+  <Model name="AmateurTwoStations">
+    <Speed value="1.4" />
+    <ClothingNeeds min="0" max="0" needFixinChance="0"/>
+    <StationNeeds min="2" max="2" />
+  </Model>
+  
+  <Model name="Amateur">
+    <Speed value="1.4" />
+    <ClothingNeeds min="1" max="2" needFixinChance="0"/>
+    <StationNeeds min="0" max="1" />
+  </Model>
+  
+  <Model name="AmateurChallenge">
+    <Speed value="1.8" />
+    <ClothingNeeds min="1" max="1" needFixinChance="0"/>
+    <StationNeeds min="0" max="0" />
+  </Model>
+
+  <Model name="AmateurStationChallenge">
+    <Speed value="1.8" />
+    <ClothingNeeds min="0" max="0" needFixinChance="0"/>
+    <StationNeeds min="1" max="2" />
+  </Model>
+  
+  <Model name="AmateurTwoStationsChallenge">
+    <Speed value="1.8" />
+    <ClothingNeeds min="0" max="0" needFixinChance="0"/>
+    <StationNeeds min="2" max="2" />
+  </Model>
+  
+  <Model name="Basic">
+    <Speed value="1.6" />
+    <ClothingNeeds min="1" max="2" needFixinChance="0"/>
+    <StationNeeds min="0" max="1" />
+  </Model>
+  
+  <Model name="BasicOneClothing">
+    <Speed value="1.6" />
+    <ClothingNeeds min="1" max="1" needFixinChance="0"/>
+    <StationNeeds min="0" max="0" />
+  </Model>
+  
+  <Model name="BasicOneClothingNeedsFixing">
+    <Speed value="1.5" />
+    <ClothingNeeds min="1" max="1" needFixinChance="1"/>
+    <StationNeeds min="0" max="0" />
+  </Model>
+
+  <Model name="BasicWithFixing">
+    <Speed value="1.5" />
+    <ClothingNeeds min="1" max="2" needFixinChance="0.5"/>
+    <StationNeeds min="0" max="1" />
+  </Model>
+  
+  <Model name="Clothing">
+    <Speed value="1.6" />
+    <ClothingNeeds min="2" max="3" needFixinChance="0.5"/>
+    <StationNeeds min="0" max="0" />
+  </Model>
+
+  <Model name="Pro">
+    <Speed value="1.8" />
+    <ClothingNeeds min="1" max="2" needFixinChance="0"/>
+    <StationNeeds min="0" max="1" />
+  </Model>
+  
+  <Model name="Top">
+    <Speed value="1.6" />
+    <ClothingNeeds min="1" max="2" needFixinChance="0.25"/>
+    <StationNeeds min="0" max="1" />
+  </Model>
+
+  <Model name="Super">
+    <Speed value="1.5" />
+    <ClothingNeeds min="2" max="3" needFixinChance="0.333"/>
+    <StationNeeds min="2" max="3" />
+  </Model>
+
+  <Model name="SuperClothingChallenge">
+    <Speed value="2" />
+    <ClothingNeeds min="1" max="1" needFixinChance="0"/>
+    <StationNeeds min="0" max="0" />
+  </Model>
+
+  <Model name="SuperClothingChallengeFixin">
+    <Speed value="2" />
+    <ClothingNeeds min="1" max="1" needFixinChance="0.667"/>
+    <StationNeeds min="0" max="0" />
+  </Model>
+  
+  <Model name="SuperStationChallenge">
+    <Speed value="2" />
+    <ClothingNeeds min="0" max="0" needFixinChance="0"/>
+    <StationNeeds min="1" max="2" />
+  </Model>
+  
+</Models>

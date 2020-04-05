@@ -1,0 +1,8 @@
+<FaceMeshInfo>
+	<UvShell name="Face" subMeshIndex="0" textureZone="Face" gridWidth="1" gridHeight="1"/>
+	<UvShell name="Right Eye" subMeshIndex="1" textureZone="Eye" gridWidth="5" gridHeight="5"/>
+	<UvShell name="Right Eyebrow" subMeshIndex="2" textureZone="Eyebrow" gridWidth="4" gridHeight="4"/>
+	<UvShell name="Mouth" subMeshIndex="3" textureZone="Mouth" gridWidth="5" gridHeight="5"/>
+	<UvShell name="Left Eye" subMeshIndex="4" textureZone="Eye" gridWidth="5" gridHeight="5"/>
+	<UvShell name="Left Eyebrow" subMeshIndex="5" textureZone="Eyebrow" gridWidth="4" gridHeight="4"/>
+</FaceMeshInfo>

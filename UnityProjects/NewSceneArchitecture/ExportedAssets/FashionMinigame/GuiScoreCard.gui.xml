@@ -1,0 +1,7 @@
+<GUI>
+  <Window name="ScoreCardWindow" size="150 350" position="15 15" style="YellowWindowStyle">
+    <MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+      <Button name="ExitButton" size="135 24" position="15 310" text="Back To Fashion City"/>
+    </MainFrame>
+  </Window>
+</GUI>

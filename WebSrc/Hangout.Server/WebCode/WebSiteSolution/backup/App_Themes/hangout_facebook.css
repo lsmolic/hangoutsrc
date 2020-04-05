@@ -1,0 +1,241 @@
+﻿body 
+{
+}
+
+/* Friends */
+
+.friendBody
+{
+    width:154px; 
+    height:183px; 
+    background-color:White; 
+}
+
+.friendContent
+{
+    float:left; 
+    width:144px; 
+    height:171px; 
+    border-top:solid 1px #676767; 
+    border-left:solid 1px #676767;
+}
+
+.friendRightBorder
+{
+    float:left; 
+    width:9px;
+}
+
+.friendRightBorderTopImg
+{
+    float:left; 
+    width:9px; 
+    height:7px;
+}
+
+.friendRightBorderMidImg
+{
+    clear:left; 
+    float:left; 
+    width:9px; 
+    height:165px;
+}
+
+.friendBottomBorder
+{
+    clear:both; 
+    float:left; 
+    width:154px; 
+    height:11px;
+}
+
+.friendBottomBorderLeftImg
+{
+    float:left; 
+    width:10px; 
+    height:11px;
+}
+
+.friendBottomBorderMidImg
+{
+    float:left; 
+    width:134px; 
+    height:11px;
+}
+
+.friendBottomBorderRightImg
+{
+    float:left; 
+    width:10px; 
+    height:11px;
+}
+
+.friendVisitRoom
+{
+	width:100%; 
+	text-align:center; 
+	margin-top:4px;
+	font-size:smaller;
+}
+
+.friendHeadshotImg
+{
+    float:left; 
+    margin:3px 17px 5px 17px; 
+    width:108px; 
+    height:108px;
+    border:solid 1px #666666; 
+}
+
+.friendName
+{
+    font-size:small; 
+    color:#3B5998; 
+    font-weight:bold
+}
+
+.friendKeyImg
+{
+    float:left; 
+    margin:9px 2px 0px 5px; 
+}
+
+.friendInviteContent
+{
+	float:left; 
+	width:280px; 
+	height:550px; 
+	border-left:solid 2px #CCCCCC; 
+	padding:10px 0px 0px 8px
+}
+
+.friendInviteTitle
+{
+	font-size:15px; 
+	font-weight:bold; 
+	color:Black;
+}
+
+.friendInviteEx
+{
+	font-size:smaller; 
+	color:Gray;
+}
+
+.friendInviteListBox
+{
+	width:275px; 
+	height:420px; 
+	border:solid 1px #CCCCCC;
+}
+
+.friendInviteBox
+{
+	float:left; 
+	width:275px; 
+	height:70px; 
+	border-bottom:solid 1px #CCCCCC;
+}
+
+.friendInviteBoxHeadshotImg
+{
+	float:left; 
+	width:50px; 
+	height:50px; 
+	margin:10px 10px 10px 10px;
+}
+
+.friendInviteBoxContent
+{
+	float:left; 
+	width:200px; 
+	height:50px; 
+	margin:10px 0px 10px 0px;
+}
+
+.friendInviteBoxContentName
+{
+	font-size:small; 
+	color:#0050FF; 
+	font-weight:bold; 
+	padding-left:3px;
+}
+
+.friendInviteBoxContentchkboxText
+{
+	float:left; 
+	font-size:smaller; 
+	color:Gray; 
+	padding-top:3px;
+}
+
+.friendInviteSubmit
+{
+	float:right; 
+	margin:10px 15px 10px 0px;
+}
+
+.FriendInviteMessageBox
+{
+	clear:both;
+	width:95%;
+	text-align:left;
+	background: #FFD77A;
+	border:solid 1px #FF6600;
+	padding:5px 5px 5px 5px;
+}
+/* AVATAR QUIZ */
+.avatarQuizTopBox
+{
+	margin-top:20px;
+	border:solid thin gray;
+	width:750px;;
+	float:left;
+}
+.avatarBigImg
+{
+	float: left;
+	width: 45%;
+}
+.avatarBigImg img
+{
+	float: right;
+	padding-right: 20px;
+}
+.avatarTopBoxInfo
+{
+	float: left;
+	width: 55%;
+}
+.avatarTopBoxInfo h1
+{
+	padding-left: 45px;
+	font-size: 36px;
+	font-weight: bold;
+}
+.avatarTopBoxInfo p
+{
+	width:80%;
+}
+.avatarQuizBottomBox
+{
+	margin-top: 10px;
+	float: left;
+	border: solid thin gray;
+	width: 750px;
+}
+.avatarQuizBottomBox p
+{
+	text-align: center;
+}
+.avatarBottomBoxSmallImgs
+{
+	margin: auto;
+	width: 68%;
+}
+.avatarBottomBoxSmallImg
+{
+	float: left;
+	margin-left: 15px;
+	padding-bottom: 30px;
+}

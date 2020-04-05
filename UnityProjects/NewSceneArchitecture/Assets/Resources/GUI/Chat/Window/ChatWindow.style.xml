@@ -1,0 +1,158 @@
+<GUI>
+	<Include path="resources://GUI/Styles/Default.style" />
+		
+	<Style name="ChatStyleBase">
+		<StyleState name="NormalState">
+			<TextColor color="#787352" />
+		</StyleState>
+		<StyleState name="HoverState">
+			<TextColor color="#787352" />
+		</StyleState>
+		<StyleState name="DisabledState">
+			<TextColor color="#787352" />
+		</StyleState>
+		<StyleState name="ActiveState">
+			<TextColor color="#787352" />
+		</StyleState>
+		<Font name="DefaultFont" path="Fonts/HelveticaNeueCondensedBold" />
+		<Margin name="InternalMargins" value="0 0 0 0" />
+		<Margin name="ExternalMargins" value="0 0 0 0" />
+		<Anchor name="DefaultTextAnchor" value="Left Top" />
+		<WordWrap value="true" />
+		<ClipText value="true" />
+	</Style>
+	<Style name="ChatIconStyle" parent="ChatStyleBase">
+		<StyleState name="NormalState">
+			<Background texture="GUI/Chat/Window/Images/ChatIconBorder" />
+			<TextColor color="#787352" />
+		</StyleState>		
+		<StyleState name="HoverState">
+			<Background texture="GUI/Chat/Window/Images/ChatIconBorder" />
+			<TextColor color="#787352" />
+		</StyleState>	
+		<StyleState name="DisabledState">
+			<Background texture="GUI/Chat/Window/Images/ChatIconBorder" />
+			<TextColor color="#787352" />
+		</StyleState>
+		<StyleState name="ActiveState">
+			<Background texture="GUI/Chat/Window/Images/ChatIconBorder" />
+			<TextColor color="#787352" />
+		</StyleState>
+		<Margin name="ExternalMargins" value="2 2 0 1" />
+		<Margin name="NinePartScale" value="4 4 4 4" />
+	</Style>
+	<Style name="ChatSendButtonStyle" parent="ChatStyleBase">
+		<StyleState name="NormalState">
+			<Background texture="GUI/Chat/Window/Images/ChatSendButtonBorder" />
+			<TextColor color="#787352" />
+		</StyleState>		
+		<StyleState name="HoverState">
+			<Background texture="GUI/Chat/Window/Images/ChatSendButtonBorder" />
+			<TextColor color="#787352" />
+		</StyleState>	
+		<StyleState name="DisabledState">
+			<Background texture="GUI/Chat/Window/Images/ChatSendButtonBorder" />
+			<TextColor color="#787352" />
+		</StyleState>
+		<StyleState name="ActiveState">
+			<Background texture="GUI/Chat/Window/Images/ChatSendButtonBorder" />
+			<TextColor color="#787352" />
+		</StyleState>
+		<Margin name="ExternalMargins" value="2 2 -5 1" />
+		<Margin name="NinePartScale" value="6 6 6 6" />
+	</Style>
+	<Style name="ChatLogStyle">
+		<StyleState name="NormalState">
+			<Background texture="GUI/Chat/Window/Images/ChatLogEntry" />
+			<TextColor color="#787352" />
+		</StyleState>		
+		<StyleState name="HoverState">
+			<Background texture="GUI/Chat/Window/Images/ChatLogEntry" />
+			<TextColor color="#787352" />
+		</StyleState>	
+		<StyleState name="DisabledState">
+			<Background texture="GUI/Chat/Window/Images/ChatLogEntry" />
+			<TextColor color="#787352" />
+		</StyleState>
+		<StyleState name="ActiveState">
+			<Background texture="GUI/Chat/Window/Images/ChatLogEntry" />
+			<TextColor color="#787352" />
+		</StyleState>
+		<Margin name="NinePartScale" value="16 16 16 16" />
+		<Margin name="ExternalMargins" value="0 0 2 2" />
+		<Margin name="InternalMargins" value="1 1 8 8" />
+		<Anchor name="DefaultTextAnchor" value="Left Center" />
+		<WordWrap value="true" />
+		<ClipText value="false" />
+	</Style>
+	<Style name="EmoteStyle">
+		<StyleState name="NormalState">
+			<Background texture="" />
+			<TextColor color="#FFFFFF" />
+		</StyleState>
+		<StyleState name="HoverState">
+			<Background texture="" />
+			<TextColor color="#FEFEFE" />
+		</StyleState>	
+		<StyleState name="DisabledState">
+			<Background texture="" />
+			<TextColor color="#FFFFFF" />
+		</StyleState>
+		<StyleState name="ActiveState">
+			<Background texture="" />
+			<TextColor color="#FFFFFF" />
+		</StyleState>
+		<WordWrap value="false" />
+    <Font name="ChatEntryFont" path="Fonts/HelveticaNeueCondensedBold" />
+		<Margin name="InternalMargins" value="0 0 0 0" />
+		<Margin name="ExternalMargins" value="0 0 0 0" />
+		<Margin name="NinePartScale" value="6 6 6 6" />
+		<Anchor name="DefaultTextAnchor" value="Center Top" />
+	</Style>
+	<Style name="ChatEntryTextboxStyle" parent="ChatStyleBase">
+		<StyleState name="NormalState">
+			<Background texture="GUI/Chat/Window/Images/ChatEntryBorder" />
+			<TextColor color="#787352" />
+		</StyleState>
+		<StyleState name="HoverState">
+			<Background texture="GUI/Chat/Window/Images/ChatEntryBorder" />
+			<TextColor color="#787352" />
+		</StyleState>	
+		<StyleState name="DisabledState">
+			<Background texture="GUI/Chat/Window/Images/ChatEntryBorder" />
+			<TextColor color="#787352" />
+		</StyleState>
+		<StyleState name="ActiveState">
+			<Background texture="GUI/Chat/Window/Images/ChatEntryBorder" />
+			<TextColor color="#787352" />
+		</StyleState>
+		<WordWrap value="false" />
+    <Font name="ChatEntryFont" path="Fonts/HelveticaNeueCondensedBold" />
+		<Margin name="InternalMargins" value="7 0 7 0" />
+		<Margin name="ExternalMargins" value="2 2 0 1" />
+		<Margin name="NinePartScale" value="6 6 6 6" />
+	</Style>
+	<Style name="BottomButtonSelectionFrame" parent="ChatStyleBase">
+		<StyleState name="NormalState">
+			<Background texture="" />
+			<TextColor color="#787352" />
+		</StyleState>
+		<StyleState name="HoverState">
+			<Background texture="" />
+			<TextColor color="#787352" />
+		</StyleState>	
+		<StyleState name="DisabledState">
+			<Background texture="" />
+			<TextColor color="#787352" />
+		</StyleState>
+		<StyleState name="ActiveState">
+			<Background texture="" />
+			<TextColor color="#787352" />
+		</StyleState>
+		<WordWrap value="false" />
+    <Font name="ChatEntryFont" path="Fonts/HelveticaNeueCondensedBold" />
+		<Margin name="InternalMargins" value="8 8 8 8" />
+		<Margin name="ExternalMargins" value="8 8 8 8" />
+		<Margin name="NinePartScale" value="6 6 6 6" />
+	</Style>
+</GUI>

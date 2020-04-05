@@ -1,0 +1,800 @@
+<UvAnimations>
+
+	<!--Eye UvAnimations-->
+	<UvAnimation name="Close Eyes">
+		<FrameSequence target="Left Eye">
+			<Frame value="17"/>
+			<Frame value="9"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="17"/>
+			<Frame value="9"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Close Eyes Left">
+		<FrameSequence target="Left Eye">
+			<Frame value="18"/>
+			<Frame value="9"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="19"/>
+			<Frame value="9"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Close Eyes Right">
+		<FrameSequence target="Left Eye">
+			<Frame value="19"/>
+			<Frame value="9"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="18"/>
+			<Frame value="9"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Close Left Eye">
+		<FrameSequence target="Left Eye">
+			<Frame value="17"/>
+			<Frame value="9"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Close Right Eye">
+		<FrameSequence target="Right Eye">
+			<Frame value="17"/>
+			<Frame value="9"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Roll Eyes Up">
+		<FrameSequence target="Left Eye">
+			<Frame value="6"/>
+			<Frame value="5"/>
+			<Frame value="8"/>
+			<Frame value="12"/>
+			<Frame value="16"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="8"/>
+			<Frame value="5"/>
+			<Frame value="6"/>
+			<Frame value="11"/>
+			<Frame value="15"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Roll Eyes Down">
+		<FrameSequence target="Left Eye">
+			<Frame value="16"/>
+			<Frame value="12"/>
+			<Frame value="8"/>
+			<Frame value="5"/>
+			<Frame value="6"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="15"/>
+			<Frame value="11"/>
+			<Frame value="6"/>
+			<Frame value="5"/>
+			<Frame value="8"/>
+		</FrameSequence>
+	</UvAnimation>
+		
+	<!--Single Eye States-->
+	<UvAnimation name="Left Eye Closed">
+		<FrameSequence target="Left Eye">
+			<Frame value="9"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye Closed">
+		<FrameSequence target="Right Eye">
+			<Frame value="9"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eye Forward">
+		<FrameSequence target="Left Eye">
+			<Frame value="0"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eye Left">
+		<FrameSequence target="Left Eye">
+			<Frame value="1"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eye LeftUp">
+		<FrameSequence target="Left Eye">
+			<Frame value="5"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eye LeftDown">
+		<FrameSequence target="Left Eye">
+			<Frame value="6"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eye Right">
+		<FrameSequence target="Left Eye">
+			<Frame value="2"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eye RightUp">
+		<FrameSequence target="Left Eye">
+			<Frame value="7"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eye RightDown">
+		<FrameSequence target="Left Eye">
+			<Frame value="8"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eye Up">
+		<FrameSequence target="Left Eye">
+			<Frame value="3"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eye Down">
+		<FrameSequence target="Left Eye">
+			<Frame value="4"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eye Wide Forward">
+		<FrameSequence target="Left Eye">
+			<Frame value="10"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eye Wide Left">
+		<FrameSequence target="Left Eye">
+			<Frame value="11"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eye Wide LeftUp">
+		<FrameSequence target="Left Eye">
+			<Frame value="15"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eye Wide Right">
+		<FrameSequence target="Left Eye">
+			<Frame value="12"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eye Wide RightUp">
+		<FrameSequence target="Left Eye">
+			<Frame value="16"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eye Wide Up">
+		<FrameSequence target="Left Eye">
+			<Frame value="13"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eye Wide Down">
+		<FrameSequence target="Left Eye">
+			<Frame value="14"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eye Half Forward">
+		<FrameSequence target="Left Eye">
+			<Frame value="17"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eye Half Left">
+		<FrameSequence target="Left Eye">
+			<Frame value="18"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eye Half Right">
+		<FrameSequence target="Left Eye">
+			<Frame value="19"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eye Half Up">
+		<FrameSequence target="Left Eye">
+			<Frame value="21"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eye Half Down">
+		<FrameSequence target="Left Eye">
+			<Frame value="20"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eye Squint Forward">
+		<FrameSequence target="Left Eye">
+			<Frame value="22"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eye Squint Left">
+		<FrameSequence target="Left Eye">
+			<Frame value="23"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eye Squint Right">
+		<FrameSequence target="Left Eye">
+			<Frame value="24"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye Forward">
+		<FrameSequence target="Right Eye">
+			<Frame value="0"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye Left">
+		<FrameSequence target="Right Eye">
+			<Frame value="2"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye LeftUp">
+		<FrameSequence target="Right Eye">
+			<Frame value="7"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye LeftDown">
+		<FrameSequence target="Right Eye">
+			<Frame value="8"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye Right">
+		<FrameSequence target="Right Eye">
+			<Frame value="1"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye RightUp">
+		<FrameSequence target="Right Eye">
+			<Frame value="5"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye RightDown">
+		<FrameSequence target="Right Eye">
+			<Frame value="6"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye Up">
+		<FrameSequence target="Right Eye">
+			<Frame value="3"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye Down">
+		<FrameSequence target="Right Eye">
+			<Frame value="4"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye Wide Forward">
+		<FrameSequence target="Right Eye">
+			<Frame value="10"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye Wide Left">
+		<FrameSequence target="Right Eye">
+			<Frame value="12"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye Wide LeftUp">
+		<FrameSequence target="Right Eye">
+			<Frame value="16"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye Wide Right">
+		<FrameSequence target="Right Eye">
+			<Frame value="11"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye Wide RightUp">
+		<FrameSequence target="Right Eye">
+			<Frame value="15"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye Wide Up">
+		<FrameSequence target="Right Eye">
+			<Frame value="13"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye Wide Down">
+		<FrameSequence target="Right Eye">
+			<Frame value="14"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye Half Forward">
+		<FrameSequence target="Right Eye">
+			<Frame value="17"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye Half Left">
+		<FrameSequence target="Right Eye">
+			<Frame value="19"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye Half Right">
+		<FrameSequence target="Right Eye">
+			<Frame value="18"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye Half Up">
+		<FrameSequence target="Right Eye">
+			<Frame value="21"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye Half Down">
+		<FrameSequence target="Right Eye">
+			<Frame value="20"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye Squint Forward">
+		<FrameSequence target="Right Eye">
+			<Frame value="22"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye Squint Left">
+		<FrameSequence target="Right Eye">
+			<Frame value="24"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eye Squint Right">
+		<FrameSequence target="Right Eye">
+			<Frame value="23"/>
+		</FrameSequence>
+	</UvAnimation>
+
+	<!--Both Eyes States-->
+	<UvAnimation name="Eyes Closed">
+		<FrameSequence target="Left Eye">
+			<Frame value="9"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="9"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyes Forward">
+		<FrameSequence target="Left Eye">
+			<Frame value="0"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="0"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyes Left">
+		<FrameSequence target="Left Eye">
+			<Frame value="1"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="2"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyes LeftUp">
+		<FrameSequence target="Left Eye">
+			<Frame value="5"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="7"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyes LeftDown">
+		<FrameSequence target="Left Eye">
+			<Frame value="6"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="8"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyes Right">
+		<FrameSequence target="Left Eye">
+			<Frame value="2"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="1"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyes RightUp">
+		<FrameSequence target="Left Eye">
+			<Frame value="7"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="5"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyes RightDown">
+		<FrameSequence target="Left Eye">
+			<Frame value="8"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="6"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyes Up">
+		<FrameSequence target="Left Eye">
+			<Frame value="3"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="3"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyes Down">
+		<FrameSequence target="Left Eye">
+			<Frame value="4"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="4"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyes Wide Forward">
+		<FrameSequence target="Left Eye">
+			<Frame value="10"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="10"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyes Wide Left">
+		<FrameSequence target="Left Eye">
+			<Frame value="11"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="12"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyes Wide LeftUp">
+		<FrameSequence target="Left Eye">
+			<Frame value="15"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="16"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyes Wide Right">
+		<FrameSequence target="Left Eye">
+			<Frame value="12"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="11"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyes Wide RightUp">
+		<FrameSequence target="Left Eye">
+			<Frame value="16"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="15"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyes Wide Up">
+		<FrameSequence target="Left Eye">
+			<Frame value="13"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="13"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyes Wide Down">
+		<FrameSequence target="Left Eye">
+			<Frame value="14"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="14"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyes Half Forward">
+		<FrameSequence target="Left Eye">
+			<Frame value="17"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="17"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyes Half Left">
+		<FrameSequence target="Left Eye">
+			<Frame value="18"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="19"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyes Half Right">
+		<FrameSequence target="Left Eye">
+			<Frame value="19"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="18"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyes Half Up">
+		<FrameSequence target="Left Eye">
+			<Frame value="21"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="21"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyes Half Down">
+		<FrameSequence target="Left Eye">
+			<Frame value="20"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="20"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyes Squint Forward">
+		<FrameSequence target="Left Eye">
+			<Frame value="22"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="22"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyes Squint Left">
+		<FrameSequence target="Left Eye">
+			<Frame value="23"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="24"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyes Squint Right">
+		<FrameSequence target="Left Eye">
+			<Frame value="24"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eye">
+			<Frame value="23"/>
+		</FrameSequence>
+	</UvAnimation>
+	
+	<!--Single Eyebrow States-->
+	<UvAnimation name="Left Eyebrow Normal">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="0"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eyebrow Raised">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="1"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eyebrow Lowered">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="2"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eyebrow UpSqueeze">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="6"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eyebrow DownSqueeze">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="5"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eyebrow OuterRaise">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="3"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Left Eyebrow Surprise">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="8"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eyebrow Normal">
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="0"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eyebrow Raised">
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="1"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eyebrow Lowered">
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="2"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eyebrow UpSqueeze">
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="6"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eyebrow DownSqueeze">
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="5"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eyebrow OuterRaise">
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="3"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Right Eyebrow Surprise">
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="8"/>
+		</FrameSequence>
+	</UvAnimation>
+	
+	<!--Both Eyebrow States-->
+	<UvAnimation name="Eyebrows Normal">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="0"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="0"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyebrows Raised">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="1"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="1"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyebrows Lowered">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="2"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="2"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyebrows MadSqueeze">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="7"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="7"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyebrows UpSqueeze">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="6"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="6"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyebrows DownSqueeze">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="5"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="5"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyebrows OuterRaise">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="3"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="3"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Eyebrows Surprise">
+		<FrameSequence target="Left Eyebrow">
+			<Frame value="8"/>
+		</FrameSequence>
+		<FrameSequence target="Right Eyebrow">
+			<Frame value="8"/>
+		</FrameSequence>
+	</UvAnimation>	
+		
+	<!--Mouth States-->
+	<UvAnimation name="Mouth Normal">
+		<FrameSequence target="Mouth">
+			<Frame value="0"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Mouth Closed">
+		<FrameSequence target="Mouth">
+			<Frame value="1"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Mouth Smile">
+		<FrameSequence target="Mouth">
+			<Frame value="2"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Mouth Laugh">
+		<FrameSequence target="Mouth">
+			<Frame value="3"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Mouth Grin">
+		<FrameSequence target="Mouth">
+			<Frame value="4"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Mouth Sad">
+		<FrameSequence target="Mouth">
+			<Frame value="5"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Mouth Shocked">
+		<FrameSequence target="Mouth">
+			<Frame value="6"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Mouth Pout">
+		<FrameSequence target="Mouth">
+			<Frame value="7"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Mouth Smirk">
+		<FrameSequence target="Mouth">
+			<Frame value="8"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Mouth Snear">
+		<FrameSequence target="Mouth">
+			<Frame value="9"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Mouth Pucker">
+		<FrameSequence target="Mouth">
+			<Frame value="10"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Mouth Angry">
+		<FrameSequence target="Mouth">
+			<Frame value="11"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Mouth OffsetJaw">
+		<FrameSequence target="Mouth">
+			<Frame value="12"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Mouth UpLipUp">
+		<FrameSequence target="Mouth">
+			<Frame value="13"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Mouth LowLipDown">
+		<FrameSequence target="Mouth">
+			<Frame value="14"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Mouth LowLipUp">
+		<FrameSequence target="Mouth">
+			<Frame value="15"/>
+		</FrameSequence>
+	</UvAnimation>
+
+	<!--Mouth Visimes-->
+	<UvAnimation name="Mouth L">
+		<FrameSequence target="Mouth">
+			<Frame value="16"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Mouth Aw">
+		<FrameSequence target="Mouth">
+			<Frame value="17"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Mouth Sh">
+		<FrameSequence target="Mouth">
+			<Frame value="18"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Mouth Th">
+		<FrameSequence target="Mouth">
+			<Frame value="19"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Mouth Ah">
+		<FrameSequence target="Mouth">
+			<Frame value="20"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Mouth A">
+		<FrameSequence target="Mouth">
+			<Frame value="24"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Mouth E">
+		<FrameSequence target="Mouth">
+			<Frame value="21"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Mouth M">
+		<FrameSequence target="Mouth">
+			<Frame value="22"/>
+		</FrameSequence>
+	</UvAnimation>
+	<UvAnimation name="Mouth O">
+		<FrameSequence target="Mouth">
+			<Frame value="23"/>
+		</FrameSequence>
+	</UvAnimation>
+	
+</UvAnimations>

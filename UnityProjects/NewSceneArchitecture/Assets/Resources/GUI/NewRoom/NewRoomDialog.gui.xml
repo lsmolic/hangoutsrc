@@ -1,0 +1,80 @@
+<GUI>
+  <Include path="resources://GUI/NewRoom/NewRoomDialog.style" />
+
+  <Window name="NewRoomDialog" size="FillParent" position="FillParent" dragBehavior="notDraggable" style="NewRoomBackground">
+    <MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+      <Frame name="NavigationFrame"  size="128 FillParent" position="0 0" anchor="Right Top">
+        <!--The different progress frames will be placed here by the GuiController-->
+      </Frame>
+      <Frame name="ViewFrame" size="Procedural" position="0 0">
+        <Frame name="LetterboxTop" size="Procedural" position="0 0" style="LetterboxFrame" />
+        <Frame name="ToolFrame" size="Procedural" position="Procedural">
+          <!--The different room setup tools will be drawn in this area-->
+        </Frame>
+        <Frame name="LetterboxBottom" size="Procedural" position="0 0" anchor="Right Bottom" style="LetterboxFrame" />
+      </Frame>
+    </MainFrame>
+  </Window>
+
+  <!--Step 1: Initial View-->
+  <Frame name="InitialViewMain" size="FillParent" position="FillParent">
+    <Label name="StartMessage" text="Start Message" size="ExpandText" style="DefaultNavbarText" position="0 0" anchor="Center Center" />
+  </Frame>
+  <Frame name="InitialViewProgress" size="FillParent 96" position="HorizontalAutoLayout">
+    <Label name="Step1Label" text="New Room" size="ExpandText" style="DefaultNavbarText" position="HorizontalAutoLayout" />
+    <Button style="NavbarButton" name="Step2aButton" text="Premade Room" size="FillParent 32" position="HorizontalAutoLayout"/>
+    <Button style="NavbarButton" name="Step2bButton" text="Custom Room" size="FillParent 32" position="HorizontalAutoLayout"/>
+  </Frame>
+
+  <!--Step 2a: Premade Room-->
+  <Frame name="PremadeRoomMain" size="FillParent" position="FillParent">
+    <Label name="PremadeRoomMessage" text="Premade Room Message" size="ExpandText" style="DefaultNavbarText" position="0 0" anchor="Center Center" />
+  </Frame>
+  <Frame name="PremadeRoomProgress" size="FillParent 96" position="HorizontalAutoLayout">
+    <Label name="Step2Label" text="Choose" size="ExpandText" style="DefaultNavbarText" position="HorizontalAutoLayout" />
+    <Button style="NavbarButton" name="Step5Button" text="Next" size="ExpandText" position="0 0" anchor="Right Bottom" />
+  </Frame>
+
+  <!--Step 2b: Custom Room-->
+  <Frame name="CustomRoomMain" size="FillParent" position="FillParent">
+    <Label name="CustomRoomMessage" text="Custom Room Message" size="ExpandText" style="DefaultNavbarText" position="0 0" anchor="Center Center" />
+  </Frame>
+  <Frame name="CustomRoomProgress" size="FillParent 96" position="HorizontalAutoLayout">
+    <Label name="Step2Label" text="Get Image" size="ExpandText" style="DefaultNavbarText" position="HorizontalAutoLayout" />
+    <Button style="NavbarButton" name="Step3Button" text="Next" size="ExpandText" position="0 0" anchor="Right Bottom" />
+  </Frame>
+
+  <!--Step 3: Adjust Room-->
+  <Frame name="AdjustRoomMain" size="FillParent" position="FillParent">
+    <Label name="AdjustRoomMessage" text="Adjust Room Message" size="ExpandText" style="DefaultNavbarText" position="0 0" anchor="Center Center" />
+  </Frame>
+  <Frame name="AdjustRoomProgress" size="FillParent 96" style="DefaultNavbarText" position="HorizontalAutoLayout">
+    <Label name="Step3Label" text="Adjust" style="DefaultNavbarText" size="ExpandText" position="HorizontalAutoLayout" />
+    <Button style="NavbarButton" name="EditScaleButton" text="Edit Scale" size="128 32" position="HorizontalAutoLayout" />
+    <Button style="NavbarButton" name="EditFloorButton" text="Edit Floor" size="128 32" position="HorizontalAutoLayout" />
+    <Button style="NavbarButton" name="Step4Button" text="Next" size="ExpandText" position="0 0" anchor="Right Bottom" />
+  </Frame>
+
+
+  <!--Step 4: Set Room Location-->
+  <Frame name="SetRoomLocationMain" size="FillParent" position="FillParent">
+    <Label name="SetRoomLocationMessage" text="Set Room Location Message" size="ExpandText" style="DefaultNavbarText" position="0 0" anchor="Center Center" />
+  </Frame>
+  <Frame name="SetRoomLocationProgress" size="FillParent 96" position="HorizontalAutoLayout">
+    <Label name="Step4Label" text="Locate" style="DefaultNavbarText" size="ExpandText" position="HorizontalAutoLayout" />
+    <Button style="NavbarButton" name="Step5Button" text="Next" size="ExpandText" position="0 0" anchor="Right Bottom" />
+  </Frame>
+
+  <!--Step 5: Set Room Metadata-->
+  <Frame name="SetRoomMetadataMain" size="FillParent" position="FillParent">
+    <Label name="RoomNameLabel" size="256 24" style="DefaultNavbarText" position="HorizontalAutoLayout" text="Room Name:" />
+    <Textbox name="RoomNameField" size="256 24" position="0 26" userEditable="true" singleLine="true" />
+    <Label name="RoomDescriptionLabel" size="256 24" position="0 60" text="Room Description:" />
+    <Textbox name="RoomDescriptionField" size="256 192" position="0 86" userEditable="true" singleLine="false" />
+  </Frame>
+  <Frame name="SetRoomMetadataProgress" size="FillParent 96" position="HorizontalAutoLayout">
+    <Label name="Step5Label" text="Save" style="DefaultNavbarText" size="ExpandText" position="HorizontalAutoLayout" />
+    <Button style="NavbarButton" name="DoneButton" text="Done" size="ExpandText" position="0 0" anchor="Right Bottom" />
+  </Frame>
+
+</GUI>

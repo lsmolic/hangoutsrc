@@ -1,0 +1,16 @@
+<GUI>
+  <Include path="resources://GUI/Styles/Default.style" />
+  
+	<Window name="DebugConsole" size="480 320" position="0 0" dragBehavior="entireWindow" anchor="Center Center">
+		<HeaderFrame name="HeaderFrame" size="HeaderFrame" position="HeaderFrame">
+      <Label name="WindowTitle" text="Console" size="ExpandText" style="WindowTitleLabel" position="0 6" anchor="Center Top" />
+			<Button name="CloseButton" style="CloseButtonStyle" size="18 18" position="-6 6" anchor="Right Top" />
+		</HeaderFrame>
+		<MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+      <ScrollFrame name="DebugLogFrame" size="424 240" position="16 16" >
+      </ScrollFrame>
+      <Scrollbar scrollFrame="../DebugLogFrame" name="DebugLogScrollbar" size="16 240" position="450 16" />
+      <Textbox name="CommandEntryBox" size="440 20" position="16 265" singleLine="true" userEditable="true" />
+		</MainFrame>
+	</Window>
+</GUI>

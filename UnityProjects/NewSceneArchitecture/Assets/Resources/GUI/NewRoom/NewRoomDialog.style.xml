@@ -1,0 +1,75 @@
+<GUI>
+  <Include path="resources://GUI/Styles/Default.style" />
+
+  <Style name="LetterboxFrame">
+    <StyleState name="NormalState">
+      <TextColor color="#FFFFFF" />
+      <Background texture="GUI/Styles/Images/SolidColors/Black" />
+    </StyleState>
+    <StyleState name="HoverState">
+      <TextColor color="#FFFFFF" />
+      <Background texture="GUI/Styles/Images/SolidColors/Black" />
+    </StyleState>
+    <StyleState name="DisabledState">
+      <TextColor color="#FFFFFF" />
+      <Background texture="GUI/Styles/Images/SolidColors/Black" />
+    </StyleState>
+    <Margin name="InternalMargins" value="2 2 2 2" />
+    <Margin name="NinePartScale" value="1 1 1 1" />
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Left Top" />
+  </Style>
+
+  <Style name="DefaultNavbarText" >
+    <StyleState name="NormalState">
+      <TextColor color="#000000" />
+    </StyleState>
+    <StyleState name="HoverState">
+      <TextColor color="#000000" />
+    </StyleState>
+    <StyleState name="DisabledState">
+      <TextColor color="#000000" />
+    </StyleState>
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="NinePartScale" value="0 0 0 0" />
+    <ClipText value="true" />
+    <Font name="DefaultFont" path="GUI/Styles/Fonts/HelveticaNeueCondensedBold" />
+    <Anchor name="DefaultTextAnchor" value="Left Top" />
+  </Style>
+
+  <Style name="NavbarButton" parent="DebugFrame">
+    <StyleState name="NormalState">
+      <TextColor color="#000000" />
+      <Background texture="GUI/Styles/Images/SolidColors/Green" />
+    </StyleState>
+    <StyleState name="HoverState">
+      <TextColor color="#000000" />
+      <Background texture="GUI/Styles/Images/SolidColors/Green" />
+    </StyleState>
+    <StyleState name="DisabledState">
+      <TextColor color="#FFFFFF" />
+      <Background texture="GUI/Styles/Images/SolidColors/DarkGrey" />
+    </StyleState>
+    <Anchor name="DefaultTextAnchor" value="Center Center" />
+  </Style>
+  
+  <!--The window background is just solid white to block out anything behind-->
+  <Style name="NewRoomBackground">
+    <StyleState name="NormalState">
+      <TextColor color="#000000" />
+      <Background texture="GUI/Styles/Images/SolidColors/White" />
+    </StyleState>
+    <StyleState name="HoverState">
+      <TextColor color="#000000" />
+      <Background texture="GUI/Styles/Images/SolidColors/White" />
+    </StyleState>
+    <StyleState name="DisabledState">
+      <TextColor color="#000000" />
+      <Background texture="GUI/Styles/Images/SolidColors/White" />
+    </StyleState>
+    <Margin name="InternalMargins" value="2 2 2 2" />
+    <Margin name="NinePartScale" value="1 1 1 1" />
+    <ClipText value="true" />
+    <Anchor name="DefaultTextAnchor" value="Left Top" />
+  </Style>
+</GUI>

@@ -1,0 +1,5 @@
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.MiniGames\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\RESTService\bin\Hangout.Server.WebServices.MiniGames.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\RESTService\bin\Hangout.Server.WebServices.MiniGames.pdb
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.MiniGames\obj\Debug\Hangout.Server.WebServices.MiniGames.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.MiniGames\obj\Debug\Hangout.Server.WebServices.MiniGames.pdb

@@ -1,0 +1,3 @@
+<FashionGameTweaks>
+  <Tweakable name="FOV" type="FloatSlider" value="30" range="1 90" />
+</FashionGameTweaks>

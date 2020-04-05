@@ -1,0 +1,467 @@
+<ComplexUvAnimations>
+
+	<!--Mood Animations for HAPPY-->
+	<Animation name="Happy Transition" assetId="202032001">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/><?Close Eyes?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.5">
+			<SimpleAnimation assetId="202132059"/>
+			<SimpleAnimation assetId="202132107"/><?Mouth Smile?>
+			<SimpleAnimation assetId="202132097"/>
+		</ComplexFrame>
+	</Animation>
+	<Animation name="Grin" assetId="202032002">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132059"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132109"/><?Mouth Grin?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1.5">
+			<SimpleAnimation assetId="202132098"/><?Eyebrows Raised?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132097"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="3" waitAfterFinished="0.5">
+			<SimpleAnimation assetId="202132059"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132105"/><?Mouth Normal?>
+		</ComplexFrame>
+	</Animation>
+	<Animation name="Smile" assetId="202032003">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132059"/>
+			<SimpleAnimation assetId="202132107"/><?Mouth Smile?>
+		</ComplexFrame>
+	</Animation>
+	<Animation name="Normal Mouth" assetId="202032004">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132059"/>
+			<SimpleAnimation assetId="202132105"/><?Mouth Normal?>
+		</ComplexFrame>
+	</Animation>
+	<Animation name="Excited Eyebrows" assetId="202032005">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132098"/><?Eyebrows Raised?>
+		</ComplexFrame>
+	</Animation>
+
+	<!--Mood Animations for SAD-->
+	<Animation name="Sad Transition" assetId="202032006">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.5">
+			<SimpleAnimation assetId="202132079"/><?Eyes Half Down?>
+			<SimpleAnimation assetId="202132106"/><?Mouth Closed?>
+			<SimpleAnimation assetId="202132101"/><?Eyebrows UpSqueeze?>
+		</ComplexFrame>
+	</Animation>
+	<Animation name="Roll Eyes Down" assetId="202032007">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1.5">
+			<SimpleAnimation assetId="202132098"/><?Eyebrows Raised?>
+			<SimpleAnimation assetId="202132072"/><?Eyes Wide RightUp?>
+			<SimpleAnimation assetId="202132106"/><?Mouth Closed?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132071"/><?Eyes Wide Right?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132065"/><?Eyes RightDown?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132079"/><?Eyes Half Down?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="2">
+			<SimpleAnimation assetId="202132101"/><?Eyebrows UpSqueeze?>
+		</ComplexFrame>
+	</Animation>
+	<Animation name="Sad Blink" assetId="202032008">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132079"/><?Eyes Half Down?>
+		</ComplexFrame>
+	</Animation>
+	<Animation name="Close Mouth" assetId="202032009">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132106"/><?Mouth Closed?>
+		</ComplexFrame>
+	</Animation>
+	<Animation name="Pouting Mouth" assetId="202032010">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132112"/><?Mouth Pout?>
+		</ComplexFrame>
+	</Animation>
+	<Animation name="Sad Eyebrows" assetId="202032011">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132101"/><?Eyebrows UpSqueeze?>
+		</ComplexFrame>
+	</Animation>
+
+	<!--Mood animations for Flirty-->
+	<Animation name="Flirty Transition" assetId="202032012">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.5">
+			<SimpleAnimation assetId="202132075"/><?Eyes Half Forward?>
+			<SimpleAnimation assetId="202132105"/><?Mouth Normal?>
+			<SimpleAnimation assetId="202132084"/><?Left Eyebrow Raised?>
+			<SimpleAnimation assetId="202132090"/><?Right Eyebrow Normal?>
+		</ComplexFrame>
+	</Animation>
+	<Animation name="Kiss" assetId="202032013">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132097"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132107"/><?Mouth Smile?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132106"/><?Mouth Closed?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132001"/>
+			<SimpleAnimation assetId="202132115"/><?Mouth Pucker?>
+			<SimpleAnimation assetId="202132104"/><?Eyebrows Surprise?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132075"/><?Eyes Half Forward?>
+			<SimpleAnimation assetId="202132097"/>
+			<SimpleAnimation assetId="202132105"/><?Mouth Normal?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.1">
+			<SimpleAnimation assetId="202132075"/><?Eyes Half Forward?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132058"/><?Eyes Closed?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.1">
+			<SimpleAnimation assetId="202132075"/><?Eyes Half Forward?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132058"/><?Eyes Closed?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.5">
+			<SimpleAnimation assetId="202132059"/>
+		</ComplexFrame>
+	</Animation>
+	<Animation name="Bat Eyes" assetId="202032014">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.1">
+			<SimpleAnimation assetId="202132075"/><?Eyes Half Forward?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132058"/><?Eyes Closed?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.1">
+			<SimpleAnimation assetId="202132075"/><?Eyes Half Forward?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132058"/><?Eyes Closed?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.5">
+			<SimpleAnimation assetId="202132059"/>
+		</ComplexFrame>
+	</Animation>
+	<Animation name="Left Eyebrow Raise" assetId="202032015">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132084"/><?Left Eyebrow Raised?>
+			<SimpleAnimation assetId="202132090"/><?Right Eyebrow Normal?>
+		</ComplexFrame>
+	</Animation>
+	<Animation name="Lazy Eyes" assetId="202032016">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1.5">
+			<SimpleAnimation assetId="202132075"/><?Eyes Half Forward?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132058"/><?Eyes Closed?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132076"/><?Eyes Half Left?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132077"/><?Eyes Half Right?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132058"/><?Eyes Closed?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132075"/><?Eyes Half Forward?>
+		</ComplexFrame>
+	</Animation>
+	<Animation name="Right Eyebrow Raise" assetId="202032017">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132091"/><?Right Eyebrow Raised?>
+			<SimpleAnimation assetId="202132083"/><?Left Eyebrow Normal?>
+		</ComplexFrame>
+	</Animation>
+
+	<!--Mood animations for Angry-->
+	<Animation name="Angry Transition" assetId="202032018">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.5">
+			<SimpleAnimation assetId="202132080"/><?Eyes Squint Forward?>
+			<SimpleAnimation assetId="202132106"/><?Mouth Closed?>
+			<SimpleAnimation assetId="202132100"/><?Eyebrows MadSqueeze?>
+		</ComplexFrame>
+	</Animation>
+	<Animation name="Angry Mouth" assetId="202032019">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.5">
+			<SimpleAnimation assetId="202132116"/><?Mouth Angry?>
+		</ComplexFrame>
+	</Animation>
+	<Animation name="Eyebrows Lowered" assetId="202032020">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.5">
+			<SimpleAnimation assetId="202132099"/><?Eyebrows Lowered?>
+		</ComplexFrame>
+	</Animation>
+	<Animation name="Squint Eyes" assetId="202032021">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132080"/><?Eyes Squint Forward?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132082"/><?Eyes Squint Right?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132058"/><?Eyes Closed?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132089"/><?Left Eyebrow Surprise?>
+			<SimpleAnimation assetId="202132081"/><?Eyes Squint Left?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132058"/><?Eyes Closed?>
+			<SimpleAnimation assetId="202132099"/><?Eyebrows Lowered?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132059"/>
+		</ComplexFrame>
+	</Animation>
+	<Animation name="Roll Eyes Up" assetId="202032022">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.7">
+			<SimpleAnimation assetId="202132089"/><?Left Eyebrow Surprise?>
+			<SimpleAnimation assetId="202132090"/><?Right Eyebrow Normal?>
+			<SimpleAnimation assetId="202132075"/><?Eyes Half Forward?>
+			<SimpleAnimation assetId="202132106"/><?Mouth Closed?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132065"/><?Eyes RightDown?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132071"/><?Eyes Wide Right?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132072"/><?Eyes Wide RightUp?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132073"/><?Eyes Wide Up?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.5">
+			<SimpleAnimation assetId="202132097"/>
+			<SimpleAnimation assetId="202132075"/><?Eyes Half Forward?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132058"/><?Eyes Closed?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.5">
+			<SimpleAnimation assetId="202132059"/>
+		</ComplexFrame>
+	</Animation>
+	<Animation name="Surprised" assetId="202032023">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1.5">
+			<SimpleAnimation assetId="202132068"/><?Eyes Wide Forward?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132059"/>
+		</ComplexFrame>
+	</Animation>
+	<Animation name="Eye Twitch" assetId="202032024">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1.5">
+			<SimpleAnimation assetId="202132068"/><?Eyes Wide Forward?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132059"/>
+		</ComplexFrame>
+	</Animation>
+
+	<!--Speach Animations-->
+	<Animation name="Hello" assetId="202032025">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.1">
+			<SimpleAnimation assetId="202132059"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.2">
+			<SimpleAnimation assetId="202132121"/><?Mouth L?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.4">
+			<SimpleAnimation assetId="202132122"/><?Mouth Aw?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132107"/><?Mouth Smile?>
+		</ComplexFrame>
+	</Animation>
+	<Animation name="OMG" assetId="202032026">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.4">
+			<SimpleAnimation assetId="202132085"/><?Left Eyebrow Lowered?>
+			<SimpleAnimation assetId="202132092"/><?Right Eyebrow Lowered?>
+			<SimpleAnimation assetId="202132075"/><?Eyes Half Forward?>
+			<SimpleAnimation assetId="202132128"/><?Mouth O?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.1">
+			<SimpleAnimation assetId="202132089"/><?Left Eyebrow Surprise?>
+			<SimpleAnimation assetId="202132129"/><?Mouth M?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.3">
+			<SimpleAnimation assetId="202132125"/><?Mouth Ah?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.1">
+			<SimpleAnimation assetId="202132106"/><?Mouth Closed?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.3">
+			<SimpleAnimation assetId="202132122"/><?Mouth Aw?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.1">
+			<SimpleAnimation assetId="202132123"/><?Mouth Sh?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+			<SimpleAnimation assetId="202132106"/><?Mouth Closed?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1.5">
+			<SimpleAnimation assetId="202132075"/><?Eyes Half Forward?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132097"/>
+			<SimpleAnimation assetId="202132059"/>
+		</ComplexFrame>
+	</Animation>
+
+	<!--Generic Animations-->
+	<Animation name="Blink" assetId="202032027">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132059"/>
+		</ComplexFrame>
+	</Animation>
+	<Animation name="Look Right" assetId="202032028">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1.5">
+			<SimpleAnimation assetId="202132063"/><?Eyes Right?>
+			<SimpleAnimation assetId="202132091"/><?Right Eyebrow Raised?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132003"/><?Close Eyes Right?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132064"/><?Eyes RightUp?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+			<SimpleAnimation assetId="202132097"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132059"/>
+		</ComplexFrame>
+	</Animation>
+	<Animation name="Look Left" assetId="202032029">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1.5">
+			<SimpleAnimation assetId="202132060"/><?Eyes Left?>
+			<SimpleAnimation assetId="202132084"/><?Left Eyebrow Raised?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132002"/><?Close Eyes Left?>
+			<SimpleAnimation assetId="202132097"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132062"/><?Eyes LeftDown?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132059"/>
+		</ComplexFrame>
+	</Animation>
+	<Animation name="Wink" assetId="202032030">
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132001"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.5">
+			<SimpleAnimation assetId="202132059"/>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132068"/><?Eyes Wide Forward?>
+			<SimpleAnimation assetId="202132098"/><?Eyebrows Raised?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0.8">
+			<SimpleAnimation assetId="202132004"/><?Close Left Eye?>
+			<SimpleAnimation assetId="202132050"/><?Right Eye Half Forward?>
+			<SimpleAnimation assetId="202132091"/><?Right Eyebrow Raised?>
+			<SimpleAnimation assetId="202132085"/><?Left Eyebrow Lowered?>
+			<SimpleAnimation assetId="202132107"/><?Mouth Smile?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="0">
+			<SimpleAnimation assetId="202132026"/><?Left Eye Half Forward?>
+		</ComplexFrame>
+		<ComplexFrame repeatFrame="1" waitAfterFinished="1">
+			<SimpleAnimation assetId="202132059"/>
+			<SimpleAnimation assetId="202132097"/>
+		</ComplexFrame>
+	</Animation>
+
+</ComplexUvAnimations>

@@ -1,0 +1,11 @@
+<GUI>
+  <Include path="resources://GUI/Styles/Default.style" />
+  <Window name="DefaultPopup" style="YellowWindowStyle" size="300 185" position="0 0" anchor="Center Center">
+    <MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+        <Label name="Title" style="Headline1" size="260 18" position="20 9"/>
+        <Label name="Description" style="WordWrapDefaultStyle" size="260 95" position="20 40" userEditable="false"/>
+        <Button name="Ok" position="170 145" size="80 30" text="Ok"/>
+        <Button name="Cancel" position="50 145" size="80 30" text="Cancel"/>
+    </MainFrame>
+  </Window>
+</GUI>

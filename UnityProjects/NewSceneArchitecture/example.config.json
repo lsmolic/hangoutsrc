@@ -1,0 +1,13 @@
+{
+
+//"state_server_location" : "64.106.173.25", // DEV
+//"state_server_location" : "64.106.173.34", // QA
+//"state_server_location" : "64.106.173.32", // LIVE
+
+"fb_account_id" : 1234567890,
+"fb_session_key" : "deadbeefdeadbeefdeadbeef-1234567890",
+"fake_nickname" : "Some Person",
+"fake_first_name" : "Some",
+"fake_last_name" : "Person"
+
+}

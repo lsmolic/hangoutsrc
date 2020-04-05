@@ -1,0 +1,22 @@
+<GUI>
+  <Include path="resources://GUI/Minigames/Fashion/Fashion.style" />
+
+  <Window name="Level1Window" size="300 200" position="0 0" anchor="Center Center" dragBehavior="notDraggable" style="BlueWindowStyle">
+    <MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+
+      <Frame name="OutOfEnergyFrame" style="Clear" size="300 200" position="0 0">
+        <Label name="Headline" position="20 9" style="Headline1" size="260 18" text="Not Enough Energy!"/>
+
+        <Frame name="DetailsFrame" style="WhiteWindowStyle" size="260 68" position="20 38">
+          <Label name="DetailsLabel" size="252 68" position="0 0" style="BoldLabelStyle" anchor="Center Top" text="You need more energy to continue! Refill it now using Hangout Cash or come back later."/>
+        </Frame>
+
+        <!--<Button name="NextLevelButton" size="128 24" position="70 -64" anchor="Center Bottom" text="Refill Energy" style="SecondaryButtonStyle"/>-->
+        <Button name="NextLevelButton" size="128 24" position="70 -20" anchor="Center Bottom" text="Refill Energy" style="SecondaryButtonStyle"/>
+        <Button name="LeaveGameButton" size="128 24" position="-70 -20" anchor="Center Bottom" text="Exit to Hangout" />
+      </Frame>
+
+    </MainFrame>
+  </Window>
+
+</GUI>

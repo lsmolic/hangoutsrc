@@ -1,0 +1,76 @@
+<GUI>
+  <Include path="resources://GUI/Styles/Default.style" />
+  
+  <Style name="ClothingButton">
+    <StyleState name="NormalState">
+      <TextColor color="#000000" />
+    </StyleState>
+    <StyleState name="HoverState">
+      <TextColor color="#229944" />
+    </StyleState>
+    <StyleState name="DisabledState">
+      <TextColor color="#222222" />
+    </StyleState>
+    <StyleState name="ActiveState">
+      <TextColor color="#44ff88" />
+    </StyleState>
+    <Font name="DefaultFont" path="Fonts/HelveticaNeueCondensedBold" />
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+    <Anchor name="DefaultTextAnchor" value="Center Top" />
+    <WordWrap value="true" />
+    <ClipText value="true" />
+  </Style>
+
+  <Style name="LoadingBase">
+    <StyleState name="NormalState">
+      <Background texture="GUI/Minigames/Fashion/Images/LoadingBase" />
+    </StyleState>
+  </Style>
+
+  <Style name="ProgressTrough">
+    <StyleState name="NormalState">
+	    <Background texture="GUI/TopLevel/karma_meter_bar_back" />
+    </StyleState>
+    <Font name="DefaultFont" path="Fonts/HelveticaNeueCondensedBold" />
+    <Margin name="InternalMargins" value="0 0 0 0" />
+    <Margin name="ExternalMargins" value="1 1 1 1" />
+	  <Margin name="NinePartScale" value="6 6 5 5" />
+  </Style>
+  
+  <Style name="Progress">
+    <StyleState name="NormalState">
+	    <Background texture="GUI/TopLevel/karma_meter_bar" />
+    </StyleState>
+	  <Margin name="NinePartScale" value="6 6 5 5" />
+  </Style>
+
+  <Style name="Energy">
+    <StyleState name="NormalState">
+      <Background texture="GUI/TopLevel/energy_meter_bar" />
+    </StyleState>
+    <Margin name="NinePartScale" value="6 6 5 5" />
+  </Style>
+  
+  <Style name="ProgressComplete">
+    <StyleState name="NormalState">
+      <Background texture="GUI/TopLevel/karma_meter_bar_complete" />
+    </StyleState>
+    <Margin name="NinePartScale" value="6 6 5 5" />
+  </Style>
+
+  <Style name="LevelDescriptionText" parent="DefaultBaseStyle">
+    <StyleState name="NormalState">
+      <TextColor color="#787352" />
+      <Background texture="GUI/TopLevel/frame_white_5px_slice" />
+    </StyleState>
+    <ClipText value="true" />
+    <WordWrap value="true" />
+    <Font name="DefaultFont" path="Fonts/HelveticaNeueCondensedBold" />
+    <Anchor name="DefaultTextAnchor" value="Left Top" />
+    <Margin name="NinePartScale" value="5 5 5 5" />
+    <Margin name="InternalMargins" value="4 4 4 4" />
+    <Margin name="ExternalMargins" value="0 0 0 0" />
+  </Style>
+
+</GUI>

@@ -1,0 +1,13 @@
+<GUI>
+	<Include path="resources://GUI/Chat/Window/ChatWindow.style" />
+	
+	<Window name="LoginWindow" size="760 100" position="0 0" anchor="Left Bottom" parentAnchor="Left Bottom">
+		<MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+      <Label name="LoginLabel" style="Headline1" position="-200 -80" size="ExpandText" parentAnchor="Center Bottom" text="Login" />
+      <Textbox name="LoginUsernameTextbox" position="-200 -50" size="192 28" parentAnchor="Center Bottom" singleLine="true" userEditable="true" />
+      <Label name="PasswordLabel" style="Headline1" position="0 -80" size="ExpandText" parentAnchor="Center Bottom" text="Password" />
+      <Textbox name="LoginPasswordTextbox" position="0 -50" size="192 28" parentAnchor="Center Bottom" singleLine="true" userEditable="true" />
+			<Button name="SendButton" position="200 -50" size="24 30" parentAnchor="Center Bottom" />
+		</MainFrame>
+	</Window>
+</GUI>

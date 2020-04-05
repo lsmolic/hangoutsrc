@@ -1,0 +1,366 @@
+101,"Default Female Avatar",,,,,,,,-1,,,,0,,,,2050-01-01
+102,"Default Room",,,,,,,,-1,,,,0,,,,2050-01-01
+108,"Black Shirt","Tops","<Prototype name=""FashionMinigamePrototye"" /><Minigame name=""FashionMinigame"" />",,,,,,-1,,,,0,,,,2050-01-01
+109,"Yellow Shirt","Tops","<Prototype name=""FashionMinigamePrototye"" /><Minigame name=""FashionMinigame"" />",,,,,,-1,,,,0,,,,2050-01-01
+110,"Blue Shirt","Tops","<Prototype name=""FashionMinigamePrototye"" /><Minigame name=""FashionMinigame"" />",,,,,,-1,,,,0,,,,2050-01-01
+112,"Red Shirt","Tops","<Prototype name=""FashionMinigamePrototye"" /><Minigame name=""FashionMinigame"" />",,,,,,-1,,,,0,,,,2050-01-01
+113,"Pink Shirt","Tops","<Prototype name=""FashionMinigamePrototye"" /><Minigame name=""FashionMinigame"" />",,,,,,-1,,,,0,,,,2050-01-01
+114,"Orange Shirt","Tops","<Prototype name=""FashionMinigamePrototye"" /><Minigame name=""FashionMinigame"" />",,,,,,-1,,,,0,,,,2050-01-01
+115,"Green Shirt","Tops","<Prototype name=""FashionMinigamePrototye"" /><Minigame name=""FashionMinigame"" />",,,,,,-1,,,,0,,,,2050-01-01
+116,"Cyan Shirt","Tops","<Prototype name=""FashionMinigamePrototye"" /><Minigame name=""FashionMinigame"" />",,,,,,-1,,,,0,,,,2050-01-01
+117,"Black Pants","Pants","<Prototype name=""FashionMinigamePrototye"" /><Minigame name=""FashionMinigame"" />",,,,,,-1,,,,0,,,,2050-01-01
+118,"Yellow Pants","Pants","<Prototype name=""FashionMinigamePrototye"" /><Minigame name=""FashionMinigame"" />",,,,,,-1,,,,0,,,,2050-01-01
+119,"Blue Pants","Pants","<Prototype name=""FashionMinigamePrototye"" /><Minigame name=""FashionMinigame"" />",,,,,,-1,,,,0,,,,2050-01-01
+121,"Red Pants","Pants","<Prototype name=""FashionMinigamePrototye"" /><Minigame name=""FashionMinigame"" />",,,,,,-1,,,,0,,,,2050-01-01
+122,"Pink Pants","Pants","<Prototype name=""FashionMinigamePrototye"" /><Minigame name=""FashionMinigame"" />",,,,,,-1,,,,0,,,,2050-01-01
+123,"Orange Pants","Pants","<Prototype name=""FashionMinigamePrototye"" /><Minigame name=""FashionMinigame"" />",,,,,,-1,,,,0,,,,2050-01-01
+124,"Green Pants","Pants","<Prototype name=""FashionMinigamePrototye"" /><Minigame name=""FashionMinigame"" />",,,,,,-1,,,,0,,,,2050-01-01
+125,"Cyan Pants","Pants","<Prototype name=""FashionMinigamePrototye"" /><Minigame name=""FashionMinigame"" />",,,,,,-1,,,,0,,,,2050-01-01
+126,"Black Shoes","Shoes","<Prototype name=""FashionMinigamePrototye"" /><Minigame name=""FashionMinigame"" />",,,,,,-1,,,,0,,,,2050-01-01
+127,"Yellow Shoes","Shoes","<Prototype name=""FashionMinigamePrototye"" /><Minigame name=""FashionMinigame"" />",,,,,,-1,,,,0,,,,2050-01-01
+128,"Blue Shoes","Shoes","<Prototype name=""FashionMinigamePrototye"" /><Minigame name=""FashionMinigame"" />",,,,,,-1,,,,0,,,,2050-01-01
+130,"Red Shoes","Shoes","<Prototype name=""FashionMinigamePrototye"" /><Minigame name=""FashionMinigame"" />",,,,,,-1,,,,0,,,,2050-01-01
+131,"Pink Shoes","Shoes","<Prototype name=""FashionMinigamePrototye"" /><Minigame name=""FashionMinigame"" />",,,,,,-1,,,,0,,,,2050-01-01
+132,"Orange Shoes","Shoes","<Prototype name=""FashionMinigamePrototye"" /><Minigame name=""FashionMinigame"" />",,,,,,-1,,,,0,,,,2050-01-01
+133,"Green Shoes","Shoes","<Prototype name=""FashionMinigamePrototye"" /><Minigame name=""FashionMinigame"" />",,,,,,-1,,,,0,,,,2050-01-01
+134,"Cyan Shoes","Shoes","<Prototype name=""FashionMinigamePrototye"" /><Minigame name=""FashionMinigame"" />",,,,,,-1,,,,0,,,,2050-01-01
+135,"FashionModelDefaultTop","Tops",,,,,,,-1,,,,0,,,,2050-01-01
+136,"FashionModelDefaultBottom","Pants",,,,,,,-1,,,,0,,,,2050-01-01
+137,"FashionModelDefaultFootwear","Shoes",,,,,,,-1,,,,0,,,,2050-01-01
+138,"Apricot Skin","Body",,,,"Skin_pale_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Apricot Skin Color",,,2050-01-01
+139,"Blue Eye Color","Body",,,,"EyeColor_blue.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Blue Eye Color",,,2050-01-01
+140,"Hazel Eyebrow Color","Body",,,,,,,-1,,,,0,,,,2050-01-01
+142,"Light Red Blush","Makeup",,,,,,,-1,,,,0,,,,2050-01-01
+143,"Natural Lip Color","Makeup",,,,,,,-1,,,,0,,,,2050-01-01
+144,"Blonde Hair Color","Hair",,,,"HairColor_blonde_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Blonde Hair Color",,,2050-01-01
+145,"Female Face","Body",,,,,,,-1,,,,0,,,,2050-01-01
+146,"Hollister SoCal T-Shirt","Tops",,,,,,,-1,,,,0,"Hollister SoCal T-Shirt","60% cotton/40% polyester, Supersoft, vintage Hollister graphic with beaded embellishments, self fabric interior neck taping, Vintage Hollister Wash, Classic Fit, Imported",,2050-01-01
+147,"Simple Jeans","Pants",,,,,,,-1,,,,0,"Simple Jeans","Nice, simple jeans.",,2050-01-01
+148,"Female Short Hair","Hair",,,,"Female_Hair_Short.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Women's Short Hair",,,2050-01-01
+149,"Light Light Blue Eye Shadow","Makeup",,,,,,,-1,,,,0,"Light Light Blue Eye Shadow",,,2050-01-01
+150,"Caucasian Eye Shape","Body",,,,,,,-1,,,,0,,,,2050-01-01
+151,"Thin Eye Liner","Makeup",,,,"Eyeliner_thin_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Thin Eye Liner",,,2050-01-01
+152,"Average Eye Brow","Body",,,,,,,-1,,,,0,,,,2050-01-01
+153,"Normal Ear","Body",,,,,,,-1,,,,0,,,,2050-01-01
+154,"No Beauty Marks","Body",,,,,,,-1,,,,0,,,,2050-01-01
+155,"No Face Blush","Makeup",,,,,,,-1,,,"VCOIN",1000,"No Face Blush",,,2050-01-01
+156,"Small Nose","Body",,,,,,,-1,,,,0,,,,2050-01-01
+157,"Light Natural Average Mouth","Body",,,,"MouthColor_liteNatural_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Light Natural Lip Color",,,2050-01-01
+158,"Flip Flops","Shoes",,,,,,,-1,,,,0,"Flip Flops","Great for the beach!",,2050-01-01
+159,"Hands","Body",,,,,,,0,,,,0,,,,2050-01-01
+160,"Peach Skin","Body",,,,"Skin_caucasian_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Peach Skin Color",,,2050-01-01
+161,"Light Tan Skin","Body",,,,"Skin_asian_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Light Tan Skin Color",,,2050-01-01
+162,"Tan Skin","Body",,,,"Skin_brown_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Tan Skin Color",,,2050-01-01
+163,"Medium Taupe Skin","Body",,,,"Skin_dark_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Medium Taupe Skin Color",,,2050-01-01
+164,"Tank Top","Tops",,,,,,,-1,,,,0,"Basic Tank Top","A basic tank top for everyday use.",,2050-01-01
+165,"White Shorts","Pants",,,,,,,-1,,,,0,"White Shorts","Have fun in the sun with these white shorts.",,2050-01-01
+166,"Medium Red Blush","Makeup",,,,,,,-1,,,,0,,,,2050-01-01
+167,"Heavy Red Blush","Makeup",,,,,,,-1,,,,0,,,,2050-01-01
+168,"Australia Dirt Road","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+169,"Fall Leaves","Public Room Backdrop",,,,,,,-1,,,,0,,,,2050-01-01
+170,"Baseball Stadium","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+171,"Beach with Chairs","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+172,"Bahamas","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+173,"Hawaii","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+174,"Carnival at Night","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+175,"Corn Field","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+176,"Golf Course Fairway","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+177,"Wooded Cemetery","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+178,"Frozen Lake","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+179,"Gothic Church","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+180,"Grand French Entry Hall","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+181,"Grass Meadow","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+182,"Private Runway","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+183,"Library","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+184,"Auburn Hair Color","Hair",,,,"HairColor_auburn_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Auburn Hair Color",,,2050-01-01
+185,"Maroon Hair Color","Hair",,,,"HairColor_maroon_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Maroon Hair Color",,,2050-01-01
+186,"Golden Wheat Hair Color","Hair",,,,"HairColor_goldenWheat_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Golden Wheat Hair Color",,,2050-01-01
+187,"Chestnut Hair Color","Hair",,,,"HairColor_chestnut_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Chestnut Hair Color",,,2050-01-01
+188,"Ebony Hair Color","Hair",,,,"HairColor_ebony_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Ebony Hair Color",,,2050-01-01
+189,"Dark Natural Average Mouth","Makeup",,,,"MouthColor_darkNatural_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Dark Natural Lip Color",,,2050-01-01
+190,"Pink Average Mouth","Makeup",,,,"MouthColor_pink_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Pink Lip Color",,,2050-01-01
+191,"Red Average Mouth","Makeup",,,,"MouthColor_red_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Red Lip Color",,,2050-01-01
+192,"Deep Red Average Mouth","Makeup",,,,"MouthColor_deepRed_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Deep Red Lip Color",,,2050-01-01
+193,"Dark Purple Average Mouth","Makeup",,,,"MouthColor_darkPurple_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Dark Purple Lip Color",,,2050-01-01
+194,"Brown Eyebrow Color","Body",,,,,,,-1,,,,0,,,,2050-01-01
+196,"Black Eyebrow Color","Body",,,,,,,-1,,,,0,,,,2050-01-01
+197,"Green Eye Color","Body",,,,"EyeColor_green.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Green Eye Color",,,2050-01-01
+198,"Hazel Eye Color","Body",,,,"EyeColor_hazel.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Hazel Eye Color",,,2050-01-01
+199,"Brown Eye Color","Body",,,,"EyeColor_brown.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Brown Eye Color",,,2050-01-01
+200,"Dark Brown Eye Color","Body",,,,"EyeColor_dark.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Dark Brown Eye Color",,,2050-01-01
+201,"Grey Eye Color","Body",,,,"EyeColor_grey.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Grey Eye Color",,,2050-01-01
+202,"Medium Light Blue Eye Shadow","Makeup",,,,,,,-1,,,,0,,,,2050-01-01
+203,"Heavy Light Blue Eye Shadow","Makeup",,,,"EyeShadow_light_blue.png",,,-1,"Hangout_Store",,"VCOIN",1600,"Light Blue Eye Shadow - Heavy",,,2050-01-01
+204,"Light Blue Eye Shadow","Makeup",,,,,,,-1,,,,0,,,,2050-01-01
+205,"Medium Blue Eye Shadow","Makeup",,,,,,,-1,,,,0,,,,2050-01-01
+206,"Heavy Blue Eye Shadow","Makeup",,,,"EyeShadow_blue.png",,,-1,"Hangout_Store",,"VCOIN",1600,"Blue Eye Shadow - Heavy",,,2050-01-01
+207,"Light Aqua Eye Shadow","Makeup",,,,,,,-1,,,,0,,,,2050-01-01
+208,"Medium Aqua Eye Shadow","Makeup",,,,,,,-1,,,,0,,,,2050-01-01
+209,"Heavy Aqua Eye Shadow","Makeup",,,,"EyeShadow_aqua.png",,,-1,"Hangout_Store",,"VCOIN",1600,"Aqua Eye Shadow - Heavy",,,2050-01-01
+210,"Light Green Eye Shadow","Makeup",,,,,,,-1,,,,0,,,,2050-01-01
+211,"Medium Green Eye Shadow","Makeup",,,,,,,-1,,,,0,,,,2050-01-01
+212,"Heavy Green Eye Shadow","Makeup",,,,"EyeShadow_green.png",,,-1,"Hangout_Store",,"VCOIN",1600,"Green Eye Shadow - Heavy",,,2050-01-01
+213,"Light Fuchsia Eye Shadow","Makeup",,,,,,,-1,,,,0,,,,2050-01-01
+214,"Medium Fuchsia Eye Shadow","Makeup",,,,,,,-1,,,,0,,,,2050-01-01
+215,"Heavy Fuchsia Eye Shadow","Makeup",,,,"EyeShadow_fuchsia.png",,,-1,"Hangout_Store",,"VCOIN",1600,"Fuchsia Eye Shadow - Heavy",,,2050-01-01
+216,"Light Dark Eye Shadow","Makeup",,,,,,,-1,,,,0,,,,2050-01-01
+217,"Medium Dark Eye Shadow","Makeup",,,,,,,-1,,,,0,,,,2050-01-01
+218,"Heavy Dark Eye Shadow","Makeup",,,,"EyeShadow_dark.png",,,-1,"Hangout_Store",,"VCOIN",1600,"Dark Eye Shadow - Heavy",,,2050-01-01
+219,"Locker Hallway","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+220,"Mall Parking Lot","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+221,"Plaza Espana","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+222,"College Campus","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+223,"Mall - Upper","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+224,"Mall - Lower","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+225,"Skate Park","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+226,"Snowy Hilltop","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+227,"Stage with Curtains","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+228,"Utah Arches Park","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+229,"Abstract Painting","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+230,"Empty Apartment","Private Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+231,"Central Park at Night","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+232,"Miami Skyline","Public Room Background",,,,,,,-1,,,,0,,,,2050-01-01
+234,"AKA New York Deco Collar T-Shirt","Tops",,,,"AKANewYork_artDeco_thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",540,"AKA New York Deco Collar T-Shirt","Transforms from basic to dazzling, this tie-dye jersey tee features beads, tiny metal rings, and metallic embroidery at the removable bib. Crew neck and short sleeves.",,2050-01-01
+235,"AKA New York Medallion Camisole","Tops",,,,"AKANewYork_MedallionCamisole_thumbmail.png",,,-1,"Hangout_Store",,"HOUTS",590,"AKA New York Medallion Camisole","This silk top features assorted metal beads, distressed paillettes, satin panel, and ruching at the bust. Adjustable 1.5 inch velvet straps button at back. Sheer. Lined.",,2050-01-01
+236,"Hayden-Harnett Michi Silk Tank","Tops",,,,"Hayden_Michi_Silk_Tank_thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",410,"Hayden-Harnett Michi Silk Tank","The supple washed silk habotai in our custom-designed Smog Bibliotheque print looks amazing tucked into a high-waisted skirt and topped with a killer jacket. Dainty shirring at the neck and sleek racer back styling lend a little something extra.",,2050-01-01
+237,"Hollister Co. Lake Hodges Tee","Tops",,,,"Hollister_Lake_Hodges_thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",1770,"Hollister Co. Lake Hodges Tee","60% cotton/40% polyester, Supersoft, v-neck, bright floral graphic, self fabric interior neck taping, Vintage Hollister Wash, Classic Fit, Imported",,2050-01-01
+238,"Hollister Co. Laguna Beach Tank","Tops",,,,"Hollister_Laguna_Beach_thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",2440,"Hollister Co. Laguna Beach Tank","60% cotton/40% polyester, Supersoft, racerback, skinny straps, sheer detailing at neckline with applique, seagull embroidery, Sexy Ease Fit, Imported",,2050-01-01
+239,"Hollister Co. Laguna Niguel Top","Tops",,,,"Hollister_Laguna_Niguel_thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",1990,"Hollister Co. Laguna Niguel Top","60% cotton/40% polyester, Supersoft, sheer fabric, scoop neck, self-fabric interior neck taping, seagull embroidery, Classic Fit, Imported",,2050-01-01
+240,"Hollister Co. Point Vicente Polo","Tops",,,,"Hollister_SoCal_polo_thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",2460,"Hollister Co. Point Vicente Polo","100% cotton pique, classic dry hand fabric, twill neck taping, twill trimmed hem side slits, ribbed collar and cuffs, seagull embroidery, Vintage Hollister Wash, Classic Fit, Imported",,2050-01-01
+241,"Hollister Co. Emerald Cove Tank","Tops",,,,"Hollister_Emerald_Cove_thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",1990,"Hollister Co. Emerald Cove Tank","100% cotton, Supersoft, braided detail at neckline, beaded accent at straps, empire waist, seagull embroidery, Babydoll Fit, Imported",,2050-01-01
+242,"Paige Skyline Ankle Peg","Pants",,,,"skyline_angle_peg_rebel_thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",540,"Paige Skyline Ankle Peg","Color: Rebel",,2050-01-01
+243,"Paige Skyline Drive Peg","Pants",,,,"Paige_skylineDrive10_thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",510,"Paige Skyline Drive Peg","Color: Optic White",,2050-01-01
+244,"Paige Laurel Canyon Canon","Pants",,,,"Paige_LaurelCanyon_thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",540,"Paige Laurel Canyon Canon","Color: McKinley",,2050-01-01
+245,"Paige Jimmy Jimmy","Pants",,,,"Paige_JimmyJimmyBeachwood_thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",580,"Paige Jimmy Jimmy","Color: Beachwood",,2050-01-01
+246,"Paige Blue Heights Cuffed Skinny","Pants",,,,"Paige_Blue_Heights_thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",510,"Paige Blue Heights Cuffed Skinny","Color: Lake Destruction",,2050-01-01
+247,"Paige Calabasas","Pants",,,,"Paige_Calabasas_Blue_thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",550,"Paige Calabasas","Color: Blue Topaz",,2050-01-01
+248,"Paige Bundy Pant","Pants",,,,"Paige_womens_bundy_thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",540,"Paige Bundy Pant","Color: White Stretch Destruction",,2050-01-01
+249,"Hollister Co. Oceanside Super Skinny Legging Jean","Pants",,,,"Hollister_Oceanside_Super_thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",4010,"Hollister Co. Oceanside Super Skinny Legging Jean","100% cotton, super skinny leg, hand-done destruction with holes and repair stitching, seagull embroidery at right coin pocket, iconic back pocket stitching, Vintage Hollister Light Wash, Imported",,2050-01-01
+250,"Forever 21 Fab Leggings","Pants",,,,"forever21_Fab_legging_thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",950,"Forever 21 Fab Leggings","Complete your favorite look with our curve hugging leggings. Perfect with your favorite bottoms! ",,2050-01-01
+251,"Nicolette Eyelet Pintuck Blouse - Navy Blue","Tops",,,,"Nicolette_Unamed3_thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",240,"Nicolette Eyelet Pintuck Blouse - Navy Blue","Embroidered top with lace trim and tie back. 27 inches long. Cotton. By Nicolette. Lilac, Navy/White Dot, White. Imported.",,2050-01-01
+252,"Nicolette Eyelet Pintuck Blouse - Blue","Tops",,,,"Nicolette_Unamed4_thumbnail.png",,,-1,,,"HOUTS",240,"Nicolette Eyelet Pintuck Blouse - Blue","Embroidered top with lace trim and tie back. 27 inches long. Cotton. By Nicolette. Blue. Imported.",,2050-01-01
+253,"Beach with Green Hut","Room Backdrop",,,,"private_beachGreenHut_thumb.jpg",,,-1,"Hangout_Store",,"HOUTS",400,"Beach with Green Hut","The perfect beach hangout for you and your friends.",,2050-01-01
+254,"Beach with Thatch Hut","Room Backdrop",,,,"private_beachThatchHut_thumb.jpg",,,-1,"Hangout_Store",,"HOUTS",400,"Beach with Thatch Hut","Kick back and relax on your own exotic tropical beach.",,2050-01-01
+255,"Private Garden Path","Room Backdrop",,,,"private_gardenArchPath_thumb.jpg",,,-1,"Hangout_Store",,"HOUTS",400,"Private Garden Path","Spend a quiet moment in your own private garden retreat.",,2050-01-01
+256,"Female_Hair_Long","Hair",,,,"Female_Hair_Long.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Long",,,2050-01-01
+257,"Female_Hair_Emo","Hair",,,,"Female_Hair_Emo.png",,,-1,"Hangout_Store",,"HOUTS",400,"Emo",,,2050-01-01
+258,"Female_Hair_LongEmo","Hair",,,,"Female_Hair_LongEmo.png",,,-1,"Hangout_Store",,"HOUTS",400,"Long Emo",,,2050-01-01
+259,"Female_Hair_PoshSpicePunk","Hair",,,,"Female_Hair_PoshSpicePunk.png",,,-1,"Hangout_Store",,"HOUTS",400,"Spice Punk",,,2050-01-01
+260,"Female_Hair_LongFringe","Hair",,,,"Female_Hair_LongFringe.png",,,-1,"Hangout_Store",,"HOUTS",400,"Long Fringe",,,2050-01-01
+261,"Female_Hair_ShortTuckedWavyBob","Hair",,,,"Female_Hair_ShortTuckedWavyBob.png",,,-1,"Hangout_Store",,"HOUTS",400,"Short Tucked Wavy Bob",,,2050-01-01
+262,"Female_Hair_PromSexyCurls","Hair",,,,"Female_Hair_PromSexyCurls.png",,,-1,"Hangout_Store",,"HOUTS",400,"Prom Sexy Curls",,,2050-01-01
+263,"Female_Hair_RihannaChicUpdo","Hair",,,,"Female_Hair_RihannaChicUpdo.png",,,-1,"Hangout_Store",,"HOUTS",400,"Chic Updo",,,2050-01-01
+264,"Female_Hair_LongBangs","Hair",,,,"Female_Hair_LongBangs.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Long Bangs",,,2050-01-01
+265,"Female_Hair_ShortPixieCrop","Hair",,,,"Female_Hair_ShortPixieCrop.png",,,-1,"Hangout_Store",,"HOUTS",400,"Short Pixie Crop",,,2050-01-01
+266,"Female_Hair_ShortCrop","Hair",,,,"Female_Hair_ShortCrop.png",,,-1,"Hangout_Store",,"HOUTS",400,"Short Crop",,,2050-01-01
+267,"Female_Hair_LongCurls","Hair",,,,"Female_Hair_LongCurls.png",,,-1,"Hangout_Store",,"HOUTS",400,"Long Curls",,,2050-01-01
+268,"Female_Hair_LongEmo","Hair",,,,,,,-1,,,,,,,,2050-01-01
+269,"Female_Hair_LongHippyHeadband","Hair",,,,"Female_LongHippyHeadband.png",,,-1,"Hangout_Store",,"HOUTS",400,"Long Hippy Headband",,,2050-01-01
+270,"Female_Hair_LongMohawk","Hair",,,,"Female_Hair_LongMohawk.png",,,-1,"Hangout_Store",,"HOUTS",400,"Long Mohawk",,,2050-01-01
+271,"Female_Hair_LongSweptCurls","Hair",,,,"Female_Hair_LongSweptCurls.png",,,-1,"Hangout_Store",,"HOUTS",400,"Long Swept Curls",,,2050-01-01
+272,"Female_Hair_PromGlamPonytail","Hair",,,,"Female_Hair_PromGlamPonytail.png",,,-1,"Hangout_Store",,"HOUTS",400,"Prom Glam Ponytail",,,2050-01-01
+273,"Female_Hair_PromCurlyHighUpdo","Hair",,,,"Female_Hair_PromCurlyHighUpdo.png",,,-1,"Hangout_Store",,"HOUTS",400,"Prom Curly High Updo",,,2050-01-01
+274,"Female_Hair_AnistonLongSedu","Hair",,,,"Female_Hair_AnistonLongSedu.png",,,-1,"Hangout_Store",,"HOUTS",400,"Long Sedu",,,2050-01-01
+275,"Female_Hair_EvaMendexCurls","Hair",,,,"Female_Hair_EvaMendexCurls.png",,,-1,"Hangout_Store",,"HOUTS",400,"Curls",,,2050-01-01
+276,"Female_Hair_HalleBerryCrop","Hair",,,,"Female_Hair_HalleBerryCrop.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Crop",,,2050-01-01
+277,"Female_Hair_PenelopeCruzHighUpdo","Hair",,,,"Female_Hair_PenelopeCruzHighUpdo.png",,,-1,"Hangout_Store",,"HOUTS",400,"High Updo",,,2050-01-01
+278,"Female_Hair_PromChignonUpdo","Hair",,,,"Female_Hair_PromChignonUpdo.png",,,-1,"Hangout_Store",,"HOUTS",400,"Prom Chignon Updo",,,2050-01-01
+279,"Female_Hair_RihannaPunk","Hair",,,,"Female_Hair_RihannaPunk.png",,,-1,"Hangout_Store",,"HOUTS",400,"Punk",,,2050-01-01
+280,"Female_Hair_MediumCurls","Hair",,,,"Female_Hair_MediumCurls.png",,,-1,,,,0,,,,2050-01-01
+281,"Female_Hair_MediumCurlyPonytail","Hair",,,,"Female_Hair_MediumCurlyPonytail.png",,,-1,"Hangout_Store",,"HOUTS",400,"Medium Curly Ponytail",,,2050-01-01
+282,"Female_Hair_MediumSedu","Hair",,,,"Female_Hair_MediumSedu.png",,,-1,"Hangout_Store",,"HOUTS",400,"Medium Sedu",,,2050-01-01
+283,"Female_Hair_ShortBobFlippy","Hair",,,,"Female_Hair_ShortBobFlippy.png",,,-1,"Hangout_Store",,"HOUTS",400,"Short Bob Flippy",,,2050-01-01
+284,"Female_Hair_ShortBob","Hair",,,,"Female_Hair_ShortBob.png",,,-1,"Hangout_Store",,"HOUTS",400,"Short Bob",,,2050-01-01
+285,"Very Fair Skin","Body",,,,"Skin_veryFair_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Very Fair Skin Color",,,2050-01-01
+286,"Fair Skin","Body",,,,"Skin_FFE0C4_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Fair Skin Color",,,2050-01-01
+287,"Espresso Skin","Body",,,,"Skin_espresso_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Espresso Skin Color",,,2050-01-01
+288,"Sienna Skin","Body",,,,"Skin_BE723C_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Sienna Skin Color",,,2050-01-01
+289,"Chestnut Skin","Body",,,,"Skin_chestnut_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Chestnut Skin Color",,,2050-01-01
+290,"Wheat Skin","Body",,,,"Skin_21_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Wheat Skin Color",,,2050-01-01
+291,"Auburn Skin","Body",,,,"Skin_34_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Auburn Skin Color",,,2050-01-01
+292,"Umber Skin","Body",,,,"Skin_35_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Umber Skin Color",,,2050-01-01
+293,"Buttered Toast Hair Color","Hair",,,,"HairColor_butteredToast_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Buttered Toast Hair Color",,,2050-01-01
+294,"Buttered Walnut Hair Color","Hair",,,,"HairColor_butteredWalnut_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Buttered Walnut Hair Color",,,2050-01-01
+295,"Butterscotch Blonde Hair Color","Hair",,,,"HairColor_butterscotchBlonde_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Butterscotch Blonde Hair Color",,,2050-01-01
+296,"Chocolate Copper Hair Color","Hair",,,,"HairColor_chocolateCopper_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Chocolate Copper Hair Color",,,2050-01-01
+297,"Dark Auburn Hair Color","Hair",,,,"HairColor_darkAuburn_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Dark Auburn Hair Color",,,2050-01-01
+298,"Dark Chocolate Hair Color","Hair",,,,"HairColor_darkChocolate_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Dark Chocolate Hair Color",,,2050-01-01
+299,"Dark Cinnamon Hair Color","Hair",,,,"HairColor_darkCinnamon_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Dark Cinnamon Hair Color",,,2050-01-01
+300,"Dark Copper Hair Color","Hair",,,,"HairColor_darkCopper_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Dark Copper Hair Color",,,2050-01-01
+301,"Ginger Blonde Hair Color","Hair",,,,"HairColor_gingerBlonde_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Ginger Blonde Hair Color",,,2050-01-01
+302,"Ginger Brown Hair Color","Hair",,,,"HairColor_gingerBrown_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Ginger Brown Hair Color",,,2050-01-01
+303,"Ginger Red Hair Color","Hair",,,,"HairColor_GingerRed_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Ginger Red Hair Color",,,2050-01-01
+304,"Glazed Apricot Hair Color","Hair",,,,"HairColor_glazedApricot_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Glazed Apricot Hair Color",,,2050-01-01
+305,"Glazed Hazelnut Hair Color","Hair",,,,"HairColor_glazedHazelnut_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Glazed Hazelnut Hair Color",,,2050-01-01
+306,"Glazed Sand Hair Color","Hair",,,,"HairColor_glazedSand_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Glazed Sand Hair Color",,,2050-01-01
+307,"Glazed Strawberry Hair Color","Hair",,,,"HairColor_glazedStrawberry_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Glazed Strawberry Hair Color",,,2050-01-01
+308,"Golden Walnut Hair Color","Hair",,,,"HairColor_goldenWalnut_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Golden Walnut Hair Color",,,2050-01-01
+309,"Honey Blonde Hair Color","Hair",,,,"HairColor_honeyBlonde_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Honey Blonde Hair Color",,,2050-01-01
+310,"Honey Ginger Hair Color","Hair",,,,"HairColor_honeyGinger_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Honey Ginger Hair Color",,,2050-01-01
+311,"Honey Pecan Hair Color","Hair",,,,"HairColor_honeyPecan_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Honey Pecan Hair Color",,,2050-01-01
+312,"Midnight Brown Hair Color","Hair",,,,"HairColor_midnightBrown_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Midnight Brown Hair Color",,,2050-01-01
+313,"Pearl Platinum Hair Color","Hair",,,,"HairColor_pearlPlatinum_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Pearl Platinum Hair Color",,,2050-01-01
+314,"Pecan Mist Hair Color","Hair",,,,"HairColor_pecanMist_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Pecan Mist Hair Color",,,2050-01-01
+315,"Sandy Blonde Hair Color","Hair",,,,"HairColor_sandyBlonde_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Sandy Blonde Hair Color",,,2050-01-01
+316,"Silvermist Hair Color","Hair",,,,"HairColor_silverMist_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Silvermist Hair Color",,,2050-01-01
+317,"Smoke Hair Color","Hair",,,,"HairColor_smoke_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Smoke Hair Color",,,2050-01-01
+318,"Smoked Walnut Hair Color","Hair",,,,"HairColor_smokedWalnut_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Smoked Walnut Hair Color",,,2050-01-01
+319,"Swedish Blonde Hair Color","Hair",,,,"HairColor_swedishBlonde_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Swedish Blonde Hair Color",,,2050-01-01
+320,"Walnut Mist Hair Color","Hair",,,,"HairColor_walnutMist_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Walnut Mist Hair Color",,,2050-01-01
+321,"Glazed Fire Hair Color","Hair",,,,"HairColor_GlazedFire_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Glazed Fire Hair Color",,,2050-01-01
+322,"Steel Gray Hair Color","Hair",,,,"HairColor_SteelGray_thumb.png",,,-1,"Hangout_Store",,"HOUTS",300,"Steel Gray Hair Color",,,2050-01-01
+323,"Happy Mood","Mood",,,,,,,-1,,,,0,,,,2050-01-01
+324,"Thick Eye Liner","Makeup",,,,"Eyeliner_thick_thumb.png",,,-1,"Hangout_Store",,"VCOIN",1000,"Thick Eye Liner",,,2050-01-01
+325,"Glam Eye Liner","Makeup",,,,"Eyeliner_glam_thumb.png",,,-1,"Hangout_Store",,"HOUTS",100,"Glam Eye Liner",,,2050-01-01
+326,"Emo Eye Liner","Makeup",,,,"Eyeliner_emo_thumb.png",,,-1,"Hangout_Store",,"HOUTS",100,"Emo Eye Liner",,,2050-01-01
+327,"Steve Madden Bonanza Boots","Shoes",,,,"Steve_Madden_Bonanza_Thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",3760,"Steve Madden Bonanza Boots","Spring into springtime with the ultra-comfy Bonanza boot. Wear these slouchy suede boots with a floral print dress or denim shorts for a brand-new look.",,2050-01-01
+328,"Steve Madden Intyce Boots - Black","Shoes",,,,"SteveMadden_thumbnail_Intyce.png",,,-1,"Hangout_Store",,"HOUTS",510,"Steve Madden Intyce Boots - Black","The Intyce is just plain gorgeous. Show off the buckle detail by pulling them over your skinny jeans, or pair them with your favorite mini dress for a full-blown fashion look.",,2050-01-01
+329,"Steve Madden Buck Boots - Black","Shoes",,,,"Steve_Madden_Buck_Thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",500,"Steve Madden Buck Boots - Black","Buck the system in our little engineer boot that could. Look fantastic and sexy in that tough chick way, or wear them with dresses to wake up your wardrobe.",,2050-01-01
+330,"Steve Madden Ottowa Boots","Shoes",,,,"steveMadden_thumbnail_Ottawa.png",,,-1,"Hangout_Store",,"HOUTS",510,"Steve Madden Ottowa Boots","Kick your style into high gear with these over the knee riding style boots.",,2050-01-01
+331,"Steve Madden Kickerr - Pink","Shoes",,,,"Steve_Madden_Kickerr_Pink_Thumbnai.png",,,-1,"Hangout_Store",,"HOUTS",350,"Steve Madden Kickerr - Pink","Leather upper material. Rubber sole.",,2050-01-01
+332,"Steve Madden Cybul Boots","Shoes",,,,"stevemadden_thumbnail_Cybul.png",,,-1,"Hangout_Store",,"HOUTS",430,"Steve Madden Cybul Boots","Give your everyday jeans fashion forward flair by tucking them into the cuffed, slouchy, Cybul boot. You'll love them in every color.",,2050-01-01
+333,"Paige Desden Skirt","Skirt",,,,"PaigePremiumDenim_thumb_DresdenSkirt.png",,,-1,,,"HOUTS",550,"Paige Desden Skirt","23.5 inch length. Pencil skirt. Soft form fitting ponti fabric.",,2050-01-01
+334,"Hayden-Harnett Tallulah Patchwork Suede Skirt","Skirt",,,,"Hayden_Harnett_Tallulah_Patchwork_Suede_Skirt_Thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",930,"Hayden-Harnett Tallulah Patchwork Suede Skirt","he Tallullah patchwork skirt is a resurrection of one of our most favorite vintage styles, the A-line suede skirt.",,2050-01-01
+335,"Forever 21 Crepe Georgette Skirt","Skirt",,,,"forever21_thumb_CrepeGorgetteSkirt.png",,,-1,"Hangout_Store",,"VCOIN",1960,"Forever 21 Crepe Georgette Skirt","Dirndl skirt with semi-dense gathering at the stiff and thin, elastic waistband. The light weight georgette crepe fabric has a dull texture and crinkly, ridged surface printed with a rose pattern.",,2050-01-01
+336,"Forever 21 Satin Flirt Skirt","Skirt",,,,"Forever21_Satin_Flirt_Skirt_Thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",1900,"Forever 21 Satin Flirt Skirt","Sashay around the dance floor in this fabulous short satin skirt featuring sexy satin-edged tulle lining that peeks out below the hem. Hidden side zipper closure.",,2050-01-01
+337,"Forever 21 Brushed Cotton Plaid Skirt","Skirt",,,,"Forever21_thumb_BrushedCottonPlaid.png",,,-1,"Hangout_Store",,"VCOIN",1850,"Forever 21 Brushed Cotton Plaid Skirt","A brushed-cotton skirt featuring a buffalo check pattern, a distinguished waistband with a hidden side zipper closure, soft accent pleats, and a finished bottom hem.",,2050-01-01
+338,"Forever 21 Tasia Denim Skirt","Skirt",,,,"forever21_thumb_TasiaDenimSkirt.png",,,-1,"Hangout_Store",,"VCOIN",2000,"Forever 21 Tasia Denim Skirt","A frayed denim short length skirt featuring an unfinished frayed hem, a button fly zipper closure, and a traditional 5-pocket design.",,2050-01-01
+339,"Paige Westminster Shorts","Pants",,,,"Paige_Women_Westminster_Short_Thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",510,"Paige Westminster Shorts","Color: Monterey",,2050-01-01
+340,"Paige Mariposa Shorts","Pants",,,,"PaigePremiumDenim_thumb_MariposaShort.png",,,-1,"Hangout_Store",,"HOUTS",480,"Paige Mariposa Shorts","Color: Hydrangea",,2050-01-01
+341,"Forever 21 Marina Cuffed Shorts","Pants",,,,"Forever21_Marina_Cuffed_Short_with_Tie_belt_Thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",2000,"Forever 21 Marina Cuffed Shorts","This chic cuffed short features a unique suede-like texture that's soft to the touch and sports side inset pockets, faux back pockets, and a notched back waistband.",,2050-01-01
+342,"AKA New York Pintuck Blouse","Tops",,,,"AKANewYork_thumbnail_PintuckBlouse.png",,,-1,"Hangout_Store",,"HOUTS",590,"AKA New York Pintuck Blouse","This crew-neck silk blouse features pintucking at the 8-button placket. Ruching at back. Single-button closure and ruching at cuffs. Long blouson sleeves. Semi-sheer. Lined at body.",,2050-01-01
+343,"Forever 21 Ribbed Panel Slub Top","Tops",,,,"forever21_thumbnail_RibedPanelSlub.png",,,-1,"Hangout_Store",,"VCOIN",1900,"Forever 21 Ribbed Panel Slub Top","A long sleeve slub knit top featuring ribbed sleeves with matching side panels. Other features include a round neckline, 2-front scoop pockets, and a finished bottom hem. Lightweight and semi-sheer when stretched.",,2050-01-01
+344,"Forever 21 Striped Dolmain Top","Tops",,,,"Forever21_stripedDolmainTshirt_thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",1460,"Forever 21 Striped Dolman Top","Dolman sleeve knit top made of thin, loose-knit, sweater material. This top is cuffed at the sleeves and ruched at the dropped shoulders.",,2050-01-01
+345,"Forever 21 Pinstripe Silk Woven Top","Tops",,,,"forever21_Pinstripe_Silk_thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",2150,"Forever 21 Pinstripe Silk Woven Top","A lightweight sleeveless woven top featuring a satin pinstripe construction, an 8-button placket, ruffle trim at the arm openings, an elastic smocked upper trim with accent pleats, and a finished pleated bottom hem.",,2050-01-01
+346,"Forever 21 Silk Trapeze Tunic","Tops",,,,"forever21_Silk_Trapeze_thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",2000,"Forever 21 Silk Trapeze Tunic","A simple trapeze tunic made from beautiful opaque silk and featuring pintucked detail on the body and shoulder straps. Unlined.",,2050-01-01
+347,"Forever 21 Beaded Knit Tunic","Tops",,,,"forever21_Beaded_Knit_thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",1850,"Forever 21 Beaded Knit Tunic","Sleeveless knit top featuring a beaded upper bust, a mesh racerback detail, a slub knit construction, and a banded bottom hem.",,2050-01-01
+348,"Forever 21 Fab Striped Snap Shirt","Tops",,,,"Forever21_Fab_Striped_Shirt_Thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",1590,"Forever 21 Fab Striped Snap Shirt","A 3/4 woven shirt featuring a stripe-textured construction with subtle see-through striped elements. ",,2050-01-01
+349,"Forever 21 Patch Sweat Pant","Pants",,,,"forever21_patch_sweat_thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",1850,"Forever 21 Patch Sweat Pant","Casual lounge sweat pants featuring an H81side patch with NY, LA, and Tokyo stitched city names. Other features include a slight elastic waistband with a drawstring self-tie, a soft fleece interior, and an elastic finished ankle hem.",,2050-01-01
+350,"Forever 21 Skinny Corduroy Pant","Pants",,,,"forever21_Skinny_Corduroy_thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",1740,"Forever 21 Skinny Corduroy Pant","Enter the new season with our corduroy pants featuring a skinny leg construction, a traditional 5-pocket construction, belt loops, a single-button zipper fly closure, and finished seams.",,2050-01-01
+351,"Forever 21 Suede Cloth Palazzo Pant","Pants",,,,"Forever21_thumbnail_SuedeClothPalazzoPant.png",,,-1,"Hangout_Store",,"VCOIN",2460,"Forever 21 Suede Cloth Palazzo Pant","Dress up in these flowy palazzo pants. The soft suede cloth feels and looks luxurious. Features tonal decorative top stitching at the front curved pockets, back welt pockets, and tie belt. Includes hook and eye fly front closure.",,2050-01-01
+352,"Forever 21 Mineral Wash Flare Pant","Pants",,,,"forever21_Mineral_Wash_thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",2150,"Forever 21 Mineral Wash Flare Pant","Show off your unique style flair with this distinctive mineral wash stretchy knit pant with flare legs and an optional fold waist.",,2050-01-01
+353,"Forever 21 Calista Wide Leg Trouser","Pants",,,,"forever21_Calista_Wide_Leg_thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",2240,"Forever 21 Calista Wide Leg Trouser","A wide leg trouser pant which features a double hook bar zipper closure, 2-front pocket slits, 2-faux back pocket slits, finished bottom hem.",,2050-01-01
+354,"Paige Onyx Alligator Tote","Bags",,,,"PaigeGamble_thumbnail_OnyxAlligatorTote.png",,,-1,"Hangout_Store",,"HOUTS",3010,"Paige Onyx Alligator Tote","One of a Kind Large Scale Alligator Tote. Featuring luxe onyx alligator skin with unusually flawless, large-scales. Lined in black suede.",,2050-01-01
+355,"Paige Plum Ostrich and Amethyst Tote","Bags",,,,"PaigeGamble_thumbnail_PlumOstrichAmethystTote.png",,,-1,"Hangout_Store",,"HOUTS",1960,"Paige Plum Ostrich and Amethyst Tote","Matte Plum Ostrich and Hand-Faceted Amethyst Tote - Medium. Each bag is cut from one large ostrich skin. Lined in plum ostrich and black suede.",,2050-01-01
+356,"Hayden-Harnett Ibiza Convertible Flight Tote","Bags",,,,"Hayden_Harnett_Ibizatote_Thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",550,"Hayden-Harnett Ibiza Convertible Flight Tote","Our shimmering nylon Ibiza tote is the perfect traveling companion. Under your arm the Ibiza is a great stylish east-west, sleek and chic, but the Ibiza expands to hold whatever new purchases you make from the local bazaar.",,2050-01-01
+357,"Steve Madden Comodo - Black","Shoes",,,,"stevemadden_thumb_Comodo.png",,,-1,"Hangout_Store",,"VCOIN",4020,"Steve Madden Comodo - Black","Pretty pump alert! The Comodo's classic style and workable heel height combine to make this shoe a must have for all occasions and wardrobe changes.",,2050-01-01
+358,"Steve Madden Harah - Black","Shoes",,,,"Steve_Madden_Harrah_Thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",4500,"Steve Madden Harah - Black","What a wearable pair of heels! Turn the old school oxford into the new school by feeling as classy as Audrey Hepburn while the color selection lets you have as much fun as Katy Perry!",,2050-01-01
+359,"Steve Madden Tristano - Black","Shoes",,,,"steveMadden_thumb_Tristano.png",,,-1,,,"VCOIN",4720,"Steve Madden Tristano - Black","Multi-colored metal studs adorn these smokin' Suede platform pumps, giving them a classic, yet slightly edgy vibe. Wear with dresses, skirts, or black skinny jeans.",,2050-01-01
+360,"Nicolette Blouse","Tops",,,,"Nicolette_Unamed_1_thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",240,"Nicolette Blouse","",,2050-01-01
+361,"Nicolette Blouse - Checkered","Tops",,,,"Nicolette_Unamed2_thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",240,"Nicolette Blouse - Checkered","",,2050-01-01
+362,"Sad Mood","Mood",,,,"f_emote_sadUE_thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",500,"Sad Mood",,,2050-01-01
+363,"Angry Mood","Mood",,,,"f_emote_angryUE_thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",500,"Angry Mood",,,2050-01-01
+364,"Lazy Mood","Mood",,,,"f_emote_yawnUE_thumbnail.png",,,-1,,,"VCOIN",1000,"Lazy Mood",,,2050-01-01
+365,"Energetic Mood","Mood",,,,"Eyeliner_glam_thumb.png",,,-1,,,"VCOIN",2000,"Energetic Mood",,,2050-01-01
+366,"Flirty Mood","Mood",,,,"f_emote_flirtUE_thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",600,"Flirty Mood",,,2050-01-01
+367,"Nervous Mood","Mood",,,,"f_emote_nervousUE_thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",600,"Nervous Mood",,,2050-01-01
+368,"Tired Mood","Mood",,,,"f_emote_tiredUE_thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",600,"Tired Mood",,,2050-01-01
+369,"Yes","Emote",,,,"Eyeliner_glam_thumb.png",,,-1,,,"VCOIN",1200,"Yes",,,2050-01-01
+370,"No","Emote",,,,"Eyeliner_glam_thumb.png",,,-1,,,"VCOIN",1200,"No",,,2050-01-01
+371,"Cellphone","Emote",,,,"Eyeliner_glam_thumb.png",,,-1,,,"VCOIN",1200,"Cellphone",,,2050-01-01
+372,"Eating","Emote",,,,"Eyeliner_glam_thumb.png",,,-1,,,"VCOIN",1200,"Eating",,,2050-01-01
+373,"Drinking","Emote",,,,"f_drinkStanding_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Drinking",,,2050-01-01
+374,"Impatient","Emote",,,,"Eyeliner_glam_thumb.png",,,-1,,,"VCOIN",1200,"Impatient",,,2050-01-01
+375,"Smile","Emote",,,,"f_emote_smile_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Smile",,,2050-01-01
+376,"Wink","Emote",,,,"Eyeliner_glam_thumb.png",,,-1,,,"VCOIN",1200,"Wink",,,2050-01-01
+377,"Scowl","Emote",,,,"Eyeliner_glam_thumb.png",,,-1,,,"VCOIN",1200,"Scowl",,,2050-01-01
+378,"Stick Out Tongue","Emote",,,,"Eyeliner_glam_thumb.png",,,-1,,,"VCOIN",1200,"Stick Out Tongue",,,2050-01-01
+379,"Puzzled","Emote",,,,"Eyeliner_glam_thumb.png",,,-1,,,"VCOIN",1200,"Puzzled",,,2050-01-01
+380,"Shock","Emote",,,,"Eyeliner_glam_thumb.png",,,-1,,,"VCOIN",1200,"Shock",,,2050-01-01
+381,"Flirt","Emote",,,,"f_emote_flirtUE_thumbnail.png",,,-1,,,"VCOIN",1200,"Flirt",,,2050-01-01
+382,"Suspicious","Emote",,,,"f_emote_suspiciousUE_thumbnail.png",,,-1,,,"VCOIN",1200,"Suspicious",,,2050-01-01
+383,"Bored","Emote",,,,"Eyeliner_glam_thumb.png",,,-1,,,"VCOIN",1200,"Bored",,,2050-01-01
+384,"Surprised","Emote",,,,"f_emote_surprised_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Surprised",,,2050-01-01
+385,"Whisper","Emote",,,,"f_emote_whisper_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Whisper",,,2050-01-01
+386,"Thinking","Emote",,,,"f_emote_thinking_thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",1200,"Thinking",,,2050-01-01
+387,"Yelling","Emote",,,,"Eyeliner_glam_thumb.png",,,-1,,,"VCOIN",1200,"Yelling",,,2050-01-01
+388,"Waving","Emote",,,,"f_emote_waveRecognition_thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",1200,"Waving",,,2050-01-01
+389,"Texting","Emote",,,,"f_emote_txtMsg_thumbnail.png",,,-1,,,"VCOIN",1200,"Texting",,,2050-01-01
+390,"Evil Laugh","Emote",,,,"f_emote_laughEvil_thumbnail.png",,,-1,,,"VCOIN",1200,"Evil Laugh",,,2050-01-01
+391,"Insincere Laugh","Emote",,,,"f_emote_laughFake_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Insincere Laugh",,,2050-01-01
+392,"Flirtatious Laugh","Emote",,,,"f_emote_laughFlirty_thumbnail.png",,,-1,,,"VCOIN",1200,"Flirtatious Laugh",,,2050-01-01
+393,"Big Laugh","Emote",,,,"f_emote_laughBig_thumbnail.png",,,-1,,,"VCOIN",1200,"Big Laugh",,,2050-01-01
+394,"Talking Wild","Emote",,,,"f_emote_talkingGestureWild_thumbnail.png",,,-1,,,"VCOIN",1200,"Talking Wild",,,2050-01-01
+395,"Excited Talking","Emote",,,,"f_emote_converseExcited_thumbnail.png",,,-1,,,"VCOIN",1200,"Excited Talking",,,2050-01-01
+396,"Listening","Emote",,,,"f_emote_listenIntently_thumbnail.png",,,-1,,,"VCOIN",1200,"Listening",,,2050-01-01
+397,"Chatting","Emote",,,,"Eyeliner_glam_thumb.png",,,-1,,,"VCOIN",1200,"Chatting",,,2050-01-01
+398,"Disinterested","Emote",,,,"f_emote_converseAloof_thumbnail.png",,,-1,,,"VCOIN",1200,"Disinterested",,,2050-01-01
+399,"AFK","Emote",,,,"f_emote_afk_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"AFK",,,2050-01-01
+400,"Shrug","Emote",,,,"f_emote_shrug1_thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",1200,"Shrug",,,2050-01-01
+401,"Exasperation","Emote",,,,"Eyeliner_glam_thumb.png",,,-1,,,"VCOIN",1200,"Exasperation",,,2050-01-01
+402,"Hands on Hips","Emote",,,,"f_emote_handsOnHips_thumbnail.png",,,-1,,,"VCOIN",1200,"Hands on Hips",,,2050-01-01
+403,"Folding Arms","Emote",,,,"f_emote_foldArms_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Folding Arms",,,2050-01-01
+404,"Ignore","Emote",,,,"f_emote_ignore_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Ignore",,,2050-01-01
+405,"Talk to the Hand","Emote",,,,"f_emote_talk2hand_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Talk to the Hand",,,2050-01-01
+406,"Approval","Emote",,,,"f_emote_approveOutfit_thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",1200,"Approval",,,2050-01-01
+407,"Invite Over","Emote",,,,"f_emote_inviteWaveOver_thumbnail.png",,,-1,,,"VCOIN",1200,"Invite Over",,,2050-01-01
+408,"Hair Primp","Emote",,,,"f_emote_HairPrimpSmooth_loop_thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",1200,"Hair Primp",,,2050-01-01
+409,"Clapping","Emote",,,,"f_emote_clapping_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Clapping",,,2050-01-01
+410,"Jump for Joy","Emote",,,,"f_emote_jumpForJoy_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Jump for Joy",,,2050-01-01
+411,"Pointing","Emote",,,,"f_emote_pointing_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Pointing",,,2050-01-01
+412,"Disapproval","Emote",,,,"Eyeliner_glam_thumb.png",,,-1,,,"VCOIN",1200,"Disapproval",,,2050-01-01
+413,"OMG Look","Emote",,,,"f_emote_omgLook_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"OMG Look",,,2050-01-01
+414,"Cheer","Emote",,,,"f_emote_cheer_loop_thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",1200,"Cheer",,,2050-01-01
+415,"Swoon","Emote",,,,"f_emote_swoon_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Swoon",,,2050-01-01
+416,"Slap","Emote",,,,"f_emote_slap_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Slap",,,2050-01-01
+417,"Shoo","Emote",,,,"f_emote_shoo_loop_thumbnail.png",,,-1,"Hangout_Store",,"VCOIN",1200,"Shoo",,,2050-01-01
+418,"Sad Wave","Emote",,,,"f_emote_waveSad_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Sad Wave",,,2050-01-01
+419,"Bathroom Dance","Emote",,,,"f_emote_bathroomDance_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Bathroom Dance",,,2050-01-01
+420,"Exhausted","Emote",,,,"f_emote_exhausted_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Exhausted",,,2050-01-01
+421,"Admire Bottom","Emote",,,,"f_emote_admirePants_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Admire Bottom",,,2050-01-01
+422,"Admire Top","Emote",,,,"f_emote_admireTop_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Admire Top",,,2050-01-01
+423,"Disco Dance","Emote",,,,"Eyeliner_glam_thumb.png",,,-1,,,"VCOIN",1200,"Disco Dance",,,2050-01-01
+424,"Robot Dance","Emote",,,,"Eyeliner_glam_thumb.png",,,-1,,,"VCOIN",1200,"Robot Dance",,,2050-01-01
+425,"Thriller Dance","Emote",,,,"f_dance_thriller_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Thriller Dance",,,2050-01-01
+426,"Booty Shake Dance","Emote",,,,"f_dance_bootyShake_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Booty Shake Dance",,,2050-01-01
+427,"Sultry Dance","Emote",,,,"f_dance_sultryShimmy_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Sultry Dance",,,2050-01-01
+428,"Hip Hop Dance","Emote",,,,"f_dance_hipHop_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Hip Hop Dance",,,2050-01-01
+429,"Celebratory Dance","Emote",,,,"f_dance_celebratory_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Celebratory Dance",,,2050-01-01
+430,"Stir the Pot Dance","Emote",,,,"f_dance_stirPot_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Stir the Pot Dance",,,2050-01-01
+431,"Techno Dance","Emote",,,,"f_dance_techno_loop_thumbnail.png",,,-1,,,"VCOIN",1200,"Techno Dance",,,2050-01-01
+432,"Admire My Nails","Emote",,,,"Eyeliner_glam_thumb.png",,,-1,,,"VCOIN",1200,"Admire My Nails",,,2050-01-01
+433,"Hip Bump","Emote",,,,"Eyeliner_glam_thumb.png",,,-1,,,"VCOIN",1200,"Hip Bump",,,2050-01-01
+434,"Kiss","Emote",,,,"Eyeliner_glam_thumb.png",,,-1,,,"VCOIN",1200,"Kiss",,,2050-01-01
+435,"Air Kiss","Emote",,,,"Eyeliner_glam_thumb.png",,,-1,,,"VCOIN",1200,"Air Kiss",,,2050-01-01
+436,"Hug","Emote",,,,"Eyeliner_glam_thumb.png",,,-1,,,"VCOIN",1200,"Hug",,,2050-01-01
+437,"Happy Emoticon","Emoticon",,,,"emoticons_happy.png",,,-1,"Hangout_Store",,"VCOIN",400,"Happy Emoticon",,,2050-01-01
+438,"Angry Emoticon","Emoticon",,,,"emoticons_angry.png",,,-1,"Hangout_Store",,"VCOIN",400,"Angry Emoticon",,,2050-01-01
+439,"Steve Madden Buck Boots - Brown","Shoes",,,,"Steve_Madden_Buck_Thumbnail.png",,,-1,,,"HOUTS",500,"Steve Madden Buck Boots - Brown","Buck the system in our little engineer boot that could. Look fantastic and sexy in that tough chick way, or wear them with dresses to wake up your wardrobe.",,2050-01-01
+440,"Steve Madden Comodo - Blue","Shoes",,,,"stevemadden_thumb_Comodo_BlueSuede.png",,,-1,"Hangout_Store",,"HOUTS",380,"Steve Madden Comodo - Blue","Pretty pump alert! The Comodo's classic style and workable heel height combine to make this shoe a must have for all occasions and wardrobe changes.",,2050-01-01
+441,"Steve Madden Comodo - Blush","Shoes",,,,"stevemadden_thumb_Comodo_Blush.png",,,-1,"Hangout_Store",,"HOUTS",380,"Steve Madden Comodo - Blush","Pretty pump alert! The Comodo's classic style and workable heel height combine to make this shoe a must have for all occasions and wardrobe changes.",,2050-01-01
+442,"Steve Madden Comodo - Dark Grey","Shoes",,,,"stevemadden_thumb_Comodo_DarkGreySuede.png",,,-1,"Hangout_Store",,"HOUTS",380,"Steve Madden Comodo - Dark Grey","Pretty pump alert! The Comodo's classic style and workable heel height combine to make this shoe a must have for all occasions and wardrobe changes.",,2050-01-01
+443,"Steve Madden Comodo - Magenta","Shoes",,,,"stevemadden_thumb_Comodo_Magenta.png",,,-1,"Hangout_Store",,"HOUTS",380,"Steve Madden Comodo - Magenta","Pretty pump alert! The Comodo's classic style and workable heel height combine to make this shoe a must have for all occasions and wardrobe changes.",,2050-01-01
+444,"Steve Madden Harah - Black and White","Shoes",,,,"Steve_Madden_Harah_black_and_white_Thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",420,"Steve Madden Harah - Black and White","What a wearable pair of heels! Turn the old school oxford into the new school by feeling as classy as Audrey Hepburn while the color selection lets you have as much fun as Katy Perry!",,2050-01-01
+445,"Steve Madden Harah - Aqua","Shoes",,,,"Steve_Madden_Harah_aqua_Thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",420,"Steve Madden Harah - Aqua","What a wearable pair of heels! Turn the old school oxford into the new school by feeling as classy as Audrey Hepburn while the color selection lets you have as much fun as Katy Perry!",,2050-01-01
+446,"Steve Madden Harah - Beige","Shoes",,,,"Steve_Madden_Harah_beige_Thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",420,"Steve Madden Harah - Beige","What a wearable pair of heels! Turn the old school oxford into the new school by feeling as classy as Audrey Hepburn while the color selection lets you have as much fun as Katy Perry!",,2050-01-01
+447,"Steve Madden Harah - White","Shoes",,,,"Steve_Madden_Harah_white_Thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",420,"Steve Madden Harah - White","What a wearable pair of heels! Turn the old school oxford into the new school by feeling as classy as Audrey Hepburn while the color selection lets you have as much fun as Katy Perry!",,2050-01-01
+448,"Steve Madden Intyce Boots - Cognacle","Shoes",,,,"SteveMadden_thumbnail_Intyce_Cognacle.png",,,-1,"Hangout_Store",,"HOUTS",510,"Steve Madden Intyce Boots - Cognacle","The Intyce is just plain gorgeous. Show off the buckle detail by pulling them over your skinny jeans, or pair them with your favorite mini dress for a full-blown fashion look.",,2050-01-01
+449,"Steve Madden Tristano - Denim","Shoes",,,,"steveMadden_thumb_Tristano_denim_fab.png",,,-1,,,"HOUTS",430,"Steve Madden Tristano - Denim","Multi-colored metal studs adorn these smokin' Suede platform pumps, giving them a classic, yet slightly edgy vibe. Wear with dresses, skirts, or black skinny jeans.",,2050-01-01
+450,"Steve Madden Decck - Silver","Shoes",,,,"Steve_Madden_Decck_silver_Thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",380,"Steve Madden Decck - Silver","This classic boat shoe looks great on or off your favorite vessel. Wear it with your best jeans!",,2050-01-01
+451,"Steve Madden Decck - Dark Blue","Shoes",,,,"Steve_Madden_Decck_dark_blue_Thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",380,"Steve Madden Decck - Dark Blue","This classic boat shoe looks great on or off your favorite vessel. Wear it with your best jeans!",,2050-01-01
+452,"Steve Madden Decck - Brown","Shoes",,,,"Steve_Madden_Decck_brown_Thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",380,"Steve Madden Decck - Brown","This classic boat shoe looks great on or off your favorite vessel. Wear it with your best jeans!",,2050-01-01
+453,"Steve Madden Decck - Bright Green","Shoes",,,,"Steve_Madden_Decck_bright_green_Thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",380,"Steve Madden Decck - Bright Green","This classic boat shoe looks great on or off your favorite vessel. Wear it with your best jeans!",,2050-01-01
+454,"Steve Madden Decck - White","Shoes",,,,"Steve_Madden_Decck_white_Thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",380,"Steve Madden Decck - White","This classic boat shoe looks great on or off your favorite vessel. Wear it with your best jeans!",,2050-01-01
+455,"Steve Madden Kickerr - Grey","Shoes",,,,"Steve_Madden_Kickerr_grey_Thumbnail.png",,,-1,,,"HOUTS",350,"Steve Madden Kickerr - Grey","Leather upper material. Rubber sole.",,2050-01-01
+456,"Steve Madden Misle - Black","Shoes",,,,"Steve_Madden_Misle_Thumbnail.png",,,-1,,,"HOUTS",430,"Steve Madden Misle - Black","Walk, don't run in this high-heeled, knee-high, elegant boot. Add glamour to your simplest skirts, dresses and jeans looks when your step out in the Misle.",,2050-01-01
+457,"Steve Madden Misle - Dark Brown","Shoes",,,,"Steve_Madden_Misle_Thumbnail.png",,,-1,,,"HOUTS",430,"Steve Madden Misle - Dark Brown","Walk, don't run in this high-heeled, knee-high, elegant boot. Add glamour to your simplest skirts, dresses and jeans looks when your step out in the Misle.",,2050-01-01
+458,"Steve Madden Carlinn - Black Suede","Shoes",,,,"steveMadden_thumb_Carlinn.png",,,-1,"Hangout_Store",,"HOUTS",460,"Steve Madden Carlinn - Black Suede","You'll rock the house when you enter in the Carlinn. Snakeskin heels stand out against soft suede uppers, making this platform bootie a super special mate for jeans.",,2050-01-01
+459,"Steve Madden Carlinn - Midnight Blue","Shoes",,,,"steveMadden_thumb_Carlinn_MidnightBlue.png",,,-1,"Hangout_Store",,"HOUTS",460,"Steve Madden Carlinn - Midnight Blue","You'll rock the house when you enter in the Carlinn. Snakeskin heels stand out against soft suede uppers, making this platform bootie a super special mate for jeans.",,2050-01-01
+460,"Steve Madden Carlinn - Black Leather","Shoes",,,,"steveMadden_thumb_Carlinn_BlackLeather.png",,,-1,"Hangout_Store",,"HOUTS",460,"Steve Madden Carlinn - Black Leather","You'll rock the house when you enter in the Carlinn. Snakeskin heels stand out against soft suede uppers, making this platform bootie a super special mate for jeans.",,2050-01-01
+461,"Steve Madden Dreemm - Black","Shoes",,,,"steveMadden_thumb_Dreemm.png",,,-1,,,"HOUTS",400,"Steve Madden Dreemm - Black","Your search for the perfect prom shoe has ended! The Dreemm soars is silver, gold, and simmering pewter. Works well with long and short dresses, or tuxedo pants!",,2050-01-01
+462,"Steve Madden Dreemm - Gold","Shoes",,,,"steveMadden_thumb_Dreemm_GoldLeather.png",,,-1,"Hangout_Store",,"HOUTS",400,"Steve Madden Dreemm - Gold","Your search for the perfect prom shoe has ended! The Dreemm soars is silver, gold, and simmering pewter. Works well with long and short dresses, or tuxedo pants!",,2050-01-01
+463,"Steve Madden Dreemm - Pewter","Shoes",,,,"steveMadden_thumb_Dreemm_PewterLeather.png",,,-1,"Hangout_Store",,"HOUTS",400,"Steve Madden Dreemm - Pewter","Your search for the perfect prom shoe has ended! The Dreemm soars is silver, gold, and simmering pewter. Works well with long and short dresses, or tuxedo pants!",,2050-01-01
+464,"Steve Madden Shooterr - Black","Shoes",,,,"Steve_Madden_Shooterr_black_Thumbnail.png",,,-1,,,"HOUTS",360,"Steve Madden Shooterr - Black","This is simply a standard pump that every girl needs in her possession. Great for any of those evening events you have coming up!",,2050-01-01
+465,"Steve Madden Shooterr - Cognacle","Shoes",,,,"Steve_Madden_Shooterr_beige_Thumbnail.png",,,-1,,,"HOUTS",360,"Steve Madden Shooterr - Cognacle","This is simply a standard pump that every girl needs in her possession. Great for any of those evening events you have coming up!",,2050-01-01
+466,"Steve Madden Shooterr - Leopard","Shoes",,,,"Steve_Madden_Shooterr_pattern_Thumbnail.png",,,-1,,,"HOUTS",360,"Steve Madden Shooterr - Leopard","This is simply a standard pump that every girl needs in her possession. Great for any of those evening events you have coming up!",,2050-01-01
+467,"Steve Madden Shooterr - Purple","Shoes",,,,"Steve_Madden_Shooterr_purple_Thumbnail.png",,,-1,,,"HOUTS",360,"Steve Madden Shooterr - Purple","This is simply a standard pump that every girl needs in her possession. Great for any of those evening events you have coming up!",,2050-01-01
+468,"Steve Madden Shooterr - White","Shoes",,,,"Steve_Madden_Shooterr_white_Thumbnail.png",,,-1,,,"HOUTS",360,"Steve Madden Shooterr - White","This is simply a standard pump that every girl needs in her possession. Great for any of those evening events you have coming up!",,2050-01-01
+469,"Steve Madden Funkky","Shoes",,,,"Steve_Madden_Funkky_Thumbnail.png",,,-1,"Hangout_Store",,"HOUTS",360,"Steve Madden Funkky","These fun sneakers can go low or high.",,2050-01-01
+470,"Energy Refill","Energy Refill",,,,,,,-1,"Energy_Store",,"HOUTS",1250,"Energy Refill",,,2050-01-01
+471,"Cry Emoticon","Emoticon",,,,"emoticons_cry.png",,,-1,"Hangout_Store",,"VCOIN",400,"Cry Emoticon",,,2050-01-01
+472,"Sad Emoticon","Emoticon",,,,"emoticons_sad.png",,,-1,"Hangout_Store",,"VCOIN",400,"Sad Emoticon",,,2050-01-01
+473,"Surprised Emoticon","Emoticon",,,,"emoticons_surprised.png",,,-1,"Hangout_Store",,"VCOIN",400,"Surprised Emoticon",,,2050-01-01
+474,"Unsure Emoticon","Emoticon",,,,"emoticons_unsure.png",,,-1,"Hangout_Store",,"VCOIN",400,"Unsure Emoticon",,,2050-01-01
+475,"Wink Emoticon","Emoticon",,,,"emoticons_wink.png",,,-1,"Hangout_Store",,"VCOIN",400,"Wink Emoticon",,,2050-01-01
+476,"No Bag","Bags",,,,,,,-1,,,,0,,,,2050-01-01
+477,"No Eye Shadow","Makeup",,,,,,,-1,,,,0,,,,2050-01-01

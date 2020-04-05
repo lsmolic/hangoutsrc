@@ -1,0 +1,176 @@
+﻿<Response noun="HangoutUsers" verb="GetUserInventory">
+  <itemInstances>
+    <itemTypes>
+      <itemType id="34" name="Tops" instances="2" />
+      <itemType id="35" name="Pants" instances="7" />
+      <itemType id="71" name="Room Backdrop" instances="2" />
+      <itemType id="64" name="Room Additions" instances="0" />
+      <itemType id="65" name="Decoration" instances="0" />
+      <itemType id="66" name="Entertainment" instances="5" />
+      <itemType id="36" name="Makeup" instances="0" />
+      <itemType id="37" name="Hair" instances="0" />
+      <itemType id="63" name="Food" instances="2" />
+      <itemType id="62" name="Body" instances="4" />
+      <itemType id="61" name="Face" instances="8" />
+    </itemTypes>
+    <itemInstance id="981" createdDate="2009/07/14 11:35:06 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="82" itemName="White Shirt" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+      <item id="82" name="White Shirt" appName="HANGOUT_FAMILY_Application_1" itemTypeName="Tops" buttonName="White Shirt" description="White Shirt" smallImageUrl="http://www.gap.com/Asset_Archive/GPWeb/Assets/Product/648/648871/quick/gp648871-00qlv01.jpg" mediumImageUrl="" largeImageUrl="" available="-1">
+        <Assets />
+      </item>
+    </itemInstance>
+    <itemInstance id="1016" createdDate="2009/07/21 11:32:12 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="83" itemName="Blue Jeans" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+      <item id="83" name="Blue Jeans" appName="HANGOUT_FAMILY_Application_1" itemTypeName="Pants" buttonName="Blue Jeans" description="Blue Jeans" smallImageUrl="http://www.gap.com/Asset_Archive/GPWeb/Assets/Product/675/675323/quick/gp675323-00qlv01.jpg" mediumImageUrl="" largeImageUrl="" available="-1">
+        <Assets />
+      </item>
+    </itemInstance>
+    <itemInstance id="1020" createdDate="2009/08/11 06:53:24 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="83" itemName="Blue Jeans" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+      <item id="83" name="Blue Jeans" appName="HANGOUT_FAMILY_Application_1" itemTypeName="Pants" buttonName="Blue Jeans" description="Blue Jeans" smallImageUrl="http://www.gap.com/Asset_Archive/GPWeb/Assets/Product/675/675323/quick/gp675323-00qlv01.jpg" mediumImageUrl="" largeImageUrl="" available="-1">
+        <Assets />
+      </item>
+    </itemInstance>
+    <itemInstance id="1021" createdDate="2009/08/11 06:53:35 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="83" itemName="Blue Jeans" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+      <item id="83" name="Blue Jeans" appName="HANGOUT_FAMILY_Application_1" itemTypeName="Pants" buttonName="Blue Jeans" description="Blue Jeans" smallImageUrl="http://www.gap.com/Asset_Archive/GPWeb/Assets/Product/675/675323/quick/gp675323-00qlv01.jpg" mediumImageUrl="" largeImageUrl="" available="-1">
+        <Assets />
+      </item>
+    </itemInstance>
+    <itemInstance id="1022" createdDate="2009/08/11 06:53:40 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="83" itemName="Blue Jeans" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+      <item id="83" name="Blue Jeans" appName="HANGOUT_FAMILY_Application_1" itemTypeName="Pants" buttonName="Blue Jeans" description="Blue Jeans" smallImageUrl="http://www.gap.com/Asset_Archive/GPWeb/Assets/Product/675/675323/quick/gp675323-00qlv01.jpg" mediumImageUrl="" largeImageUrl="" available="-1">
+        <Assets />
+      </item>
+    </itemInstance>
+    <itemInstance id="1023" createdDate="2009/08/11 09:20:14 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="83" itemName="Blue Jeans" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+      <item id="83" name="Blue Jeans" appName="HANGOUT_FAMILY_Application_1" itemTypeName="Pants" buttonName="Blue Jeans" description="Blue Jeans" smallImageUrl="http://www.gap.com/Asset_Archive/GPWeb/Assets/Product/675/675323/quick/gp675323-00qlv01.jpg" mediumImageUrl="" largeImageUrl="" available="-1">
+        <Assets />
+      </item>
+    </itemInstance>
+    <itemInstance id="1024" createdDate="2009/08/11 09:21:33 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="83" itemName="Blue Jeans" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+      <item id="83" name="Blue Jeans" appName="HANGOUT_FAMILY_Application_1" itemTypeName="Pants" buttonName="Blue Jeans" description="Blue Jeans" smallImageUrl="http://www.gap.com/Asset_Archive/GPWeb/Assets/Product/675/675323/quick/gp675323-00qlv01.jpg" mediumImageUrl="" largeImageUrl="" available="-1">
+        <Assets />
+      </item>
+    </itemInstance>
+    <itemInstance id="1027" createdDate="2009/08/14 11:29:59 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="83" itemName="Blue Jeans" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+      <item id="83" name="Blue Jeans" appName="HANGOUT_FAMILY_Application_1" itemTypeName="Pants" buttonName="Blue Jeans" description="Blue Jeans" smallImageUrl="http://www.gap.com/Asset_Archive/GPWeb/Assets/Product/675/675323/quick/gp675323-00qlv01.jpg" mediumImageUrl="" largeImageUrl="" available="-1">
+        <Assets />
+      </item>
+    </itemInstance>
+    <itemInstance id="1028" createdDate="2009/08/14 13:47:08 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="184" itemName="Armless Sofa" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+    </itemInstance>
+    <itemInstance id="1029" createdDate="2009/08/14 13:59:25 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="192" itemName="Turntable" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+    </itemInstance>
+    <itemInstance id="1030" createdDate="2009/08/14 14:01:32 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="204" itemName="TV Big Screen" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+    </itemInstance>
+    <itemInstance id="1031" createdDate="2009/08/14 14:27:30 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="285" itemName="Intricate Rug" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+    </itemInstance>
+    <itemInstance id="1032" createdDate="2009/08/14 14:34:21 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="260" itemName="You Tube TV" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+    </itemInstance>
+    <itemInstance id="1033" createdDate="2009/08/14 14:36:11 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="222" itemName="Jukebox" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+      <item id="226" name="Futon" appName="HANGOUT_FAMILY_Application_1" itemTypeName="Face" buttonName="a5c050ebe194c40849b0a8bdfd0c1673" description="Green basic wood famed futon." smallImageUrl="http://hangout.net/token/roomObjects/00000000/00000112.png" mediumImageUrl="" largeImageUrl="http://hangout.net/token/roomObjects/00000000/00000112.unity3dres" available="-1">
+        <Assets />
+      </item>
+    </itemInstance>
+    <itemInstance id="1035" createdDate="2009/08/18 06:19:18 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="218" itemName="Chips" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+      <item id="178" name="Cabana Mat" appName="HANGOUT_FAMILY_Application_1" itemTypeName="Face" buttonName="9f78ccea761d6470d8159508bfc85f4d" description="A floor mat, woven from palm leaves." smallImageUrl="http://hangout.net/token/roomObjects/00000000/00000051.png" mediumImageUrl="" largeImageUrl="http://hangout.net/token/roomObjects/00000000/00000051.unity3dres" available="-1">
+        <Assets />
+      </item>
+    </itemInstance>
+    <itemInstance id="1036" createdDate="2009/08/18 06:52:01 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="218" itemName="Chips" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+      <item id="178" name="Cabana Mat" appName="HANGOUT_FAMILY_Application_1" itemTypeName="Face" buttonName="9f78ccea761d6470d8159508bfc85f4d" description="A floor mat, woven from palm leaves." smallImageUrl="http://hangout.net/token/roomObjects/00000000/00000051.png" mediumImageUrl="" largeImageUrl="http://hangout.net/token/roomObjects/00000000/00000051.unity3dres" available="-1">
+        <Assets />
+      </item>
+    </itemInstance>
+    <itemInstance id="1037" createdDate="2009/08/19 05:47:17 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="178" itemName="Cabana Mat" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+      <item id="221" name="Armchair" appName="HANGOUT_FAMILY_Application_1" itemTypeName="Face" buttonName="e35698fdff0f84bf898fe060f6a2119a" description="Green rounded upholstered armchair." smallImageUrl="http://blogs.miaminewtimes.com/riptide/Fernando_&amp;_Humberto_Campana_Leatherworks_Armchair_i6c.jpg" mediumImageUrl="" largeImageUrl="http://hangout.net/token/roomObjects/00000000/00000111.unity3dres" available="-1">
+        <Assets />
+      </item>
+    </itemInstance>
+    <itemInstance id="1039" createdDate="2009/09/14 18:55:34 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="231" itemName="Bar Stool" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+      <item id="240" name="Alarm Clock" appName="HANGOUT_FAMILY_Application_1" itemTypeName="Body" buttonName="ab847f674b4514fbc8921d1b63c928b7" description="White basic digital alarm clock." smallImageUrl="http://hangout.net/token/roomObjects/00000000/00000137.png" mediumImageUrl="" largeImageUrl="http://hangout.net/token/roomObjects/00000000/00000137.unity3dres" available="-1">
+        <Assets />
+      </item>
+    </itemInstance>
+    <itemInstance id="1041" createdDate="2009/09/15 04:50:00 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="186" itemName="Stereo" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+    </itemInstance>
+    <itemInstance id="1043" createdDate="2009/09/15 17:13:34 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="226" itemName="Futon" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+      <item id="230" name="Ottoman" appName="HANGOUT_FAMILY_Application_1" itemTypeName="Face" buttonName="7f9e0a6166c584a298af33cad36ccb72" description="Ikea basic square low upholstered seat footrest table." smallImageUrl="http://hangout.net/token/roomObjects/00000000/00000117.png" mediumImageUrl="" largeImageUrl="http://hangout.net/token/roomObjects/00000000/00000117.unity3dres" available="-1">
+        <Assets />
+      </item>
+    </itemInstance>
+    <itemInstance id="1044" createdDate="2009/09/15 17:15:25 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="231" itemName="Bar Stool" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+      <item id="240" name="Alarm Clock" appName="HANGOUT_FAMILY_Application_1" itemTypeName="Body" buttonName="ab847f674b4514fbc8921d1b63c928b7" description="White basic digital alarm clock." smallImageUrl="http://hangout.net/token/roomObjects/00000000/00000137.png" mediumImageUrl="" largeImageUrl="http://hangout.net/token/roomObjects/00000000/00000137.unity3dres" available="-1">
+        <Assets />
+      </item>
+    </itemInstance>
+    <itemInstance id="1045" createdDate="2009/09/17 13:59:22 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="226" itemName="Futon" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+      <item id="230" name="Ottoman" appName="HANGOUT_FAMILY_Application_1" itemTypeName="Face" buttonName="7f9e0a6166c584a298af33cad36ccb72" description="Ikea basic square low upholstered seat footrest table." smallImageUrl="http://hangout.net/token/roomObjects/00000000/00000117.png" mediumImageUrl="" largeImageUrl="http://hangout.net/token/roomObjects/00000000/00000117.unity3dres" available="-1">
+        <Assets />
+      </item>
+    </itemInstance>
+    <itemInstance id="1046" createdDate="2009/09/17 14:02:04 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="250" itemName="Curule Chair" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+      <item id="223" name="PC Laptop" appName="HANGOUT_FAMILY_Application_1" itemTypeName="Entertainment" buttonName="6bde49ed27635437dab522e47d2dd591" description="Dell XPS laptop computer." smallImageUrl="http://hangout.net/token/roomObjects/00000000/00000107.png" mediumImageUrl="" largeImageUrl="http://hangout.net/token/roomObjects/00000000/00000107.unity3dres" available="-1">
+        <Assets />
+      </item>
+    </itemInstance>
+    <itemInstance id="1047" createdDate="2009/09/17 18:09:02 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="240" itemName="Alarm Clock" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+      <item id="237" name="Six Plant" appName="HANGOUT_FAMILY_Application_1" itemTypeName="Body" buttonName="934ec102f10484c189ab55a5f57bcf53" description="Six rectangular individual plants in one pot." smallImageUrl="http://hangout.net/token/roomObjects/00000000/00000133.png" mediumImageUrl="" largeImageUrl="http://hangout.net/token/roomObjects/00000000/00000133.unity3dres" available="55">
+        <Assets />
+      </item>
+    </itemInstance>
+    <itemInstance id="1048" createdDate="2009/09/17 18:55:40 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="226" itemName="Futon" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+      <item id="230" name="Ottoman" appName="HANGOUT_FAMILY_Application_1" itemTypeName="Face" buttonName="7f9e0a6166c584a298af33cad36ccb72" description="Ikea basic square low upholstered seat footrest table." smallImageUrl="http://hangout.net/token/roomObjects/00000000/00000117.png" mediumImageUrl="" largeImageUrl="http://hangout.net/token/roomObjects/00000000/00000117.unity3dres" available="-1">
+        <Assets />
+      </item>
+    </itemInstance>
+    <itemInstance id="1118" createdDate="2009/09/29 23:41:53 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="82" itemName="White Shirt" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+      <item id="82" name="White Shirt" appName="HANGOUT_FAMILY_Application_1" itemTypeName="Tops" buttonName="White Shirt" description="White Shirt" smallImageUrl="http://www.gap.com/Asset_Archive/GPWeb/Assets/Product/648/648871/quick/gp648871-00qlv01.jpg" mediumImageUrl="" largeImageUrl="" available="-1">
+        <Assets />
+      </item>
+    </itemInstance>
+    <itemInstance id="1119" createdDate="2009/10/02 08:48:19 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="239" itemName="Basic Bowl" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+      <item id="244" name="Single Balloon" appName="HANGOUT_FAMILY_Application_1" itemTypeName="Body" buttonName="2b30a461adaf24883a4dfdaf5f7abde3" description="Red single party balloon with string." smallImageUrl="http://hangout.net/token/roomObjects/00000000/00000145.png" mediumImageUrl="" largeImageUrl="http://hangout.net/token/roomObjects/00000000/00000145.unity3dres" available="-1">
+        <Assets />
+      </item>
+    </itemInstance>
+    <itemInstance id="1120" createdDate="2009/10/02 08:55:00 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="281" itemName="Peach Rug" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+    </itemInstance>
+    <itemInstance id="1122" createdDate="2009/10/02 18:27:28 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="1061" itemName="106" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+      <item id="1061" name="106" appName="HANGOUT_FAMILY_Application_1" itemTypeName="Room Backdrop" buttonName="Two Fast Two Furious" description="I live my life a quarter mile at a time" smallImageUrl="http://hangout.net/48141004.jpg" mediumImageUrl="" largeImageUrl="http://hangout.net/48141004.jpg" available="-1">
+        <Assets />
+      </item>
+    </itemInstance>
+    <itemInstance id="1123" createdDate="2009/10/02 18:32:57 PDT" userId="551" appId="12475196524081" appName="HANGOUT_FAMILY_Application_1" itemId="1061" itemName="106" gift="false" giftGiverUserId="" giftVisibility="" giftMessage="">
+      <properties />
+      <item id="1061" name="106" appName="HANGOUT_FAMILY_Application_1" itemTypeName="Room Backdrop" buttonName="Two Fast Two Furious" description="I live my life a quarter mile at a time" smallImageUrl="http://hangout.net/48141004.jpg" mediumImageUrl="" largeImageUrl="http://hangout.net/48141004.jpg" available="-1">
+        <Assets />
+      </item>
+    </itemInstance>
+  </itemInstances>
+</Response>

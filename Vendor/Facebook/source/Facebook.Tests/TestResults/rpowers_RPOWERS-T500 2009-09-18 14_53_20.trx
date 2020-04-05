@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9b930d17-c6b6-49d4-ad82-9a44b79a631c" name="rpowers@RPOWERS-T500 2009-09-18 14:53:20" runUser="CLARITYINTERNAL\rpowers" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Default Run Configuration" id="de6523ce-ad10-4fcf-951e-cf4e45182f60">
+    <Deployment runDeploymentRoot="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook.Tests\TestResults\rpowers_RPOWERS-T500 2009-09-18 14_53_20">
+      <DeploymentItem filename="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook\bin\Debug\Facebook.dll" />
+    </Deployment>
+    <Hosts skipUnhostableTests="false" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-09-18T14:53:20.1446757-05:00" queuing="2009-09-18T14:53:21.6408253-05:00" start="2009-09-18T14:53:21.8428455-05:00" finish="2009-09-18T14:54:23.0039610-05:00" />
+  <TestDefinitions>
+    <UnitTest name="setTest" storage="c:\clarity\codeplex\facebooktoolkit\dev\source\facebook.tests\facebook.tests.synchronous\bin\debug\facebook.tests.synchronous.dll" id="438a4b34-8f95-e768-0e85-019b15e52531">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7aa4a898-1825-48b0-a3ed-e73ad0df48b0" />
+      <TestMethod codeBase="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook.Tests\Facebook.Tests.Synchronous\bin\Debug\Facebook.Tests.Synchronous.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Facebook.Tests.Synchronous.statusTest, Facebook.Tests.Synchronous" name="setTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="438a4b34-8f95-e768-0e85-019b15e52531" executionId="7aa4a898-1825-48b0-a3ed-e73ad0df48b0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7aa4a898-1825-48b0-a3ed-e73ad0df48b0" testId="438a4b34-8f95-e768-0e85-019b15e52531" testName="setTest" computerName="RPOWERS-T500" duration="00:01:00.4411004" startTime="2009-09-18T14:53:21.9718584-05:00" endTime="2009-09-18T14:54:22.9249531-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Facebook.Tests.Synchronous.statusTest.setTest threw exception:  Facebook.Utility.FacebookException: Invalid parameter.</Message>
+          <StackTrace>    at Facebook.Utility.Utilities.ParseException(String response, Boolean JSONFormat) in C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook\Utility\Utilities.cs:line 614
+   at Facebook.Rest.RestBase.processResponse(WebResponse webResponse) in C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook\Rest\RestBase.cs:line 432
+   at Facebook.Rest.RestBase.SendRequestSynchronous(IDictionary`2 parameterDictionary, Boolean useSession) in C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook\Rest\RestBase.cs:line 860
+   at Facebook.Rest.RestBase.SendRequest[T](IDictionary`2 parameterDictionary, Boolean useSession) in C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook\Rest\RestBase.cs:line 114
+   at Facebook.Rest.Auth.GetSession(String auth_token, Boolean isAsync, GetSessionCallback callback, Object state) in C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook\Rest\Auth.cs:line 416
+   at Facebook.Rest.Auth.GetSession(String auth_token) in C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook\Rest\Auth.cs:line 94
+   at Facebook.Rest.Auth.GetSession() in C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook\Rest\Auth.cs:line 67
+   at Facebook.Tests.Synchronous.statusTest.setTest() in C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook.Tests\Facebook.Tests.Synchronous\statusTest.cs:line 62
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

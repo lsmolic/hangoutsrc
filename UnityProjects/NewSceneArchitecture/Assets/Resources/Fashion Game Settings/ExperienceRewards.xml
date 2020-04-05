@@ -1,0 +1,8 @@
+<ExperienceRewards>
+  <CloseSave value="4" description="Close!" />
+  <ClothingSewn value="5" description="Sewn!" />
+  <NextWave value="6" description="Next Wave!" /> <!-- Per Uncompleted Model -->
+  <FastModelCompletion value="2" description="Fast!" />
+  <MultipleClothingPlacement value="3" description="Multiple!" />
+  <ModelComplete value="10" description="Complete!" />
+</ExperienceRewards>

@@ -1,0 +1,571 @@
+1,"AnimationAsset","ComplexFaceAnimation","Happy Transition",,
+2,"AnimationAsset","ComplexFaceAnimation","Grin",,
+3,"AnimationAsset","ComplexFaceAnimation","Smile",,
+4,"AnimationAsset","ComplexFaceAnimation","Normal Mouth",,
+5,"AnimationAsset","ComplexFaceAnimation","Excited Eyebrows",,
+6,"AnimationAsset","ComplexFaceAnimation","Sad Transition",,
+7,"AnimationAsset","ComplexFaceAnimation","Roll Eyes Down",,
+8,"AnimationAsset","ComplexFaceAnimation","Sad Blink",,
+9,"AnimationAsset","ComplexFaceAnimation","Close Mouth",,
+10,"AnimationAsset","ComplexFaceAnimation","Pouting Mouth",,
+11,"AnimationAsset","ComplexFaceAnimation","Sad Eyebrows",,
+12,"AnimationAsset","ComplexFaceAnimation","Flirty Transition",,
+13,"AnimationAsset","ComplexFaceAnimation","Kiss",,
+14,"AnimationAsset","ComplexFaceAnimation","Bat Eyes",,
+15,"AnimationAsset","ComplexFaceAnimation","Left Eyebrow Raise",,
+16,"AnimationAsset","ComplexFaceAnimation","Lazy Eyes",,
+17,"AnimationAsset","ComplexFaceAnimation","Right Eyebrow Raise",,
+18,"AnimationAsset","ComplexFaceAnimation","Angry Transition",,
+19,"AnimationAsset","ComplexFaceAnimation","Angry Mouth",,
+20,"AnimationAsset","ComplexFaceAnimation","Eyebrows Lowered",,
+21,"AnimationAsset","ComplexFaceAnimation","Squint Eyes",,
+22,"AnimationAsset","ComplexFaceAnimation","Roll Eyes Up",,
+23,"AnimationAsset","ComplexFaceAnimation","Surprised",,
+24,"AnimationAsset","ComplexFaceAnimation","Eye Twitch",,
+25,"AnimationAsset","ComplexFaceAnimation","Hello",,
+26,"AnimationAsset","ComplexFaceAnimation","OMG",,
+27,"AnimationAsset","ComplexFaceAnimation","Blink",,
+28,"AnimationAsset","ComplexFaceAnimation","Look Right",,
+29,"AnimationAsset","ComplexFaceAnimation","Look Left",,
+30,"AnimationAsset","ComplexFaceAnimation","Wink",,
+31,"FaceAnimationAsset","FaceAnimation","Happy","Happy",<AssetData><Name>Happy</Name></AssetData>
+32,"FaceAnimationAsset","FaceAnimation","Sad","Sad",<AssetData><Name>Sad</Name></AssetData>
+33,"FaceAnimationAsset","FaceAnimation","Flirty","Flirty",<AssetData><Name>Flirty</Name></AssetData>
+34,"FaceAnimationAsset","FaceAnimation","Angry","Angry",<AssetData><Name>Angry</Name></AssetData>
+35,"AnimationAsset","SimpleFaceAnimation","Close Eyes",,
+36,"AnimationAsset","SimpleFaceAnimation","Close Eyes Left",,
+37,"AnimationAsset","SimpleFaceAnimation","Close Eyes Right",,
+38,"AnimationAsset","SimpleFaceAnimation","Close Left Eye",,
+39,"AnimationAsset","SimpleFaceAnimation","Close Right Eye",,
+40,"AnimationAsset","SimpleFaceAnimation","Roll Eyes Up",,
+41,"AnimationAsset","SimpleFaceAnimation","Roll Eyes Down",,
+42,"AnimationAsset","SimpleFaceAnimation","Left Eye Closed",,
+43,"AnimationAsset","SimpleFaceAnimation","Right Eye Closed",,
+44,"AnimationAsset","SimpleFaceAnimation","Left Eye Forward",,
+45,"AnimationAsset","SimpleFaceAnimation","Left Eye Left",,
+46,"AnimationAsset","SimpleFaceAnimation","Left Eye LeftUp",,
+47,"AnimationAsset","SimpleFaceAnimation","Left Eye LeftDown",,
+48,"AnimationAsset","SimpleFaceAnimation","Left Eye Right",,
+49,"AnimationAsset","SimpleFaceAnimation","Left Eye RightUp",,
+50,"AnimationAsset","SimpleFaceAnimation","Left Eye RightDown",,
+51,"AnimationAsset","SimpleFaceAnimation","Left Eye Up",,
+52,"AnimationAsset","SimpleFaceAnimation","Left Eye Down",,
+53,"AnimationAsset","SimpleFaceAnimation","Left Eye Wide Forward",,
+54,"AnimationAsset","SimpleFaceAnimation","Left Eye Wide Left",,
+55,"AnimationAsset","SimpleFaceAnimation","Left Eye Wide LeftUp",,
+56,"AnimationAsset","SimpleFaceAnimation","Left Eye Wide Right",,
+57,"AnimationAsset","SimpleFaceAnimation","Left Eye Wide RightUp",,
+58,"AnimationAsset","SimpleFaceAnimation","Left Eye Wide Up",,
+59,"AnimationAsset","SimpleFaceAnimation","Left Eye Wide Down",,
+60,"AnimationAsset","SimpleFaceAnimation","Left Eye Half Forward",,
+61,"AnimationAsset","SimpleFaceAnimation","Left Eye Half Left",,
+62,"AnimationAsset","SimpleFaceAnimation","Left Eye Half Right",,
+63,"AnimationAsset","SimpleFaceAnimation","Left Eye Half Up",,
+64,"AnimationAsset","SimpleFaceAnimation","Left Eye Half Down",,
+65,"AnimationAsset","SimpleFaceAnimation","Left Eye Squint Forward",,
+66,"AnimationAsset","SimpleFaceAnimation","Left Eye Squint Left",,
+67,"AnimationAsset","SimpleFaceAnimation","Left Eye Squint Right",,
+68,"AnimationAsset","SimpleFaceAnimation","Right Eye Forward",,
+69,"AnimationAsset","SimpleFaceAnimation","Right Eye Left",,
+70,"AnimationAsset","SimpleFaceAnimation","Right Eye LeftUp",,
+71,"AnimationAsset","SimpleFaceAnimation","Right Eye LeftDown",,
+72,"AnimationAsset","SimpleFaceAnimation","Right Eye Right",,
+73,"AnimationAsset","SimpleFaceAnimation","Right Eye RightUp",,
+74,"AnimationAsset","SimpleFaceAnimation","Right Eye RightDown",,
+75,"AnimationAsset","SimpleFaceAnimation","Right Eye Up",,
+76,"AnimationAsset","SimpleFaceAnimation","Right Eye Down",,
+77,"AnimationAsset","SimpleFaceAnimation","Right Eye Wide Forward",,
+78,"AnimationAsset","SimpleFaceAnimation","Right Eye Wide Left",,
+79,"AnimationAsset","SimpleFaceAnimation","Right Eye Wide LeftUp",,
+80,"AnimationAsset","SimpleFaceAnimation","Right Eye Wide Right",,
+81,"AnimationAsset","SimpleFaceAnimation","Right Eye Wide RightUp",,
+82,"AnimationAsset","SimpleFaceAnimation","Right Eye Wide Up",,
+83,"AnimationAsset","SimpleFaceAnimation","Right Eye Wide Down",,
+84,"AnimationAsset","SimpleFaceAnimation","Right Eye Half Forward",,
+85,"AnimationAsset","SimpleFaceAnimation","Right Eye Half Left",,
+86,"AnimationAsset","SimpleFaceAnimation","Right Eye Half Right",,
+87,"AnimationAsset","SimpleFaceAnimation","Right Eye Half Up",,
+88,"AnimationAsset","SimpleFaceAnimation","Right Eye Half Down",,
+89,"AnimationAsset","SimpleFaceAnimation","Right Eye Squint Forward",,
+90,"AnimationAsset","SimpleFaceAnimation","Right Eye Squint Left",,
+91,"AnimationAsset","SimpleFaceAnimation","Right Eye Squint Right",,
+92,"AnimationAsset","SimpleFaceAnimation","Eyes Closed",,
+93,"AnimationAsset","SimpleFaceAnimation","Eyes Forward",,
+94,"AnimationAsset","SimpleFaceAnimation","Eyes Left",,
+95,"AnimationAsset","SimpleFaceAnimation","Eyes LeftUp",,
+96,"AnimationAsset","SimpleFaceAnimation","Eyes LeftDown",,
+97,"AnimationAsset","SimpleFaceAnimation","Eyes Right",,
+98,"AnimationAsset","SimpleFaceAnimation","Eyes RightUp",,
+99,"AnimationAsset","SimpleFaceAnimation","Eyes RightDown",,
+100,"AnimationAsset","SimpleFaceAnimation","Eyes Up",,
+101,"AnimationAsset","SimpleFaceAnimation","Eyes Down",,
+102,"AnimationAsset","SimpleFaceAnimation","Eyes Wide Forward",,
+103,"AnimationAsset","SimpleFaceAnimation","Eyes Wide Left",,
+104,"AnimationAsset","SimpleFaceAnimation","Eyes Wide LeftUp",,
+105,"AnimationAsset","SimpleFaceAnimation","Eyes Wide Right",,
+106,"AnimationAsset","SimpleFaceAnimation","Eyes Wide RightUp",,
+107,"AnimationAsset","SimpleFaceAnimation","Eyes Wide Up",,
+108,"AnimationAsset","SimpleFaceAnimation","Eyes Wide Down",,
+109,"AnimationAsset","SimpleFaceAnimation","Eyes Half Forward",,
+110,"AnimationAsset","SimpleFaceAnimation","Eyes Half Left",,
+111,"AnimationAsset","SimpleFaceAnimation","Eyes Half Right",,
+112,"AnimationAsset","SimpleFaceAnimation","Eyes Half Up",,
+113,"AnimationAsset","SimpleFaceAnimation","Eyes Half Down",,
+114,"AnimationAsset","SimpleFaceAnimation","Eyes Squint Forward",,
+115,"AnimationAsset","SimpleFaceAnimation","Eyes Squint Left",,
+116,"AnimationAsset","SimpleFaceAnimation","Eyes Squint Right",,
+117,"AnimationAsset","SimpleFaceAnimation","Left Eyebrow Normal",,
+118,"AnimationAsset","SimpleFaceAnimation","Left Eyebrow Raised",,
+119,"AnimationAsset","SimpleFaceAnimation","Left Eyebrow Lowered",,
+120,"AnimationAsset","SimpleFaceAnimation","Left Eyebrow UpSqueeze",,
+121,"AnimationAsset","SimpleFaceAnimation","Left Eyebrow DownSqueeze",,
+122,"AnimationAsset","SimpleFaceAnimation","Left Eyebrow OuterRaise",,
+123,"AnimationAsset","SimpleFaceAnimation","Left Eyebrow Surprise",,
+124,"AnimationAsset","SimpleFaceAnimation","Right Eyebrow Normal",,
+125,"AnimationAsset","SimpleFaceAnimation","Right Eyebrow Raised",,
+126,"AnimationAsset","SimpleFaceAnimation","Right Eyebrow Lowered",,
+127,"AnimationAsset","SimpleFaceAnimation","Right Eyebrow UpSqueeze",,
+128,"AnimationAsset","SimpleFaceAnimation","Right Eyebrow DownSqueeze",,
+129,"AnimationAsset","SimpleFaceAnimation","Right Eyebrow OuterRaise",,
+130,"AnimationAsset","SimpleFaceAnimation","Right Eyebrow Surprise",,
+131,"AnimationAsset","SimpleFaceAnimation","Eyebrows Normal",,
+132,"AnimationAsset","SimpleFaceAnimation","Eyebrows Raised",,
+133,"AnimationAsset","SimpleFaceAnimation","Eyebrows Lowered",,
+134,"AnimationAsset","SimpleFaceAnimation","Eyebrows MadSqueeze",,
+135,"AnimationAsset","SimpleFaceAnimation","Eyebrows UpSqueeze",,
+136,"AnimationAsset","SimpleFaceAnimation","Eyebrows DownSqueeze",,
+137,"AnimationAsset","SimpleFaceAnimation","Eyebrows OuterRaise",,
+138,"AnimationAsset","SimpleFaceAnimation","Eyebrows Surprise",,
+139,"AnimationAsset","SimpleFaceAnimation","Mouth Normal",,
+140,"AnimationAsset","SimpleFaceAnimation","Mouth Closed",,
+141,"AnimationAsset","SimpleFaceAnimation","Mouth Smile",,
+142,"AnimationAsset","SimpleFaceAnimation","Mouth Laugh",,
+143,"AnimationAsset","SimpleFaceAnimation","Mouth Grin",,
+144,"AnimationAsset","SimpleFaceAnimation","Mouth Sad",,
+145,"AnimationAsset","SimpleFaceAnimation","Mouth Shocked",,
+146,"AnimationAsset","SimpleFaceAnimation","Mouth Pout",,
+147,"AnimationAsset","SimpleFaceAnimation","Mouth Smirk",,
+148,"AnimationAsset","SimpleFaceAnimation","Mouth Snear",,
+149,"AnimationAsset","SimpleFaceAnimation","Mouth Pucker",,
+150,"AnimationAsset","SimpleFaceAnimation","Mouth Angry",,
+151,"AnimationAsset","SimpleFaceAnimation","Mouth OffsetJaw",,
+152,"AnimationAsset","SimpleFaceAnimation","Mouth UpLipUp",,
+153,"AnimationAsset","SimpleFaceAnimation","Mouth LowLipDown",,
+154,"AnimationAsset","SimpleFaceAnimation","Mouth LowLipUp",,
+155,"AnimationAsset","SimpleFaceAnimation","Mouth L",,
+156,"AnimationAsset","SimpleFaceAnimation","Mouth Aw",,
+157,"AnimationAsset","SimpleFaceAnimation","Mouth Sh",,
+158,"AnimationAsset","SimpleFaceAnimation","Mouth Th",,
+159,"AnimationAsset","SimpleFaceAnimation","Mouth Ah",,
+160,"AnimationAsset","SimpleFaceAnimation","Mouth A",,
+161,"AnimationAsset","SimpleFaceAnimation","Mouth E",,
+162,"AnimationAsset","SimpleFaceAnimation","Mouth O",,
+163,"AnimationAsset","SimpleFaceAnimation","Mouth M",,
+173,"TextureAsset","FaceMarkTexture","None",,
+174,"TextureAsset","EyeLinerTexture","Thin Eye Liner",,
+175,"TextureAsset","EyeLinerTexture","Thick Eye Liner","Assets/1/175.png",
+176,"TextureAsset","EyeLinerTexture","Glam Eye Liner","Assets/1/176.png",
+177,"FaceMeshAsset","FaceMesh","FaceMesh","resources://Avatar/Gabriella Templates","<AssetData><MeshData><FaceMeshInfo>   <UvShell name=""Face"" subMeshIndex=""0"" textureZone=""Face"" gridWidth=""1"" gridHeight=""1"" />    <UvShell name=""Right Eye"" subMeshIndex=""1"" textureZone=""Eye"" gridWidth=""5"" gridHeight=""5"" />    <UvShell name=""Right Eyebrow"" subMeshIndex=""2"" textureZone=""Eyebrow"" gridWidth=""4"" gridHeight=""4"" />    <UvShell name=""Mouth"" subMeshIndex=""3"" textureZone=""Mouth"" gridWidth=""5"" gridHeight=""5"" />    <UvShell name=""Left Eye"" subMeshIndex=""4"" textureZone=""Eye"" gridWidth=""5"" gridHeight=""5"" />    <UvShell name=""Left Eyebrow"" subMeshIndex=""5"" textureZone=""Eyebrow"" gridWidth=""4"" gridHeight=""4"" />    </FaceMeshInfo></MeshData><MeshName>Head</MeshName></AssetData>"
+178,"SkinnedMeshAsset","TopSkinnedMesh","TShirt","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Top_TshirtShortSleeve</MeshName></AssetData>"
+179,"SkinnedMeshAsset","BottomSkinnedMesh","Jeans","resources://Avatar/Gabriella Templates","<AssetData><MeshType>SkinnedMesh</MeshType><MeshData></MeshData><MeshName>Bottom_JeansGeneric</MeshName></AssetData>"
+180,"SkinnedMeshAsset","FootwearSkinnedMesh","Flip-Flops","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Footwear_FlipFlopsGeneric</MeshName></AssetData>"
+181,"SkinnedMeshAsset","HairSkinnedMesh","Short","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Hair_Short</MeshName></AssetData>"
+185,"ColorAsset","EyeShadowColor","Light Blue",,"<AssetData><AssetColor>91FFFF</AssetColor><Alpha>1</Alpha></AssetData>"
+189,"ColorAsset","MouthColor","Lite Natural",,"<AssetData><AssetColor>ffa5a5</AssetColor><Alpha>1</Alpha></AssetData>"
+191,"TextureAsset","RoomBackgroundTexture","Diesel Fashion Runway","Assets/1/48141001.jpg",
+192,"TextureAsset","RoomBackgroundTexture","Geneva Night Club","Assets/1/48141002.jpg",
+193,"TextureAsset","RoomBackgroundTexture","Starry Night","Assets/1/48141003.jpg",
+194,"TextureAsset","RoomBackgroundTexture","Two Fast Two Furious","Assets/1/48141004.jpg",
+195,"TextureAsset","RoomBackgroundTexture","Venice","Assets/1/48141005.jpg",
+224,"SkinnedMeshAsset","HandsSkinnedMesh","Bare Hands","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Hands_Bare</MeshName></AssetData>"
+225,"SkinnedMeshAsset","TopSkinnedMesh","TankTop","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Top_TankTop</MeshName></AssetData>"
+231,"TextureAsset","TopTexture","Women_Top_TankTop","Assets/1/231.png",
+232,"SkinnedMeshAsset","BottomSkinnedMesh","Shorts","resources://Avatar/Gabriella Templates","<AssetData><MeshType>SkinnedMesh</MeshType><MeshData></MeshData><MeshName>Bottom_ShortsGeneric</MeshName></AssetData>"
+234,"TextureAsset","BottomTexture","Women_Bottoms_ShortsWhite","Assets/1/234.png",
+235,"TextureAsset","HairTexture","Women_Hair_Straight","Assets/1/235.png",
+236,"TextureAsset","MouthTexture","Women_Mouth_Average","Assets/1/236.png",
+237,"TextureAsset","NoseTexture","Women_Nose_Small","Assets/1/237.png",
+238,"TextureAsset","EarTexture","Women_Ear_Normal","Assets/1/238.png",
+239,"TextureAsset","FaceBlushTexture","Women_FaceBlush_Soft","Assets/1/239.png",
+240,"TextureAsset","EyeTexture","Women_EyeShape_Caucasian","Assets/1/240.png",
+241,"TextureAsset","EyebrowTexture","Women_Eyebrow_Average","Assets/1/241.png",
+242,"TextureAsset","TopTexture","Women_Top_HollisterSoCal_Blue","Assets/1/242.png",
+243,"TextureAsset","EyeShadowTexture","Women_EyeShadow_Fade","Assets/1/243.png",
+244,"TextureAsset","BottomTexture","Women_Bottom_GenericBlueJeans","Assets/1/244.png",
+245,"TextureAsset","FootwearTexture","Women_Footwear_FlipFlop","Assets/1/245.png",
+247,"ColorAsset","FaceBlushAlpha","Medium",,"<AssetData><AssetColor>000000</AssetColor><Alpha>0.24</Alpha></AssetData>"
+248,"ColorAsset","FaceBlushAlpha","Heavy",,"<AssetData><AssetColor>000000</AssetColor><Alpha>0.35</Alpha></AssetData>"
+249,"TextureAsset","HandsTexture","Women_Hands_Bare","Assets/1/249.png",
+251,"ColorAsset","EyeShadowAlpha","Medium Eye Shadow Alpha",,"<AssetData><AssetColor>000000</AssetColor><Alpha>0.4</Alpha></AssetData>"
+252,"ColorAsset","EyeShadowAlpha","Heavy Eye Shadow Alpha",,"<AssetData><AssetColor>000000</AssetColor><Alpha>0.8</Alpha></AssetData>"
+253,"ColorAsset","EyeShadowAlpha","Light Eye Shadow Alpha",,"<AssetData><AssetColor>000000</AssetColor><Alpha>0.2</Alpha></AssetData>"
+258,"ColorAsset","MouthColor","Dark Natural",,"<AssetData><AssetColor>cd5f73</AssetColor><Alpha>1</Alpha></AssetData>"
+259,"ColorAsset","MouthColor","Pink Mouth Color",,"<AssetData><AssetColor>FF6E6E</AssetColor><Alpha>1</Alpha></AssetData>"
+260,"ColorAsset","MouthColor","Red Mouth Color",,"<AssetData><AssetColor>F00000</AssetColor><Alpha>1</Alpha></AssetData>"
+261,"ColorAsset","MouthColor","Deep Red Mouth Color",,"<AssetData><AssetColor>B40000</AssetColor><Alpha>1</Alpha></AssetData>"
+262,"ColorAsset","MouthColor","Deep Purple Mouth Color",,"<AssetData><AssetColor>280014</AssetColor><Alpha>1</Alpha></AssetData>"
+273,"ColorAsset","EyeColor","Green Eye Color",,"<AssetData><AssetColor>42FFB5</AssetColor><Alpha>1</Alpha></AssetData>"
+274,"ColorAsset","EyeColor","Grey Eye Color",,"<AssetData><AssetColor>A8A19B</AssetColor><Alpha>1</Alpha></AssetData>"
+275,"ColorAsset","EyeColor","Hazel Eye Color",,"<AssetData><AssetColor>A57730</AssetColor><Alpha>1</Alpha></AssetData>"
+276,"ColorAsset","EyeColor","Brown Eye Color",,"<AssetData><AssetColor>5F3C1E</AssetColor><Alpha>1</Alpha></AssetData>"
+277,"ColorAsset","EyeColor","Dark Brown Eye Color",,"<AssetData><AssetColor>040200</AssetColor><Alpha>1</Alpha></AssetData>"
+278,"ImageAsset","RoomBackgroundTexture","Public_AustratiaDirtRoad","Assets/1/278.jpg",
+279,"ImageAsset","RoomBackgroundThumbnail","Public_AustratiaDirtRoad_Thumb","Assets/1/279.jpg",
+280,"ImageAsset","RoomBackgroundTexture","Public_AutumnLeavesFlat","Assets/1/280.jpg",
+281,"ImageAsset","RoomBackgroundThumbnail","Public_AutumnLeavesFlat_Thumb","Assets/1/281.jpg",
+282,"ImageAsset","RoomBackgroundThumbnail","Public_BaseballStadium_Thumb","Assets/1/282.jpg",
+283,"ImageAsset","RoomBackgroundTexture","Public_BaseballStadium","Assets/1/283.jpg",
+285,"ImageAsset","RoomBackgroundTexture","Public_Beach1","Assets/1/285.jpg",
+286,"ImageAsset","RoomBackgroundThumbnail","Public_Beach1_Thumb","Assets/1/286.jpg",
+287,"ImageAsset","RoomBackgroundTexture","Public_Beach2","Assets/1/287.jpg",
+288,"ImageAsset","RoomBackgroundThumbnail","Public_Beach2_Thumb","Assets/1/288.jpg",
+289,"ImageAsset","RoomBackgroundTexture","Public_Beach3","Assets/1/289.jpg",
+290,"ImageAsset","RoomBackgroundThumbnail","Public_Beach3_Thumb","Assets/1/290.jpg",
+291,"ImageAsset","RoomBackgroundTexture","Public_CarnivalNight","Assets/1/291.jpg",
+292,"ImageAsset","RoomBackgroundThumbnail","Public_CarnivalNight_Thumb","Assets/1/292.jpg",
+293,"ImageAsset","RoomBackgroundThumbnail","Public_CornField_Thumb","Assets/1/293.jpg",
+294,"ImageAsset","RoomBackgroundTexture","Public_GolfCourseFairway","Assets/1/294.jpg",
+295,"ImageAsset","RoomBackgroundThumbnail","Public_GolfCourseFairway_Thumb","Assets/1/295.jpg",
+296,"ImageAsset","RoomBackgroundTexture","Public_CemeteryWoods","Assets/1/296.jpg",
+297,"ImageAsset","RoomBackgroundThumbnail","Public_CemeteryWoods_Thumb","Assets/1/297.jpg",
+298,"ImageAsset","RoomBackgroundTexture","Public_FrozenLake","Assets/1/298.jpg",
+299,"ImageAsset","RoomBackgroundThumbnail","Public_FrozenLake_Thumb","Assets/1/299.jpg",
+300,"ImageAsset","RoomBackgroundTexture","Public_GothicChurchArches","Assets/1/300.jpg",
+301,"ImageAsset","RoomBackgroundThumbnail","Public_GothicChurchArches_Thumb","Assets/1/301.jpg",
+302,"ImageAsset","RoomBackgroundTexture","Public_GrandFrenchEntryHall","Assets/1/302.jpg",
+303,"ImageAsset","RoomBackgroundThumbnail","Public_GrandFrenchEntryHall_Thumb","Assets/1/303.jpg",
+304,"ImageAsset","RoomBackgroundTexture","Public_GrassMeadowTrees","Assets/1/304.jpg",
+305,"ImageAsset","RoomBackgroundThumbnail","Public_GrassMeadowTrees_Thumb","Assets/1/305.jpg",
+306,"ImageAsset","RoomBackgroundTexture","Public_PrivateRunway","Assets/1/306.jpg",
+307,"ImageAsset","RoomBackgroundThumbnail","Public_PrivateRunway_Thumb","Assets/1/307.jpg",
+308,"ImageAsset","RoomBackgroundTexture","Public_LibraryWoodFloor","Assets/1/308.jpg",
+309,"ImageAsset","RoomBackgroundThumbnail","Public_LibraryWoodFloor_Thumb","Assets/1/309.jpg",
+310,"ImageAsset","RoomBackgroundTexture","Public_LockerHallway","Assets/1/310.jpg",
+311,"ImageAsset","RoomBackgroundThumbnail","Public_LockerHallway_Thumb","Assets/1/311.jpg",
+312,"ImageAsset","RoomBackgroundTexture","Public_ParkingLotMall","Assets/1/312.jpg",
+313,"ImageAsset","RoomBackgroundThumbnail","Public_ParkingLotMall_Thumb","Assets/1/313.jpg",
+314,"ImageAsset","RoomBackgroundTexture","Public_PlazaEspana","Assets/1/314.jpg",
+315,"ImageAsset","RoomBackgroundThumbnail","Public_PlazaEspana_Thumb","Assets/1/315.jpg",
+316,"ImageAsset","RoomBackgroundTexture","Public_CollegeCampusCherryTrees","Assets/1/316.jpg",
+317,"ImageAsset","RoomBackgroundThumbnail","Public_CollegeCampusCherryTrees_Thumb","Assets/1/317.jpg",
+318,"ImageAsset","RoomBackgroundTexture","Public_ShopMallDoneRoof","Assets/1/318.jpg",
+319,"ImageAsset","RoomBackgroundThumbnail","Public_ShopMallDoneRoof_Thumb","Assets/1/319.jpg",
+320,"ImageAsset","RoomBackgroundTexture","Public_ShoppingMallLower","Assets/1/320.jpg",
+321,"ImageAsset","RoomBackgroundThumbnail","Public_ShoppingMallLower_Thumb","Assets/1/321.jpg",
+322,"ImageAsset","RoomBackgroundTexture","Public_SkateParkGraffiti","Assets/1/322.jpg",
+323,"ImageAsset","RoomBackgroundThumbnail","Public_SkateParkGraffiti_Thumb","Assets/1/323.jpg",
+324,"ImageAsset","RoomBackgroundTexture","Public_SnowyHillTop","Assets/1/324.jpg",
+325,"ImageAsset","RoomBackgroundThumbnail","Public_SnowyHillTop_Thumb","Assets/1/325.jpg",
+326,"ImageAsset","RoomBackgroundTexture","Public_StageRedCurtain","Assets/1/326.jpg",
+327,"ImageAsset","RoomBackgroundThumbnail","Public_StageRedCurtain_Thumb","Assets/1/327.jpg",
+328,"ImageAsset","RoomBackgroundTexture","Public_UtahArchesRoad","Assets/1/328.jpg",
+329,"ImageAsset","RoomBackgroundThumbnail","Public_UtahArchesRoad_Thumb","Assets/1/329.jpg",
+330,"ImageAsset","RoomBackgroundTexture","Private_StarterRoom","Assets/1/330.jpg",
+331,"ImageAsset","RoomBackgroundThumbnail","Private_StarterRoom_Thumb","Assets/1/331.jpg",
+332,"ImageAsset","RoomBackgroundTexture","Public_AbstractPaintOrange","Assets/1/332.jpg",
+333,"ImageAsset","RoomBackgroundThumbnail","Public_AbstractPaintOrange_Thumb","Assets/1/333.jpg",
+334,"ImageAsset","RoomBackgroundTexture","Public_CentralParkNight","Assets/1/334.jpg",
+335,"ImageAsset","RoomBackgroundThumbnail","Public_CentralParkNight_Thumb","Assets/1/335.jpg",
+336,"ImageAsset","RoomBackgroundTexture","Public_MiamiSkyline","Assets/1/336.jpg",
+337,"ImageAsset","RoomBackgroundThumbnail","Public_MiamiSkyline_Thumb","Assets/1/337.jpg",
+338,"ImageAsset","RoomBackgroundTexture","Public_CornField","Assets/1/338.jpg",
+339,"ColorAsset","SkinColor","Peach",,"<AssetData>  <AssetColor>efba9c</AssetColor>  <Alpha>1</Alpha></AssetData>"
+340,"ColorAsset","SkinColor","Apricot",,"<AssetData>  <AssetColor>F6C8B0</AssetColor>  <Alpha>1</Alpha></AssetData>"
+341,"ColorAsset","SkinColor","Tan",,"<AssetData>  <AssetColor>c48d68</AssetColor>  <Alpha>1</Alpha></AssetData>"
+342,"ColorAsset","SkinColor","Light Tan",,"<AssetData><AssetColor>efc79c</AssetColor><Alpha>1</Alpha></AssetData>"
+343,"ColorAsset","SkinColor","Medium Taupe",,"<AssetData><AssetColor>8d715d</AssetColor><Alpha>1</Alpha></AssetData>"
+344,"ColorAsset","HairColor","Blonde",,"<AssetData><AssetColor>f7c864</AssetColor><Alpha>1</Alpha></AssetData>"
+345,"ColorAsset","HairColor","Auburn",,"<AssetData><AssetColor>a34b28</AssetColor><Alpha>1</Alpha></AssetData>"
+346,"ColorAsset","HairColor","Maroon",,"<AssetData><AssetColor>82375a</AssetColor><Alpha>1</Alpha></AssetData>"
+347,"ColorAsset","HairColor","Golden Wheat",,"<AssetData><AssetColor>e6a56e</AssetColor><Alpha>1</Alpha></AssetData>"
+348,"ColorAsset","HairColor","Ebony",,"<AssetData><AssetColor>231e19</AssetColor><Alpha>1</Alpha></AssetData>"
+349,"ColorAsset","HairColor","Chestnut",,"<AssetData><AssetColor>412d19</AssetColor><Alpha>1</Alpha></AssetData>"
+350,"ColorAsset","FaceBlushColor","Red",,"<AssetData><AssetColor>FF0000</AssetColor><Alpha>1</Alpha></AssetData>"
+351,"ColorAsset","FaceBlushAlpha","Lite",,"<AssetData><AssetColor>000000</AssetColor><Alpha>0.11</Alpha></AssetData>"
+354,"ColorAsset","EyebrowColor","Brown",,"<AssetData><AssetColor>6C4627</AssetColor><Alpha>0.8</Alpha></AssetData>"
+356,"ColorAsset","EyebrowColor","Black",,"<AssetData><AssetColor>000000</AssetColor><Alpha>0.8</Alpha></AssetData>"
+358,"TextureAsset","TopTexture","Deco Collar T-shirt","Assets/1/358.png",
+359,"TextureAsset","TopTexture","Top Medallion Camisole","Assets/1/359.png",
+360,"TextureAsset","TopTexture","Top Pintuck Blouse","Assets/1/360.png",
+361,"TextureAsset","TopTexture","Top Michi Silk Tank","Assets/1/361.png",
+362,"TextureAsset","TopTexture","Top Unnamed1 Nicolette","Assets/1/362.png",
+363,"TextureAsset","TopTexture","Top Unnamed2 Nicolette","Assets/1/363.png",
+364,"TextureAsset","TopTexture","Top Unnamed3 Nicolette","Assets/1/364.png",
+365,"TextureAsset","TopTexture","Top Unnamed4 Nicolette","Assets/1/365.png",
+366,"TextureAsset","TopTexture","Lake Hodges T-shirt","Assets/1/366.png",
+367,"TextureAsset","TopTexture","Hollister Laguna Beach","Assets/1/367.png",
+368,"TextureAsset","TopTexture","Hollister Laguna Niguel","Assets/1/368.png",
+369,"TextureAsset","TopTexture","Hollister SoCal Polo","Assets/1/369.png",
+370,"TextureAsset","TopTexture","Hollister Emerald Cove","Assets/1/370.png",
+371,"TextureAsset","BottomTexture","Skyline Ankle Peg - Rebel","Assets/1/371.png",
+372,"TextureAsset","BottomTexture","Skyline 10'' Skinny - Optic White","Assets/1/372.png",
+373,"TextureAsset","BottomTexture","Laurel Canyon - Mckinley","Assets/1/373.png",
+374,"TextureAsset","BottomTexture","Jimmy Jimmy Beachwood","Assets/1/374.png",
+375,"TextureAsset","BottomTexture","Blue Heights Cuffed Skinny - Lake Destruction","Assets/1/375.png",
+376,"TextureAsset","BottomTexture","Calabases Blue Topaz- Lake Destruction","Assets/1/376.png",
+377,"TextureAsset","BottomTexture","Womens Bundy Pant - White Stretch Destruction","Assets/1/377.png",
+378,"TextureAsset","BottomTexture","Oceanside Super Skinny Legging Jean","Assets/1/378.png",
+379,"TextureAsset","BottomTexture","Fab Legging","Assets/1/379.png",
+380,"ColorAsset","FaceBlushAlpha","None",,"<AssetData><AssetColor>000000</AssetColor><Alpha>0</Alpha></AssetData>"
+381,"ColorAsset","MouthColor","Natural",,"<AssetData><AssetColor>ffa5a5</AssetColor><Alpha>1</Alpha></AssetData>"
+383,"ColorAsset","EyeColor","Blue",,"<AssetData><AssetColor>71d3ff</AssetColor><Alpha>1</Alpha></AssetData>"
+386,"ColorAsset","EyeShadowAlpha","None",,"<AssetData><AssetColor>000000</AssetColor><Alpha>0</Alpha></AssetData>"
+387,"ColorAsset","EyebrowColor","Hazel",,"<AssetData><AssetColor>815e3f</AssetColor><Alpha>0.8</Alpha></AssetData>"
+388,"ImageAsset","RoomBackgroundTexture","Private_BeachWithGreenHut","Assets/1/388.jpg",
+389,"ImageAsset","RoomBackgroundThumbnail","Private_BeachWithGreenHut_Thumb","Assets/1/389.jpg",
+390,"ImageAsset","RoomBackgroundTexture","Private_BeachWithThatchHut","Assets/1/390.jpg",
+391,"ImageAsset","RoomBackgroundThumbnail","Private_BeachWithThatchHut_Thumb","Assets/1/391.jpg",
+392,"ImageAsset","RoomBackgroundTexture","Private_GardenArchPath","Assets/1/392.jpg",
+393,"ImageAsset","RoomBackgroundThumbnail","Private_GardenArchPath_Thumb","Assets/1/393.jpg",
+394,"SkinnedMeshAsset","HairSkinnedMesh","Hair_Long","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Hair_Long</MeshName></AssetData>"
+395,"SkinnedMeshAsset","HairSkinnedMesh","Hair_Emo","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Hair_Emo</MeshName></AssetData>"
+396,"SkinnedMeshAsset","HairSkinnedMesh","Hair_LongEmo","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Hair_LongEmo</MeshName></AssetData>"
+397,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_PoshSpicePunk","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_PoshSpicePunk</MeshName></AssetData>"
+398,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_LongFringe","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_LongFringe</MeshName></AssetData>"
+399,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_ShortTuckedWavyBob","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_ShortTuckedWavyBob</MeshName></AssetData>"
+400,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_PromSexyCurls","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_PromSexyCurls</MeshName></AssetData>"
+401,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_RihannaChicUpdo","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_RihannaChicUpdo</MeshName></AssetData>"
+402,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_LongBangs","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_LongBangs</MeshName></AssetData>"
+403,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_ShortPixieCrop","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_ShortPixieCrop</MeshName></AssetData>"
+404,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_ShortCrop","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_ShortCrop</MeshName></AssetData>"
+405,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_LongCurls","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_LongCurls</MeshName></AssetData>"
+406,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_LongEmo","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_LongEmo</MeshName></AssetData>"
+407,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_LongHippyHeadband","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_LongHippyHeadband</MeshName></AssetData>"
+408,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_LongMohawk","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_LongMohawk</MeshName></AssetData>"
+409,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_LongSweptCurls","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_LongSweptCurls</MeshName></AssetData>"
+410,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_PromGlamPonytail","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_PromGlamPonytail</MeshName></AssetData>"
+411,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_PromCurlyHighUpdo","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_PromCurlyHighUpdo</MeshName></AssetData>"
+412,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_AnistonLongSedu","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_AnistonLongSedu</MeshName></AssetData>"
+413,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_EvaMendexCurls","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_EvaMendexCurls</MeshName></AssetData>"
+414,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_HalleBerryCrop","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_HalleBerryCrop</MeshName></AssetData>"
+415,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_PenelopeCruzHighUpdo","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_PenelopeCruzHighUpdo</MeshName></AssetData>"
+416,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_PromChignonUpdo","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_PromChignonUpdo</MeshName></AssetData>"
+417,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_RihannaPunk","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_RihannaPunk</MeshName></AssetData>"
+418,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_MediumCurls","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_MediumCurls</MeshName></AssetData>"
+419,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_MediumCurlyPonytail","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_MediumCurlyPonytail</MeshName></AssetData>"
+420,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_MediumSedu","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_MediumSedu</MeshName></AssetData>"
+421,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_ShortBobFlippy","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_ShortBobFlippy</MeshName></AssetData>"
+422,"SkinnedMeshAsset","HairSkinnedMesh","Female_Hair_ShortBob","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Hair_ShortBob</MeshName></AssetData>"
+423,"ColorAsset","SkinColor","Very Fair Skin",,"<AssetData><AssetColor>FCE5D2</AssetColor><Alpha>1</Alpha></AssetData>"
+424,"ColorAsset","SkinColor","Fair Skin",,"<AssetData><AssetColor>FCDEC3</AssetColor><Alpha>1</Alpha></AssetData>"
+425,"ColorAsset","SkinColor","Espresso Skin",,"<AssetData><AssetColor>755343</AssetColor><Alpha>1</Alpha></AssetData>"
+426,"ColorAsset","SkinColor","Sienna Skin",,"<AssetData><AssetColor>B67140</AssetColor><Alpha>1</Alpha></AssetData>"
+427,"ColorAsset","SkinColor","Chestnut Skin",,"<AssetData><AssetColor>875B53</AssetColor><Alpha>1</Alpha></AssetData>"
+428,"ColorAsset","SkinColor","Wheat Skin",,"<AssetData><AssetColor>E1CE9B</AssetColor><Alpha>1</Alpha></AssetData>"
+429,"ColorAsset","SkinColor","Auburn Skin",,"<AssetData><AssetColor>4B230E</AssetColor><Alpha>1</Alpha></AssetData>"
+430,"ColorAsset","SkinColor","Umber Skin",,"<AssetData><AssetColor>41322B</AssetColor><Alpha>1</Alpha></AssetData>"
+431,"ColorAsset","HairColor","Buttered Toast Hair Color",,"<AssetData><AssetColor>9D7739</AssetColor><Alpha>1</Alpha></AssetData>"
+432,"ColorAsset","HairColor","Buttered Walnut Hair Color",,"<AssetData><AssetColor>997751</AssetColor><Alpha>1</Alpha></AssetData>"
+433,"ColorAsset","HairColor","Butterscotch Blonde Hair Color",,"<AssetData><AssetColor>C49D59</AssetColor><Alpha>1</Alpha></AssetData>"
+434,"ColorAsset","HairColor","Chocolate Copper Hair Color",,"<AssetData><AssetColor>432F2E</AssetColor><Alpha>1</Alpha></AssetData>"
+435,"ColorAsset","HairColor","Dark Auburn Hair Color",,"<AssetData><AssetColor>644236</AssetColor><Alpha>1</Alpha></AssetData>"
+436,"ColorAsset","HairColor","Dark Chocolate Hair Color",,"<AssetData><AssetColor>382C2E</AssetColor><Alpha>1</Alpha></AssetData>"
+437,"ColorAsset","HairColor","Dark Cinnamon Hair Color",,"<AssetData><AssetColor>453130</AssetColor><Alpha>1</Alpha></AssetData>"
+438,"ColorAsset","HairColor","Dark Copper Hair Color",,"<AssetData><AssetColor>7A4B2F</AssetColor><Alpha>1</Alpha></AssetData>"
+439,"ColorAsset","HairColor","Ginger Blonde Hair Color",,"<AssetData><AssetColor>CB9950</AssetColor><Alpha>1</Alpha></AssetData>"
+440,"ColorAsset","HairColor","Ginger Brown Hair Color",,"<AssetData><AssetColor>6A493A</AssetColor><Alpha>1</Alpha></AssetData>"
+441,"ColorAsset","HairColor","Ginger Red Hair Color",,"<AssetData><AssetColor>895B29</AssetColor><Alpha>1</Alpha></AssetData>"
+442,"ColorAsset","HairColor","Glazed Apricot Hair Color",,"<AssetData><AssetColor>C39154</AssetColor><Alpha>1</Alpha></AssetData>"
+443,"ColorAsset","HairColor","Glazed Hazelnut Hair Color",,"<AssetData><AssetColor>6F4F36</AssetColor><Alpha>1</Alpha></AssetData>"
+444,"ColorAsset","HairColor","Glazed Sand Hair Color",,"<AssetData><AssetColor>B7975E</AssetColor><Alpha>1</Alpha></AssetData>"
+445,"ColorAsset","HairColor","Glazed Strawberry Hair Color",,"<AssetData><AssetColor>A87332</AssetColor><Alpha>1</Alpha></AssetData>"
+446,"ColorAsset","HairColor","Golden Walnut Hair Color",,"<AssetData><AssetColor>6B4F3A</AssetColor><Alpha>1</Alpha></AssetData>"
+447,"ColorAsset","HairColor","Honey Blonde Hair Color",,"<AssetData><AssetColor>AD802F</AssetColor><Alpha>1</Alpha></AssetData>"
+448,"ColorAsset","HairColor","Honey Ginger Hair Color",,"<AssetData><AssetColor>A27A46</AssetColor><Alpha>1</Alpha></AssetData>"
+449,"ColorAsset","HairColor","Honey Pecan Hair Color",,"<AssetData><AssetColor>6E4E3F</AssetColor><Alpha>1</Alpha></AssetData>"
+450,"ColorAsset","HairColor","Midnight Brown Hair Color",,"<AssetData><AssetColor>362B2F</AssetColor><Alpha>1</Alpha></AssetData>"
+451,"ColorAsset","HairColor","Pearl Platinum Hair Color",,"<AssetData><AssetColor>CDB48C</AssetColor><Alpha>1</Alpha></AssetData>"
+452,"ColorAsset","HairColor","Pecan Mist Hair Color",,"<AssetData><AssetColor>6A4E42</AssetColor><Alpha>1</Alpha></AssetData>"
+453,"ColorAsset","HairColor","Sandy Blonde Hair Color",,"<AssetData><AssetColor>D6B37B</AssetColor><Alpha>1</Alpha></AssetData>"
+454,"ColorAsset","HairColor","Silvermist Hair Color",,"<AssetData><AssetColor>C4B1A3</AssetColor><Alpha>1</Alpha></AssetData>"
+455,"ColorAsset","HairColor","Smoke Hair Color",,"<AssetData><AssetColor>AC9583</AssetColor><Alpha>1</Alpha></AssetData>"
+456,"ColorAsset","HairColor","Smoked Walnut Hair Color",,"<AssetData><AssetColor>836D56</AssetColor><Alpha>1</Alpha></AssetData>"
+457,"ColorAsset","HairColor","Swedish Blonde Hair Color",,"<AssetData><AssetColor>D7B889</AssetColor><Alpha>1</Alpha></AssetData>"
+458,"ColorAsset","HairColor","Walnut Mist Hair Color",,"<AssetData><AssetColor>968068</AssetColor><Alpha>1</Alpha></AssetData>"
+459,"ColorAsset","HairColor","Glazed Fire Hair Color",,"<AssetData><AssetColor>814D28</AssetColor><Alpha>1</Alpha></AssetData>"
+460,"ColorAsset","HairColor","Steel Gray Hair Color",,"<AssetData><AssetColor>634E49</AssetColor><Alpha>1</Alpha></AssetData>"
+461,"ColorAsset","EyeShadowColor","Blue Eye Shadow Color",,"<AssetData><AssetColor>004FFF</AssetColor><Alpha>1</Alpha></AssetData>"
+462,"ColorAsset","EyeShadowColor","Aqua Eye Shadow Color",,"<AssetData><AssetColor>00A0C8</AssetColor><Alpha>1</Alpha></AssetData>"
+463,"ColorAsset","EyeShadowColor","Green Eye Shadow Color",,"<AssetData><AssetColor>00DC64</AssetColor><Alpha>1</Alpha></AssetData>"
+464,"ColorAsset","EyeShadowColor","Fuchsia Eye Shadow Color",,"<AssetData><AssetColor>FF1B99</AssetColor><Alpha>1</Alpha></AssetData>"
+465,"ColorAsset","EyeShadowColor","Dark Eye Shadow Color",,"<AssetData><AssetColor>280014</AssetColor><Alpha>1</Alpha></AssetData>"
+466,"TextureAsset","EyeLinerTexture","Emo Eye Liner","Assets/1/466.png",
+467,"SkinnedMeshAsset","FootwearSkinnedMesh","Female_Shoe_BootSlouch","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Shoe_BootSlouch</MeshName></AssetData>"
+468,"SkinnedMeshAsset","FootwearSkinnedMesh","Female_Shoe_BootCowboyHeel","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Shoe_BootCowboyHeel</MeshName></AssetData>"
+469,"SkinnedMeshAsset","FootwearSkinnedMesh","Female_Shoe_Pump4HeelThin","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Shoe_Pump4HeelThin</MeshName></AssetData>"
+470,"SkinnedMeshAsset","FootwearSkinnedMesh","Female_Shoe_Pump2HeelThick","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Shoe_Pump2HeelThick</MeshName></AssetData>"
+471,"SkinnedMeshAsset","FootwearSkinnedMesh","Female_Shoe_SneakerLotop","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Shoe_SneakerLotop</MeshName></AssetData>"
+472,"SkinnedMeshAsset","FootwearSkinnedMesh","Female_Shoe_SneakerHitop","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Shoe_SneakerHitop</MeshName></AssetData>"
+473,"SkinnedMeshAsset","FootwearSkinnedMesh","Female_Shoe_BootAnkleMidCalfHeel","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Shoe_BootAnkleMidCalfHeel</MeshName></AssetData>"
+474,"SkinnedMeshAsset","FootwearSkinnedMesh","Female_Shoe_Loafer","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Shoe_Loafer</MeshName></AssetData>"
+475,"TextureAsset","FootwearTexture","SteveMadden_Boot_Bonanza","Assets/1/475.png",
+476,"TextureAsset","FootwearTexture","SteveMadden_Boot_Intyce","Assets/1/476.png",
+477,"TextureAsset","FootwearTexture","SteveMadden_Boot_Buck","Assets/1/477.png",
+478,"TextureAsset","FootwearTexture","SteveMadden_Boot_Ottawa","Assets/1/478.png",
+479,"TextureAsset","FootwearTexture","SteveMadden_Shoe_Kickerr","Assets/1/479.png",
+480,"TextureAsset","FootwearTexture","SteveMadden_Shoe_Cybul","Assets/1/480.png",
+481,"SkinnedMeshAsset","BottomSkinnedMesh","Skirt","resources://Avatar/Gabriella Templates","<AssetData><MeshType>SkinnedMesh</MeshType><MeshData></MeshData><MeshName>Female_Bottom_SkirtTight15</MeshName></AssetData>"
+482,"SkinnedMeshAsset","BottomSkinnedMesh","Skirt","resources://Avatar/Gabriella Templates","<AssetData><MeshType>SkinnedMesh</MeshType><MeshData></MeshData><MeshName>Female_Bottom_SkirtTight22</MeshName></AssetData>"
+483,"SkinnedMeshAsset","BottomSkinnedMesh","Skirt","resources://Avatar/Gabriella Templates","<AssetData><MeshType>SkinnedMesh</MeshType><MeshData></MeshData><MeshName>Female_Bottom_SkirtLoose22</MeshName></AssetData>"
+484,"SkinnedMeshAsset","BottomSkinnedMesh","Skirt","resources://Avatar/Gabriella Templates","<AssetData><MeshType>SkinnedMesh</MeshType><MeshData></MeshData><MeshName>Female_Bottom_SkirtLoose12</MeshName></AssetData>"
+485,"SkinnedMeshAsset","BottomSkinnedMesh","Skirt","resources://Avatar/Gabriella Templates","<AssetData><MeshType>SkinnedMesh</MeshType><MeshData></MeshData><MeshName>Female_Bottom_SkirtLoose_NoFlare12</MeshName></AssetData>"
+486,"SkinnedMeshAsset","BottomSkinnedMesh","Skirt","resources://Avatar/Gabriella Templates","<AssetData><MeshType>SkinnedMesh</MeshType><MeshData></MeshData><MeshName>Female_Bottom_SkirtTight12</MeshName></AssetData>"
+487,"SkinnedMeshAsset","BottomSkinnedMesh","Shorts","resources://Avatar/Gabriella Templates","<AssetData><MeshType>SkinnedMesh</MeshType><MeshData></MeshData><MeshName>Female_Bottom_ShortsTennis</MeshName></AssetData>"
+488,"SkinnedMeshAsset","BottomSkinnedMesh","Shorts","resources://Avatar/Gabriella Templates","<AssetData><MeshType>SkinnedMesh</MeshType><MeshData></MeshData><MeshName>Female_Bottom_Shorts2Inch</MeshName></AssetData>"
+489,"TextureAsset","BottomTexture","Paige_Skirt_Dresden","Assets/1/489.png",
+490,"TextureAsset","BottomTexture","HaydenHarnett_Skirt_TallulahPatchwork","Assets/1/490.png",
+491,"TextureAsset","BottomTexture","Forever21_Skirt_CrepeGorgette","Assets/1/491.png",
+492,"TextureAsset","BottomTexture","Forever21_Skirt_SatinFlirt","Assets/1/492.png",
+493,"TextureAsset","BottomTexture","Forever21_Skirt_BrushedCottonPlaid","Assets/1/493.png",
+494,"TextureAsset","BottomTexture","Forever21_Skirt_TasiaDenim","Assets/1/494.png",
+495,"TextureAsset","BottomTexture","Paige_Shorts_Westminster","Assets/1/495.png",
+496,"TextureAsset","BottomTexture","Paige_Shorts_Mariposa","Assets/1/496.png",
+497,"TextureAsset","BottomTexture","Paige_Shorts_MarinaCuffed","Assets/1/497.png",
+499,"SkinnedMeshAsset","TopSkinnedMesh","Female_TShirtLongSleeve","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Top_TshirtLongSleeve</MeshName></AssetData>"
+500,"SkinnedMeshAsset","TopSkinnedMesh","Female_Polo34Sleeve","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>Female_Top_Polo34Sleeve</MeshName></AssetData>"
+501,"SkinnedMeshAsset","BottomSkinnedMesh","Female_PantsBootcut","resources://Avatar/Gabriella Templates","<AssetData><MeshType>SkinnedMesh</MeshType><MeshData></MeshData><MeshName>Female_Bottom_PantsBootcut</MeshName></AssetData>"
+502,"SkinnedMeshAsset","BottomSkinnedMesh","Female_PantsMidCalf","resources://Avatar/Gabriella Templates","<AssetData><MeshType>SkinnedMesh</MeshType><MeshData></MeshData><MeshName>Female_Bottom_PantsMidCalf</MeshName></AssetData>"
+503,"TextureAsset","TopTexture","Forever21_Shirt_RibbedPanelSlub","Assets/1/503.png",
+504,"TextureAsset","TopTexture","Forever21_Shirt_StripedDolmain","Assets/1/504.png",
+505,"TextureAsset","TopTexture","Forever21_Shirt_PinstripeSilkWoven","Assets/1/505.png",
+506,"TextureAsset","TopTexture","Forever21_Shirt_SilkTrapezeTunic","Assets/1/506.png",
+507,"TextureAsset","TopTexture","Forever21_Shirt_BeadedKnitTunic","Assets/1/507.png",
+508,"TextureAsset","TopTexture","Forever21_Shirt_FabStripedSnap","Assets/1/508.png",
+509,"TextureAsset","BottomTexture","Forever21_Pants_PatchSweatpants","Assets/1/509.png",
+510,"TextureAsset","BottomTexture","Forever21_Pants_SkinnyCorduroy","Assets/1/510.png",
+511,"TextureAsset","BottomTexture","Forever21_Pants_SuedeClothPalazzo","Assets/1/511.png",
+512,"TextureAsset","BottomTexture","Forever21_Pants_MineralWashFlare","Assets/1/512.png",
+513,"TextureAsset","BottomTexture","Forever21_Pants_CalisaWideLeg","Assets/1/513.png",
+514,"SkinnedMeshAsset","BagSkinnedMesh","Bag","resources://Avatar/Gabriella Templates","<AssetData><MeshType>SkinnedMesh</MeshType><MeshData></MeshData><MeshName>Female_Bag_LunchBoxCubic</MeshName></AssetData>"
+515,"SkinnedMeshAsset","BagSkinnedMesh","Bag","resources://Avatar/Gabriella Templates","<AssetData><MeshType>SkinnedMesh</MeshType><MeshData></MeshData><MeshName>Female_Bag_ToteFlatStraps1</MeshName></AssetData>"
+516,"SkinnedMeshAsset","BagSkinnedMesh","Bag","resources://Avatar/Gabriella Templates","<AssetData><MeshType>SkinnedMesh</MeshType><MeshData></MeshData><MeshName>Female_Bag_ClutchGeneric1</MeshName></AssetData>"
+517,"SkinnedMeshAsset","BagSkinnedMesh","Bag","resources://Avatar/Gabriella Templates","<AssetData><MeshType>SkinnedMesh</MeshType><MeshData></MeshData><MeshName>Female_Bag_ToteRectangular2</MeshName></AssetData>"
+518,"TextureAsset","BagTexture","Paige_Bag_OnyxAlligatorTote","Assets/1/518.png",
+519,"TextureAsset","BagTexture","Paige_PlumOstrichAmethystTote","Assets/1/519.png",
+520,"TextureAsset","BagTexture","HaydenHarnett_Ibiza","Assets/1/520.png",
+521,"TextureAsset","FootwearTexture","SteveMadden_Heel_Comodo","Assets/1/521.png",
+522,"TextureAsset","FootwearTexture","SteveMadden_Heel_Harah","Assets/1/522.png",
+523,"TextureAsset","FootwearTexture","SteveMadden_Heel_Tristano","Assets/1/523.png",
+524,"RigAnimationAsset","RigIdleAnimation","Normal Idle","Animations/f_idle_handOnHipAlt_loop.lba",<AssetData><AnimationName>HappyIdle</AnimationName></AssetData>
+525,"RigAnimationAsset","RigWalkAnimation","Normal Walk","Animations/f_walk_normal_loop.lba",<AssetData><AnimationName>HappyWalk</AnimationName></AssetData>
+526,"RigAnimationAsset","RigIdleAnimation","Sad Idle","Animations/f_emote_sad_loop.lba",<AssetData><AnimationName>SadIdle</AnimationName></AssetData>
+527,"RigAnimationAsset","RigWalkAnimation","Sad Walk","Animations/f_walkSad_loop.lba",<AssetData><AnimationName>SadWalk</AnimationName></AssetData>
+528,"RigAnimationAsset","RigIdleAnimation","Angry Idle","Animations/f_emote_angry_loop.lba",<AssetData><AnimationName>AngryIdle</AnimationName></AssetData>
+529,"RigAnimationAsset","RigWalkAnimation","Angry Walk","Animations/f_walkAngry_loop.lba",<AssetData><AnimationName>AngryWalk</AnimationName></AssetData>
+530,"RigAnimationAsset","RigIdleAnimation","Lazy Idle","Animations/f_idle_handOnHipAlt_loop.lba",<AssetData><AnimationName>HappyIdle</AnimationName></AssetData>
+531,"RigAnimationAsset","RigWalkAnimation","Lazy Walk","Animations/f_walk_normal_loop.lba",<AssetData><AnimationName>HappyWalk</AnimationName></AssetData>
+532,"RigAnimationAsset","RigIdleAnimation","Energetic Idle","Animations/f_idle_handOnHipAlt_loop.lba",<AssetData><AnimationName>HappyIdle</AnimationName></AssetData>
+533,"RigAnimationAsset","RigWalkAnimation","Energetic Walk","Animations/f_walk_normal_loop.lba",<AssetData><AnimationName>HappyWalk</AnimationName></AssetData>
+534,"RigAnimationAsset","RigIdleAnimation","Flirty Idle","Animations/f_idle_handOnHipAlt_loop.lba",<AssetData><AnimationName>HappyIdle</AnimationName></AssetData>
+535,"RigAnimationAsset","RigWalkAnimation","Flirty Walk","Animations/f_walkHippy_loop.lba",<AssetData><AnimationName>FlirtyWalk</AnimationName></AssetData>
+536,"RigAnimationAsset","RigIdleAnimation","Nervous Idle","Animations/f_emote_nervous_loop.lba",<AssetData><AnimationName>NervousIdle</AnimationName></AssetData>
+537,"RigAnimationAsset","RigWalkAnimation","Nervous Walk","Animations/f_walk_normal_loop.lba",<AssetData><AnimationName>HappyWalk</AnimationName></AssetData>
+538,"RigAnimationAsset","RigIdleAnimation","Tired Idle","Animations/f_emote_tired_loop.lba",<AssetData><AnimationName>TiredIdle</AnimationName></AssetData>
+539,"RigAnimationAsset","RigWalkAnimation","Tired Walk","Animations/f_walkLazy_loop.lba",<AssetData><AnimationName>TiredWalk</AnimationName></AssetData>
+540,"RigAnimationAsset","RigAnimation","Yes Emote","Animations/f_emote_yes_loop.lba",<AssetData><AnimationName>YesEmote</AnimationName></AssetData>
+541,"RigAnimationAsset","RigAnimation","No Emote","Animations/f_emote_no_loop.lba",<AssetData><AnimationName>NoEmote</AnimationName></AssetData>
+542,"RigAnimationAsset","RigAnimation","Cellphone Emote","Animations/f_phoneTalking_loop.lba",<AssetData><AnimationName>CellphoneEmote</AnimationName></AssetData>
+543,"RigAnimationAsset","RigAnimation","Eating Emote","Animations/f_emote_talkingCasual_loop.lba",<AssetData><AnimationName>EatingEmote</AnimationName></AssetData>
+544,"RigAnimationAsset","RigAnimation","Drinking Emote","Animations/f_drinkStanding_loop.lba",<AssetData><AnimationName>DrinkingEmote</AnimationName></AssetData>
+545,"RigAnimationAsset","RigAnimation","Impatient Emote","Animations/f_emote_talkingCasual_loop.lba",<AssetData><AnimationName>ImpatientEmote</AnimationName></AssetData>
+546,"RigAnimationAsset","RigAnimation","Smile Emote","Animations/f_emote_talkingCasual_loop.lba",<AssetData><AnimationName>SmileEmote</AnimationName></AssetData>
+547,"RigAnimationAsset","RigAnimation","Wink Emote","Animations/f_emote_talkingCasual_loop.lba",<AssetData><AnimationName>WinkEmote</AnimationName></AssetData>
+548,"RigAnimationAsset","RigAnimation","Scowl Emote","Animations/f_emote_talkingCasual_loop.lba",<AssetData><AnimationName>ScowlEmote</AnimationName></AssetData>
+549,"RigAnimationAsset","RigAnimation","Stick Out Tongue Emote","Animations/f_emote_talkingCasual_loop.lba",<AssetData><AnimationName>StickOutTongueEmote</AnimationName></AssetData>
+550,"RigAnimationAsset","RigAnimation","Puzzled Emote","Animations/f_emote_talkingCasual_loop.lba",<AssetData><AnimationName>PuzzledEmote</AnimationName></AssetData>
+551,"RigAnimationAsset","RigAnimation","Shock Emote","Animations/f_emote_talkingCasual_loop.lba",<AssetData><AnimationName>ShockEmote</AnimationName></AssetData>
+552,"RigAnimationAsset","RigAnimation","Flirt Emote","Animations/f_emote_talkingCasual_loop.lba",<AssetData><AnimationName>FlirtEmote</AnimationName></AssetData>
+553,"RigAnimationAsset","RigAnimation","Suspicious Emote","Animations/f_emote_talkingCasual_loop.lba",<AssetData><AnimationName>SuspiciousEmote</AnimationName></AssetData>
+554,"RigAnimationAsset","RigAnimation","Bored Emote","Animations/f_emote_talkingCasual_loop.lba",<AssetData><AnimationName>BoredEmote</AnimationName></AssetData>
+555,"RigAnimationAsset","RigAnimation","Surprised Emote","Animations/f_emote_surprised_loop.lba",<AssetData><AnimationName>SurprisedEmote</AnimationName></AssetData>
+556,"RigAnimationAsset","RigAnimation","Whisper Emote","Animations/f_emote_whisper_loop.lba",<AssetData><AnimationName>WhisperEmote</AnimationName></AssetData>
+557,"RigAnimationAsset","RigAnimation","Thinking Emote","Animations/f_emote_thinking.lba",<AssetData><AnimationName>ThinkingEmote</AnimationName></AssetData>
+558,"RigAnimationAsset","RigAnimation","Yelling Emote","Animations/f_emote_yelling.lba",<AssetData><AnimationName>YellingEmote</AnimationName></AssetData>
+559,"RigAnimationAsset","RigAnimation","Waving Emote","Animations/f_emote_waveRecognition.lba",<AssetData><AnimationName>WavingEmote</AnimationName></AssetData>
+560,"RigAnimationAsset","RigAnimation","Typing Emote","Animations/f_emote_txtMsg.lba",<AssetData><AnimationName>TypingEmote</AnimationName></AssetData>
+561,"RigAnimationAsset","RigAnimation","Evil Laugh Emote","Animations/f_emote_laughEvil.lba",<AssetData><AnimationName>EvilLaughEmote</AnimationName></AssetData>
+562,"RigAnimationAsset","RigAnimation","Insincere Laugh Emote","Animations/f_emote_laughFake_loop.lba",<AssetData><AnimationName>InsincereLaughEmote</AnimationName></AssetData>
+563,"RigAnimationAsset","RigAnimation","Flirtatious Laugh Emote","Animations/f_emote_laughFlirty.lba",<AssetData><AnimationName>FlirtatiousLaughEmote</AnimationName></AssetData>
+564,"RigAnimationAsset","RigAnimation","Big Laugh Emote","Animations/f_emote_laughBig.lba",<AssetData><AnimationName>BigLaughEmote</AnimationName></AssetData>
+565,"RigAnimationAsset","RigAnimation","Talking Emote","Animations/f_emote_talkingGestures.lba",<AssetData><AnimationName>TalkingEmote</AnimationName></AssetData>
+566,"RigAnimationAsset","RigAnimation","Excited Talking Emote","Animations/f_emote_talkingGestureWild.lba",<AssetData><AnimationName>ExcitedTalkingEmote</AnimationName></AssetData>
+567,"RigAnimationAsset","RigAnimation","Listening Emote","Animations/f_emote_listenIntently.lba",<AssetData><AnimationName>ListeningEmote</AnimationName></AssetData>
+568,"RigAnimationAsset","RigAnimation","Chatting Emote","Animations/f_emote_converseExcited.lba",<AssetData><AnimationName>ChattingEmote</AnimationName></AssetData>
+569,"RigAnimationAsset","RigAnimation","Disinterested Emote","Animations/f_emote_converseAloof.lba",<AssetData><AnimationName>DisinterestedEmote</AnimationName></AssetData>
+570,"RigAnimationAsset","RigAnimation","AFK Emote","Animations/f_emote_afk_loop.lba",<AssetData><AnimationName>AFKEmote</AnimationName></AssetData>
+571,"RigAnimationAsset","RigAnimation","Shrug Emote","Animations/f_emote_shrug1.lba",<AssetData><AnimationName>ShrugEmote</AnimationName></AssetData>
+572,"RigAnimationAsset","RigAnimation","Exasperation Emote","Animations/f_emote_shrug2.lba",<AssetData><AnimationName>ExasperationEmote</AnimationName></AssetData>
+573,"RigAnimationAsset","RigAnimation","Hands on Hips Emote","Animations/f_emote_handsOnHips.lba",<AssetData><AnimationName>HandsonHipsEmote</AnimationName></AssetData>
+574,"RigAnimationAsset","RigAnimation","Folding Arms Emote","Animations/f_emote_foldArms_loop.lba",<AssetData><AnimationName>FoldingArmsEmote</AnimationName></AssetData>
+575,"RigAnimationAsset","RigAnimation","Ignore Emote","Animations/f_emote_ignore_loop.lba",<AssetData><AnimationName>IgnoreEmote</AnimationName></AssetData>
+576,"RigAnimationAsset","RigAnimation","Talk to the Hand Emote","Animations/f_emote_talk2hand_loop.lba",<AssetData><AnimationName>TalktotheHandEmote</AnimationName></AssetData>
+577,"RigAnimationAsset","RigAnimation","Approval Emote","Animations/f_emote_approveAccessory.lba",<AssetData><AnimationName>ApprovalEmote</AnimationName></AssetData>
+578,"RigAnimationAsset","RigAnimation","Follow Me Emote","Animations/f_emote_inviteWaveOver.lba",<AssetData><AnimationName>FollowMeEmote</AnimationName></AssetData>
+579,"RigAnimationAsset","RigAnimation","Hair Primp Emote","Animations/f_emote_HairPrimpSmooth_loop.lba",<AssetData><AnimationName>HairPrimpEmote</AnimationName></AssetData>
+580,"RigAnimationAsset","RigAnimation","Clapping Emote","Animations/f_emote_clapping_loop.lba",<AssetData><AnimationName>ClappingEmote</AnimationName></AssetData>
+581,"RigAnimationAsset","RigAnimation","Jump for Joy Emote","Animations/f_emote_jumpForJoy_loop.lba",<AssetData><AnimationName>JumpforJoyEmote</AnimationName></AssetData>
+582,"RigAnimationAsset","RigAnimation","Pointing Emote","Animations/f_emote_pointing_loop.lba",<AssetData><AnimationName>PointingEmote</AnimationName></AssetData>
+583,"RigAnimationAsset","RigAnimation","Disapproval Emote","Animations/f_emote_decline_loop.lba",<AssetData><AnimationName>DisapprovalEmote</AnimationName></AssetData>
+584,"RigAnimationAsset","RigAnimation","OMG Look Emote","Animations/f_emote_omgLook_loop.lba",<AssetData><AnimationName>OMGLookEmote</AnimationName></AssetData>
+585,"RigAnimationAsset","RigAnimation","Cheer Emote","Animations/f_emote_cheer_loop.lba",<AssetData><AnimationName>CheerEmote</AnimationName></AssetData>
+586,"RigAnimationAsset","RigAnimation","Swoon Emote","Animations/f_emote_swoon_loop.lba",<AssetData><AnimationName>SwoonEmote</AnimationName></AssetData>
+587,"RigAnimationAsset","RigAnimation","Slap Emote","Animations/f_emote_slap_loop.lba",<AssetData><AnimationName>SlapEmote</AnimationName></AssetData>
+588,"RigAnimationAsset","RigAnimation","Shoo Emote","Animations/f_emote_shoo_loop.lba",<AssetData><AnimationName>ShooEmote</AnimationName></AssetData>
+589,"RigAnimationAsset","RigAnimation","Sad Wave Emote","Animations/f_emote_waveSad_loop.lba",<AssetData><AnimationName>SadWaveEmote</AnimationName></AssetData>
+590,"RigAnimationAsset","RigAnimation","Bathroom Dance Emote","Animations/f_emote_bathroomDance_loop.lba",<AssetData><AnimationName>BathroomDanceEmote</AnimationName></AssetData>
+591,"RigAnimationAsset","RigAnimation","Exhausted Emote","Animations/f_emote_exhausted_loop.lba",<AssetData><AnimationName>ExhaustedEmote</AnimationName></AssetData>
+592,"RigAnimationAsset","RigAnimation","Admire Bottom Emote","Animations/f_emote_admirePants_loop.lba",<AssetData><AnimationName>AdmireBottomEmote</AnimationName></AssetData>
+593,"RigAnimationAsset","RigAnimation","Admire Top Emote","Animations/f_emote_admireTop_loop.lba",<AssetData><AnimationName>AdmireTopEmote</AnimationName></AssetData>
+594,"RigAnimationAsset","RigAnimation","Disco Dance Emote","Animations/f_emote_talkingCasual_loop.lba",<AssetData><AnimationName>DiscoDanceEmote</AnimationName></AssetData>
+595,"RigAnimationAsset","RigAnimation","Robot Dance Emote","Animations/f_emote_talkingCasual_loop.lba",<AssetData><AnimationName>RobotDanceEmote</AnimationName></AssetData>
+596,"RigAnimationAsset","RigAnimation","King of Pop Dance Emote","Animations/f_dance_thriller_loop.lba",<AssetData><AnimationName>KingofPopDanceEmote</AnimationName></AssetData>
+597,"RigAnimationAsset","RigAnimation","Booty Shake Dance Emote","Animations/f_dance_bootyShake_loop.lba",<AssetData><AnimationName>BootyShakeDanceEmote</AnimationName></AssetData>
+598,"RigAnimationAsset","RigAnimation","Sultry Dance Emote","Animations/f_dance_sultryShimmy_loop.lba",<AssetData><AnimationName>SultryDanceEmote</AnimationName></AssetData>
+599,"RigAnimationAsset","RigAnimation","Hip Hop Dance Emote","Animations/f_dance_hipHop_loop.lba",<AssetData><AnimationName>HipHopDanceEmote</AnimationName></AssetData>
+600,"RigAnimationAsset","RigAnimation","Celebratory Dance Emote","Animations/f_dance_celebratory_loop.lba",<AssetData><AnimationName>CelebratoryDanceEmote</AnimationName></AssetData>
+601,"RigAnimationAsset","RigAnimation","Stir the Pot Dance Emote","Animations/f_dance_stirPot_loop.lba",<AssetData><AnimationName>StirthePotDanceEmote</AnimationName></AssetData>
+602,"RigAnimationAsset","RigAnimation","Techno Dance Emote","Animations/f_dance_techno_loop.lba",<AssetData><AnimationName>TechnoDanceEmote</AnimationName></AssetData>
+603,"RigAnimationAsset","RigAnimation","Admire My Nails Emote","Animations/f_emote_talkingCasual_loop.lba",<AssetData><AnimationName>AdmireMyNailsEmote</AnimationName></AssetData>
+604,"RigAnimationAsset","RigAnimation","Hip Bump Emote","Animations/f_emote_talkingCasual_loop.lba",<AssetData><AnimationName>HipBumpEmote</AnimationName></AssetData>
+605,"RigAnimationAsset","RigAnimation","Kiss Emote","Animations/f_emote_talkingCasual_loop.lba",<AssetData><AnimationName>KissEmote</AnimationName></AssetData>
+606,"RigAnimationAsset","RigAnimation","Air Kiss Emote","Animations/f_emote_talkingCasual_loop.lba",<AssetData><AnimationName>AirKissEmote</AnimationName></AssetData>
+607,"RigAnimationAsset","RigAnimation","Hug Emote","Animations/f_emote_talkingCasual_loop.lba",<AssetData><AnimationName>HugEmote</AnimationName></AssetData>
+608,"ImageAsset","Emoticon","Happy","Assets/1/emoticons_happy.png",
+609,"ImageAsset","Emoticon","Angry","Assets/1/emoticons_angry.png",
+611,"TextureAsset","FootwearTexture","Steve Madden Buck Boots - Brown","Assets/1/asset.png",
+612,"TextureAsset","FootwearTexture","Steve Madden Comodo - Blue","Assets/1/steveMadden_Comodo_BlueSuede.png",
+613,"TextureAsset","FootwearTexture","Steve Madden Comodo - Blush","Assets/1/steveMadden_Comodo_Blush.png",
+614,"TextureAsset","FootwearTexture","Steve Madden Comodo - Dark Grey","Assets/1/steveMadden_Comodo_DarkGreySuede.png",
+615,"TextureAsset","FootwearTexture","Steve Madden Comodo - Magenta","Assets/1/steveMadden_Comodo_Magenta.png",
+616,"TextureAsset","FootwearTexture","Steve Madden Harah - Black and White","Assets/1/Steve_Madden_Harah_black_and_white.png",
+617,"TextureAsset","FootwearTexture","Steve Madden Harah - Aqua","Assets/1/Steve_Madden_Harah_aqua.png",
+618,"TextureAsset","FootwearTexture","Steve Madden Harah - Beige","Assets/1/Steve_Madden_Harah_beige.png",
+619,"TextureAsset","FootwearTexture","Steve Madden Harah - White","Assets/1/Steve_Madden_Harah_white.png",
+620,"TextureAsset","FootwearTexture","Steve Madden Intyce Boots - Cognacle","Assets/1/steveMadden_Intyce_Cognacle.png",
+621,"TextureAsset","FootwearTexture","Steve Madden Tristano - Denim","Assets/1/steveMadden_Tristano_DenimFab.png",
+622,"TextureAsset","FootwearTexture","Steve Madden Decck - Silver","Assets/1/Steve_Madden_Decck_silver.png",
+623,"TextureAsset","FootwearTexture","Steve Madden Decck - Dark Blue","Assets/1/Steve_Madden_Decck_dark_blue.png",
+624,"TextureAsset","FootwearTexture","Steve Madden Decck - Brown","Assets/1/Steve_Madden_Decck_brown.png",
+625,"TextureAsset","FootwearTexture","Steve Madden Decck - Bright Green","Assets/1/Steve_Madden_Decck_bright_green.png",
+626,"TextureAsset","FootwearTexture","Steve Madden Decck - White","Assets/1/Steve_Madden_Decck_white.png",
+627,"TextureAsset","FootwearTexture","Steve Madden Kickerr - Grey","Assets/1/asset.png",
+628,"TextureAsset","FootwearTexture","Steve Madden Misle - Black","Assets/1/Steve_Madden_Misle_dark_brown.png",
+629,"TextureAsset","FootwearTexture","Steve Madden Misle - Dark Brown","Assets/1/Steve_Madden_Misle_brown.png",
+630,"TextureAsset","FootwearTexture","Steve Madden Carlinn - Black Suede","Assets/1/steveMadden_Carlinn_BlackSuede.png",
+631,"TextureAsset","FootwearTexture","Steve Madden Carlinn - Midnight Blue","Assets/1/steveMadden_Carlinn_BlueMidnight.png",
+632,"TextureAsset","FootwearTexture","Steve Madden Carlinn - Black Leather","Assets/1/steveMadden_Carlinn_BlackLeather.png",
+633,"TextureAsset","FootwearTexture","Steve Madden Dreemm - Black","Assets/1/steveMadden_Dreemm_BlackLeather.png",
+634,"TextureAsset","FootwearTexture","Steve Madden Dreemm - Gold","Assets/1/steveMadden_Dreemm_GoldLeather.png",
+635,"TextureAsset","FootwearTexture","Steve Madden Dreemm - Pewter","Assets/1/steveMadden_Dreemm_PewterLeather.png",
+636,"TextureAsset","FootwearTexture","Steve Madden Shooterr - Black","Assets/1/asset.png",
+637,"TextureAsset","FootwearTexture","Steve Madden Shooterr - Cognacle","Assets/1/Steve_Madden_Shooterr_beige.png",
+638,"TextureAsset","FootwearTexture","Steve Madden Shooterr - Leopard","Assets/1/Steve_Madden_Shooterr_pattern.png",
+639,"TextureAsset","FootwearTexture","Steve Madden Shooterr - Purple","Assets/1/Steve_Madden_Shooterr_purple.png",
+640,"TextureAsset","FootwearTexture","Steve Madden Shooterr - White","Assets/1/Steve_Madden_Shooterr_white.png",
+641,"TextureAsset","FootwearTexture","Steve Madden Funkky","Assets/1/Steve_Madden_Funkky.png",
+642,"ImageAsset","Emoticon","Cry","Assets/1/emoticons_cry.png",
+643,"ImageAsset","Emoticon","Sad","Assets/1/emoticons_sad.png",
+644,"ImageAsset","Emoticon","Surprised","Assets/1/emoticons_surprised.png",
+645,"ImageAsset","Emoticon","Unsure","Assets/1/emoticons_unsure.png",
+646,"ImageAsset","Emoticon","Wink","Assets/1/emoticons_wink.png",
+647,"SkinnedMeshAsset","BagSkinnedMesh","NoBag","resources://Avatar/Gabriella Templates","<AssetData><MeshData></MeshData><MeshName>EmptySkinnedMeshRenderer</MeshName></AssetData>"

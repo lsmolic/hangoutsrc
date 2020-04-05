@@ -1,0 +1,159 @@
+
+div#unity_container
+{
+    width: 760px;
+    height: 500px;
+	position: absolute;
+	top: 25px;
+}
+
+div#unity_background
+{
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 25px;
+    width: 760px;
+    height: 500px;
+	z-index:5;
+}
+
+div#cash_store_container
+{
+    width: 760px;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 50;
+    display: none;
+}
+
+div#button_top_row
+{
+	position: absolute;
+	left: 20px;
+	right: 20px;
+	top: 0px;
+}
+
+div#button_bottom_row
+{
+	position: absolute;
+	left: 20px;
+	right: 20px;
+	top: 535px;
+}
+
+div#invite_prompt
+{
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+div#bookmark_prompt
+{
+	display: none;
+	position: absolute;
+	left: 120px;
+	top: 0px;
+}
+
+div#feedback_prompt
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+div#blog_button
+{
+	display: none;
+	position: absolute;
+	left: 120px;
+	top: 0px;
+}
+
+div#forums_button
+{
+	display: none;
+	position: absolute;
+	left: 240px;
+	top: 0px;
+}
+
+iframe#fan_frame
+{
+	position: absolute;
+	left: 240px;
+	top: 0px;
+}
+
+div#support_footer
+{
+	position: absolute;
+	left: 20px;
+	top: 575px;
+	font-family: Helvetica,Arial,Sans-serif;
+}
+
+div#friend_invite_container
+{
+    width: 760px;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 50;
+    display: none;
+}
+
+div#hangout_log_container
+{
+	position: absolute;
+	left: 0px;
+	top: 1000px;
+	display: none;
+	font-family: 'Lucida Console','Courier New';
+	font-size: 0.85em;
+	background-color: #000000;
+
+	height: 500px;
+	width: 750px;
+	overflow: scroll;
+	white-space: nowrap;
+	padding:5px;
+}
+
+div.debug_message
+{
+	color: #00ff00;
+}
+
+div.info_message
+{
+	color: #00ff00;
+}
+
+div.warning_message
+{
+	color: #ffff00;
+}
+
+div.error_message
+{
+	color: #ff0000;
+}
+
+img
+{
+	border-style: none;
+}
+
+*
+{
+   padding:0;
+   margin:0;
+}

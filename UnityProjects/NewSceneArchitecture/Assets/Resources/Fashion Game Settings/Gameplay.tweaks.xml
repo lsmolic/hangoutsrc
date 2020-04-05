@@ -1,0 +1,11 @@
+<FashionGameTweaks>
+  <Tweakable name="Model Base Score" type="IntSlider" value="1000" range="1 100000" />
+  <Tweakable name="Chain 2 Bonus" type="IntSlider" value="250" range="1 100000" />
+  <Tweakable name="Chain 3 Bonus" type="IntSlider" value="500" range="1 100000" />
+  <Tweakable name="Chain 4 Bonus" type="IntSlider" value="1000" range="1 100000" />
+  <Tweakable name="Chain 5 Bonus" type="IntSlider" value="1500" range="1 100000" />
+  <Tweakable name="Chain 6 Bonus" type="IntSlider" value="2000" range="1 100000" />
+  <Tweakable name="Quick Complete Bonus" type="IntSlider" value="2000" range="1 100000" />
+  <Tweakable name="Close Save Bonus" type="IntSlider" value="750" range="1 100000" />
+  <Tweakable name="AvoidDuplicateWavesThreshold" type="FloatSlider" value="2" range="0.1 5" />
+</FashionGameTweaks>

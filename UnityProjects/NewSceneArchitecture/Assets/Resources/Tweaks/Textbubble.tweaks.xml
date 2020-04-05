@@ -1,0 +1,5 @@
+<TextBubbleTweaks>
+	<Tweakable type="FloatSlider" name="Bubble Live Time" value="12.81824" range="0 20" />
+	<Tweakable type="FloatSlider" name="Bubble Max Width" value="160" range="50 1000" />
+	<Tweakable type="FloatSlider" name="Bubble Min Width" value="24" range="1 1000" />
+</TextBubbleTweaks>

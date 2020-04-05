@@ -1,0 +1,329 @@
+<Response noun="HangoutStore" verb="GetStoreInventory">
+  <store name="Hangout_Store_Combined">
+    <itemTypes>
+      <itemType id="34" name="Tops" items="7" />
+      <itemType id="35" name="Pants" items="9" />
+      <itemType id="71" name="Room Backdrop" items="3" />
+      <itemType id="64" name="Room" items="0" />
+      <itemType id="65" name="Decoration" items="0" />
+      <itemType id="36" name="Makeup" items="2" />
+      <itemType id="66" name="Entertainment" items="0" />
+      <itemType id="37" name="Hair" items="64" />
+      <itemType id="73" name="Shoes" items="9" />
+      <itemType id="74" name="Skirt" items="2" />
+      <itemType id="75" name="Bags" items="3" />
+      <itemType id="63" name="Food" items="0" />
+      <itemType id="62" name="Body" items="0" />
+      <itemType id="61" name="Face" items="0" />
+    </itemTypes>
+    <itemOffers startIndex="0" blockSize="8" skipCount="false"
+    total="56" filter="true">
+      <itemOffer endDate="2050/01/01 00:00:00 PST"
+      numAvailable="-1" startDate="2009/11/10 19:15:52 PST"
+      title="Paige Onyx Alligator Tote"
+      description="One of a Kind Large Scale Alligator Tote. Featuring luxe onyx alligator skin with unusually flawless, large-scales. Lined in black suede."
+      id="3756">
+        <tradeInItems />
+        <properties />
+        <item id="1222" name="354"
+        appName="HANGOUT_FAMILY_Application_1" itemTypeName="Bags"
+        description="354"
+        smallImageUrl="http://www.assetbase.net/Items/Thumbnails/PaigeGamble_thumbnail_OnyxAlligatorTote.png"
+        available="-1">
+          <Assets>
+            <Asset ItemId="354" AssetId="515"
+            AssetType="SkinnedMeshAsset"
+            AssetSubType="BagSkinnedMesh" AssetName="Bag"
+            FileName="resources://Avatar/Gabriella Templates"
+            AssetFilePath="resources://Avatar/Gabriella Templates">
+              <AssetData>
+                <MeshType>SkinnedMesh</MeshType>
+                <MeshData />
+                <MeshName>Female_Bag_ToteFlatStraps1</MeshName>
+              </AssetData>
+            </Asset>
+            <Asset ItemId="354" AssetId="518"
+            AssetType="TextureAsset" AssetSubType="BagTexture"
+            AssetName="Paige_Bag_OnyxAlligatorTote"
+            FileName="518.png"
+            AssetFilePath="http://s3.amazonaws.com/HangoutDevFileBucket/518.png">
+
+              <AssetData />
+            </Asset>
+          </Assets>
+        </item>
+        <price>
+          <money currencyId="1247519653409" currencyName="HOUTS"
+          amount="3010.0000" />
+        </price>
+      </itemOffer>
+      <itemOffer endDate="2050/01/01 00:00:00 PST"
+      numAvailable="-1" startDate="2009/11/10 19:15:52 PST"
+      title="Paige Plum Ostrich and Amethyst Tote"
+      description="Matte Plum Ostrich and Hand-Faceted Amethyst Tote - Medium. Each bag is cut from one large ostrich skin. Lined in plum ostrich and black suede."
+      id="3757">
+        <tradeInItems />
+        <properties />
+        <item id="1223" name="355"
+        appName="HANGOUT_FAMILY_Application_1" itemTypeName="Bags"
+        description="355"
+        smallImageUrl="http://www.assetbase.net/Items/Thumbnails/PaigeGamble_thumbnail_PlumOstrichAmethystTote.png"
+        available="-1">
+          <Assets>
+            <Asset ItemId="355" AssetId="515"
+            AssetType="SkinnedMeshAsset"
+            AssetSubType="BagSkinnedMesh" AssetName="Bag"
+            FileName="resources://Avatar/Gabriella Templates"
+            AssetFilePath="resources://Avatar/Gabriella Templates">
+              <AssetData>
+                <MeshType>SkinnedMesh</MeshType>
+                <MeshData />
+                <MeshName>Female_Bag_ToteFlatStraps1</MeshName>
+              </AssetData>
+            </Asset>
+            <Asset ItemId="355" AssetId="519"
+            AssetType="TextureAsset" AssetSubType="BagTexture"
+            AssetName="Paige_PlumOstrichAmethystTote"
+            FileName="519.png"
+            AssetFilePath="http://s3.amazonaws.com/HangoutDevFileBucket/519.png">
+
+              <AssetData />
+            </Asset>
+          </Assets>
+        </item>
+        <price>
+          <money currencyId="1247519653409" currencyName="HOUTS"
+          amount="1960.0000" />
+        </price>
+      </itemOffer>
+      <itemOffer endDate="2050/01/01 00:00:00 PST"
+      numAvailable="-1" startDate="2009/11/10 19:15:52 PST"
+      title="Hayden-Harnett Ibiza Convertible Flight Tote"
+      description="Our shimmering nylon Ibiza tote is the perfect traveling companion. Under your arm the Ibiza is a great stylish east-west, sleek and chic, but the Ibiza expands to hold whatever new purchases you make from the local bazaar."
+      id="3758">
+        <tradeInItems />
+        <properties />
+        <item id="1224" name="356"
+        appName="HANGOUT_FAMILY_Application_1" itemTypeName="Bags"
+        description="356"
+        smallImageUrl="http://www.assetbase.net/Items/Thumbnails/Hayden_Harnett_Ibizatote_Thumbnail.png"
+        available="-1">
+          <Assets>
+            <Asset ItemId="356" AssetId="517"
+            AssetType="SkinnedMeshAsset"
+            AssetSubType="BagSkinnedMesh" AssetName="Bag"
+            FileName="resources://Avatar/Gabriella Templates"
+            AssetFilePath="resources://Avatar/Gabriella Templates">
+              <AssetData>
+                <MeshType>SkinnedMesh</MeshType>
+                <MeshData />
+                <MeshName>Female_Bag_ToteRectangular2</MeshName>
+              </AssetData>
+            </Asset>
+            <Asset ItemId="356" AssetId="520"
+            AssetType="TextureAsset" AssetSubType="BagTexture"
+            AssetName="HaydenHarnett_Ibiza" FileName="520.png"
+            AssetFilePath="http://s3.amazonaws.com/HangoutDevFileBucket/520.png">
+
+              <AssetData />
+            </Asset>
+          </Assets>
+        </item>
+        <price>
+          <money currencyId="1247519653409" currencyName="HOUTS"
+          amount="550.0000" />
+        </price>
+      </itemOffer>
+      <itemOffer endDate="2050/01/01 00:00:00 PST"
+      numAvailable="-1" startDate="2009/11/10 19:15:51 PST"
+      title="Paige Skyline Ankle Peg" description="Color: Rebel"
+      id="3674">
+        <tradeInItems />
+        <properties />
+        <item id="1083" name="242"
+        appName="HANGOUT_FAMILY_Application_1" itemTypeName="Pants"
+        description="242"
+        smallImageUrl="http://www.assetbase.net/Items/Thumbnails/skyline_angle_peg_rebel_thumbnail.png"
+        available="-1">
+          <Assets>
+            <Asset ItemId="242" AssetId="179"
+            AssetType="SkinnedMeshAsset"
+            AssetSubType="BottomSkinnedMesh" AssetName="Jeans"
+            FileName="resources://Avatar/Gabriella Templates"
+            AssetFilePath="resources://Avatar/Gabriella Templates">
+              <AssetData>
+                <MeshType>SkinnedMesh</MeshType>
+                <MeshData />
+                <MeshName>Bottom_JeansGeneric</MeshName>
+              </AssetData>
+            </Asset>
+            <Asset ItemId="242" AssetId="371"
+            AssetType="TextureAsset" AssetSubType="BottomTexture"
+            AssetName="Skyline Ankle Peg - Rebel"
+            FileName="371.png"
+            AssetFilePath="http://s3.amazonaws.com/HangoutDevFileBucket/371.png">
+
+              <AssetData />
+            </Asset>
+          </Assets>
+        </item>
+        <price>
+          <money currencyId="1247519653409" currencyName="HOUTS"
+          amount="540.0000" />
+        </price>
+      </itemOffer>
+      <itemOffer endDate="2050/01/01 00:00:00 PST"
+      numAvailable="-1" startDate="2009/11/10 19:15:51 PST"
+      title="Paige Skyline Drive Peg"
+      description="Color: Optic White" id="3675">
+        <tradeInItems />
+        <properties />
+        <item id="1084" name="243"
+        appName="HANGOUT_FAMILY_Application_1" itemTypeName="Pants"
+        description="243"
+        smallImageUrl="http://www.assetbase.net/Items/Thumbnails/Paige_skylineDrive10_thumbnail.png"
+        available="-1">
+          <Assets>
+            <Asset ItemId="243" AssetId="179"
+            AssetType="SkinnedMeshAsset"
+            AssetSubType="BottomSkinnedMesh" AssetName="Jeans"
+            FileName="resources://Avatar/Gabriella Templates"
+            AssetFilePath="resources://Avatar/Gabriella Templates">
+              <AssetData>
+                <MeshType>SkinnedMesh</MeshType>
+                <MeshData />
+                <MeshName>Bottom_JeansGeneric</MeshName>
+              </AssetData>
+            </Asset>
+            <Asset ItemId="243" AssetId="372"
+            AssetType="TextureAsset" AssetSubType="BottomTexture"
+            AssetName="Skyline 10'' Skinny - Optic White"
+            FileName="372.png"
+            AssetFilePath="http://s3.amazonaws.com/HangoutDevFileBucket/372.png">
+
+              <AssetData />
+            </Asset>
+          </Assets>
+        </item>
+        <price>
+          <money currencyId="1247519653409" currencyName="HOUTS"
+          amount="510.0000" />
+        </price>
+      </itemOffer>
+      <itemOffer endDate="2050/01/01 00:00:00 PST"
+      numAvailable="-1" startDate="2009/11/10 19:15:51 PST"
+      title="Paige Laurel Canyon Canon"
+      description="Color: McKinley" id="3676">
+        <tradeInItems />
+        <properties />
+        <item id="1085" name="244"
+        appName="HANGOUT_FAMILY_Application_1" itemTypeName="Pants"
+        description="244"
+        smallImageUrl="http://www.assetbase.net/Items/Thumbnails/Paige_LaurelCanyon_thumbnail.png"
+        available="-1">
+          <Assets>
+            <Asset ItemId="244" AssetId="373"
+            AssetType="TextureAsset" AssetSubType="BottomTexture"
+            AssetName="Laurel Canyon - Mckinley" FileName="373.png"
+            AssetFilePath="http://s3.amazonaws.com/HangoutDevFileBucket/373.png">
+
+              <AssetData />
+            </Asset>
+            <Asset ItemId="244" AssetId="501"
+            AssetType="SkinnedMeshAsset"
+            AssetSubType="BottomSkinnedMesh"
+            AssetName="Female_PantsBootcut"
+            FileName="resources://Avatar/Gabriella Templates"
+            AssetFilePath="resources://Avatar/Gabriella Templates">
+              <AssetData>
+                <MeshType>SkinnedMesh</MeshType>
+                <MeshData />
+                <MeshName>Female_Bottom_PantsBootcut</MeshName>
+              </AssetData>
+            </Asset>
+          </Assets>
+        </item>
+        <price>
+          <money currencyId="1247519653409" currencyName="HOUTS"
+          amount="540.0000" />
+        </price>
+      </itemOffer>
+      <itemOffer endDate="2050/01/01 00:00:00 PST"
+      numAvailable="-1" startDate="2009/11/10 19:15:51 PST"
+      title="Paige Jimmy Jimmy" description="Color: Beachwood"
+      id="3677">
+        <tradeInItems />
+        <properties />
+        <item id="1086" name="245"
+        appName="HANGOUT_FAMILY_Application_1" itemTypeName="Pants"
+        description="245"
+        smallImageUrl="http://www.assetbase.net/Items/Thumbnails/Paige_JimmyJimmyBeachwood_thumbnail.png"
+        available="-1">
+          <Assets>
+            <Asset ItemId="245" AssetId="374"
+            AssetType="TextureAsset" AssetSubType="BottomTexture"
+            AssetName="Jimmy Jimmy Beachwood" FileName="374.png"
+            AssetFilePath="http://s3.amazonaws.com/HangoutDevFileBucket/374.png">
+
+              <AssetData />
+            </Asset>
+            <Asset ItemId="245" AssetId="502"
+            AssetType="SkinnedMeshAsset"
+            AssetSubType="BottomSkinnedMesh"
+            AssetName="Female_PantsMidCalf"
+            FileName="resources://Avatar/Gabriella Templates"
+            AssetFilePath="resources://Avatar/Gabriella Templates">
+              <AssetData>
+                <MeshType>SkinnedMesh</MeshType>
+                <MeshData />
+                <MeshName>Female_Bottom_PantsMidCalf</MeshName>
+              </AssetData>
+            </Asset>
+          </Assets>
+        </item>
+        <price>
+          <money currencyId="1247519653409" currencyName="HOUTS"
+          amount="580.0000" />
+        </price>
+      </itemOffer>
+      <itemOffer endDate="2050/01/01 00:00:00 PST"
+      numAvailable="-1" startDate="2009/11/10 19:15:51 PST"
+      title="Paige Blue Heights Cuffed Skinny"
+      description="Color: Lake Destruction" id="3678">
+        <tradeInItems />
+        <properties />
+        <item id="1087" name="246"
+        appName="HANGOUT_FAMILY_Application_1" itemTypeName="Pants"
+        description="246"
+        smallImageUrl="http://www.assetbase.net/Items/Thumbnails/Paige_Blue_Heights_thumbnail.png"
+        available="-1">
+          <Assets>
+            <Asset ItemId="246" AssetId="179"
+            AssetType="SkinnedMeshAsset"
+            AssetSubType="BottomSkinnedMesh" AssetName="Jeans"
+            FileName="resources://Avatar/Gabriella Templates"
+            AssetFilePath="resources://Avatar/Gabriella Templates">
+              <AssetData>
+                <MeshType>SkinnedMesh</MeshType>
+                <MeshData />
+                <MeshName>Bottom_JeansGeneric</MeshName>
+              </AssetData>
+            </Asset>
+            <Asset ItemId="246" AssetId="375"
+            AssetType="TextureAsset" AssetSubType="BottomTexture"
+            AssetName="Blue Heights Cuffed Skinny - Lake Destruction"
+            FileName="375.png"
+            AssetFilePath="http://s3.amazonaws.com/HangoutDevFileBucket/375.png">
+
+              <AssetData />
+            </Asset>
+          </Assets>
+        </item>
+        <price>
+          <money currencyId="1247519653409" currencyName="HOUTS"
+          amount="510.0000" />
+        </price>
+      </itemOffer>
+    </itemOffers>
+  </store>
+</Response>

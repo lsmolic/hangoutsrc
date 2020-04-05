@@ -1,0 +1,28 @@
+<GUI>
+  <Include path="resources://GUI/Styles/Default.style" />
+
+  <Window name="MapGui" size="380 380" position="0 -45" anchor="Center Bottom" style="MapStyle">
+
+    <HeaderFrame name="HeaderFrame" size="HeaderFrame" position="HeaderFrame">
+      <Button name="CloseButton" size="22 22" style="CloseButtonStyle" position="-2 2" anchor="Right Top" />
+    </HeaderFrame>
+
+    <MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+      <Image name="MapPin" position ="124 165" size="51 48" image="GUI/TopLevel/map_pin_w_shadow" />
+      <Button name="MyHangout" position="156 165" size="90 18" text="MY HANGOUT" style="MapButtonStyle" anchor="Left Top" />
+      
+      <Image name="MapPin" position ="58 90" size="51 48" image="GUI/TopLevel/map_pin_w_shadow" />
+      <Button name="FriendHangouts" position="90 90" size="128 18" text="FRIEND HANGOUTS" style="MapButtonStyle" anchor="Left Top" />
+      
+      <Image name="MapPin" position ="42 283" size="51 48" image="GUI/TopLevel/map_pin_w_shadow" />
+      <Button name="PublicHangouts" position="74 283" size="128 18" text="PUBLIC HANGOUTS" style="MapButtonStyle" anchor="Left Top" />
+      
+      <Image name="MapPin" position ="258 80" size="51 48" image="GUI/TopLevel/map_pin_w_shadow" />
+      <Button name="Shop" position="290 80" size="50 18" text="SHOP" style="MapButtonStyle" anchor="Left Top" />
+      
+      <Image name="MapPin" position ="213 237" size="51 48" image="GUI/TopLevel/map_pin_w_shadow" />
+      <Button name="FashionFrenzy" position="245 237" size="114 18" text="FASHION CITY" style="MapButtonStyle" anchor="Left Top" />
+    </MainFrame>
+  </Window>
+
+</GUI>

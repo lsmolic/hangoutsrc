@@ -1,0 +1,29 @@
+<GUI>
+	<Include path="resources://GUI/Styles/Default.style" />
+	
+	<Window name="MainMenuWindow" size="98 70" position="13 385" style="TransparentWindowStyle">
+		<MainFrame name="MainFrame" size="FillParent" position="FillParent">
+      <Frame name="MainMenu" size="FillParent" position="FillParent" style="WhiteBorderBlueWindowStyle">
+        <Button name="MoodMenuButton" size="88 18" position="5 5" text="Mood" style="EmoteButtonStyle"/>
+        <Button name="EmoteMenuButton" size="88 18" position="5 26" text="Emote" style="EmoteButtonStyle"/>
+        <Button name="IconMenuButton" size="88 18" position="5 47" text="Icon" style="EmoteButtonStyle"/>
+      </Frame>
+    </MainFrame>
+  </Window>
+
+  <Window name="TextMenuWindow" size="88 18" position="13 -45" style="TransparentWindowStyle">
+    <MainFrame name="MainFrame" size="FillParent" position="FillParent">
+      <GridView name="TextMenu" size="FillParent" position="FillParent" style="WhiteBorderBlueWindowStyle" />
+      <Button name="ActiveMenuButton" size="88 18" style="EmoteButtonStyle"/>
+      <Button name="ActiveMoodButton" size="88 18" style="ActiveMoodButtonStyle" />
+    </MainFrame>
+  </Window>
+
+  <Window name="IconMenuWindow" size="88 18" position="13 -45" style="TransparentWindowStyle">
+    <MainFrame name="MainFrame" size="FillParent" position="FillParent">
+      <GridView name="IconMenu" size="FillParent" position="FillParent" style="WhiteBorderBlueWindowStyle" />
+      <Button name="IconMenuButton" size="32 24" style="EmoteButtonStyle"/>
+    </MainFrame>
+  </Window>
+	
+</GUI>

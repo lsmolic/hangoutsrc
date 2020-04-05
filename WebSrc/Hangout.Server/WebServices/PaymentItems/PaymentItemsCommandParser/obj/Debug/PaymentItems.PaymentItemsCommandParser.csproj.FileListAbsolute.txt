@@ -1,0 +1,5 @@
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\bin\Debug\PaymentItemsCommandParser.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\bin\Debug\PaymentItemsCommandParser.pdb
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\PaymentItemsCommandParser\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\PaymentItemsCommandParser\obj\Debug\PaymentItemsCommandParser.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\PaymentItemsCommandParser\obj\Debug\PaymentItemsCommandParser.pdb

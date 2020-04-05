@@ -1,0 +1,22 @@
+﻿.formItem
+{
+	background-image:url("/Images/white_rectangle.png");
+	background-repeat:no-repeat;
+	width:419px;
+	height:30px;
+	margin-left:10px;
+	margin-top:0px;
+	padding-top:3px;
+}
+.formLabel
+{
+	float:left;
+	text-align:right;
+	width:150px;
+}
+.formField
+{
+	float:left;
+	height:18px;
+	margin-left:10px;
+}

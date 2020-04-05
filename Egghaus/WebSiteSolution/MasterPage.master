@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Hangout Industries</title>
+    <script type="text/javascript" src="/JS/jquery.js"></script>
+    <script type="text/javascript" src="/JS/config.js"></script>
+    <script type="text/javascript" src="/JS/jquery.cookie.js"></script>
+    <script type="type/vbscript" language='VBScript' src="/JS/DetectUnity.vbs"></script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="mainform" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="MainContentPlaceHolder" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

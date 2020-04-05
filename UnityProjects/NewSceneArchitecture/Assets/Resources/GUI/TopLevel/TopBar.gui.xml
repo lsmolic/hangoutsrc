@@ -1,0 +1,25 @@
+<GUI>
+  <Include path="resources://GUI/Styles/Default.style" />
+
+	<Window name="Topbar" style="Clear" size="760 54" position="0 0">
+		<MainFrame name="MainFrame" style="TopBarPanel" size="FillParent" position="FillParent">
+			<Frame name="CoinsMeter" style="" position="255 12" size="120 24" >
+				<Label name="Amount" style="FramedLabelStyle" position="29 2" size="67 20" text=""/>
+				<Button name="CoinIcon" style="CoinButtonStyle" position="0 0" size="24 24" />
+			</Frame>
+			<Frame name="CashMeter" style="" position="359 12" size="120 24" >
+				<Label name="Amount" style="FramedLabelStyle" position="37 2" size="67 20" text=""/>
+				<Button name="CashIcon" style="CashButtonStyle" position="0 0" size="33 24"/>
+			</Frame>
+			<Button name="BuyCash" position="475 11" size="82 26" text=""/>
+      <Button name="FashionCity" style="SecondaryButtonStyle" position="565 11" size="150 26" text=""/>
+
+      <!--<Frame name="KarmaMeter" style="" position="600 12" size="150 24">
+				<Label name="Amount" style="FramedLabelStyle" position="30 2" size="67 20" text="50000" />
+				<Button name="Icon" style="ClearButtonStyle" position="0 0" size="24 24"/> 
+			</Frame>-->
+		</MainFrame>
+	</Window>
+	<Window name="LeftBar" style="LeftBarPanel" size="19 392" position="0 54"></Window>
+	<Window name="RightBar" style="RightBarPanel" size="19 392" position="741 54"></Window>
+</GUI>

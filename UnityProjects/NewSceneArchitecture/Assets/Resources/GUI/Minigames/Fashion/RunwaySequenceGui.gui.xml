@@ -1,0 +1,40 @@
+<GUI>
+  <Include path="resources://GUI/Styles/Default.style" />
+
+  <Window name="RunwayGuiWindow" size="FillParent" position="FillParent" style="TransparentWindowStyle">
+    <MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+      
+      <!--Outer letterbox frame-->
+      <Frame name="TopBlackBar" size="760 54" position="0 0" style="TopBarPanelBlack"/>
+      <Frame name="BottomBlackBar" size="760 55" style="NavBarPanelBlack" position="0 0" anchor="Left Bottom" parentAnchor="Left Bottom"/>
+      <Frame name="LeftBar" style="LeftBarPanel" size="19 392" position="0 54"/>
+      <Frame name="RightBar" style="RightBarPanel" size="19 392" position="741 54"/>
+
+      <Frame name="TopPerformerFrame" size="320 104" position="0 -10" style="Black40" anchor="Center Bottom" parentAnchor="Center Bottom">
+        <Label name="Instructions" size="ExpandText" position="0 2" text="Who's the star of your show?" style="WhiteLabelStyle" anchor="Center Top" parentAnchor="Center Top"/>
+              
+        <Frame name="SelectTopPerformerFrame1" size="150 76" position="5 24" style="WhiteBorderBlueWindowStyle">
+          <Image name="TopPerformerImage1" size="50 50" position="6 6" />
+          <Button name="ChooseButton1" size="80 32" position="62 13" text="Choose!" style="FacebookButtonStyle" anchor="Left Top"/>
+          <Label name="TopPerformerNameLabel1" size="ExpandText" position="6 58" style="WhiteLabelStyle12" anchor="Left Top"/>
+        </Frame>
+        
+        <Frame name="SelectTopPerformerFrame2" size="150 76" position="165 24" style="WhiteBorderBlueWindowStyle">
+          <Image name="TopPerformerImage2" size="50 50" position="6 6" anchor="Left Top"/>
+          <Button name="ChooseButton2" size="80 32" position="62 13" text="Choose!" style="FacebookButtonStyle" anchor="Left Top"/>
+          <Label name="TopPerformerNameLabel2" size="ExpandText" position="6 58" style="WhiteLabelStyle12" anchor="Left Top"/>
+        </Frame>
+        
+      </Frame>
+
+      <Button name="ExitButton" size="80 24" position="-30 -10" text="Exit" anchor="Right Bottom" parentAnchor="Right Bottom"/>
+      
+<!--       <Frame name="ThankConfirmFrame" size="200 150" position="230 300" style="BlueWindowStyle"> -->
+<!--         <Label name="ThankConfirmLabel" size="150 50" position="25 25" text="Thanks given." /> -->
+<!--         <Button name="CloseButton" size="70 30" position="120 110" text="Close" /> -->
+<!--       </Frame>-->
+      
+      <Label name="TitleLabel" size="400 18" position="30 8" text="{0}'s fashion show in {1}" style="WhiteHeadline"/>
+    </MainFrame>
+  </Window>
+</GUI>

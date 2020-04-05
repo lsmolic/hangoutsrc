@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Payments.master.cs" Inherits="Payments" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <link href="CSS/SecureSite.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/JS/jquery.js"></script>
+    <script type="text/javascript" src="/JS/secure.js"></script>
+
+    <script type="text/javascript" language="javascript"> 
+         function SetUniqueRadioButton(nameregex, current) 
+         { 
+            re = new RegExp(nameregex);   
+            for(i = 0; i < document.forms[0].elements.length; i++) 
+            { 
+                elm = document.forms[0].elements[i] 
+                if (elm.type == 'radio') 
+                { 
+                    if (re.test(elm.name)) 
+                    { 
+                        elm.checked = false; 
+                    } 
+                 } 
+            } 
+            current.checked = true; 
+        } 
+    </script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form class="mainForm" id="form1" runat="server" >
+    <asp:ContentPlaceHolder ID="headerPlaceHolderMain" runat="server">
+    </asp:ContentPlaceHolder>
+    <asp:ContentPlaceHolder Visible="true" ID="contentPlaceHolderMain" runat="server">
+    </asp:ContentPlaceHolder>
+    </form>
+</body>
+</html>

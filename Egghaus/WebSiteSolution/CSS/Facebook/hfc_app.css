@@ -1,0 +1,237 @@
+/* @clearfix */
+
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+/* @end */
+
+/* @reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 1em;
+	text-decoration: none;
+	border: none;
+	list-style: none;
+	outline: none;
+}
+
+/* @end */
+
+html {
+	background-color: #fff;
+}
+
+body {
+	font: 12px/18px "Lucida Grande", Verdana, sans-serif;
+	color: #000;
+	/* text-shadow: #fff 0 1px 1px; */
+}
+
+h3 {
+	font: normal 36px/42px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-bottom: 15px;
+	letter-spacing: -.05em;
+	line-height: 1.1em;
+}
+
+h3 strong {
+	font-weight: bold;
+}
+
+p {
+	margin-bottom: 16px;
+}
+
+blockquote {
+	font-style: italic;
+	font-family: Georgia;
+}
+
+blockquote cite {
+	font-weight: bold;
+}
+
+img {
+	vertical-align: bottom;
+}
+
+a {
+	color: #39c;
+	cursor: pointer;
+}
+
+a:focus,
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: #069;
+}
+
+.left
+{
+	float: left;
+}
+
+.right
+{
+	float: right;
+}
+
+
+#wrapper #download_cta
+{
+	width: 760px;
+	background: #fff url(/Images/Facebook/FashionCity/hfc_bg_download_cta_v1.png) no-repeat;
+	display: block;
+	min-height: 612px;
+	margin: 20px 0 0 0;
+}
+
+#wrapper #download_support
+{
+	width: 760px;
+	background: #fff url(/Images/Facebook/FashionCity/hfc_bg_download_simple_v1.png) no-repeat;
+	display: block;
+	min-height: 700px;
+}
+
+/* @ top */
+
+.top .header
+{
+	width: 360px;
+	margin: 0 55px 0 0;
+	float: left;
+}
+
+#download_cta .top
+{
+	padding: 138px 0 0 13px;
+}
+
+#download_cta a.download_cta_btn
+{
+	width: 338px;
+	background: transparent url(/Images/Facebook/FashionCity/hfc_btn_download_cta_v1.png) no-repeat;
+	display: block;
+	height: 93px;
+	margin: 0 auto;
+}
+
+#download_cta a.download_cta_btn:hover
+{
+	width: 338px;
+	background: transparent url(/Images/Facebook/FashionCity/hfc_btn_download_cta_v1.png) no-repeat 0 -93px;
+	display: block;
+	height: 93px;
+	margin: 0 auto;
+}
+
+.top .app_info
+{
+	width: 330px;
+	background: transparent url(/Images/Facebook/FashionCity/hfc_header_info_v1.png) no-repeat;
+	display: block;
+	height: 83px;
+	overflow: none;
+	float: left;
+}
+
+.top .app_info .sub_hdr
+{
+	display: block;
+	font: bold 14px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 12px 0 0 83px;
+}
+
+.top .app_info .description
+{
+	margin: 0 0 0 83px;
+	font: normal 12px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #444;
+	display: block;
+	max-width: 230px;
+}
+
+/* @end */
+
+/* @mid */
+
+.mid .steps
+{
+	width: 355px;
+	background: transparent url(/Images/Facebook/FashionCity/hfc_steps_v1.png) no-repeat;
+	display: block;
+	height: 448px;
+	margin: 50px 0 0 0;
+	overflow: none;
+	float: left;
+}
+
+.mid .steps .sub_hdr
+{
+	display: block;
+	font: bold 20px/26px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0 0 0 55px;
+}
+
+.mid .steps .description
+{
+	display: block;
+	font: normal 15px/21px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #666666;
+	margin: 3px 0 0 55px;
+	width: 265px;
+}
+
+.mid .steps .step_1
+{
+	margin: 15px 0 0 0;
+}
+
+.mid .steps .step_2
+{
+	margin: 85px 0 0 0;
+}
+
+.mid .steps .step_3
+{
+	margin: 82px 0 0 0;
+}
+
+.mid .os_x_safari
+{
+	width: 405px;
+	background: transparent url(/Images/Facebook/FashionCity/hfc_download_safari_mac_v1.png) no-repeat;
+	display: block;
+	height: 474px;
+	margin: 40px 0 0 0;
+	overflow: none;
+	float: left;
+}
+
+.mid .win_xp {
+	width: 397px;
+	background: transparent url(/Images/Facebook/FashionCity/hfc_download_win_generic.png) no-repeat;
+	display: block;
+	height: 522px;
+	margin: 20px 0 0 0;
+	overflow: none;
+	float: left;
+}
+
+/* @end */
+
+
+
+
+
+
+
+

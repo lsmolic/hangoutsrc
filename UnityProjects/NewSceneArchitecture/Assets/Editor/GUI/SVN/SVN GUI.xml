@@ -1,0 +1,40 @@
+<GUI>
+	<Window name="SvnWindow" size="800 600">
+		<MainFrame name="MainFrame" position="FillParent" size="FillParent">
+			<Frame name="ToolbarFrame" position="0 0" width="FillParent" height="52">
+				<Button name="UpdateButton" position="HorizontalAutoLayout" size="64 18" text="Update"/>
+				<Button name="CommitButton" position="HorizontalAutoLayout" size="64 18" text="Commit"/>
+				<Button name="CleanupButton" position="HorizontalAutoLayout" size="64 18" text="Cleanup"/>
+				<Button name="AddButton" position="HorizontalAutoLayout" size="64 18" text="Add"/>
+				<Button name="DeleteButton" position="HorizontalAutoLayout" size="64 18" text="Delete"/>
+				<Button name="RevertButton" position="HorizontalAutoLayout" size="64 18" text="Revert"/>
+				<Button name="LockButton" position="HorizontalAutoLayout" size="64 18" text="Lock"/>
+				<Button name="LogButton" position="HorizontalAutoLayout" size="64 18" text="Log"/>
+			</Frame>
+			<Frame name="FileListFrame" scrollable="true" position="0 52" size="200 600">
+				<Frame name="FileListingPrototype" position="0 0" width="FillParent" height="24">
+					<Checkbox name="FileSelectionCheckbox" position="4 4" size="16 16" />
+					<Label name="FilenameLabel" position="24 4" size="148 16" text="Getting filename..." />
+					<Label name="SvnStatusLabel" position="180 4" size="20 16" text="?" />
+				</Frame>
+			</Frame>
+			<Frame name="ToolContextParentFrame" position="200 52" size="600 400"/>
+			<Frame name="SvnOutputFrame" position="200 450" size="600 150">
+				<Textbox name="SvnOutputTextbox" position="FillParent" size="FillParent" singleLine="false" userEditable="false" />
+			</Frame>
+		</MainFrame>
+	</Window>
+	<Frame name="CommitToolContextFrame" position="FillParent" size="FillParent">
+		<Textbox name="CommitMessageTextbox" position="4 4" size="592 364" singleLine="false" userEditable="true" />
+		<Label name="CodeReviewLabel" localAnchor="Left Bottom" parentAnchor="Left Bottom" position="0 0" size="28 24" text="CR: " />
+		<Textbox name="CodeReviewTextbox" localAnchor="Left Bottom" parentAnchor="Left Bottom" position="32 0" size="48 24" singleLine="true" userEditable="true" />
+	</Frame>
+	<Frame name="LogToolContextFrame" position="FillParent" size="FillParent">
+		<Frame name="RevisionList" scrollable="true" position="0 0" width="FillParent" height="364">
+			<Frame name="RevisionListingPrototype" selectable="true" position="0 0" width="FillParent" height="72">
+				<Label name="RevisionLabel" position="2 2" size="24 12" text="?"/>
+				<Textbox name="CheckinCommentTextbox" position="32 2" width="500" height="FillParent" />
+			</Frame>
+		</Frame>
+	</Frame>
+</GUI>

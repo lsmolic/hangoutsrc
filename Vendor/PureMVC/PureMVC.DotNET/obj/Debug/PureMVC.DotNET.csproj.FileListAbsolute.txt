@@ -1,0 +1,6 @@
+C:\svnrepos\Architecture\UnityProjects\NewSceneArchitecture\Assets\External\PureMVC.DotNET.20.dll
+C:\svnrepos\Architecture\UnityProjects\NewSceneArchitecture\Assets\External\PureMVC.DotNET.20.pdb
+C:\svnrepos\Architecture\UnityProjects\NewSceneArchitecture\Assets\External\PureMVC.DotNET.XML
+C:\svnrepos\Architecture\Vendor\PureMVC\PureMVC.DotNET\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\Vendor\PureMVC\PureMVC.DotNET\obj\Debug\PureMVC.DotNET.20.dll
+C:\svnrepos\Architecture\Vendor\PureMVC\PureMVC.DotNET\obj\Debug\PureMVC.DotNET.20.pdb

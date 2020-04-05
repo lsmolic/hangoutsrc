@@ -1,0 +1,93 @@
+<DefaultAssets>
+  <!--Top-->
+  <Asset ItemId="135" AssetId="225" AssetType="SkinnedMeshAsset" AssetSubType="TopSkinnedMesh" AssetName="TankTop" FileName="resources://Avatar/Gabriella Templates" AssetFilePath="resources://Avatar/Gabriella Templates">
+    <AssetData>
+      <MeshData></MeshData>
+      <MeshName>Top_TankTop</MeshName>
+    </AssetData>
+  </Asset>
+  <Asset  ItemId="135" AssetId="231" AssetType="TextureAsset" AssetSubType="TopTexture" AssetName="Women_Top_TankTop" FileName="231.png" AssetFilePath="http://s3.amazonaws.com/HangoutDevFileBucket/231.png">
+    <AssetData />
+  </Asset>
+  <!--Bottoms-->
+  <Asset ItemId="136" AssetId="232" AssetType="SkinnedMeshAsset" AssetSubType="BottomSkinnedMesh" AssetName="Shorts" FileName="resources://Avatar/Gabriella Templates" AssetFilePath="resources://Avatar/Gabriella Templates">
+    <AssetData>
+      <MeshType>SkinnedMesh</MeshType>
+      <MeshData></MeshData>
+      <MeshName>Bottom_ShortsGeneric</MeshName>
+    </AssetData>
+  </Asset>
+  <Asset ItemId="136" AssetId="234" AssetType="TextureAsset" AssetSubType="BottomTexture" AssetName="Women_Bottoms_ShortsWhite" FileName="234.png" AssetFilePath="http://s3.amazonaws.com/HangoutDevFileBucket/234.png">
+    <AssetData />
+  </Asset>
+  <!--Shoes-->
+  <Asset ItemId="137" AssetId="180" AssetType="SkinnedMeshAsset" AssetSubType="FootwearSkinnedMesh" AssetName="Flip-Flops" FileName="resources://Avatar/Gabriella Templates" AssetFilePath="resources://Avatar/Gabriella Templates">
+    <AssetData>
+      <MeshData></MeshData>
+      <MeshName>Footwear_FlipFlopsGeneric</MeshName>
+    </AssetData>
+  </Asset>
+  <Asset ItemId="137" AssetId="245" AssetType="TextureAsset" AssetSubType="FootwearTexture" AssetName="Women_Footwear_FlipFlop" FileName="245.png" AssetFilePath="http://s3.amazonaws.com/HangoutDevFileBucket/245.png">
+    <AssetData />
+  </Asset>
+  <!--No Bag-->
+  <Asset ItemId="476" AssetId="647" AssetType="SkinnedMeshAsset" AssetSubType="BagSkinnedMesh" AssetName="NoBag" FileName="resources://Avatar/Gabriella Templates" AssetFilePath="resources://Avatar/Gabriella Templates">
+    <AssetData>
+      <MeshData></MeshData>
+      <MeshName>EmptySkinnedMeshRenderer</MeshName>
+    </AssetData>
+  </Asset>
+  <!--No Beauty Mark -->
+  <Asset ItemId="154" AssetId="173" AssetType="TextureAsset" AssetSubType="FaceMarkTexture" AssetName="None" FileName="" AssetFilePath="" >
+    <AssetData>
+    </AssetData>
+  </Asset>
+  <!--No Face Blush-->
+  <Asset ItemId="155" AssetId="239" AssetType="TextureAsset" AssetSubType="FaceBlushTexture" AssetName="Women_FaceBlush_Soft" FileName="assets://Assets/1/239.png" AssetFilePath="assets://Assets/1/239.png" >
+    <AssetData>
+    </AssetData>
+  </Asset>
+  <Asset ItemId="155" AssetId="350" AssetType="ColorAsset" AssetSubType="FaceBlushColor" AssetName="Red" FileName="" AssetFilePath="">
+    <AssetData>
+      <AssetColor>FF0000</AssetColor>
+      <Alpha>1</Alpha>
+    </AssetData>
+  </Asset>
+  <Asset ItemId="155" AssetId="380" AssetType="ColorAsset" AssetSubType="FaceBlushAlpha" AssetName="None" FileName="" AssetFilePath="">
+    <AssetData>
+      <AssetColor>000000</AssetColor>
+      <Alpha>0</Alpha>
+    </AssetData>
+  </Asset>
+  <!--No Eyeliner-->
+  <Asset ItemId="151" AssetId="174" AssetType="TextureAsset" AssetSubType="EyeLinerTexture" AssetName="Thin Eye Liner" FileName="" AssetFilePath="">
+    <AssetData>
+    </AssetData>
+  </Asset>
+  <!--No Lipstick-->
+  <Asset ItemId="143" AssetId="381" AssetType="ColorAsset" AssetSubType="MouthColor" AssetName="Natural" FileName="" AssetFilePath="">
+    <AssetData>
+      <AssetColor>ffa5a5</AssetColor>
+      <Alpha>1</Alpha>
+    </AssetData>
+  </Asset>
+  <!--No Eye Shadow-->
+  <Asset ItemId="477" AssetId="243" AssetType="TextureAsset" AssetSubType="EyeShadowTexture" AssetName="Women_EyeShadow_Fade" FileName="assets://Assets/1/243.png" AssetFilePath="assets://Assets/1/243.png">
+    <AssetData>
+      <AssetColor>000000</AssetColor>
+      <Alpha>0</Alpha>
+    </AssetData>
+  </Asset>
+  <Asset ItemId="477" AssetId="386" AssetType="ColorAsset" AssetSubType="EyeShadowAlpha" AssetName="None" FileName="" AssetFilePath="">
+    <AssetData>
+      <AssetColor>000000</AssetColor>
+      <Alpha>0</Alpha>
+    </AssetData>
+  </Asset>
+  <Asset ItemId="477" AssetId="465" AssetType="ColorAsset" AssetSubType="EyeShadowColor" AssetName="Dark Eye Shadow Color" FileName="" AssetFilePath="">
+    <AssetData>
+      <AssetColor>280014</AssetColor>
+      <Alpha>1</Alpha>
+    </AssetData>
+  </Asset>
+</DefaultAssets>

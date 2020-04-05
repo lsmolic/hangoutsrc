@@ -1,0 +1,39 @@
+﻿/* GENERAL STYLE */
+
+.fullContent
+{
+	clear:both;
+	/*height:auto;*/
+	width:100%;
+	background-color:#101010;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:0px;
+}
+.footer
+{
+	float:left;
+	clear:left;
+	border-top:solid 1px #FF6600;
+	width:100%;
+	height:100%;
+	color:Gray;
+	font-size:10px;
+	/* top, right, bottom, left */
+	padding-top:8px;
+	padding-bottom:8px;
+	margin:0px 0px 0px 0px;
+	background-color:#101010;
+}
+
+.reg_form_section
+{
+	float:left;
+	background:url('/backup/images/registration/orangeBox.png') no-repeat;
+	width:275px;
+	height:265px;
+	padding-left:25px;
+	padding-bottom:0px;
+	margin-bottom:5px;
+	
+}

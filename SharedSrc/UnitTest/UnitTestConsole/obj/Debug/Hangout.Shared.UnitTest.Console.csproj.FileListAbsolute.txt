@@ -1,0 +1,8 @@
+C:\svnrepos\Architecture\SharedSrc\UnitTest\UnitTestConsole\bin\Debug\Hangout.Shared.UnitTest.Console.exe.config
+C:\svnrepos\Architecture\SharedSrc\UnitTest\UnitTestConsole\bin\Debug\Hangout.Shared.UnitTest.Console.exe
+C:\svnrepos\Architecture\SharedSrc\UnitTest\UnitTestConsole\bin\Debug\Hangout.Shared.UnitTest.Console.pdb
+C:\svnrepos\Architecture\SharedSrc\UnitTest\UnitTestConsole\bin\Debug\Hangout.Shared.UnitTest.Framework.dll
+C:\svnrepos\Architecture\SharedSrc\UnitTest\UnitTestConsole\bin\Debug\Hangout.Shared.UnitTest.Framework.pdb
+C:\svnrepos\Architecture\SharedSrc\UnitTest\UnitTestConsole\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\SharedSrc\UnitTest\UnitTestConsole\obj\Debug\Hangout.Shared.UnitTest.Console.exe
+C:\svnrepos\Architecture\SharedSrc\UnitTest\UnitTestConsole\obj\Debug\Hangout.Shared.UnitTest.Console.pdb

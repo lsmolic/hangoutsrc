@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b749ed69-1d22-4829-8702-4b5ef6d3d3dd" name="rpowers@RPOWERS-T500 2009-09-18 15:19:40" runUser="CLARITYINTERNAL\rpowers" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Default Run Configuration" id="a37d1d2b-0292-414a-8722-07f46e5f82e9">
+    <Deployment runDeploymentRoot="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook.Tests\TestResults\rpowers_RPOWERS-T500 2009-09-18 15_19_40">
+      <DeploymentItem filename="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook\bin\Debug\Facebook.dll" />
+    </Deployment>
+    <Hosts skipUnhostableTests="false" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-09-18T15:19:40.4566890-05:00" queuing="2009-09-18T15:19:40.8116890-05:00" start="2009-09-18T15:19:40.8906890-05:00" finish="2009-09-18T15:19:44.1576890-05:00" />
+  <TestDefinitions>
+    <UnitTest name="UnregisterUsersTest" storage="c:\clarity\codeplex\facebooktoolkit\dev\source\facebook.tests\facebook.tests.synchronous\bin\debug\facebook.tests.synchronous.dll" id="4676ca09-ca6d-26c1-2d05-11f9de32854f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c66c7611-697f-42fb-a1ae-130f5e2f467f" />
+      <TestMethod codeBase="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook.Tests\Facebook.Tests.Synchronous\bin\Debug\Facebook.Tests.Synchronous.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Facebook.Tests.Synchronous.connectTest, Facebook.Tests.Synchronous" name="UnregisterUsersTest" />
+    </UnitTest>
+    <UnitTest name="RegisterUsersTest" storage="c:\clarity\codeplex\facebooktoolkit\dev\source\facebook.tests\facebook.tests.synchronous\bin\debug\facebook.tests.synchronous.dll" id="d47253c8-4542-3204-13be-32f2a394cb86">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2d726acd-9077-4963-b9d8-6f97ba31817d" />
+      <TestMethod codeBase="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook.Tests\Facebook.Tests.Synchronous\bin\Debug\Facebook.Tests.Synchronous.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Facebook.Tests.Synchronous.connectTest, Facebook.Tests.Synchronous" name="RegisterUsersTest" />
+    </UnitTest>
+    <UnitTest name="GetUnconnectedFriendsTest" storage="c:\clarity\codeplex\facebooktoolkit\dev\source\facebook.tests\facebook.tests.synchronous\bin\debug\facebook.tests.synchronous.dll" id="31fb2924-1bdf-729a-5785-014bb3b01fcd">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e878bf29-8e00-419f-9385-6d062996f596" />
+      <TestMethod codeBase="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook.Tests\Facebook.Tests.Synchronous\bin\Debug\Facebook.Tests.Synchronous.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Facebook.Tests.Synchronous.connectTest, Facebook.Tests.Synchronous" name="GetUnconnectedFriendsTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Connect" id="db5e6fc0-1f8a-4f7c-a53d-3f24d4c3c5a2" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+      <TestLinks>
+        <TestLink id="4676ca09-ca6d-26c1-2d05-11f9de32854f" name="UnregisterUsersTest" storage="c:\clarity\codeplex\facebooktoolkit\dev\source\facebook.tests\facebook.tests.synchronous\bin\debug\facebook.tests.synchronous.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="d47253c8-4542-3204-13be-32f2a394cb86" name="RegisterUsersTest" storage="c:\clarity\codeplex\facebooktoolkit\dev\source\facebook.tests\facebook.tests.synchronous\bin\debug\facebook.tests.synchronous.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="31fb2924-1bdf-729a-5785-014bb3b01fcd" name="GetUnconnectedFriendsTest" storage="c:\clarity\codeplex\facebooktoolkit\dev\source\facebook.tests\facebook.tests.synchronous\bin\debug\facebook.tests.synchronous.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </TestList>
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+    <TestList name="Lists of Results" id="8c43106b-9dc1-4907-a29f-aa66a61bf5b6" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="31fb2924-1bdf-729a-5785-014bb3b01fcd" executionId="e878bf29-8e00-419f-9385-6d062996f596" testListId="db5e6fc0-1f8a-4f7c-a53d-3f24d4c3c5a2" />
+    <TestEntry testId="d47253c8-4542-3204-13be-32f2a394cb86" executionId="2d726acd-9077-4963-b9d8-6f97ba31817d" testListId="db5e6fc0-1f8a-4f7c-a53d-3f24d4c3c5a2" />
+    <TestEntry testId="4676ca09-ca6d-26c1-2d05-11f9de32854f" executionId="c66c7611-697f-42fb-a1ae-130f5e2f467f" testListId="db5e6fc0-1f8a-4f7c-a53d-3f24d4c3c5a2" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="e878bf29-8e00-419f-9385-6d062996f596" testId="31fb2924-1bdf-729a-5785-014bb3b01fcd" testName="GetUnconnectedFriendsTest" computerName="RPOWERS-T500" duration="00:00:00.4870860" startTime="2009-09-18T15:19:41.0036890-05:00" endTime="2009-09-18T15:19:41.8946890-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="db5e6fc0-1f8a-4f7c-a53d-3f24d4c3c5a2">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2d726acd-9077-4963-b9d8-6f97ba31817d" testId="d47253c8-4542-3204-13be-32f2a394cb86" testName="RegisterUsersTest" computerName="RPOWERS-T500" duration="00:00:00.9759507" startTime="2009-09-18T15:19:41.8956890-05:00" endTime="2009-09-18T15:19:42.8746890-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="db5e6fc0-1f8a-4f7c-a53d-3f24d4c3c5a2">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c66c7611-697f-42fb-a1ae-130f5e2f467f" testId="4676ca09-ca6d-26c1-2d05-11f9de32854f" testName="UnregisterUsersTest" computerName="RPOWERS-T500" duration="00:00:01.2574586" startTime="2009-09-18T15:19:42.8776890-05:00" endTime="2009-09-18T15:19:44.1376890-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="db5e6fc0-1f8a-4f7c-a53d-3f24d4c3c5a2">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

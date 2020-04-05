@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml"> 
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="avselect.css" />
+</head>
+  
+
+<body>
+<div id="FB_HiddenContainer"  style="position:absolute; top:-10000px; width:0px; height:0px;" ></div>
+<script src="http://static.ak.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php" type="text/javascript"></script>
+
+<script type="text/javascript">FB_RequireFeatures(["XFBML"], function(){ FB.Facebook.init('c4e6b78cd161c113d154576e350f3e0a', "/xd_receiver.html"); });</script>  
+
+  <a href="#" onclick="getFBLogin(); return false;" > <img id="fb_login_image" src="http://static.ak.fbcdn.net/images/fbconnect/login-buttons/connect_light_small_short.gif" alt="Connect"/> Save Your Look</a>
+
+<script type="text/javascript">
+function redirectToUnityInstall()
+{
+    fbArgs = window.location.search;
+    window.location = "unity_install.html" + fbArgs + "&SelectedAvatar=" + selectedAvatar;
+}
+
+function getFBLogin()
+{
+
+    FB.Connect.requireSession();
+    FB.Connect.get_status().waitUntilReady(function(status)
+    {
+	switch(status)
+	{
+	    case FB.ConnectState.connected:
+                redirectToUnityInstall();
+	        break;
+	    case FB.ConnectState.appNotAuthorized:
+                FB.Connect.requireSession(redirectToUnityInstall);
+                break;
+            case FB.ConnectState.userNotLoggedIn:
+                FB.Connect.requireSession(redirectToUnityInstall);
+                break;
+	};
+    });
+    return false;
+}
+
+</script>
+
+
+</body></html>

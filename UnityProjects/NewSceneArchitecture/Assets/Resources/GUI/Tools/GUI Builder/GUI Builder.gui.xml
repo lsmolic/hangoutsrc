@@ -1,0 +1,45 @@
+<GUI>
+  <Include path="resources://GUI/Styles/Default.style" />
+	
+	<Window name="LoadGuiDialog" size="316 390" position="0 0" anchor="Center Center">
+		<MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+      <Label name="LoadLabel" position="0 0" anchor="Center Top" size="ExpandText" text="Select GUI"/>
+      <Textbox name="FilterText" position="10 36" size="296 32" text="" />
+
+      <ScrollFrame name="GuiList" size="276 304" position="12 72" style="WhiteWindowStyle">
+        <Button name="OpenGuiPrototype" size="270 24" position="0 0" />
+      </ScrollFrame>
+      <Scrollbar scrollFrame="../GuiList" name="ErrorFrameScrollbar" size="16 304" position="292 72" />
+      
+		</MainFrame>
+	</Window>
+  
+  <Window name="ToolbarWindow" size="FillParent 40" position="FillParent" >
+    <MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+      <Label name="LoadedFileLabel" position="4 4" size="ExpandText" text="No GUI Loaded"/>
+      
+      <Button name="OpenButton" position="-4 4" size="64 30" anchor="Right Top" text="Open..." />
+    </MainFrame>
+  </Window>
+
+  <Window name="GuiFileErrorWindow" size="316 336" position="0 0" anchor="Center Center" >
+    <MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+      <Label name="ErrorLabel" position="4 4" size="ExpandText" text="Error loading GUI:"/>
+      <ScrollFrame name="ErrorFrame" size="300 256" position="4 36" >
+        <Textbox name="ErrorMessage" position="0 0" size="ExpandText" userEditable="false" singleLine="false" style="WordWrapDefaultStyle"/>
+      </ScrollFrame>
+      <Scrollbar scrollFrame="../ErrorFrame" name="ErrorFrameScrollbar" size="12 256" position="302 36" />
+      <Button name="ReloadGuiButton" position="-4 -4" size="64 30" anchor="Right Bottom" text="Reload" />
+    </MainFrame>
+  </Window>
+  
+  <Window name="OpenWindowsList" size="172 400" position="0 44" style="Clear">
+    <MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+      <Frame name="WindowList" size="160 400" position="0 0" style="DefaultWindowStyle" >
+        <Button name="WindowListingPrototype" position="4 4" size="152 24" style="SmallButtonStyle" text="LoadedWindowName"/>
+      </Frame>
+      <Button name="HideShowButton" position="-7 0" size="14 32" anchor="Right Center"/>
+    </MainFrame>
+  </Window>
+  
+</GUI>

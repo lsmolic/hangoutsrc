@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"> 
+<head> 
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" type="text/css" media="screen" href="/CSS/Facebook/hfc_app.css" />
+	<script type="text/javascript" src="/JS/json2.js"></script>
+    
+	<script language="VBScript" src="/JS/DetectUnity.vbs"></script>
+    <script type="text/javascript" src="/JS/mixpanel.js"></script>
+    <script type="text/javascript" src="/JS/hangout_base.js"></script>
+    <script type="text/javascript" src="/JS/config.js.aspx"></script>
+    <script type="text/javascript" src="/JS/jquery.js"></script>
+    <script type="text/javascript" src="/JS/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/JS/jquery.query.js"></script>
+    <script type="text/javascript" src="/JS/download_unity.js"></script>
+
+</head>	
+	<body> 
+		  <script language="javascript1.1" type="text/javaScript">
+
+		if (Hangout.util.isUnityInstalled())
+		{
+		        fbArgs = window.location.search;
+		        window.location = "oops.html" + fbArgs;
+		}
+		else
+		{
+		    var installerPath = GetInstallerPath();
+		    if (installerPath != "")
+		    {
+			
+			    document.write('	<div id="wrapper"> <div id="download_support"> <div class="top clearfix"> <div class="header"></div> </div> <div class="mid clearfix"><ul class="steps"> <li class="step_1"> <span class="sub_hdr"> Open webplayer-i386.dmg </span> <span class="description"> Double-click “<strong>Install Unity Player.pkg</strong>” to begin the install process. </span> </li> <li class="step_2"> <span class="sub_hdr"> Follow the Install Wizard </span> <span class="description"> You will need an administrator account to complete this process. </span> </li> </ul> <div class="os_x_safari"></div> </div> <div class="btm clearfix"></div> </div> </div>');
+						
+			}
+			else
+			{
+			    document.write('Your system isn\'t supported for the Unity plugin.');
+			}
+		}
+
+	      </script>
+	      <noscript>
+	        This content requires a browser with Javascript enabled.
+	      </noscript>
+
+		
+	</body> 
+</html>

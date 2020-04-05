@@ -1,0 +1,4 @@
+<RunwaySequence>
+  <RunwayWalkPath>assets://FashionMinigame/f_fmg_catwalkSequence1.lba</RunwayWalkPath>
+  <RunwayEnvironmentPath>assets://FashionMinigame/FashionCityRunwayAssets.lba</RunwayEnvironmentPath>
+</RunwaySequence>

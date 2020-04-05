@@ -1,0 +1,259 @@
+[#General#]
+Product=MyDbComparer
+Version=3
+
+[MySQL Database Comparer Project]
+EncryptPassword=1
+PasswordSaved=1
+OnSameServer=0
+DontAnalyseExcluded=1
+WindowPosLeft=0
+WindowPosBottom=0
+WindowPosRight=0
+WindowPosTop=0
+Layout=(none)
+SplitterPosition=420
+Major Version=3
+Minor Version=3
+Direction=1
+ExecuteScriptAfterCreating=0
+DetailedLog=1
+AnalyzeOneByOne=0
+AbortOnError=1
+RollBackOnAbort=0
+CaseSensitive=1
+UseDeps=1
+CompareBroken=0
+
+[Etalon]
+Server=devsql031.hangoutops.net
+Port=3306
+User=deploy
+Password=45C05A9B5DCC7E1F15A0B1337E8031BB
+DBName=HangoutAvatarsDatabase
+From DDL=0
+DDLFile=
+Charset=1
+TunnelType=ttNotUse
+SSHHostName=localhost
+SSHPort=22
+SSHUserName=
+SSHPassword=
+SSHKeyFile=
+SSHUseKeyFile=False
+HTTPUrl=http://webserver_name/emsproxy.php
+
+[Target]
+Server=livesql030.hangoutops.net
+Port=3306
+User=deploy
+Password=767AE949D713C1E4FACB4E2A3E87442D
+DBName=HangoutAvatarsDatabase
+From DDL=0
+DDLFile=
+Charset=1
+TunnelType=ttNotUse
+SSHHostName=localhost
+SSHPort=22
+SSHUserName=
+SSHPassword=
+SSHKeyFile=
+SSHUseKeyFile=False
+HTTPUrl=http://webserver_name/emsproxy.php
+
+[Tables Compare Options]
+Tables Compare Options Enabled=1
+Filter=
+FilterCaseSens=0
+GenerateAlterScripts=1
+GenerateDropScripts=1
+GenerateCreateScripts=1
+MasterSchema=
+TargetSchema=
+Item_Count=0
+Comment=0
+Type=1
+Row Format=1
+Check Sum=1
+Delay Key Write=1
+Pack Keys=1
+Min Rows=1
+Max Rows=1
+Union Tables=1
+Collation=1
+Charset=1
+Average Row Length=1
+Connection string=1
+
+[Fields Compare Options]
+Fields Compare Options Enabled=1
+Filter=
+FilterCaseSens=0
+GenerateAlterScripts=1
+GenerateDropScripts=1
+GenerateCreateScripts=1
+MasterSchema=
+TargetSchema=
+Item_Count=0
+Comment=1
+Size=1
+Type=1
+Precision=1
+Not Null=1
+Autoincrement=1
+Unique=0
+Default=1
+Values=1
+Use Dimension=1
+Unsigned=1
+Zerofill=1
+Primary Key=0
+Binary=1
+Field Order=0
+ASCII=1
+Unicode=1
+Collation=1
+On Update Current Timestamp=1
+Charset=1
+
+[View Indexes Compare Options]
+View Indexes Compare Options Enabled=1
+Filter=
+FilterCaseSens=0
+GenerateAlterScripts=1
+GenerateDropScripts=1
+GenerateCreateScripts=1
+MasterSchema=
+TargetSchema=
+Item_Count=0
+Order=1
+Unique=1
+Fields=1
+Fulltext=1
+Partial=1
+Not Null=1
+
+[Foreign Keys Compare Options]
+Foreign Keys Compare Options Enabled=0
+Filter=
+FilterCaseSens=0
+GenerateAlterScripts=1
+GenerateDropScripts=1
+GenerateCreateScripts=1
+MasterSchema=
+TargetSchema=
+Item_Count=0
+Comment=1
+Update Action=1
+Delete Action=1
+Reference Fields=1
+Reference Table Name=1
+Fields=1
+Reference Database Name=1
+
+[Triggers Compare Options]
+Triggers Compare Options Enabled=0
+Filter=
+FilterCaseSens=0
+GenerateAlterScripts=1
+GenerateDropScripts=1
+GenerateCreateScripts=1
+MasterSchema=
+TargetSchema=
+Item_Count=0
+Comment=1
+Body=1
+Event=1
+Type=1
+Definer=1
+
+[Views Compare Options]
+Views Compare Options Enabled=0
+Filter=
+FilterCaseSens=0
+GenerateAlterScripts=1
+GenerateDropScripts=1
+GenerateCreateScripts=1
+MasterSchema=
+TargetSchema=
+Item_Count=0
+Comment=1
+Definition=1
+Definer=1
+Algorithm type=1
+Security=1
+
+[UDFs Compare Options]
+UDFs Compare Options Enabled=0
+Filter=
+FilterCaseSens=0
+GenerateAlterScripts=1
+GenerateDropScripts=1
+GenerateCreateScripts=1
+MasterSchema=
+TargetSchema=
+Item_Count=0
+Comment=1
+Returns=1
+Library Name=1
+Aggregate=1
+
+[Procedures Compare Options]
+Procedures Compare Options Enabled=1
+Filter=
+FilterCaseSens=0
+GenerateAlterScripts=1
+GenerateDropScripts=1
+GenerateCreateScripts=1
+MasterSchema=
+TargetSchema=
+Item_Count=0
+Comment=1
+Parameters=1
+Deterministic Result=1
+Security=1
+Definition=1
+Definer=1
+SQL Data Access=1
+
+[Functions Compare Options]
+Functions Compare Options Enabled=1
+Filter=
+FilterCaseSens=0
+GenerateAlterScripts=1
+GenerateDropScripts=1
+GenerateCreateScripts=1
+MasterSchema=
+TargetSchema=
+Item_Count=0
+Comment=1
+Deterministic Result=1
+Security=1
+Parameters=1
+Return Type=1
+Definition=1
+SQL Data Access=1
+
+[Events Compare Options]
+Events Compare Options Enabled=1
+Filter=
+FilterCaseSens=0
+GenerateAlterScripts=1
+GenerateDropScripts=1
+GenerateCreateScripts=1
+MasterSchema=
+TargetSchema=
+Item_Count=0
+Comment=1
+Body=1
+Last Executed=1
+Ends=1
+Starts=1
+Interval Value=1
+Interval=1
+Execute At=1
+Preserve=1
+Event Type=1
+Enabled=1
+Definer=1
+

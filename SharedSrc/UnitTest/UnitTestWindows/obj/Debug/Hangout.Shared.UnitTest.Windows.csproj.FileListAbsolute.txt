@@ -1,0 +1,10 @@
+C:\svnrepos\Architecture\SharedSrc\UnitTest\UnitTestWindows\bin\Debug\Hangout.Shared.UnitTest.Windows.exe
+C:\svnrepos\Architecture\SharedSrc\UnitTest\UnitTestWindows\bin\Debug\Hangout.Shared.UnitTest.Windows.pdb
+C:\svnrepos\Architecture\SharedSrc\UnitTest\UnitTestWindows\bin\Debug\Hangout.Shared.UnitTest.Framework.dll
+C:\svnrepos\Architecture\SharedSrc\UnitTest\UnitTestWindows\bin\Debug\Hangout.Shared.UnitTest.Framework.pdb
+C:\svnrepos\Architecture\SharedSrc\UnitTest\UnitTestWindows\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\SharedSrc\UnitTest\UnitTestWindows\obj\Debug\Hangout.Shared.UnitTest.UnitestMainWindow.resources
+C:\svnrepos\Architecture\SharedSrc\UnitTest\UnitTestWindows\obj\Debug\Hangout.Shared.UnitTest.Properties.Resources.resources
+C:\svnrepos\Architecture\SharedSrc\UnitTest\UnitTestWindows\obj\Debug\Hangout.Shared.UnitTest.Windows.csproj.GenerateResource.Cache
+C:\svnrepos\Architecture\SharedSrc\UnitTest\UnitTestWindows\obj\Debug\Hangout.Shared.UnitTest.Windows.exe
+C:\svnrepos\Architecture\SharedSrc\UnitTest\UnitTestWindows\obj\Debug\Hangout.Shared.UnitTest.Windows.pdb

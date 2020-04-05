@@ -1,0 +1,72 @@
+﻿.selectPackage
+{
+	float:left;
+	margin-left:20px;
+	width:315px; 
+	font-weight:bold;
+}
+.selectPackageTop
+{
+	background-image:url("/Images/payment_whiteElement_top.png");
+	background-repeat:no-repeat;
+	width:315px;
+	height:9px; 
+}
+.selectPackageMiddle
+{
+	background-image:url("/Images/payment_whiteElement_body.png");
+	background-repeat:repeat-y;
+	width:315px; 
+}
+.selectPackageBottom
+{
+	background-image:url("/Images/payment_whiteElement_bottom.png");
+	background-repeat:no-repeat;
+	width:315px;
+	height:9px; 
+}
+.cashAmountSelector
+{
+	text-align:left;
+	padding-left:10px;
+}
+.arrowContainer
+{
+	float:left;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:30px;
+	width:75px;
+}
+.smallGreenBox
+{
+	width:249px;
+	text-align:left;
+	margin-left:auto;
+	margin-right:auto;
+}
+.smallGreenBoxTop
+{
+	background-image:url("/Images/payment_greenElement_top.png");
+	background-repeat:no-repeat;
+	width:249px;
+	height:9px;
+}
+.smallGreenBoxMiddle
+{
+	background-image:url("/Images/payment_greenElement_body.png");
+	background-repeat:repeat-y;
+	width:249px;
+	text-align:center;
+}
+.smallGreenBoxBottom
+{
+	background-image:url("/Images/payment_greenElement_bottom.png");
+	background-repeat:no-repeat;
+	width:249px;
+	height:8px;
+}
+.paymentTypeButton
+{
+	margin-top:7px;
+}

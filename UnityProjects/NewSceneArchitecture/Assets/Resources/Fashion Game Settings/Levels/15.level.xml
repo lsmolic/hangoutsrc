@@ -1,0 +1,113 @@
+<Level name="Level 15" path="assets://FashionMinigame/FashionFrenzyAssets.lba">
+
+  <FirstTimeLevelGui hires="Model" path="resources://GUI/Minigames/Fashion/Levels/15.FirstTimeLevel.gui" />
+  <ReplayLevelGui path="resources://GUI/Minigames/Fashion/Levels/ReplayLevel.gui" />
+  <LevelCompleteGui path="resources://GUI/Minigames/Fashion/LevelComplete.gui" />
+  <Music path="assets://FashionMinigame/Sounds/blaster60_muffled_mono22.ogg" />
+  <RunwayBackground>assets://FashionMinigame/Runway_Env_London.jpg</RunwayBackground>
+  <LocationName>London</LocationName>
+  <RunwayMusic>assets://FashionMinigame/Sounds/blaster30_mono22.ogg</RunwayMusic>
+
+  <Clothing>
+    <!--Tops-->
+    <ClothingItem id="234" />
+    <ClothingItem id="239" />
+    <ClothingItem id="241" />
+    <ClothingItem id="347" />
+    <ClothingItem id="348" />
+    <ClothingItem id="344" />
+    <ClothingItem id="343" />
+
+    <!--Pants-->
+    <ClothingItem id="243" />
+    <ClothingItem id="244" />
+    <ClothingItem id="333" />
+    <ClothingItem id="335" />
+    <ClothingItem id="337" />
+    <ClothingItem id="350" />
+    <ClothingItem id="351" />
+  </Clothing>
+  
+  <Camera>
+    <Position vector3="-4.8 4.7 8" />
+    <Rotation vector3="23 150 0" />
+    <FOV float="28" />
+  </Camera>
+
+  <CloseSaveDistance value="3" />
+  <PerfectLevelBonus value="50" />
+
+  <ModelSpawn width="1.8">
+    <Position value="7 0 1"/>
+    <Direction value="0"/>
+  </ModelSpawn>
+
+  <ModelDrain width="2.5">
+    <Position value="-6 0 1" />
+    <Direction value="0"/>
+  </ModelDrain>
+
+  <Waves timeBetweenWaves="2" requiredModels="5">
+    <Wave timeBetweenSpawns="3">
+      <Model type="Amateur" />
+      <Model type="Amateur" />
+      <Model type="Amateur" />
+      <Model type="Amateur" />
+      <Model type="Amateur" />
+    </Wave>
+    
+    <Wave timeBetweenSpawns="2">
+      <Model type="AmateurChallenge" />
+      <Model type="AmateurChallenge" />
+      <Model type="AmateurTwoClothing" />
+      <Model type="AmateurChallenge" />
+      <Model type="AmateurChallenge" />
+    </Wave>
+    
+    <Wave timeBetweenSpawns="3">
+      <Model type="AmateurStationOnly" />
+      <Model type="AmateurStationOnly" />
+      <Model type="AmateurStationOnly" />
+      <Model type="AmateurStationOnly" />
+      <Model type="AmateurStationOnly" />
+    </Wave>
+    
+    <Wave timeBetweenSpawns="1.5">
+      <Model type="AmateurTwoClothing" />
+      <Model type="AmateurTwoClothing" />
+      <Model type="AmateurTwoClothing" />
+      <Model type="AmateurTwoClothing" />
+      <Model type="AmateurTwoClothing" />
+    </Wave>
+
+    <Wave timeBetweenSpawns="2">
+      <Model type="AmateurStationOnly" />
+      <Model type="AmateurStationOnly" />
+      <Model type="AmateurStationOnly" />
+      <Model type="AmateurStationOnly" />
+      <Model type="AmateurStationOnly" />
+    </Wave>
+    
+    <Wave timeBetweenSpawns="1">
+      <Model type="AmateurTwoClothing" />
+      <Model type="AmateurTwoClothing" />
+      <Model type="AmateurTwoClothing" />
+      <Model type="AmateurTwoClothing" />
+      <Model type="AmateurTwoClothing" />
+    </Wave>
+  </Waves>
+
+  <Stations>
+    
+    <Station type="Makeup" label="M">
+      <Position value="1 0 -3"/>
+      <Direction value="90"/>
+    </Station>
+    
+    <Station type="Hair" label="H">
+      <Position value="3 0 -2.8"/>
+      <Direction value="110"/>
+    </Station>
+    
+  </Stations>
+</Level>

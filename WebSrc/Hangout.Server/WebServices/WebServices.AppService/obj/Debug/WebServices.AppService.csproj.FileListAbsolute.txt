@@ -1,0 +1,5 @@
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\RESTService\bin\Hangout.Server.WebServices.AppService.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\RESTService\bin\Hangout.Server.WebServices.AppService.pdb
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.AppService\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.AppService\obj\Debug\Hangout.Server.WebServices.AppService.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\WebServices.AppService\obj\Debug\Hangout.Server.WebServices.AppService.pdb

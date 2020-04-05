@@ -1,0 +1,5 @@
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\bin\Debug\Hangout.Server.WebServices.HangoutCommandHandler.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\bin\Debug\Hangout.Server.WebServices.HangoutCommandHandler.pdb
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\HangoutCommandHandler\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\HangoutCommandHandler\obj\Debug\Hangout.Server.WebServices.HangoutCommandHandler.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\HangoutCommandHandler\obj\Debug\Hangout.Server.WebServices.HangoutCommandHandler.pdb

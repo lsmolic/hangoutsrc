@@ -1,0 +1,81 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+
+<!--
+
+This is where we actually fire up the Unity client and start the game.
+
+Preconditions to hitting this page:
+- User is logged into FB
+- User has added the application
+- Browser has the Unity plugin installed.
+
+These preconditions should all be tested earlier in the onramp flow.
+
+Current places where these are tested/enforced:
+- index.html auto-forwards based on these, if all are true then you come here immediately.
+- avatar_select.html gets the user logged in and the app added.
+- unity_install.html gets the Unity plugin installed.
+
+-->
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="/CSS/Facebook/minigame_container.css" />
+
+    <script type="text/javascript" src="/JS/mixpanel.js"></script>
+    <script type="text/javascript" src="/JS/hangout_base.js"></script>
+    <script type="text/javascript" src="/JS/config.js.aspx"></script>
+    <script type="text/javascript" src="/JS/jquery.js"></script>
+    <script type="text/javascript" src="/JS/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/JS/jquery.query.js"></script>
+    <script type="text/javascript" src="/JS/json2.js"></script>
+    <script type="text/javascript" src="/JS/hangout_unity_dispatcher.js"></script> 
+    <script type="text/javascript" src="/JS/minigame_container.js"></script> 
+  </head>
+
+  <body>
+    <div id="FB_HiddenContainer"  style="position:absolute; top:-10000px; width:0px; height:0px;" ></div>
+    <script src="http://static.ak.connect.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php" type="text/javascript"></script>
+
+    <div id="unity_container">
+      <!--
+	  Point at the Unity3D file located in Hangout.config.unity3d_fileloc (see config.js.aspx).
+	-->
+      <script language="javascript1.1" type="text/javaScript">
+				
+	document.write('<object id="UnityObject" classid="clsid:444785F1-DE89-4295-863A-D46C3A781394" width="100%" height="100%"> \n');
+	  document.write('  <param name="src" value="' + Hangout.config.unity3d_fileloc + '"/> \n');
+	  document.write('  <param name="logoimage" value="/Images/Facebook/FashionCity/unity_loading_logo.png"/> \n');
+	  document.write('  <param name="progressframeimage" value="/Images/Facebook/FashionCity/unity_loading_progressframe.png"/> \n');
+	  document.write('  <param name="progressbarimage" value="/Images/Facebook/FashionCity/unity_loading_progressbar.png"/> \n');
+	  document.write('  <embed id="UnityEmbed" src="' + Hangout.config.unity3d_fileloc + '" width="100%" height="100%" type="application/vnd.unity" pluginspage="http://www.unity3d.com/unity-web-player-2.x" logoimage="/Images/Facebook/FashionCity/unity_loading_logo.png" progressframeimage="/Images/Facebook/FashionCity/unity_loading_progressframe.png" progressbarimage="/Images/Facebook/FashionCity/unity_loading_progressbar.png"/> \n');
+	  document.write('</object>');
+			
+      </script>
+      <noscript>
+        This content requires a browser with Javascript enabled.
+      </noscript>
+    </div>
+
+    <div id="unity_background">
+      <img src="/Images/Facebook/FashionCity/facebook_popup_background.jpg"/>
+    </div>
+
+    <div id="support_footer">
+      <p id="invite_prompt">Like this?  <a href="#">Invite friends!</a></p>
+      <p>Questions?  Problems?  E-mail us at <a href="mailto:feedback@hangout.net">feedback@hangout.net</a>!</p>
+    </div>
+
+    <div id="cash_store_container">
+      <iframe id="cash_store_frame" src="" width="100%" height="100%" frameborder="0" scrolling="auto"></iframe>
+    </div>
+
+    <div id="friend_invite_container">
+      <iframe id="friend_invite_frame" src="" width="100%" height="100%" frameborder="0" scrolling="auto"></iframe>      
+    </div>
+
+    <div id="hangout_log_container">
+    </div>
+
+  </body>
+</html>

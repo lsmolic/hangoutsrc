@@ -1,0 +1,19 @@
+<GUI>
+  
+  <Frame name="LoadingWidget" size="130 32" >
+    <Animation name="SpinningFlower" size="32 32" position="0 0" playbackFps="24" >
+      <Frame path="GUI/Widgets/Images/SpinningFlower01" />
+      <Frame path="GUI/Widgets/Images/SpinningFlower02" />
+      <Frame path="GUI/Widgets/Images/SpinningFlower03" />
+      <Frame path="GUI/Widgets/Images/SpinningFlower04" />
+    </Animation>
+    
+    <!--<Image name="Test" size="32 32" position="0 2" image="GUI/Widgets/Images/SpinningFlower01" />
+    <Image name="Test" size="32 32" position="0 4" image="GUI/Widgets/Images/SpinningFlower02" />
+    <Image name="Test" size="32 32" position="0 6" image="GUI/Widgets/Images/SpinningFlower03" />
+    <Image name="Test" size="32 32" position="0 8" image="GUI/Widgets/Images/SpinningFlower04" />-->
+
+    <Label name="LoadingText" size="ExpandText" position="36 4" text="Loading..." />
+  </Frame>
+ 
+</GUI>

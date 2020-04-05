@@ -1,0 +1,18 @@
+<GUI>
+  <Include path="resources://GUI/Minigames/Fashion/Fashion.style" />
+  <Include path="resources://GUI/Minigames/Fashion/FashionWidgets.lib" />
+
+  <Window name="Level1Window" size="340 285" position="0 0" anchor="Center Center" dragBehavior="notDraggable" style="BlueWindowStyle">
+    <MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+
+      <!-- The code chooses which frame is appropriate for this end of level -->
+      <XRef path="GUI/Frame[@name='LevelReplayFrame']" position="0 0" />
+      <XRef path="GUI/Frame[@name='LevelCompleteFrame']" position="0 0" />
+      
+      <Button name="NextLevelButton" size="120 32" position="70 -10" anchor="Center Bottom" text="Continue" style="SecondaryButtonStyle"/>
+      <Button name="ExitToRunwayButton" size="120 24" position="-70 -14" anchor="Center Bottom" text="Exit To Runway" />
+        
+    </MainFrame>
+  </Window>
+
+</GUI>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="4c9c0b88-aa74-46b8-aef6-c55b88f98e40" name="rpowers@RPOWERS-T500 2009-09-18 15:17:54" runUser="CLARITYINTERNAL\rpowers" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Default Run Configuration" id="c4732bcc-17fd-45a4-9849-b5b92bbd60d2">
+    <Deployment runDeploymentRoot="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook.Tests\TestResults\rpowers_RPOWERS-T500 2009-09-18 15_17_54">
+      <DeploymentItem filename="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook\bin\Debug\Facebook.dll" />
+    </Deployment>
+    <Hosts skipUnhostableTests="false" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="2" executed="2" passed="2" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-09-18T15:17:54.3636890-05:00" queuing="2009-09-18T15:17:54.7296890-05:00" start="2009-09-18T15:17:54.7886890-05:00" finish="2009-09-18T15:17:55.7916890-05:00" />
+  <TestDefinitions>
+    <UnitTest name="getPublicInfoTest1" storage="c:\clarity\codeplex\facebooktoolkit\dev\source\facebook.tests\facebook.tests.synchronous\bin\debug\facebook.tests.synchronous.dll" id="f55544d7-e78b-266f-8533-f5c1df991e46">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ea061bc4-7a6c-410f-8acc-9ef4f9d46813" />
+      <TestMethod codeBase="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook.Tests\Facebook.Tests.Synchronous\bin\Debug\Facebook.Tests.Synchronous.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Facebook.Tests.Synchronous.applicationTest, Facebook.Tests.Synchronous" name="getPublicInfoTest1" />
+    </UnitTest>
+    <UnitTest name="getPublicInfoTest" storage="c:\clarity\codeplex\facebooktoolkit\dev\source\facebook.tests\facebook.tests.synchronous\bin\debug\facebook.tests.synchronous.dll" id="63b5292b-fb5d-6566-a789-d7e51ec7c8c7">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9cda557a-83a1-4e69-b984-abcfd29c094d" />
+      <TestMethod codeBase="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook.Tests\Facebook.Tests.Synchronous\bin\Debug\Facebook.Tests.Synchronous.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Facebook.Tests.Synchronous.applicationTest, Facebook.Tests.Synchronous" name="getPublicInfoTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+    <TestList name="Lists of Results" id="8c43106b-9dc1-4907-a29f-aa66a61bf5b6" />
+    <TestList name="Application" id="976d4715-9435-4448-8098-1ca9c0736d3a" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+      <TestLinks>
+        <TestLink id="f55544d7-e78b-266f-8533-f5c1df991e46" name="getPublicInfoTest1" storage="c:\clarity\codeplex\facebooktoolkit\dev\source\facebook.tests\facebook.tests.synchronous\bin\debug\facebook.tests.synchronous.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+        <TestLink id="63b5292b-fb5d-6566-a789-d7e51ec7c8c7" name="getPublicInfoTest" storage="c:\clarity\codeplex\facebooktoolkit\dev\source\facebook.tests\facebook.tests.synchronous\bin\debug\facebook.tests.synchronous.dll" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      </TestLinks>
+    </TestList>
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="63b5292b-fb5d-6566-a789-d7e51ec7c8c7" executionId="9cda557a-83a1-4e69-b984-abcfd29c094d" testListId="976d4715-9435-4448-8098-1ca9c0736d3a" />
+    <TestEntry testId="f55544d7-e78b-266f-8533-f5c1df991e46" executionId="ea061bc4-7a6c-410f-8acc-9ef4f9d46813" testListId="976d4715-9435-4448-8098-1ca9c0736d3a" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9cda557a-83a1-4e69-b984-abcfd29c094d" testId="63b5292b-fb5d-6566-a789-d7e51ec7c8c7" testName="getPublicInfoTest" computerName="RPOWERS-T500" duration="00:00:00.4223297" startTime="2009-09-18T15:17:54.8126890-05:00" endTime="2009-09-18T15:17:55.5986890-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="976d4715-9435-4448-8098-1ca9c0736d3a">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ea061bc4-7a6c-410f-8acc-9ef4f9d46813" testId="f55544d7-e78b-266f-8533-f5c1df991e46" testName="getPublicInfoTest1" computerName="RPOWERS-T500" duration="00:00:00.1794914" startTime="2009-09-18T15:17:55.6006890-05:00" endTime="2009-09-18T15:17:55.7826890-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="976d4715-9435-4448-8098-1ca9c0736d3a">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

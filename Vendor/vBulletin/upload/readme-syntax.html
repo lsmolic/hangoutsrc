@@ -1,0 +1,189 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>vBulletin 4 Template Syntax</title>
+<style type="text/css">
+html {
+	background-color:rgb(240,240,240);
+	color:rgb(0,0,0);
+}
+body {
+	background-color:rgb(255,255,255);
+	color:rgb(0,0,0);
+	font-family:Helvetica, Arial, sans-serif;
+	width:760px;
+	margin:16px auto;
+	padding:16px;
+}
+pre, code {
+	font-family:Consolas, "Courier New", Courier, monospace;
+}
+dt {
+	font-weight:bold;
+	padding:0.5em 0;
+}
+dd {
+	padding-bottom:0.5em;
+}
+</style>
+</head>
+
+<body>
+<h1>vBulletin 4 Template Syntax</h1>
+<p>vBulletin 4.0 introduces a rich new syntax for marking-up templates, reducing the need for formatting and escaping to be performed in .php files.</p>
+<p>Note that once a template makes use of <em>any</em> vBulletin 4 template syntax, the old syntax will cease to operate for that template. Conversions must be an all-or-nothing affair.</p>
+<ul>
+	<li><a href="#varaccess">Variable Access</a>
+<ul>
+			<li><a href="#var">Safe Variables</a></li>
+			<li><a href="#raw_vars">Raw Variables</a></li>
+		</ul>
+	</li>
+	<li><a href="#curlies">Curly-Brace Syntax</a>
+<ul>
+			<li><a href="#curlies_builtin">Built-in Methods</a>
+				<ul>
+					<li><a href="#brace_phrase">phrase</a></li>
+					<li><a href="#brace_rawphrase">rawphrase</a></li>
+					<li><a href="#brace_date">date</a></li>
+					<li><a href="#brace_time">time</a></li>
+					<li><a href="#brace_number">number</a></li>
+					<li><a href="#brace_raw">raw</a></li>
+					<li><a href="#brace_escapejs">escapejs</a></li>
+					<li><a href="#brace_urlencode">urlencode</a></li>
+					<li><a href="#brace_if">if</a></li>
+					<li><a href="#brace_link">link</a></li>
+					<li><a href="#brace_math">math</a></li>
+					<li><a href="#brace_stylevar">stylevar</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>
+	<li><a href="#tags">Tags</a>
+		<ul>
+			<li><a href="#tag_literal">literal</a></li>
+			<li><a href="#tag_if">if</a></li>
+			<li><a href="#tag_elseif">elseif</a></li>
+			<li><a href="#tag_else">else</a></li>
+			<li><a href="#tag_comment">comment</a></li>
+			<li><a href="#tag_each">each</a></li>
+		</ul>
+	</li>
+	<ul>
+		<ul>
+			<li><a href="#each_example">Example use of vb:each</a></li>
+		</ul>
+	</ul>
+</ul>
+<h2><a name="varaccess" id="varaccess"></a>Variable Access</h2>
+<h3><a name="var" id="var"></a>Safe Variables</h3>
+<p>Going forward, variables should be referenced in templates wherever possible using the following syntax:</p>
+<pre>{vb:var variable}</pre>
+<p>Variables accessed in this manner are 'made safe' by being run through <em>htmlspecialchars</em> as they are output.</p>
+<p>To access array elements, use a dot operator, rather than standard PHP square brackets:</p>
+<pre>{vb:var variable.foo} // accesses htmlspecialchars($variable['foo'])
+{vb:var variable.$varkey} // accesses htmlspecialchars($variable[$varkey])</pre>
+<h3><a name="raw_vars" id="raw_vars"></a>Raw Variables</h3>
+<p>To access variables in the normal, pre-vB4 fashion, use the following syntax:</p>
+<p><code>{vb:raw variable}</code></p>
+<p>This is equivalent to simply accessing <code>$variable</code> in the pre-vB4 syntax. No treatment is applied to the variable. The same dot operator is used to access array elements.</p>
+<h2><a name="curlies" id="curlies"></a>Curly-Brace Syntax</h2>
+<p>The general syntax here is</p>
+<pre>{vb:method arg1[, arg2...]}
+</pre>
+<p>Inside curly braces, variables can be accessed <em>without</em> using a separate set of surrounding braces. For example,</p>
+<pre>{vb:method {variable}} // unneccessary extra braces
+{vb:method variable}</pre>
+<h3><a name="curlies_builtin" id="curlies_builtin"></a>Built-in Methods</h3>
+<dl>
+	<dt><a name="brace_phrase" id="brace_phrase"></a>phrase</dt>
+		<dd><code>{vb:phrase phrase_name[, arguments for phrase...]}</code></dd>
+		<dd>Inserts the specified phrase. If arguments are provided, they will be run through <em>htmlspecialchars</em>.</dd>
+	<dt>
+		<a name="brace_rawphrase" id="brace_rawphrase"></a>rawphrase
+	</dt>
+		<dd>
+			<code>{vb:rawphrase phrase_name[, arguments for phrase...]}</code>
+		</dd>
+		<dd>
+			As above, though arguments bypass <em>htmlspecialchars</em>.
+		</dd>
+		<dd>Example:</dd>
+		<dd>
+			 <code>{vb:rawphrase message_by_x_on_y_at_z, {vb:link member, {vb:raw postinfo}}, {vb:raw postinfo.username}, {vb:raw postinfo.postdate}, {vb:raw postinfo.posttime}}</code>
+		</dd>
+	<dt><a name="brace_date" id="brace_date"></a>date</dt>
+		<dd><code>{vb:date timestamp[, format]}</code></dd>
+		<dd>Formats a UNIX timestamp using the default date format for the active language. A format may also be explicitly specified. Timezone will be corrected for the viewing user.</dd>
+	<dt><a name="brace_time" id="brace_time"></a>time</dt>
+		<dd><code>{vb:time timestamp[, format]}</code></dd>
+		<dd>As above, though uses the default time format instead of date format.</dd>
+	<dt><a name="brace_number" id="brace_number"></a>number</dt>
+		<dd><code>{vb:number number[, decimals]}</code></dd>
+		<dd>Outputs a number having run through <em>vb_number_format</em> for correct locale formatting. Number of decimal places to display can be optionally specified.</dd>
+	<dt><a name="brace_raw" id="brace_raw"></a>raw</dt>
+		<dd><code>{vb:raw variable}</code></dd>
+		<dd>Outputs the variable raw, without any formatting or escaping.</dd>
+	<dt><a name="brace_escapejs" id="brace_escapejs"></a>escapejs</dt>
+		<dd><code>{vb:escapejs variable}</code></dd>
+		<dd>Returns the variable prepared for use as a Javascript single-quoted string instead of running <em>htmlspecialchars</em>.</dd>
+	<dt><a name="brace_urlencode" id="brace_urlencode"></a>urlencode</dt>
+		<dd><code>{vb:urlencode variable}</code></dd>
+		<dd>Escapes the variable using <em>urlencode</em>.</dd>
+	<dt><a name="brace_if" id="brace_if"></a>if</dt>
+		<dd><code>{vb:if condition, true[, false]}</code></dd>
+		<dd>Use this in instances where the full &lt;vb:if&gt; tag can not be used, such as within HTML tags.</dd>
+	<dt><a name="brace_link" id="brace_link"></a>link</dt>
+		<dd><code>{vb:link type, info[, extra-info]}</code></dd>
+		<dd>Used to build a hyperlink URL of the specified type and into the correct 'friendly' format.</dd>
+	<dt><a name="brace_math" id="brace_math"></a>math</dt>
+		<dd><code>{vb:math expression}</code></dd>
+		<dd>Primarily used within CSS, this is used to evaluate the result of the mathematical expression specified.</dd>
+	<dt><a name="brace_stylevar" id="brace_stylevar"></a>stylevar</dt>
+		<dd><code>{vb:stylevar name[.sub-part]}</code></dd>
+		<dd>Used to output a style variable from the style system. No escaping is performed.</dd>
+</dl>
+<h2><a name="tags" id="tags"></a>Tags</h2>
+<p>All tags make use of the <em>vb</em> namespace for ease of identification and parsing.</p>
+<p>The following tags are available:</p>
+<dl>
+	<dt><a name="tag_literal" id="tag_literal"></a>literal</dt>
+		<dd><code>&lt;vb:literal&gt;<em>misc code</em>&lt;/vb:literal&gt;</code></dd>
+		<dd>Any code inside <code>vb:literal</code> tags will be treated as plain HTML. No curly-brace syntax or vb:tag markup will be evaluated.</dd>
+	<dt><a name="tag_if" id="tag_if"></a>if</dt>
+		<dd><code>&lt;vb:if condition=&quot;<em>condition</em>&quot;&gt;<em>true result</em>&lt;/vb:if&gt;</code></dd>
+		<dd>If the expression specified in <em>condition</em> is true, the contents of the <code>vb:if </code>tags will be output, otherwise nothing will be output.</dd>
+	<dt><a name="tag_elseif" id="tag_elseif"></a>elseif</dt>
+		<dd><code>&lt;vb:elseif condition=&quot;<em>condition</em>&quot; /&gt;<em>true result</em></code></dd>
+		<dd>Used in conjunction with <code>vb:if</code>, this allows a secondary condition to be checked and the <em>true result</em> to be output if the condition is met.</dd>
+	<dt><a name="tag_else" id="tag_else"></a>else</dt>
+		<dd><code>&lt;vb:else /&gt;<em>true result</em></code></dd>
+		<dd>Used in conjunction with <code>vb:if</code>, the <em>true result</em> will be output if the <code>vb:if</code> condition failed, and so did any <code>vb:elseif</code> checks.</dd>
+	<dt><a name="tag_comment" id="tag_comment"></a>comment</dt>
+		<dd><code>&lt;vb:comment&gt;<em>a comment</em>&lt;/vb:comment&gt;</code></dd>
+		<dd>In cases where a comment is necessary but the usual <code>&lt;!-- comment --&gt;</code> syntax is undesirable, the <code>vb:comment</code> tag allows its contents to be completely removed upon compiling, so they will not be delivered to the browser. Useful for internal commenting.</dd>
+	<dt><a name="tag_each" id="tag_each"></a>each</dt>
+		<dd><code>&lt;vb:each from=&quot;array&quot; key=&quot;key&quot; value=&quot;value&quot;&gt;&lt;/vb:each&gt;</code></dd>
+		<dd>This tag will iterate through an array, in a similar manner to <em>foreach</em>. See the example use below.</dd>
+</dl>
+<h3><a name="each_example" id="each_example"></a>Example Use of vb:each</h3>
+<pre>// We have an array of users available in PHP.
+// It looks like this:
+// $users = array(
+//	1 =&gt; array('username' =&gt; 'Adam', 'email' =&gt; 'adam@adam.com'),
+//	2 =&gt; array('username' =&gt; 'Ben', 'email' =&gt; 'ben@ben.com'),
+//	3 =&gt; array('username' =&gt; 'Chris', 'email' =&gt; 'chris@chris.com')
+// );
+
+&lt;!-- our template code... --&gt;
+&lt;vb:each from=&quot;users&quot; key=&quot;userid&quot; value=&quot;userinfo&quot;&gt;
+	&lt;li&gt;&lt;a href=&quot;member.php?u={vb:var userid}&quot;&gt;{vb:var userinfo.username}&lt;/a&gt;&lt;/li&gt;
+&lt;/vb:each&gt;
+
+&lt;!-- will output... --&gt;
+	&lt;li&gt;&lt;a href=&quot;member.php?u=1&quot;&gt;Adam&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;member.php?u=2&quot;&gt;Ben&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;member.php?u=3&quot;&gt;Chris&lt;/a&gt;&lt;/li&gt;</pre>
+</body>
+</html>

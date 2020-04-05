@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<connection>
+<gameserver>
+<ip>64.106.173.25</ip>
+<port>8000</port>
+<port>443</port>
+<port>80></port>
+</gameserver>
+
+</connection>

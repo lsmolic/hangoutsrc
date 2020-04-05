@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.SubversionSCM">
+    <locations>
+      <hudson.scm.SubversionSCM_-ModuleLocation>
+        <remote>http://svn.hangoutops.net/HangoutSrcRepo/Branches/UnityScriptPrototype/Architecture/WebSrc/Hangout.Server/WebCode/WebSiteSolution</remote>
+      </hudson.scm.SubversionSCM_-ModuleLocation>
+    </locations>
+    <useUpdate>true</useUpdate>
+    <excludedRegions></excludedRegions>
+    <excludedUsers></excludedUsers>
+    <excludedRevprop></excludedRevprop>
+  </scm>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers class="vector">
+    <hudson.triggers.SCMTrigger>
+      <spec>* * * * *</spec>
+    </hudson.triggers.SCMTrigger>
+  </triggers>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>#!C:\cygwin\bin\bash.exe
+export PATH=$PATH:/usr/bin
+
+echo &quot;--------------------------- Now Deploying via rsync --------------------------------------&quot;
+
+rsync -crvvz WebSiteSolution/* --filter &quot;- web.config&quot; --filter &quot;- .svn/&quot; --delete --stats --itemize-changes deploy@web020.hangoutops.net:/cygdrive/e/wwwroot/net.hangout.new.dev/
+
+echo &quot;--------------------------- Done Deploying --------------------------------------&quot;
+</command>
+    </hudson.tasks.Shell>
+    <hudson.tasks.Shell>
+      <command>#!C:\cygwin\bin\bash.exe
+export PATH=$PATH:/usr/bin
+
+echo &quot;--------------------------- Now Copying via rsync  to Snapshots --------------------------------------&quot;
+
+mkdir /cygdrive/c/snapshots/${HANGOUT_VERSION}/ || true
+mkdir /cygdrive/c/snapshots/${HANGOUT_VERSION}/website/ || true
+
+rsync -crvvz WebSiteSolution/* --filter &quot;- .svn/&quot; --filter &quot;- *.config&quot; --stats --itemize-changes /cygdrive/c/snapshots/${HANGOUT_VERSION}/website/
+
+echo &quot;--------------------------- Done Copying via rsync  to Snapshots --------------------------------------&quot;
+
+
+echo &quot;--------------------------- Getting Dev Config Files and copy to snapshots --------------------------------------&quot;
+
+scp deploy@web020.hangoutops.net:/cygdrive/e/wwwroot/net.hangout.new.dev/web.config /cygdrive/c/snapshots/${HANGOUT_VERSION}/website/
+
+echo &quot;--------------------------- Getting Dev Config Files and copy to snapshots --------------------------------------&quot;
+
+
+
+</command>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers>
+    <hudson.plugins.chucknorris.CordellWalkerRecorder>
+      <factGenerator/>
+    </hudson.plugins.chucknorris.CordellWalkerRecorder>
+    <hudson.plugins.cigame.GamePublisher/>
+  </publishers>
+  <buildWrappers/>
+</project>

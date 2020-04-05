@@ -1,0 +1,75 @@
+
+div#unity_container
+{
+    width: 760px;
+    height: 540px;
+}
+
+div#unity_background
+{
+	display: none;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+    width: 760px;
+    height: 540px;
+	z-index:5;
+}
+
+div#cash_store_container
+{
+    width: 760px;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 50;
+    display: none;
+}
+
+div#support_footer
+{
+	position: absolute;
+	left: 100px;
+	top: 600px;
+	font-family: Helvetica,Arial,Sans-serif;
+}
+
+p#invite_prompt
+{
+	display: none;
+}
+
+div#friend_invite_container
+{
+    width: 760px;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 50;
+    display: none;
+}
+
+div#hangout_log_container
+{
+	position: absolute;
+	left: 0px;
+	top: 700px;
+	display: none;
+	font-family: 'Lucida Console','Courier New';
+	background-color: #000000;
+	color: #00ff00;
+
+	height: 500px;
+	width: 750px;
+	overflow: scroll;
+	white-space: nowrap;
+	padding:5px;
+}
+
+*
+{
+   padding:0;
+   margin:0;
+}

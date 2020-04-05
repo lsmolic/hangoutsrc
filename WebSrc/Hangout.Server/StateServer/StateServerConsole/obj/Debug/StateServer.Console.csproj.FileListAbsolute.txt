@@ -1,0 +1,6 @@
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\bin\debug\StateServerConsole.exe.config
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\bin\debug\StateServerConsole.exe
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\bin\debug\StateServerConsole.pdb
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\StateServerConsole\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\StateServerConsole\obj\Debug\StateServerConsole.exe
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\StateServerConsole\obj\Debug\StateServerConsole.pdb

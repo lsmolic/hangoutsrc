@@ -1,0 +1,13 @@
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\StateServer.Common\bin\Debug\StateServer.Common.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\StateServer.Common\bin\Debug\StateServer.Common.pdb
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\StateServer.Common\bin\Debug\Hangout.Shared.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\StateServer.Common\bin\Debug\log4net.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\StateServer.Common\bin\Debug\Hangout.Shared.UnitTest.Framework.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\StateServer.Common\bin\Debug\LitJson.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\StateServer.Common\bin\Debug\Hangout.Shared.UnitTest.Framework.pdb
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\StateServer.Common\bin\Debug\log4net.pdb
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\StateServer.Common\bin\Debug\log4net.xml
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\StateServer.Common\bin\Debug\Hangout.Shared.pdb
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\StateServer.Common\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\StateServer.Common\obj\Debug\StateServer.Common.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\StateServer.Common\obj\Debug\StateServer.Common.pdb

@@ -1,0 +1,12 @@
+<GUI>
+
+	<Include path="resources://GUI/Chat/Talk Bubbles/Text Bubble.style" />
+	
+	<Window name="TextBubbleWindow" size="100 50">
+		<MainFrame name="TextBubbleFrame" size="FillParent" position="FillParent">
+			<Textbox name="TextBubbleTextbox" style="TextBubbleStyleBase" size="FillParent" position="FillParent" userEditable="false" singleLine="false" />
+      <Image name="TextBubbleImage" style="TextBubbleStyleBase" size="FillParent" position="FillParent" />
+		</MainFrame>
+	</Window>
+	
+</GUI>

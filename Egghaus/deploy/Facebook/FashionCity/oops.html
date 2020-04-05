@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+
+<!--
+
+This is where we actually fire up the Unity client and start the game.
+
+Preconditions to hitting this page:
+- User is logged into FB
+- User has added the application
+- Browser has the Unity plugin installed.
+
+These preconditions should all be tested earlier in the onramp flow.
+
+Current places where these are tested/enforced:
+- index.html auto-forwards based on these, if all are true then you come here immediately.
+- avatar_select.html gets the user logged in and the app added.
+- unity_install.html gets the Unity plugin installed.
+
+-->
+
+  <head>
+    <link rel="stylesheet" type="text/css" href="/CSS/Facebook/minigame_container.css" />
+
+    <script type="text/javascript" src="/JS/mixpanel.js"></script>
+    <script type="text/javascript" src="/JS/hangout_base.js"></script>
+    <script type="text/javascript" src="/JS/config.js.aspx"></script>
+    <script type="text/javascript" src="/JS/jquery.js"></script>
+    <script type="text/javascript" src="/JS/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/JS/jquery.query.js"></script>
+    <script type="text/javascript" src="/JS/json2.js"></script>
+    <script type="text/javascript" src="/JS/hangout_unity_dispatcher.js"></script> 
+    <script type="text/javascript" src="/JS/oops.js"></script> 
+  </head>
+
+  <body>
+      <noscript>
+        This content requires a browser with Javascript enabled.
+      </noscript>
+
+    <div id="oops_background">
+      <img src="/Images/Facebook/FashionCity/FFErrorPage.jpg"/>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<MoodList>
+  <Mood>Happy</Mood>
+    <Assets>
+      <Asset ItemId="323" AssetId="31" AssetType="FaceAnimationAsset" AssetSubType="FaceAnimation" AssetName="Happy" AssetFilePath="assets://Happy">
+        <AssetData>
+          <Name>Happy</Name>
+        </AssetData>
+      </Asset>
+      <Asset ItemId="323" AssetId="524" AssetType="RigAnimationAsset" AssetSubType="RigIdleAnimation" AssetName="Normal Idle" AssetFilePath="assets://Animations/f_idle_handOnHipAlt_loop.lba">
+        <AssetData>
+          <AnimationName>HappyIdle</AnimationName>
+        </AssetData>
+      </Asset>
+      <Asset ItemId="323" AssetId="525" AssetType="RigAnimationAsset" AssetSubType="RigWalkAnimation" AssetName="Normal Walk" AssetFilePath="assets://Animations/f_walk_normal_loop.lba">
+        <AssetData>
+          <AnimationName>HappyWalk</AnimationName>
+        </AssetData>
+      </Asset>
+    </Assets>
+  <Mood>Sad</Mood>
+  <Mood>Angry</Mood>
+  <Mood>Flirty</Mood>
+  <Mood>Nervous</Mood>
+  <Mood>Tired</Mood>
+</MoodList>

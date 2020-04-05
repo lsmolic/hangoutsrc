@@ -1,0 +1,21 @@
+<GUI>
+	
+	<Include path="resources://GUI/Chat/Window/ChatWindow.style" />
+	
+	<Window name="ChatWindow" size="310 172" style="ChatStyleBase" position="0 -5" anchor="Left Bottom" parentAnchor="Left Bottom">
+		<MainFrame name="MainFrame" size="FillParent" position="FillParent">
+			<TabView name="BottomLeftTabView" allowEmpty="true" size="FillParent" position="FillParent">
+				<ButtonsFrame name="ButtonsFrame" position="2 -5" size="172 25" anchor="Left Bottom" parentAnchor="Left Bottom" style="ChatStyleBase">
+					<TabButton name="ChatLogTab" text="Chat Log" position="HorizontalAutoLayout" size="24 24">
+            <Frame name="TabFrame" size="FillParent" position="FillParent" >
+              <Label name="Test" size="ExpandText" position="0 0" text="TEST" />
+            </Frame>
+					</TabButton>
+				</ButtonsFrame>
+				<ContextFrame name="ContextFrame" position="4 -36" size="256 140" anchor="Left Bottom" parentAnchor="Left Bottom" />
+			</TabView>
+			<Textbox name="ChatEntryTextbox" position="40 0" size="265 28" anchor="Left Bottom" parentAnchor="Left Bottom" singleLine="true" userEditable="true" />
+		</MainFrame>
+	</Window>
+	
+</GUI>

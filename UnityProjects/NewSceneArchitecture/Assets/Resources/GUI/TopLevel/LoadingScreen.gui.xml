@@ -1,0 +1,9 @@
+﻿<GUI>
+  <Include path="resources://GUI/Styles/Default.style" />
+  <Window name="LoadingScreen" style="DefaultWindowStyle" size="760 500" position="0 0">
+    <MainFrame name="MainFrame" size="MainFrame" position="MainFrame">
+      <Image name="Image" size="FillParent" position="0 0" />
+    </MainFrame>
+  </Window>
+  
+</GUI>

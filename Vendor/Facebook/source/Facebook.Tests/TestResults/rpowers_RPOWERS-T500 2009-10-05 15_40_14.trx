@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a2d7cbbb-8a42-44fc-b339-bce36cdeeba6" name="rpowers@RPOWERS-T500 2009-10-05 15:40:14" runUser="CLARITYINTERNAL\rpowers" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Default Run Configuration" id="b47ac052-23aa-4d21-87f0-91ca7170f56f">
+    <Deployment runDeploymentRoot="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook.Tests\TestResults\rpowers_RPOWERS-T500 2009-10-05 15_40_14">
+      <DeploymentItem filename="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook\bin\Debug\Facebook.dll" />
+    </Deployment>
+    <Hosts skipUnhostableTests="false" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2009-10-05T15:40:14.2169155-05:00" queuing="2009-10-05T15:40:17.6282566-05:00" start="2009-10-05T15:40:17.8662804-05:00" finish="2009-10-05T15:40:24.0308968-05:00" />
+  <TestDefinitions>
+    <WebTest name="WebTest1" storage="c:\clarity\codeplex\facebooktoolkit\dev\source\facebook.tests\facebook.tests.synchronous\webtest1.webtest" id="a36989c3-7072-4780-a007-29775ca14f01" persistedWebTest="77u/PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pg0KPFdlYlRlc3QgTmFtZT0iV2ViVGVzdDEiIElkPSJhMzY5ODljMy03MDcyLTQ3ODAtYTAwNy0yOTc3NWNhMTRmMDEiIE93bmVyPSIiIFByaW9yaXR5PSIwIiBFbmFibGVkPSJUcnVlIiBDc3NQcm9qZWN0U3RydWN0dXJlPSIiIENzc0l0ZXJhdGlvbj0iIiBUaW1lb3V0PSIwIiBXb3JrSXRlbUlkcz0iIiB4bWxucz0iaHR0cDovL21pY3Jvc29mdC5jb20vc2NoZW1hcy9WaXN1YWxTdHVkaW8vVGVhbVRlc3QvMjAwNiIgRGVzY3JpcHRpb249IiIgQ3JlZGVudGlhbFVzZXJOYW1lPSIiIENyZWRlbnRpYWxQYXNzd29yZD0iIiBQcmVBdXRoZW50aWNhdGU9IlRydWUiIFByb3h5PSIiIFN0b3BPbkVycm9yPSJGYWxzZSI+DQogIDxJdGVtcz4NCiAgICA8UmVxdWVzdCBNZXRob2Q9IkdFVCIgVmVyc2lvbj0iMS4xIiBVcmw9Imh0dHA6Ly9sZW5vdm8ubGl2ZS5jb20vIiBUaGlua1RpbWU9IjAiIFRpbWVvdXQ9IjMwMCIgUGFyc2VEZXBlbmRlbnRSZXF1ZXN0cz0iVHJ1ZSIgRm9sbG93UmVkaXJlY3RzPSJUcnVlIiBSZWNvcmRSZXN1bHQ9IlRydWUiIENhY2hlPSJGYWxzZSIgUmVzcG9uc2VUaW1lR29hbD0iMCIgRW5jb2Rpbmc9InV0Zi04IiBFeHBlY3RlZEh0dHBTdGF0dXNDb2RlPSIwIiBFeHBlY3RlZFJlc3BvbnNlVXJsPSIiIC8+DQogICAgPFJlcXVlc3QgTWV0aG9kPSJHRVQiIFZlcnNpb249IjEuMSIgVXJsPSJodHRwOi8vd3d3Lmxlbm92by5jb20vd2VsY29tZS90aGlua3BhZCIgVGhpbmtUaW1lPSIwIiBUaW1lb3V0PSIzMDAiIFBhcnNlRGVwZW5kZW50UmVxdWVzdHM9IlRydWUiIEZvbGxvd1JlZGlyZWN0cz0iVHJ1ZSIgUmVjb3JkUmVzdWx0PSJUcnVlIiBDYWNoZT0iRmFsc2UiIFJlc3BvbnNlVGltZUdvYWw9IjAiIEVuY29kaW5nPSJ1dGYtOCIgRXhwZWN0ZWRIdHRwU3RhdHVzQ29kZT0iMCIgRXhwZWN0ZWRSZXNwb25zZVVybD0iaHR0cDovL3d3dy5wYy5pYm0uY29tL3d3L3NjcmlwdHMvd2VsY29tZS90aGlua3BhZC9pbmRleC5odG1sIiAvPg0KICA8L0l0ZW1zPg0KICA8VmFsaWRhdGlvblJ1bGVzPg0KICAgIDxWYWxpZGF0aW9uUnVsZSBDbGFzc25hbWU9Ik1pY3Jvc29mdC5WaXN1YWxTdHVkaW8uVGVzdFRvb2xzLldlYlRlc3RpbmcuUnVsZXMuVmFsaWRhdGVSZXNwb25zZVVybCwgTWljcm9zb2Z0LlZpc3VhbFN0dWRpby5RdWFsaXR5VG9vbHMuV2ViVGVzdEZyYW1ld29yaywgVmVyc2lvbj05LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWIwM2Y1ZjdmMTFkNTBhM2EiIERpc3BsYXlOYW1lPSJSZXNwb25zZSBVUkwiIERlc2NyaXB0aW9uPSJWYWxpZGF0ZXMgdGhhdCB0aGUgcmVzcG9uc2UgVVJMIGFmdGVyIHJlZGlyZWN0cyBhcmUgZm9sbG93ZWQgaXMgdGhlIHNhbWUgYXMgdGhlIHJlY29yZGVkIHJlc3BvbnNlIFVSTC4gIFF1ZXJ5U3RyaW5nIHBhcmFtZXRlcnMgYXJlIGlnbm9yZWQuIiBMZXZlbD0iTG93IiAvPg0KICA8L1ZhbGlkYXRpb25SdWxlcz4NCjwvV2ViVGVzdD4=">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a9dbf874-d465-4b93-a08d-166e928a6d8b" />
+    </WebTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry isTransparent="false" testId="a36989c3-7072-4780-a007-29775ca14f01" executionId="a9dbf874-d465-4b93-a08d-166e928a6d8b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <WebTestResult executionId="a9dbf874-d465-4b93-a08d-166e928a6d8b" testId="a36989c3-7072-4780-a007-29775ca14f01" testName="WebTest1" computerName="RPOWERS-T500" duration="00:00:05.7851600" startTime="2009-10-05T15:40:17.9382876-05:00" endTime="2009-10-05T15:40:23.9918929-05:00" testType="4e7599fa-5ecb-43e9-a887-cd63cf72d207" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+      <ByteArrayCache nextHandle="2">
+        <Entry handle="1" bytes="H4sIAAAAAAAEAO29B2AcSZYlJi9tynt/SvVK1+B0oQiAYBMk2JBAEOzBiM3mkuwdaUcjKasqgcplVmVdZhZAzO2dvPfee++999577733ujudTif33/8/XGZkAWz2zkrayZ4hgKrIHz9+fB8/Ih7/rk+/PHnz+7w8TeftokxffvXk+dlJ+tH23bvfvXdy9+7TN0/T3/vbb754nu6Od9I3dbZsiraolll59+7pi4/Sj+Ztu3p09+7V1dX46t64qi/uvnl19x1g7eJl/XW79d4cz9rZR0fJY+7w3aJcNp9FwOw+fPhQ3v4IjR6V2fLis4/yZvv41Uep/wcg5dmMfizyNksBaTv/Revi8rOPTqplmy/b7TfXq/yjdCp/ffZRm79r7wLy4XSe1U3eflY01fbBwf2H27sfpXdjkF6enbzefp5N8tLB+XiLP90d7wZkKKZ1xiOos7ZYXjSXO3tjGUaZXuTLtK3XeVqnW9MfpLtpiX+W+KfCP5f0z50AWt1k0xDabhTaMt1JG/r/Jf2/THdCINMya5ri/JoBNdl53qzr87tdEK9f/9JfurOzQxjc+dhRYZkt8s8+elO0pU/C5/myuqzS7fS7eTmtFjn9dlKtl219nTZ5mU8x0x8BRlks36Z1Xn72UTOd54ts/PTko3Re5+d2zlfrumTEnp7cpVcXBL+5S9x2V6bCAXj97S9fvTn56k16dvLliw4QjLJknMaEzt3z7LIgXGkuKoHSAv+j22D9+K60TR4307pYtWlLzKM889PZZSaffpQ29fSzj6jfu/JBc/dKYI5/uvno6LF+SlDuCnMmjyfV7Bo/78ovj5kDj/4fjCaqGoADAAA=" />
+        <Entry handle="0" bytes="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" />
+      </ByteArrayCache>
+      <TestRunConfiguration name="Default Run Configuration" id="b47ac052-23aa-4d21-87f0-91ca7170f56f">
+        <Deployment runDeploymentRoot="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook.Tests\TestResults\rpowers_RPOWERS-T500 2009-10-05 15_40_14">
+          <DeploymentItem filename="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook\bin\Debug\Facebook.dll" />
+        </Deployment>
+        <Hosts skipUnhostableTests="false" />
+        <TestTypeSpecific>
+          <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+            <Browser name="Internet Explorer 7.0">
+              <Headers>
+                <Header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)" />
+                <Header name="Accept" value="*/*" />
+                <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+                <Header name="Accept-Encoding" value="GZIP" />
+              </Headers>
+            </Browser>
+          </WebTestRunConfiguration>
+        </TestTypeSpecific>
+      </TestRunConfiguration>
+      <WebTestResultDetails>
+        <WebTestResultIterations>
+          <WebTestResultIteration iterationNumber="1">
+            <WebTestResultGroup>
+              <WebTestResultPage>
+                <WebRequestResult exceptionMessage="" run="0" submitted="true" cached="false" isRedirectFollow="false" requestBodyBytesHandle="-2" responseBytesHandle="0" requestPassedByCode="false">
+                  <Request url="http://lenovo.live.com/" command="GET / HTTP/1.1" encoding="utf-8">
+                    <Headers>User-Agent : Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+Accept : */*
+Accept-Language : en-US
+Accept-Encoding : GZIP
+Host : lenovo.live.com
+Connection : Keep-Alive
+</Headers>
+                  </Request>
+                  <Response url="http://lenovo.live.com/" contentType="text/html; charset=utf-8" statusLine="HTTP/1.1 200 OK" pageTime="0.358" time="0.358" statusCodeString="200 OK" contentLength="26949">
+                    <Headers>Proxy-Connection : Keep-Alive
+Connection : Keep-Alive
+S : WEBA13
+Content-Length : 26949
+Content-Type : text/html; charset=utf-8
+Date : Mon, 05 Oct 2009 20:40:17 GMT
+Expires : -1
+P3P : CP="BUS CUR CONo FIN IVDo ONL OUR PHY SAMo TELo"
+Set-Cookie : mktstate=S=-1690346051&amp;U=&amp;E=&amp;P=&amp;B=en-us; domain=live.com; path=/,mkt1=norm=en-us; domain=live.com; path=/,mkt2=ui=en-us; domain=lenovo.live.com; path=/,lastMarket=en-us; domain=.live.com; path=/,lastMktPath=en/us; domain=.live.com; path=/,frm=true; domain=.live.com; expires=Mon, 04-Oct-2021 19:00:00 GMT; path=/,frm=true; domain=.live.com; expires=Mon, 04-Oct-2021 19:00:00 GMT; path=/,BrowserSense=WinIEOnly=1; domain=live.com; path=/
+Server : Microsoft-IIS/6.0
+Via : 1.1 GW
+X-AspNet-Version : 2.0.50727
+X-Powered-By : ASP.NET
+Cache-Control : no-cache
+Pragma : no-cache
+</Headers>
+                  </Response>
+                  <Context>
+                    <Entry name="$TotalAgents" value="1" />
+                    <Entry name="$ControllerName" value="RPOWERS-T500" />
+                    <Entry name="$AgentName" value="RPOWERS-T500" />
+                    <Entry name="$TestLogsDir" value="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook.Tests\TestResults\rpowers_RPOWERS-T500 2009-10-05 15_40_14\In\RPOWERS-T500" />
+                    <Entry name="$TestDeploymentDir" value="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook.Tests\TestResults\rpowers_RPOWERS-T500 2009-10-05 15_40_14\Out" />
+                    <Entry name="$AgentId" value="1" />
+                    <Entry name="$AgentLoadDistributor" value="Microsoft.VisualStudio.TestTools.Execution.AgentLoadDistributor" />
+                    <Entry name="$TestDir" value="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook.Tests\TestResults\rpowers_RPOWERS-T500 2009-10-05 15_40_14" />
+                    <Entry name="$AgentWeighting" value="100" />
+                    <Entry name="$WebTestIteration" value="1" />
+                    <Entry name="$WebTestUserId" value="1" />
+                  </Context>
+                  <ValidationRuleResults>
+                    <ValidationRuleResult message="Passed" ruleType="Validation" name="Response URL" />
+                  </ValidationRuleResults>
+                </WebRequestResult>
+              </WebTestResultPage>
+              <WebTestResultPage>
+                <WebRequestResult redirectUrl="http://www.pc.ibm.com/ww/scripts/welcome/thinkpad/index.html" exceptionMessage="" run="0" submitted="true" cached="false" isRedirectFollow="false" requestBodyBytesHandle="-2" responseBytesHandle="-2" requestPassedByCode="false">
+                  <Request url="http://www.lenovo.com/welcome/thinkpad" command="GET /welcome/thinkpad HTTP/1.1" encoding="utf-8">
+                    <Headers>User-Agent : Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+Accept : */*
+Accept-Language : en-US
+Accept-Encoding : GZIP
+Host : www.lenovo.com
+Connection : Keep-Alive
+</Headers>
+                  </Request>
+                  <Response url="http://www.lenovo.com/welcome/thinkpad" contentType="" statusLine="HTTP/1.1 301 Moved Permanently" pageTime="5.2749999999999995" time="5.186" statusCodeString="301 Moved Permanently" contentLength="0">
+                    <Headers>Proxy-Connection : Keep-Alive
+Connection : Keep-Alive
+Content-Length : 0
+Location : http://www.pc.ibm.com/ww/scripts/welcome/thinkpad/index.html
+Server : BigIP
+Via : 1.0 GW
+</Headers>
+                  </Response>
+                  <Context>
+                    <Entry name="$TotalAgents" value="1" />
+                    <Entry name="$ControllerName" value="RPOWERS-T500" />
+                    <Entry name="$AgentName" value="RPOWERS-T500" />
+                    <Entry name="$TestLogsDir" value="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook.Tests\TestResults\rpowers_RPOWERS-T500 2009-10-05 15_40_14\In\RPOWERS-T500" />
+                    <Entry name="$TestDeploymentDir" value="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook.Tests\TestResults\rpowers_RPOWERS-T500 2009-10-05 15_40_14\Out" />
+                    <Entry name="$AgentId" value="1" />
+                    <Entry name="$AgentLoadDistributor" value="Microsoft.VisualStudio.TestTools.Execution.AgentLoadDistributor" />
+                    <Entry name="$TestDir" value="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook.Tests\TestResults\rpowers_RPOWERS-T500 2009-10-05 15_40_14" />
+                    <Entry name="$AgentWeighting" value="100" />
+                    <Entry name="$WebTestIteration" value="1" />
+                    <Entry name="$WebTestUserId" value="1" />
+                  </Context>
+                </WebRequestResult>
+                <RedirectedPages>
+                  <RedirectedPage>
+                    <WebRequestResult exceptionMessage="" run="0" submitted="true" cached="false" isRedirectFollow="true" requestBodyBytesHandle="-2" responseBytesHandle="1" requestPassedByCode="false">
+                      <Request url="http://www.pc.ibm.com/ww/scripts/welcome/thinkpad/index.html" command="GET /ww/scripts/welcome/thinkpad/index.html HTTP/1.1" encoding="utf-8">
+                        <Headers>User-Agent : Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)
+Accept : */*
+Accept-Language : en-US
+Accept-Encoding : GZIP
+Referer : http://www.lenovo.com/welcome/thinkpad
+Host : www.pc.ibm.com
+Connection : Keep-Alive
+</Headers>
+                      </Request>
+                      <Response url="http://www.pc.ibm.com/ww/scripts/welcome/thinkpad/index.html" contentType="text/html;charset=iso-8859-1" statusLine="HTTP/1.1 200 OK" pageTime="NaN" time="0.089" statusCodeString="200 OK" contentLength="896">
+                        <Headers>Proxy-Connection : Keep-Alive
+Connection : Keep-Alive
+Keep-Alive : timeout=10, max=100
+Accept-Ranges : bytes
+Content-Length : 896
+Content-Type : text/html
+Date : Mon, 05 Oct 2009 20:40:23 GMT
+Server : IBM_HTTP_Server/2.0.47.1-PQ90698 Apache/2.0.47 (Unix)
+Via : 1.1 GW
+</Headers>
+                      </Response>
+                      <Context>
+                        <Entry name="$TotalAgents" value="1" />
+                        <Entry name="$ControllerName" value="RPOWERS-T500" />
+                        <Entry name="$AgentName" value="RPOWERS-T500" />
+                        <Entry name="$TestLogsDir" value="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook.Tests\TestResults\rpowers_RPOWERS-T500 2009-10-05 15_40_14\In\RPOWERS-T500" />
+                        <Entry name="$TestDeploymentDir" value="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook.Tests\TestResults\rpowers_RPOWERS-T500 2009-10-05 15_40_14\Out" />
+                        <Entry name="$AgentId" value="1" />
+                        <Entry name="$AgentLoadDistributor" value="Microsoft.VisualStudio.TestTools.Execution.AgentLoadDistributor" />
+                        <Entry name="$TestDir" value="C:\clarity\codeplex\FacebookToolkit\DEV\Source\Facebook.Tests\TestResults\rpowers_RPOWERS-T500 2009-10-05 15_40_14" />
+                        <Entry name="$AgentWeighting" value="100" />
+                        <Entry name="$WebTestIteration" value="1" />
+                        <Entry name="$WebTestUserId" value="1" />
+                      </Context>
+                      <ValidationRuleResults>
+                        <ValidationRuleResult message="Passed" ruleType="Validation" name="Response URL" />
+                      </ValidationRuleResults>
+                    </WebRequestResult>
+                  </RedirectedPage>
+                </RedirectedPages>
+              </WebTestResultPage>
+            </WebTestResultGroup>
+          </WebTestResultIteration>
+        </WebTestResultIterations>
+      </WebTestResultDetails>
+    </WebTestResult>
+  </Results>
+</TestRun>

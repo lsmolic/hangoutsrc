@@ -1,0 +1,5 @@
+C:\svnrepos\Architecture\UnityProjects\NewSceneArchitecture\Assets\External\Hangout.Shared.dll
+C:\svnrepos\Architecture\UnityProjects\NewSceneArchitecture\Assets\External\Hangout.Shared.pdb
+C:\svnrepos\Architecture\SharedSrc\Hangout.Shared\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\SharedSrc\Hangout.Shared\obj\Debug\Hangout.Shared.dll
+C:\svnrepos\Architecture\SharedSrc\Hangout.Shared\obj\Debug\Hangout.Shared.pdb

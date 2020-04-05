@@ -1,0 +1,5 @@
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\bin\Debug\TwoFishCommandHandler.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\bin\Debug\TwoFishCommandHandler.pdb
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\TwoFishCommandHandler\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\TwoFishCommandHandler\obj\Debug\TwoFishCommandHandler.dll
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\WebServices\PaymentItems\TwoFishCommandHandler\obj\Debug\TwoFishCommandHandler.pdb

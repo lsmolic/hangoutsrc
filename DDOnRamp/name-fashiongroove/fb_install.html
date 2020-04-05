@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml"> 
+<title>Unity Web Player - install_reporter</title>
+<link rel="stylesheet" type="text/css" href="avselect.css" />
+<script type="text/javascript" src="http://api.mixpanel.com/site_media/js/api/mpmetrics.js"></script>
+<script type="text/javascript" src="config.js"></script>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript">
+	function gup(name) {	// get url parameter
+		name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+		var regexS = "[\\?&]"+name+"=([^&#]*)";
+		var regex = new RegExp(regexS);
+		var results = regex.exec(window.location.href);
+		if (results == null)
+			return "";
+		else
+			return results[1];
+	}
+</script>
+</head>
+
+<body>
+	<div id="FB_HiddenContainer"  style="position:absolute; top:-10000px; width:0px; height:0px;" ></div>
+	<script src="http://static.ak.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php" type="text/javascript"></script>
+	
+	<script type="text/javascript">FB_RequireFeatures(["XFBML"], function(){
+		FB.Facebook.init('c4e6b78cd161c113d154576e350f3e0a', "/xd_receiver.html");
+		
+		FB.Facebook.apiClient.users_isAppUser(function(result,exception){
+			if (result == true) {
+				// redirect user b/c it's already a user
+				mpmetrics.track('facebook_already_authorized', {'token' : metrics_token});
+				fbArgs = window.location.search;
+				window.location = "unity_done.html" + fbArgs;
+			}
+		});
+	});</script>
+
+	<div id="mf">
+		<h1>Final Step: Play Fashion Frenzy!</h1>
+		<img id="bg" src="../images/Fashion_Groove_name_test.jpg">
+		<script type="text/javascript">
+			var avatar = gup('SelectedAvatar');
+			avatarPositionX = new Array('56px', '56px', '56px', '56px', '56px');
+			avatarPositionY = new Array('130px', '120px', '135px', '127px', '130px');
+			avatarShadowPosition = new Array('100px', '95px', '75px', '80px', '65px');
+			if (avatar != "") {
+				document.write('<img style="position:absolute; z-index: 5; left: '+avatarPositionX[avatar-1]+'; bottom:'+avatarPositionY[avatar-1]+';" src="../images/av00'+avatar+'_a.gif"/><img style=" position:absolute; z-index: 4; left:'+avatarShadowPosition[avatar-1]+';  bottom:119px;" src="../images/shadow.png"/>');
+			}
+		</script>
+		
+		<img id="bgphoto" src="../images/UnityDownloadPage.jpg" alt="background" />
+		<a id="getstartedtext" href="#" onclick="getFBLogin(); return false;">Let&rsquo;s Go!</a>
+	</div>
+	
+	<script language="javascript" type="text/javascript">
+		function redirectToUnityDone() {
+		    args = window.location.search;
+		    window.location.href = "unity_done.html" + args;
+		}
+		function getFBLogin() {
+		    FB.Connect.requireSession(
+		    	function(status) {
+		    		redirectToUnityDone();
+		    	},
+		    	function(status) {
+		    		// oh well...
+		    	}
+		    );
+		    return false;
+		}
+		
+	    mpmetrics.track_funnel(metrics_funnel_id, 4, 'complete_unity_install', {'campaign': campaign, 'userAgent' : navigator.userAgent});
+	</script>
+</body>
+</html>
+

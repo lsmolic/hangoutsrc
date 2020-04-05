@@ -1,0 +1,5 @@
+C:\svnrepos\Architecture\UnityProjects\NewSceneArchitecture\Assets\External\Hangout.Shared.UnitTest.Framework.dll
+C:\svnrepos\Architecture\UnityProjects\NewSceneArchitecture\Assets\External\Hangout.Shared.UnitTest.Framework.pdb
+C:\svnrepos\Architecture\SharedSrc\UnitTest\UnitTestFramework\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\SharedSrc\UnitTest\UnitTestFramework\obj\Debug\Hangout.Shared.UnitTest.Framework.dll
+C:\svnrepos\Architecture\SharedSrc\UnitTest\UnitTestFramework\obj\Debug\Hangout.Shared.UnitTest.Framework.pdb

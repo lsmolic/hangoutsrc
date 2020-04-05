@@ -1,0 +1,175 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml"> 
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" />
+	<link rel="stylesheet" type="text/css" href="avselect.css" />
+	<script type="text/javascript" src="http://api.mixpanel.com/site_media/js/api/mpmetrics.js"></script>
+	<script type="text/javascript" src="config.js"></script>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript" src="jquery.dimensions.js"></script>
+	<script type="text/javascript" src="jquery.ahover.js"></script>
+	<script type="text/javascript" src="avselect.js"></script>
+	<script language='VBScript'>
+	function detectUnityWebPlayerActiveX
+	    on error resume next
+	    dim tControl, res, ua, re, matches, major
+	    res = 0
+	    set tControl = CreateObject("UnityWebPlayer.UnityWebPlayer.1")
+	    if IsObject(tControl) then
+	        if tControl.GetPluginVersion() = "2.5.0f5" then
+	            ' 2.5.0f5 on Vista and later has an auto-update issue
+	            ' on Internet Explorer. Detect Vista (6.0 or later)
+	            ' and in that case treat it as not installed
+	            ua = Navigator.UserAgent
+	            set re = new RegExp
+	            re.Pattern = "Windows NT (\d+)\."
+	            set matches = re.Execute(ua)
+	            if matches.Count = 1 then
+	                major = CInt(matches(0).SubMatches(0))
+	                if major < 6 then
+	                    res = 1
+	                end if
+	            end if
+	        else
+	            res = 1
+	        end if
+	    end if
+	    detectUnityWebPlayerActiveX = res
+	end function
+	</script>
+	<script language="javascript1.1" type="text/javascript">
+	function detectUnityWebPlayer () {
+	    var tInstalled = false;
+	    if (navigator.appVersion.indexOf("MSIE") != -1 &&
+	        navigator.appVersion.toLowerCase().indexOf("win") != -1)
+	    {
+	        tInstalled = detectUnityWebPlayerActiveX();
+	    }
+	    else if (navigator.mimeTypes && navigator.mimeTypes["application/vnd.unity"])
+	    {
+	        if (navigator.mimeTypes["application/vnd.unity"].enabledPlugin &&
+	            navigator.plugins && navigator.plugins["Unity Player"])
+	        {
+	            tInstalled = true;
+	        }
+	    }	
+	    return tInstalled;	
+	}
+	</script>
+</head>
+
+<body>
+	<script src="http://static.ak.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php" type="text/javascript"></script>
+	<script type="text/javascript">
+		mpmetrics.track_funnel(metrics_funnel_id, 1, 'start', {'check':'c', 'campaign':campaign, 'userAgent':navigator.userAgent});
+		mpmetrics.track('start_hit', {'check':'c'});
+		
+		$(document).ready(function(){
+			// Initialize Facebook
+			FB_RequireFeatures(["XFBML"], function(){
+				FB.Facebook.init('95028f6fe34e9ef0b6a120dada4a84e0', "/xd_receiver.html");
+			});	
+			
+			// Preload animations
+			$(".preload").each(function() {
+			    $(this).attr("src", $(this).attr("src").replace(/_s.gif/, "_a.gif"));
+			});
+			
+			// Animate avatars on mouseover
+			$(".av_rollover").hover(
+			    function () {
+					$(this).attr("src", $(this).attr("src").replace(/_s.gif/, "_a.gif"));	
+			    },
+			    function () {
+					$(this).attr("src", $(this).attr("src").replace(/_a.gif/, "_s.gif"));
+			    }
+			);
+			
+			// Hover frame around avatar on mouseover
+			$(".av_rollover").ahover({toggleSpeed: 500, moveSpeed: 250});
+		
+			// Attach click events to avatars
+			$("#choose1").click(function() {
+			    redirectToUnityInstall('1');
+			    return false;
+			});
+		
+			$("#choose2").click(function() {
+			    redirectToUnityInstall('2');
+			    return false;
+			});
+		
+			$("#choose3").click(function() {
+			    redirectToUnityInstall('3');
+			    return false;
+			});
+		
+			$("#choose4").click(function() {
+			    redirectToUnityInstall('4');
+			    return false;
+			});
+		
+			$("#choose5").click(function() {
+			    redirectToUnityInstall('5');
+			    return false;
+			});
+			
+			// Track how many users already have Unity installed
+			var du = detectUnityWebPlayer();
+			if (du) {
+				mpmetrics.track('unity_already_installed', {'check':'c'});
+			}
+		});
+		
+		function redirectToUnityInstall(selectedAvatar) {
+			mpmetrics.track_funnel(metrics_funnel_id, 2, 'avatar_selected', {'check':'c', 'campaign':campaign, 'userAgent':navigator.userAgent});
+			mpmetrics.track('avatar_selected_hit', {'check':'c', 'avatar':selectedAvatar});
+			
+		    FB.Connect.requireSession(
+		    	function(status) {	// authorization granted
+					mpmetrics.track('fb_auth_allowed', {'check':'c', 'avatar':selectedAvatar});
+
+				    var fbArgs = window.location.search;
+				    if (fbArgs == "") {
+				    	connector = "?";
+				    } else {
+				    	connector = "&";
+				    }
+				    window.location = "unity_install.html" + fbArgs + connector + "SelectedAvatar=" + selectedAvatar;
+		    	},
+		    	function(status) {	// authorization cancelled
+		    		mpmetrics.track('fb_auth_cancelled', {'check':'c', 'avatar':selectedAvatar});
+		    	}
+		    );
+		    return false;
+		}
+	</script>
+	<div id="mf">
+		<h1>Pick your look!</h1>
+		
+		<img id="bg" src="../images/LandingPagePolariodFrame.jpg" alt="" />
+		<img id="bgphoto" src="../images/LandingPageImageEnvironment.jpg" alt=""/>
+		
+		<a id="choose1" href="#"><img id="c1" class="av_rollover" src="../images/av001_s.gif"/></a>
+		<a id="choose2" href="#"><img id="c2" class="av_rollover" src="../images/av002_s.gif"/></a>
+		<a id="choose3" href="#"><img id="c3" class="av_rollover" src="../images/av003_s.gif"/></a>
+		<a id="choose4" href="#"><img id="c4" class="av_rollover" src="../images/av004_s.gif"/></a>
+		<a id="choose5" href="#"><img id="c5" class="av_rollover" src="../images/av005_s.gif"/></a>
+		
+		<img class="shadow" id="cs1" src="../images/shadow.png"/>
+		<img class="shadow" id="cs2" src="../images/shadow.png"/>
+		<img class="shadow" id="cs3" src="../images/shadow.png"/>
+		<img class="shadow" id="cs4" src="../images/shadow.png"/>
+		<img class="shadow" id="cs5" src="../images/shadow.png"/>
+	</div>
+
+	<div style="display: none;">
+		<img class="preload" src="../images/av001_s.gif"/>
+		<img class="preload" src="../images/av002_s.gif"/>
+		<img class="preload" src="../images/av003_s.gif"/>
+		<img class="preload" src="../images/av004_s.gif"/>
+		<img class="preload" src="../images/av005_s.gif"/>
+	</div>
+</body>
+</html>

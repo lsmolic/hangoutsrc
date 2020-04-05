@@ -1,0 +1,8 @@
+C:\svnrepos\Architecture\Vendor\Affirma.ThreeSharp\Affirma.ThreeSharp.Wrapper\bin\Debug\Affirma.ThreeSharp.Wrapper.dll
+C:\svnrepos\Architecture\Vendor\Affirma.ThreeSharp\Affirma.ThreeSharp.Wrapper\bin\Debug\Affirma.ThreeSharp.Wrapper.pdb
+C:\svnrepos\Architecture\Vendor\Affirma.ThreeSharp\Affirma.ThreeSharp.Wrapper\bin\Debug\Affirma.ThreeSharp.dll
+C:\svnrepos\Architecture\Vendor\Affirma.ThreeSharp\Affirma.ThreeSharp.Wrapper\bin\Debug\Affirma.ThreeSharp.pdb
+C:\svnrepos\Architecture\Vendor\Affirma.ThreeSharp\Affirma.ThreeSharp.Wrapper\bin\Debug\Affirma.ThreeSharp.xml
+C:\svnrepos\Architecture\Vendor\Affirma.ThreeSharp\Affirma.ThreeSharp.Wrapper\obj\Debug\ResolveAssemblyReference.cache
+C:\svnrepos\Architecture\Vendor\Affirma.ThreeSharp\Affirma.ThreeSharp.Wrapper\obj\Debug\Affirma.ThreeSharp.Wrapper.dll
+C:\svnrepos\Architecture\Vendor\Affirma.ThreeSharp\Affirma.ThreeSharp.Wrapper\obj\Debug\Affirma.ThreeSharp.Wrapper.pdb

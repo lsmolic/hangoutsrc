@@ -1,0 +1,3 @@
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\bin\debug\StateServerConsole.exe.config
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\StateServerConsole\obj\Debug\StateServerConsole.exe
+C:\svnrepos\Architecture\WebSrc\Hangout.Server\StateServer\StateServerConsole\obj\Debug\StateServerConsole.pdb
