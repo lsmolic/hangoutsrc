@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReflectorServerApp", "ReflectorServerApp\ReflectorServerApp.csproj", "{A563ACC2-32FD-4DD1-9BAE-869D2BD999AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocketServer", "SocketServer\SocketServer.csproj", "{A9DF62EA-D97B-402D-8242-2A4066F0A492}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HangoutReflectorService", "HangoutReflectorService\HangoutReflectorService.csproj", "{CA2C9BC0-767B-4CCD-9B43-559DC43CD708}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerReflectorConsole", "..\Tester\ServerReflectorConsole\ServerReflectorConsole.csproj", "{042A7A2B-A5BC-4C5B-80EA-6220D34CCE74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A563ACC2-32FD-4DD1-9BAE-869D2BD999AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A563ACC2-32FD-4DD1-9BAE-869D2BD999AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A563ACC2-32FD-4DD1-9BAE-869D2BD999AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A563ACC2-32FD-4DD1-9BAE-869D2BD999AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9DF62EA-D97B-402D-8242-2A4066F0A492}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9DF62EA-D97B-402D-8242-2A4066F0A492}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9DF62EA-D97B-402D-8242-2A4066F0A492}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9DF62EA-D97B-402D-8242-2A4066F0A492}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA2C9BC0-767B-4CCD-9B43-559DC43CD708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA2C9BC0-767B-4CCD-9B43-559DC43CD708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA2C9BC0-767B-4CCD-9B43-559DC43CD708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA2C9BC0-767B-4CCD-9B43-559DC43CD708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{042A7A2B-A5BC-4C5B-80EA-6220D34CCE74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{042A7A2B-A5BC-4C5B-80EA-6220D34CCE74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{042A7A2B-A5BC-4C5B-80EA-6220D34CCE74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{042A7A2B-A5BC-4C5B-80EA-6220D34CCE74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

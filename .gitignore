@@ -30,7 +30,6 @@ ExportedObj/
 .consulo/
 *.csproj
 *.unityproj
-*.sln
 *.suo
 *.tmp
 *.user
@@ -58,3 +57,6 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 .svn
+
+# not sure why unity doesn't include this by default
+#*.sln

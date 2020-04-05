@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSiteSolution", "WebSrc\Hangout.Server\WebCode\WebSiteSolution\", "{3AA9F4BD-F9F3-41D6-92EA-B71CE868D3C6}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/WebSiteSolution"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\HangoutSrcRepo\Branches\UnityScriptPrototype\Architecture\WebSrc\Hangout.Server\WebCode\WebSiteSolution\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSiteSolution\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebSiteSolution"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\HangoutSrcRepo\Branches\UnityScriptPrototype\Architecture\WebSrc\Hangout.Server\WebCode\WebSiteSolution\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebSiteSolution\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "20000"
+		VWDDynamicPort = "false"
+		VWDVirtualPath = "/"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AA9F4BD-F9F3-41D6-92EA-B71CE868D3C6}.Debug|.NET.ActiveCfg = Debug|.NET
+		{3AA9F4BD-F9F3-41D6-92EA-B71CE868D3C6}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
